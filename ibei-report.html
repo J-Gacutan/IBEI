@@ -1,0 +1,1246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ocean Accounts &rarr; IBEI: Concept Note &amp; Mapping</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ocean-deep: #0b1d3a;
+    --ocean-mid: #163a5f;
+    --ocean-light: #1e5f8a;
+    --ocean-surface: #2a8cb5;
+    --teal-accent: #2dd4bf;
+    --coral: #f97066;
+    --amber: #f59e0b;
+    --sage: #6ee7b7;
+    --sand: #fef3c7;
+    --slate: #94a3b8;
+    --slate-light: #cbd5e1;
+    --white: #f8fafc;
+    --full-color: #2dd4bf;
+    --partial-color: #60a5fa;
+    --minimal-color: #fbbf24;
+    --none-color: #94a3b8;
+    --border: rgba(255,255,255,0.07);
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--ocean-deep);
+    color: var(--white);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* ── SITE HEADER ── */
+  .site-header {
+    border-bottom: 1px solid var(--border);
+    padding: 28px 48px 0;
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+
+  .site-header .eyebrow {
+    font-size: 11px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: var(--slate);
+    font-weight: 600;
+    margin-bottom: 6px;
+  }
+
+  .site-header h1 {
+    font-family: 'Source Serif 4', serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: -0.3px;
+    color: var(--white);
+    margin-bottom: 24px;
+  }
+
+  .site-header h1 span {
+    color: var(--teal-accent);
+  }
+
+  /* ── TABS ── */
+  .tab-nav {
+    display: flex;
+    gap: 0;
+    border-bottom: none;
+  }
+
+  .tab-btn {
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    color: var(--slate);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+
+  .tab-btn:hover {
+    color: var(--white);
+    border-bottom-color: rgba(45,212,191,0.4);
+  }
+
+  .tab-btn.active {
+    color: var(--teal-accent);
+    border-bottom-color: var(--teal-accent);
+  }
+
+  /* ── TAB CONTENT ── */
+  .tab-panel {
+    display: none;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 48px 48px 80px;
+  }
+
+  .tab-panel.active {
+    display: block;
+  }
+
+  /* ── CONCEPT NOTE STYLES ── */
+  .concept-body {
+    max-width: 780px;
+  }
+
+  .concept-body h2 {
+    font-family: 'Source Serif 4', serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--white);
+    margin: 48px 0 14px;
+    padding-top: 16px;
+    border-top: 1px solid var(--border);
+  }
+
+  .concept-body h2:first-child {
+    margin-top: 0;
+    border-top: none;
+    padding-top: 0;
+  }
+
+  .concept-body h3 {
+    font-family: 'Source Serif 4', serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--teal-accent);
+    margin: 28px 0 10px;
+  }
+
+  .concept-body p {
+    font-size: 15px;
+    line-height: 1.75;
+    color: var(--slate-light);
+    margin-bottom: 16px;
+  }
+
+  .concept-body strong {
+    color: var(--white);
+    font-weight: 600;
+  }
+
+  .concept-body ul, .concept-body ol {
+    margin: 12px 0 18px 24px;
+  }
+
+  .concept-body li {
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--slate-light);
+    margin-bottom: 6px;
+  }
+
+  .concept-body li strong {
+    color: var(--white);
+  }
+
+  .concept-body hr {
+    display: none;
+  }
+
+  /* Inline table in concept note */
+  .concept-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 18px 0 24px;
+    font-size: 13.5px;
+  }
+
+  .concept-table thead th {
+    text-align: left;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--slate);
+    padding: 8px 14px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .concept-table tbody td {
+    padding: 10px 14px;
+    color: var(--slate-light);
+    border-bottom: 1px solid var(--border);
+    line-height: 1.5;
+  }
+
+  .concept-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  .concept-table td:first-child {
+    color: var(--white);
+    font-weight: 500;
+  }
+
+  .concept-table td.pos {
+    color: var(--teal-accent);
+    font-weight: 600;
+  }
+
+  .concept-table td.neg {
+    color: var(--coral);
+    font-weight: 600;
+  }
+
+  /* Footnotes */
+  .footnotes {
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+  }
+
+  .footnotes h4 {
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--slate);
+    font-weight: 700;
+    margin-bottom: 16px;
+  }
+
+  .footnotes ol {
+    margin-left: 20px;
+  }
+
+  .footnotes li {
+    font-size: 12px;
+    color: var(--slate);
+    line-height: 1.6;
+    margin-bottom: 8px;
+  }
+
+  .footnotes a {
+    color: var(--teal-accent);
+    text-decoration: none;
+    word-break: break-all;
+  }
+
+  /* ── ANNEX STYLES ── */
+  .annex-intro {
+    margin-bottom: 40px;
+  }
+
+  .annex-intro p {
+    font-size: 14px;
+    color: var(--slate-light);
+    line-height: 1.7;
+    max-width: 760px;
+  }
+
+  .section-heading {
+    font-family: 'Source Serif 4', serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--teal-accent);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+
+  /* Rating key */
+  .rating-key {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-bottom: 48px;
+  }
+
+  .rating-key-card {
+    background: var(--ocean-mid);
+    border-radius: 8px;
+    padding: 16px 18px;
+    border-left: 3px solid;
+  }
+
+  .rating-key-card.full { border-left-color: var(--full-color); }
+  .rating-key-card.partial { border-left-color: var(--partial-color); }
+  .rating-key-card.minimal { border-left-color: var(--minimal-color); }
+  .rating-key-card.none-card { border-left-color: var(--none-color); }
+
+  .rating-key-card .rk-label {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-bottom: 6px;
+  }
+
+  .rating-key-card.full .rk-label { color: var(--full-color); }
+  .rating-key-card.partial .rk-label { color: var(--partial-color); }
+  .rating-key-card.minimal .rk-label { color: var(--minimal-color); }
+  .rating-key-card.none-card .rk-label { color: var(--none-color); }
+
+  .rating-key-card p {
+    font-size: 12px;
+    color: var(--slate);
+    line-height: 1.55;
+  }
+
+  /* Pillar group */
+  .pillar-group {
+    margin-bottom: 48px;
+  }
+
+  .pillar-label {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 4px 12px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+
+  .pillar-label.env { background: rgba(45,212,191,0.12); color: var(--teal-accent); }
+  .pillar-label.eco { background: rgba(96,165,250,0.12); color: #60a5fa; }
+  .pillar-label.soc { background: rgba(249,115,102,0.12); color: var(--coral); }
+  .pillar-label.ena { background: rgba(148,163,184,0.12); color: var(--slate); }
+
+  /* Annex mapping table */
+  .mapping-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+
+  .mapping-table thead th {
+    text-align: left;
+    font-size: 10.5px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--slate);
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .mapping-table thead th:nth-child(2) {
+    text-align: center;
+    width: 110px;
+  }
+
+  .mapping-table tbody td {
+    padding: 12px 14px;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    vertical-align: top;
+    line-height: 1.5;
+    color: var(--slate-light);
+  }
+
+  .mapping-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  .mapping-table tbody td:first-child {
+    color: var(--white);
+    font-weight: 500;
+    width: 220px;
+  }
+
+  .mapping-table tbody td:nth-child(2) {
+    text-align: center;
+    width: 110px;
+  }
+
+  .mapping-table tbody tr:hover td {
+    background: rgba(255,255,255,0.02);
+  }
+
+  .rating-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+
+  .rating-chip.full { color: var(--full-color); }
+  .rating-chip.partial { color: var(--partial-color); }
+  .rating-chip.minimal { color: var(--minimal-color); }
+  .rating-chip.none-chip { color: var(--none-color); }
+
+  .dot.full { background: var(--full-color); }
+  .dot.partial { background: var(--partial-color); }
+  .dot.minimal { background: var(--minimal-color); }
+  .dot.none { background: var(--none-color); }
+
+  .rationale-text {
+    font-size: 12px;
+    color: var(--slate);
+    line-height: 1.55;
+  }
+
+  /* Summary dist table */
+  .summary-dist-table {
+    width: 100%;
+    border-collapse: collapse;
+    max-width: 440px;
+    font-size: 13.5px;
+    margin-bottom: 24px;
+  }
+
+  .summary-dist-table th {
+    text-align: left;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: var(--slate);
+    padding: 8px 14px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .summary-dist-table td {
+    padding: 10px 14px;
+    color: var(--slate-light);
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+  }
+
+  .summary-dist-table tr:last-child td {
+    border-bottom: none;
+    color: var(--white);
+    font-weight: 700;
+  }
+
+  .annex-note {
+    font-size: 12px;
+    color: var(--slate);
+    line-height: 1.65;
+    max-width: 780px;
+    padding: 16px 20px;
+    background: rgba(255,255,255,0.03);
+    border-left: 3px solid var(--border);
+    border-radius: 0 6px 6px 0;
+    margin-top: 32px;
+  }
+
+  /* ── IMAGE / DIAGRAM TAB ── */
+
+  /* Flow diagram */
+  .flow-section {
+    margin-bottom: 64px;
+  }
+
+  .flow-diagram {
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+  }
+
+  .flow-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .flow-column-header {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: var(--slate);
+    margin-bottom: 8px;
+    text-align: center;
+    padding: 0 8px;
+  }
+
+  .flow-box {
+    background: var(--ocean-mid);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size: 13px;
+    line-height: 1.4;
+    font-weight: 500;
+  }
+
+  .flow-box.source {
+    border-left: 3px solid var(--teal-accent);
+  }
+
+  .flow-box.bps {
+    background: rgba(45,212,191,0.10);
+    border: 1px solid rgba(45,212,191,0.25);
+    text-align: center;
+    font-weight: 600;
+    color: var(--teal-accent);
+  }
+
+  .flow-box.target {
+    border-left: 3px solid var(--coral);
+  }
+
+  .flow-box .lbl {
+    font-size: 11px;
+    color: var(--slate);
+    margin-top: 4px;
+    font-weight: 400;
+  }
+
+  .flow-arrow-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    min-width: 80px;
+  }
+
+  .arrow-line {
+    width: 100%;
+    height: 2px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .arrow-line::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, var(--teal-accent), rgba(45,212,191,0.3));
+  }
+
+  .arrow-line::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 8px solid var(--teal-accent);
+  }
+
+  .arrow-label {
+    font-size: 10px;
+    color: var(--teal-accent);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    white-space: nowrap;
+    margin-bottom: 10px;
+  }
+
+  /* Summary bar */
+  .summary-bar-container {
+    background: var(--ocean-mid);
+    border-radius: 12px;
+    padding: 32px;
+    margin-bottom: 32px;
+  }
+
+  .stacked-bar {
+    display: flex;
+    height: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .bar-segment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--ocean-deep);
+  }
+
+  .bar-segment.full { background: var(--full-color); flex: 5; }
+  .bar-segment.partial { background: var(--partial-color); flex: 9; }
+  .bar-segment.minimal { background: var(--minimal-color); flex: 4; }
+  .bar-segment.none-seg { background: var(--none-color); flex: 5; }
+
+  .legend {
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .legend-swatch {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    flex-shrink: 0;
+  }
+
+  .legend-swatch.full { background: var(--full-color); }
+  .legend-swatch.partial { background: var(--partial-color); }
+  .legend-swatch.minimal { background: var(--minimal-color); }
+  .legend-swatch.none-sw { background: var(--none-color); }
+
+  .pillar-breakdown {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-top: 4px;
+  }
+
+  .pillar-card {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .pillar-card h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .pillar-card.env-card h4 { color: var(--teal-accent); }
+  .pillar-card.eco-card h4 { color: #60a5fa; }
+  .pillar-card.soc-card h4 { color: var(--coral); }
+  .pillar-card.ena-card h4 { color: var(--slate); }
+
+  .mini-bar {
+    display: flex;
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+
+  .mini-bar .seg { }
+  .seg.f { background: var(--full-color); }
+  .seg.p { background: var(--partial-color); }
+  .seg.m { background: var(--minimal-color); }
+  .seg.n { background: var(--none-color); }
+
+  .pillar-stat {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: 'Source Serif 4', serif;
+  }
+
+  .pillar-stat-label {
+    font-size: 11px;
+    color: var(--slate);
+    margin-top: 3px;
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 900px) {
+    .site-header, .tab-panel { padding-left: 24px; padding-right: 24px; }
+    .rating-key { grid-template-columns: 1fr 1fr; }
+    .pillar-breakdown { grid-template-columns: 1fr 1fr; }
+    .flow-diagram { flex-direction: column; gap: 12px; }
+    .flow-arrow-col { width: 100%; height: 36px; flex-direction: row; justify-content: flex-start; padding-left: 12px; gap: 12px; }
+    .arrow-line { width: 60px; }
+    .site-header h1 { font-size: 20px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- SITE HEADER -->
+<div class="site-header">
+  <div class="eyebrow">Indonesia Blue Economy Index &mdash; Ocean Accounts Partnership</div>
+  <h1>Ocean Accounts <span>&rarr;</span> IBEI: Concept Note &amp; Indicator Mapping</h1>
+  <nav class="tab-nav">
+    <button class="tab-btn active" data-tab="concept">Concept Note</button>
+    <button class="tab-btn" data-tab="annex">Annex A &mdash; Mapping</button>
+    <button class="tab-btn" data-tab="image">Diagram</button>
+  </nav>
+</div>
+
+<!-- ══════════════════════════════════════════
+     TAB 1: CONCEPT NOTE
+══════════════════════════════════════════ -->
+<div class="tab-panel active" id="tab-concept">
+  <div class="concept-body">
+
+    <h2>1. Framing the Problem</h2>
+    <p>Indonesia's blue economy governance architecture now rests on two parallel measurement initiatives that do not yet speak to each other. The <strong>Indonesia Blue Economy Index (IBEI)</strong> was developed by BAPPENAS with EU support to monitor blue economy progress across all provinces, using economic, social, and environmental pillars, with governance and technology as enablers.<sup>1</sup> Separately, the <strong>Ministry of Marine Affairs and Fisheries (MMAF)</strong> has been developing ocean accounts since 2021 as part of an international collaboration under the Global Ocean Accounts Partnership (GOAP), with the initiative now scaling nationally through ministerial decrees and a multi-ministerial task force.<sup>2</sup></p>
+    <p>The core tension: the IBEI is a composite policy-monitoring index; ocean accounts are structured statistical frameworks rooted in the System of Environmental-Economic Accounting &ndash; Ecosystem Accounting (SEEA-EA). Both aim to inform sustainable ocean development, but they operate on different logics, at different spatial scales, and through different institutional channels (BAPPENAS vs. MMAF-BPS).</p>
+    <p>This concept note argues that connecting them is not merely desirable but <strong>necessary</strong> &mdash; to avoid duplicative data architectures and to ground the IBEI&rsquo;s environmental pillar in internationally standardised biophysical evidence.</p>
+
+    <h2>2. What the IBEI Currently Measures &mdash; and Its Gaps</h2>
+    <p>The IBEI is structured around <strong>over 35 indicators</strong> categorised into three pillars (economy, social, environment), designed as a dashboard tool for setting pillar-specific targets and fostering inter-agency coordination.<sup>3</sup> It is operationally designed for provincial-level comparison within the Blue Economy Roadmap&rsquo;s phased implementation (2023&ndash;2045).</p>
+    <p>Despite its breadth, the IBEI&rsquo;s <strong>environmental pillar has structural measurement gaps</strong> that ocean accounting is positioned to fill:</p>
+    <ul>
+      <li>It relies on aggregated outcome indicators (e.g. MPA coverage, marine debris volumes, renewable energy resource quality) but lacks a systematic <strong>stock-flow logic</strong>.</li>
+      <li>It does not track <strong>ecosystem extent change over time</strong> as opening and closing stocks.</li>
+      <li>It does not distinguish between <strong>ecosystem condition</strong> and the <strong>flow of ecosystem services</strong>.</li>
+      <li>It does not link biophysical change to monetary values through the System of National Accounts (SNA).</li>
+    </ul>
+    <p>The consequence: the IBEI can signal that environmental performance is low in a given province but <strong>cannot explain the underlying asset dynamics</strong> driving that signal.</p>
+
+    <h2>3. What Ocean Accounts Provide</h2>
+
+    <h3>3.1 The SEEA-EA Architecture in Indonesia</h3>
+    <p>Indonesia&rsquo;s ocean accounting programme applies the SEEA-EA framework through a series of pilot and national-scale efforts. The <strong>Gili Matra pilot</strong> &mdash; covering Gili Meno, Air, and Trawangan &mdash; compiled ecosystem extent accounts showing that between 2015 and 2021:<sup>4</sup></p>
+
+    <table class="concept-table">
+      <thead>
+        <tr>
+          <th>Ecosystem Type</th>
+          <th>Change (ha)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Coral reef</td>
+          <td class="neg">&minus;18.16</td>
+        </tr>
+        <tr>
+          <td>Mangrove</td>
+          <td class="neg">&minus;7.38</td>
+        </tr>
+        <tr>
+          <td>Seagrass</td>
+          <td class="pos">+8.43</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>More recent methodological work in <strong>Saleh Bay</strong> has tested the impact of grid size and designation method for Marine Basic Spatial Units (MBSUs), advancing the spatial granularity of Indonesia&rsquo;s ocean accounting.<sup>5</sup></p>
+
+    <h3>3.2 Core Account Outputs</h3>
+    <p>The accounts produce four interconnected components:</p>
+    <ol>
+      <li><strong>Ecosystem extent accounts</strong> &mdash; opening and closing stock by ecosystem type</li>
+      <li><strong>Ecosystem condition accounts</strong> &mdash; biophysical indicators of health</li>
+      <li><strong>Ecosystem service flow accounts</strong> &mdash; provisioning, regulating, and cultural services</li>
+      <li><strong>Supply-use tables</strong> &mdash; linking ecosystem services to economic beneficiaries</li>
+    </ol>
+    <p>These are compiled by BPS-Statistics Indonesia, MMAF, BIG-Geospatial Agency, and the Ministry of Finance, with technical support from Rekam Nusantara Foundation, IPB University, and GOAP.</p>
+
+    <h2>4. The Integration Argument: Three Connection Points</h2>
+
+    <h3>4a. Environmental Pillar Grounding</h3>
+    <p>Ocean accounts can supply the IBEI&rsquo;s environmental indicators with <strong>spatially explicit, time-series data on ecosystem extent and condition</strong>. Rather than relying on point-in-time proxies (e.g. MPA coverage as a share of territorial waters), the IBEI could incorporate extent-change metrics derived from the accounts, enabling provinces to be assessed on whether their <strong>natural capital base is appreciating or depreciating</strong>.</p>
+
+    <h3>4b. Economy&ndash;Environment Linkage</h3>
+    <p>The IBEI&rsquo;s economic pillar (fisheries income, aquaculture output, tourism revenue) and environmental pillar are currently <strong>measured in isolation</strong>. Ocean accounts&rsquo; supply-use tables trace the flow of ecosystem services to economic sectors, making it possible to quantify the degree to which provincial economic performance depends on ecosystem service flows.</p>
+    <p>This would allow the IBEI to flag provinces where <strong>high economic index scores are being achieved at the cost of natural capital depletion</strong> &mdash; a sustainability red flag invisible under the current framework.</p>
+
+    <h3>4c. Governance Account Integration</h3>
+    <p>GOAP&rsquo;s emerging <strong>governance accounts framework</strong> provides structured records of the rules, institutions, and management arrangements governing ocean spaces. This maps onto the IBEI&rsquo;s governance enabler dimension and could provide a standardised method for assessing governance quality beyond simple policy-count metrics.</p>
+
+    <h2>5. Institutional Alignment and Feasibility</h2>
+    <p>The institutional landscape is partially aligned. GOAP is co-chaired by MMAF Indonesia and brings together governments, research institutions, and international organisations.<sup>1</sup> Indonesia has also partnered with Norway on long-term technical cooperation on ocean accounting, with collaboration running from <strong>2024 to 2028</strong>.<sup>2</sup></p>
+    <p>MMAF leads on ocean accounts; BAPPENAS leads on the IBEI; both sit within the broader architecture of the Blue Economy Roadmap. The missing piece is a <strong>dedicated coordination mechanism</strong>, which could take one of several forms:</p>
+    <ul>
+      <li>A <strong>joint technical working group</strong> under the National Blue Economy Action Plan (NBAAP)</li>
+      <li>A <strong>data-sharing MoU</strong> between BPS and BAPPENAS</li>
+      <li>Embedding ocean account outputs into the IBEI&rsquo;s <strong>indicator refresh cycles</strong></li>
+    </ul>
+    <p>The <strong>Bogor Strategic Action Plan</strong> (SSOA 2026 output) represents a potential multilateral lever, given its focus on scaling ocean accounts across the Global South with Indonesia as a lead country.</p>
+
+    <h2>6. What This Is Not</h2>
+    <p>This concept note does <strong>not</strong> propose replacing the IBEI with ocean accounts, nor subordinating one framework to the other.</p>
+    <p>The IBEI serves a distinct policy function as a composite index for cross-provincial benchmarking within the RPJMN cycle. The argument is that its <strong>analytical power is constrained</strong> without the structured biophysical evidence that ocean accounts are designed to produce.</p>
+    <p>The relationship is one of <strong>statistical infrastructure feeding a policy instrument</strong>.</p>
+
+    <h2>7. Proposed Next Steps</h2>
+    <ol>
+      <li><strong>Technical mapping exercise</strong> &mdash; pair each IBEI environmental indicator to the corresponding ocean account table (extent, condition, or service flow), identifying data gaps and potential substitutions.</li>
+      <li><strong>Joint BAPPENAS&ndash;MMAF&ndash;BPS workshop</strong> &mdash; test the integration on one or two pilot provinces where ocean accounts are already compiled (e.g. West Nusa Tenggara, Sumbawa), producing a proof-of-concept dashboard.</li>
+      <li><strong>Policy brief for Phase II review</strong> &mdash; produce a short brief for the Blue Economy Roadmap&rsquo;s Phase II (2025&ndash;2029) review cycle, positioning ocean accounts as part of the IBEI&rsquo;s forthcoming indicator refresh and recommending a formal inter-agency data protocol.</li>
+    </ol>
+
+    <div class="footnotes">
+      <h4>References</h4>
+      <ol>
+        <li>Frontiers in Marine Science (2024). <em>Blue Economy Governance and the IBEI</em>. <a href="https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1401332/full" target="_blank">frontiersin.org &hellip;</a></li>
+        <li>Mongabay (2023). <em>Indonesia Ocean Account: Maritime, Marine, Fisheries, Ecosystem, Economic</em>. <a href="https://news.mongabay.com/2023/01/indonesia-ocean-account-maritime-marine-fisheries-ecosystem-economic/" target="_blank">news.mongabay.com &hellip;</a></li>
+        <li>ARISE+ Indonesia. <em>Driving Blue Prosperity: Capacity Building for Indonesian Blue Economy Index Enhancement</em>. <a href="https://www.ariseplus-indonesia.org/en/activities/driving-blue-prosperity-capacity-building-for-indonesian-blue-economy-index-enhancement.html" target="_blank">ariseplus-indonesia.org &hellip;</a></li>
+        <li>SEEA / UN. <em>Ocean Accounts of Gili Meno, Ayer, Trawangan (Gili Matra), Indonesia</em>. <a href="https://seea.un.org/sites/seea.un.org/files/ocean_accounts_of_gili_meno_ayer_trawangan_gili_matra_of_indonesia.pdf" target="_blank">seea.un.org &hellip;</a></li>
+        <li>ScienceDirect (2024). <em>Marine Basic Spatial Units and Ocean Accounting Methodology: Saleh Bay Case Study</em>. <a href="https://www.sciencedirect.com/org/science/article/pii/S2367819424000157" target="_blank">sciencedirect.com &hellip;</a></li>
+      </ol>
+    </div>
+
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════
+     TAB 2: ANNEX A — MAPPING
+══════════════════════════════════════════ -->
+<div class="tab-panel" id="tab-annex">
+
+  <div class="annex-intro">
+    <div class="section-heading">Annex A &mdash; Indicator Derivation Potential</div>
+    <p>This annex maps each reconstructed IBEI indicator to the most relevant ocean account table, assigning a derivation rating. Ratings are based on publicly available IBEI descriptions (Blue Economy Roadmap 1st &amp; 2nd editions; ARISE+ Indonesia) and the SEEA-EA framework as applied in Indonesia pilot accounts.</p>
+  </div>
+
+  <!-- Rating key -->
+  <div class="rating-key">
+    <div class="rating-key-card full">
+      <div class="rk-label">Full</div>
+      <p>Indicator can be derived directly from a compiled account table with no additional processing. Structurally compatible with IBEI specification.</p>
+    </div>
+    <div class="rating-key-card partial">
+      <div class="rk-label">Partial</div>
+      <p>Overlaps substantively with account outputs, but requires additional processing, aggregation, or supplementary non-account data.</p>
+    </div>
+    <div class="rating-key-card minimal">
+      <div class="rk-label">Minimal</div>
+      <p>Accounts produce related data but does not correspond to the indicator as currently specified. Partial input among several.</p>
+    </div>
+    <div class="rating-key-card none-card">
+      <div class="rk-label">None</div>
+      <p>Indicator falls outside the scope of ocean accounting as currently practised. No data transfer pathway exists.</p>
+    </div>
+  </div>
+
+  <!-- ENVIRONMENT -->
+  <div class="pillar-group">
+    <div class="pillar-label env">Environment Pillar</div>
+    <table class="mapping-table">
+      <thead>
+        <tr>
+          <th>IBEI Indicator</th>
+          <th>OA Rating</th>
+          <th>Relevant Account Table</th>
+          <th>Rationale</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Blue carbon ecosystem area (mangrove, seagrass)</td>
+          <td><span class="rating-chip full"><span class="dot full"></span>Full</span></td>
+          <td>Ecosystem Extent Accounts</td>
+          <td class="rationale-text">Extent accounts directly compile opening stock, additions, reductions, and closing stock of mangrove and seagrass area by spatial unit, as demonstrated in the Gili Matra and Saleh Bay pilots.</td>
+        </tr>
+        <tr>
+          <td>Coral reef area / extent</td>
+          <td><span class="rating-chip full"><span class="dot full"></span>Full</span></td>
+          <td>Ecosystem Extent Accounts</td>
+          <td class="rationale-text">Coral reef ecosystem extent is a core account table, compiled as hectares with opening/closing stock structure.</td>
+        </tr>
+        <tr>
+          <td>Habitat quality / condition index</td>
+          <td><span class="rating-chip full"><span class="dot full"></span>Full</span></td>
+          <td>Ecosystem Condition Accounts</td>
+          <td class="rationale-text">Condition accounts compile biophysical indicators of ecosystem health (coral cover, seagrass density, mangrove canopy integrity) in a standardised condition index framework.</td>
+        </tr>
+        <tr>
+          <td>MPA coverage (% of territorial waters)</td>
+          <td><span class="rating-chip partial"><span class="dot partial"></span>Partial</span></td>
+          <td>Extent Accounts; Governance Accounts</td>
+          <td class="rationale-text">Extent accounts record ecosystem area within/outside MPA boundaries. Governance accounts capture designation status. The IBEI ratio requires spatial overlay rather than direct table extraction.</td>
+        </tr>
+        <tr>
+          <td>Biodiversity indicators</td>
+          <td><span class="rating-chip partial"><span class="dot partial"></span>Partial</span></td>
+          <td>Ecosystem Condition Accounts</td>
+          <td class="rationale-text">Condition accounts include species richness and diversity metrics. The specific IBEI biodiversity indicator may require supplementary data (e.g. IUCN Red List) not compiled within standard accounts.</td>
+        </tr>
+        <tr>
+          <td>Seawater quality index</td>
+          <td><span class="rating-chip partial"><span class="dot partial"></span>Partial</span></td>
+          <td>Ecosystem Condition Accounts</td>
+          <td class="rationale-text">Condition accounts compile abiotic variables (temperature, salinity, turbidity, nutrient loading). The IBEI composite index may weight or aggregate these differently.</td>
+        </tr>
+        <tr>
+          <td>Marine debris / waste management</td>
+          <td><span class="rating-chip minimal"><span class="dot minimal"></span>Minimal</span></td>
+          <td>Not a core account table</td>
+          <td class="rationale-text">Ocean accounts do not systematically compile waste flow data. Residual flow accounts exist in broader SEEA but are not yet standard in ocean accounting practice.</td>
+        </tr>
+        <tr>
+          <td>Marine renewable energy resource quality</td>
+          <td><span class="rating-chip none-chip"><span class="dot none"></span>None</span></td>
+          <td>Outside current scope</td>
+          <td class="rationale-text">Ocean accounts do not assess energy resource potential. This relates to physical resource endowment and technology readiness, not ecosystem assets or services.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ECONOMY -->
+  <div class="pillar-group">
+    <div class="pillar-label eco">Economy Pillar</div>
+    <table class="mapping-table">
+      <thead>
+        <tr>
+          <th>IBEI Indicator</th>
+          <th>OA Rating</th>
+          <th>Relevant Account Table</th>
+          <th>Rationale</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Capture fisheries production value</td>
+          <td><span class="rating-chip full"><span class="dot full"></span>Full</span></td>
+          <td>Supply-Use Tables; Ocean Economy Satellite Account</td>
+          <td class="rationale-text">Supply-use tables record provisioning service flows from marine ecosystems to the fisheries sector. Ocean economy satellite accounts compile production values by ocean-dependent industry. BPS compiles both.</td>
+        </tr>
+        <tr>
+          <td>Fisheries sector GDP contribution</td>
+          <td><span class="rating-chip full"><span class="dot full"></span>Full</span></td>
+          <td>Ocean Economy Satellite Account</td>
+          <td class="rationale-text">The ocean economy satellite account is designed to isolate ocean-dependent GDP by sector, directly producing this indicator.</td>
+        </tr>
+        <tr>
+          <td>Aquaculture production value</td>
+          <td><span class="rating-chip partial"><span class="dot partial"></span>Partial</span></td>
+          <td>Ocean Economy Satellite Account</td>
+          <td class="rationale-text">Aquaculture is recorded in ocean economy satellite accounts. However, its relationship to ecosystem service flows is indirect compared to capture fisheries.</td>
+        </tr>
+        <tr>
+          <td>Coastal tourism revenue</td>
+          <td><span class="rating-chip partial"><span class="dot partial"></span>Partial</span></td>
+          <td>Satellite Account; Cultural Services</td>
+          <td class="rationale-text">Tourism revenue is in ocean economy satellite accounts. Cultural service accounts attribute a portion to ecosystem assets, but total revenue includes non-ecosystem components (accommodation, transport).</td>
+        </tr>
+        <tr>
+          <td>Marine-based manufacturing output</td>
+          <td><span class="rating-chip partial"><span class="dot partial"></span>Partial</span></td>
+          <td>Ocean Economy Satellite Account</td>
+          <td class="rationale-text">Manufacturing output linked to marine resources is captured, but the boundary of "marine-based manufacturing" in the IBEI may be broader than ocean account classifications.</td>
+        </tr>
+        <tr>
+          <td>Inter-regional trade in marine products</td>
+          <td><span class="rating-chip minimal"><span class="dot minimal"></span>Minimal</span></td>
+          <td>Not a core account table</td>
+          <td class="rationale-text">Ocean accounts do not compile trade flow data between provinces. This requires trade statistics from BPS customs and inter-regional surveys, outside the SEEA-EA framework.</td>
+        </tr>
+        <tr>
+          <td>Marine renewable energy production</td>
+          <td><span class="rating-chip none-chip"><span class="dot none"></span>None</span></td>
+          <td>Outside current scope</td>
+          <td class="rationale-text">Energy production statistics are compiled through energy accounts (SEEA-Energy), not ocean ecosystem accounts. No current integration pathway.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SOCIAL -->
+  <div class="pillar-group">
+    <div class="pillar-label soc">Social Pillar</div>
+    <table class="mapping-table">
+      <thead>
+        <tr>
+          <th>IBEI Indicator</th>
+          <th>OA Rating</th>
+          <th>Relevant Account Table</th>
+          <th>Rationale</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Employment in fisheries / aquaculture</td>
+          <td><span class="rating-chip partial"><span class="dot partial"></span>Partial</span></td>
+          <td>Ocean Economy Satellite Account</td>
+          <td class="rationale-text">Ocean economy satellite accounts record employment by ocean-dependent sector. The IBEI may use employment definitions or data sources (e.g. MMAF administrative records) that differ from satellite account classification.</td>
+        </tr>
+        <tr>
+          <td>Coastal community poverty rates</td>
+          <td><span class="rating-chip partial"><span class="dot partial"></span>Partial</span></td>
+          <td>Social Accounts; Satellite Account</td>
+          <td class="rationale-text">Social accounts compile socio-economic condition data for ocean-dependent communities. Combined with household income data from ocean economy satellite accounts, these provide substantive input. Poverty line thresholds may require supplementary data.</td>
+        </tr>
+        <tr>
+          <td>Marine education / ocean literacy</td>
+          <td><span class="rating-chip partial"><span class="dot partial"></span>Partial</span></td>
+          <td>Social Accounts</td>
+          <td class="rationale-text">Social accounts within the Ocean Accounts Framework compile ocean-related human capital data, including participation in marine education. Methodology under active development, with pilot applications in the Maldives and other GOAP countries.</td>
+        </tr>
+        <tr>
+          <td>Human Development Index (HDI)</td>
+          <td><span class="rating-chip none-chip"><span class="dot none"></span>None</span></td>
+          <td>Outside scope</td>
+          <td class="rationale-text">HDI is a composite social indicator compiled from health, education, and income data. Not ocean-specific and not derived from environmental-economic accounting frameworks.</td>
+        </tr>
+        <tr>
+          <td>Gender Empowerment Index</td>
+          <td><span class="rating-chip none-chip"><span class="dot none"></span>None</span></td>
+          <td>Outside scope</td>
+          <td class="rationale-text">Gender empowerment metrics are compiled from labour force and political participation data, outside the scope of ocean accounts.</td>
+        </tr>
+        <tr>
+          <td>Health indicators (life expectancy)</td>
+          <td><span class="rating-chip none-chip"><span class="dot none"></span>None</span></td>
+          <td>Outside scope</td>
+          <td class="rationale-text">Health outcomes are not compiled within ocean accounting frameworks.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ENABLERS -->
+  <div class="pillar-group">
+    <div class="pillar-label ena">Enablers</div>
+    <table class="mapping-table">
+      <thead>
+        <tr>
+          <th>IBEI Indicator</th>
+          <th>OA Rating</th>
+          <th>Relevant Account Table</th>
+          <th>Rationale</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Number of blue economy policies enacted</td>
+          <td><span class="rating-chip minimal"><span class="dot minimal"></span>Minimal</span></td>
+          <td>Governance Accounts (emerging)</td>
+          <td class="rationale-text">GOAP&rsquo;s governance accounts record management arrangements and institutional rules. This partially overlaps with policy enumeration but uses a different classification logic. Methodology still under development.</td>
+        </tr>
+        <tr>
+          <td>Policy implementation coverage</td>
+          <td><span class="rating-chip minimal"><span class="dot minimal"></span>Minimal</span></td>
+          <td>Governance Accounts (emerging)</td>
+          <td class="rationale-text">Governance accounts may record implementation status of management plans but do not currently produce a standardised implementation coverage metric.</td>
+        </tr>
+        <tr>
+          <td>Technology / R&amp;D indicators</td>
+          <td><span class="rating-chip none-chip"><span class="dot none"></span>None</span></td>
+          <td>Outside scope</td>
+          <td class="rationale-text">Technology readiness and R&amp;D investment are outside the scope of environmental-economic accounting.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Summary distribution -->
+  <div class="section-heading">Summary Distribution</div>
+  <table class="summary-dist-table">
+    <thead>
+      <tr>
+        <th>Rating</th>
+        <th>Count</th>
+        <th>Share</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="rating-chip full"><span class="dot full"></span>Full</span></td>
+        <td>5</td>
+        <td>22%</td>
+      </tr>
+      <tr>
+        <td><span class="rating-chip partial"><span class="dot partial"></span>Partial</span></td>
+        <td>9</td>
+        <td>39%</td>
+      </tr>
+      <tr>
+        <td><span class="rating-chip minimal"><span class="dot minimal"></span>Minimal</span></td>
+        <td>4</td>
+        <td>17%</td>
+      </tr>
+      <tr>
+        <td><span class="rating-chip none-chip"><span class="dot none"></span>None</span></td>
+        <td>5</td>
+        <td>22%</td>
+      </tr>
+      <tr>
+        <td><strong>Total</strong></td>
+        <td><strong>23</strong></td>
+        <td><strong>100%</strong></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p style="font-size:14px; color:var(--slate-light); line-height:1.7; max-width:760px; margin-bottom:24px;">Approximately <strong style="color:var(--white)">61%</strong> of reconstructed IBEI indicators have full or partial potential for derivation from ocean account outputs. The strongest alignment is in the environment pillar (75% full or partial), followed by economy (71%). The social pillar benefits from the emerging Social Accounts methodology (50%). Enablers remain the weakest area, with governance accounts still under development.</p>
+
+  <div class="annex-note">
+    <strong>Note:</strong> This mapping is based on publicly available descriptions of IBEI indicators (Blue Economy Roadmap, 1st and 2nd editions; ARISE+ Indonesia capacity-building documentation; MFBEI academic literature) and the SEEA-EA / Ocean Accounts Framework as applied in Indonesia&rsquo;s pilot accounts. Exact IBEI indicator specifications may differ from the reconstructed descriptions used here. A definitive mapping would require access to the full IBEI indicator metadata maintained by BAPPENAS.
+  </div>
+
+</div>
+
+<!-- ══════════════════════════════════════════
+     TAB 3: DIAGRAM (IMAGE)
+══════════════════════════════════════════ -->
+<div class="tab-panel" id="tab-image">
+
+  <!-- Flow Architecture -->
+  <div class="flow-section">
+    <div class="section-heading">Data Transfer Architecture</div>
+    <div class="flow-diagram">
+
+      <div class="flow-column">
+        <div class="flow-column-header">Ocean Accounts (SEEA-EA)</div>
+        <div class="flow-box source">Ecosystem Extent Accounts<div class="lbl">Mangrove, coral, seagrass stock / flow</div></div>
+        <div class="flow-box source">Ecosystem Condition Accounts<div class="lbl">Biophysical health indicators</div></div>
+        <div class="flow-box source">Ecosystem Service Accounts<div class="lbl">Provisioning, regulating, cultural flows</div></div>
+        <div class="flow-box source">Supply-Use Tables<div class="lbl">Service flows &harr; economic beneficiaries</div></div>
+        <div class="flow-box source">Ocean Economy Satellite Account<div class="lbl">GDP, employment, production by sector</div></div>
+        <div class="flow-box source">Governance Accounts<div class="lbl">Rules, institutions, management (emerging)</div></div>
+        <div class="flow-box source">Social Accounts<div class="lbl">Community well-being, education, livelihoods (emerging)</div></div>
+      </div>
+
+      <div class="flow-arrow-col">
+        <div class="arrow-label">Compiled by</div>
+        <div class="arrow-line"></div>
+      </div>
+
+      <div class="flow-column" style="max-width:180px; justify-content:center; display:flex; flex-direction:column;">
+        <div class="flow-box bps" style="margin:auto 0;">
+          BPS<br>
+          <span style="font-size:11px; font-weight:400; color:var(--slate);">Statistics Indonesia</span>
+          <div class="lbl" style="color:rgba(45,212,191,0.6); margin-top:8px;">National statistical authority &mdash; common institutional node</div>
+        </div>
+      </div>
+
+      <div class="flow-arrow-col">
+        <div class="arrow-label">Supplies to</div>
+        <div class="arrow-line"></div>
+      </div>
+
+      <div class="flow-column">
+        <div class="flow-column-header">IBEI Pillars (BAPPENAS)</div>
+        <div class="flow-box target">Environment Pillar<div class="lbl">MPA, blue carbon, habitat, debris, biodiversity</div></div>
+        <div class="flow-box target">Economy Pillar<div class="lbl">Fisheries, aquaculture, tourism, manufacturing</div></div>
+        <div class="flow-box target">Social Pillar<div class="lbl">HDI, gender, employment, health, education</div></div>
+        <div class="flow-box target">Governance Enabler<div class="lbl">Policy count, implementation coverage</div></div>
+        <div class="flow-box target">Technology Enabler<div class="lbl">R&amp;D, innovation metrics</div></div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Summary bar & pillar breakdown -->
+  <div class="section-heading">Summary Distribution</div>
+  <div class="summary-bar-container">
+
+    <div class="stacked-bar">
+      <div class="bar-segment full">5 (22%)</div>
+      <div class="bar-segment partial">9 (39%)</div>
+      <div class="bar-segment minimal">4 (17%)</div>
+      <div class="bar-segment none-seg">5 (22%)</div>
+    </div>
+
+    <div class="legend">
+      <div class="legend-item"><div class="legend-swatch full"></div>Full <strong style="margin-left:4px;">&mdash; 5</strong></div>
+      <div class="legend-item"><div class="legend-swatch partial"></div>Partial <strong style="margin-left:4px;">&mdash; 9</strong></div>
+      <div class="legend-item"><div class="legend-swatch minimal"></div>Minimal <strong style="margin-left:4px;">&mdash; 4</strong></div>
+      <div class="legend-item"><div class="legend-swatch none-sw"></div>None <strong style="margin-left:4px;">&mdash; 5</strong></div>
+    </div>
+
+    <div class="pillar-breakdown">
+      <div class="pillar-card env-card">
+        <h4>Environment</h4>
+        <div class="mini-bar">
+          <div class="seg f" style="flex:3"></div>
+          <div class="seg p" style="flex:3"></div>
+          <div class="seg m" style="flex:1"></div>
+          <div class="seg n" style="flex:1"></div>
+        </div>
+        <div class="pillar-stat" style="color:var(--teal-accent)">75%</div>
+        <div class="pillar-stat-label">Full or Partial</div>
+      </div>
+
+      <div class="pillar-card eco-card">
+        <h4>Economy</h4>
+        <div class="mini-bar">
+          <div class="seg f" style="flex:2"></div>
+          <div class="seg p" style="flex:3"></div>
+          <div class="seg m" style="flex:1"></div>
+          <div class="seg n" style="flex:1"></div>
+        </div>
+        <div class="pillar-stat" style="color:#60a5fa">71%</div>
+        <div class="pillar-stat-label">Full or Partial</div>
+      </div>
+
+      <div class="pillar-card soc-card">
+        <h4>Social</h4>
+        <div class="mini-bar">
+          <div class="seg p" style="flex:3"></div>
+          <div class="seg n" style="flex:3"></div>
+        </div>
+        <div class="pillar-stat" style="color:var(--coral)">50%</div>
+        <div class="pillar-stat-label">Full or Partial</div>
+      </div>
+
+      <div class="pillar-card ena-card">
+        <h4>Enablers</h4>
+        <div class="mini-bar">
+          <div class="seg m" style="flex:2"></div>
+          <div class="seg n" style="flex:1"></div>
+        </div>
+        <div class="pillar-stat" style="color:var(--slate)">0%</div>
+        <div class="pillar-stat-label">Full or Partial</div>
+      </div>
+    </div>
+
+  </div>
+
+  <p style="font-size:11px; color:var(--slate); line-height:1.65; max-width:800px; margin-top:16px;">Based on publicly available descriptions of IBEI indicators (Blue Economy Roadmap, 1st and 2nd editions; ARISE+ Indonesia) and the SEEA-EA / Ocean Accounts Framework as applied in Indonesia pilot accounts (Gili Matra, Saleh Bay). This mapping is illustrative and for information only.</p>
+
+</div>
+
+<script>
+  const buttons = document.querySelectorAll('.tab-btn');
+  const panels  = document.querySelectorAll('.tab-panel');
+
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      panels.forEach(p => p.classList.remove('active'));
+      btn.classList.add('active');
+      document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+    });
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ocean Accounts – IBEI Mapping</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:wght@400;600;700&display=swap');
+
+  :root {
+    --ocean-deep: #0b1d3a;
+    --ocean-mid: #163a5f;
+    --ocean-light: #1e5f8a;
+    --ocean-surface: #2a8cb5;
+    --teal-accent: #2dd4bf;
+    --coral: #f97066;
+    --amber: #f59e0b;
+    --sage: #6ee7b7;
+    --sand: #fef3c7;
+    --slate: #94a3b8;
+    --white: #f8fafc;
+    --full-color: #2dd4bf;
+    --partial-color: #60a5fa;
+    --minimal-color: #fbbf24;
+    --none-color: #94a3b8;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--ocean-deep);
+    color: var(--white);
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  .page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 48px 32px;
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 56px;
+  }
+
+  header h1 {
+    font-family: 'Source Serif 4', serif;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    line-height: 1.3;
+    margin-bottom: 8px;
+    color: var(--white);
+  }
+
+  header .subtitle {
+    font-size: 13px;
+    color: var(--slate);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  /* --- FLOW DIAGRAM --- */
+  .flow-section {
+    margin-bottom: 64px;
+  }
+
+  .flow-section h2 {
+    font-family: 'Source Serif 4', serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 32px;
+    color: var(--teal-accent);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .flow-diagram {
+    display: flex;
+    align-items: stretch;
+    gap: 0;
+    position: relative;
+  }
+
+  .flow-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .flow-column-header {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: var(--slate);
+    margin-bottom: 8px;
+    text-align: center;
+    padding: 0 8px;
+  }
+
+  .flow-box {
+    background: var(--ocean-mid);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size: 13px;
+    line-height: 1.4;
+    font-weight: 500;
+    transition: all 0.2s;
+  }
+
+  .flow-box.source {
+    border-left: 3px solid var(--teal-accent);
+  }
+
+  .flow-box.bps {
+    background: rgba(45, 212, 191, 0.12);
+    border: 1px solid rgba(45, 212, 191, 0.3);
+    text-align: center;
+    font-weight: 600;
+    color: var(--teal-accent);
+  }
+
+  .flow-box.target {
+    border-left: 3px solid var(--coral);
+  }
+
+  .flow-box .label {
+    font-size: 11px;
+    color: var(--slate);
+    margin-top: 4px;
+    font-weight: 400;
+  }
+
+  /* Arrow column */
+  .flow-arrow-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    min-width: 80px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .arrow-line {
+    width: 100%;
+    height: 2px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .arrow-line::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: linear-gradient(90deg, var(--teal-accent), rgba(45,212,191,0.3));
+  }
+
+  .arrow-line::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 8px solid var(--teal-accent);
+  }
+
+  .arrow-label {
+    font-size: 10px;
+    color: var(--teal-accent);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  /* --- MAPPING TABLE --- */
+  .mapping-section {
+    margin-bottom: 56px;
+  }
+
+  .mapping-section h2 {
+    font-family: 'Source Serif 4', serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    color: var(--teal-accent);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .pillar-group {
+    margin-bottom: 40px;
+  }
+
+  .pillar-label {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 4px 12px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+
+  .pillar-label.env { background: rgba(45,212,191,0.15); color: var(--teal-accent); }
+  .pillar-label.eco { background: rgba(96,165,250,0.15); color: #60a5fa; }
+  .pillar-label.soc { background: rgba(249,115,102,0.15); color: var(--coral); }
+  .pillar-label.ena { background: rgba(148,163,184,0.15); color: var(--slate); }
+
+  .mapping-row {
+    display: grid;
+    grid-template-columns: minmax(200px, 1.2fr) 100px minmax(200px, 1.5fr);
+    gap: 1px;
+    margin-bottom: 1px;
+  }
+
+  .mapping-row.header-row {
+    margin-bottom: 4px;
+  }
+
+  .mapping-row.header-row .cell {
+    background: transparent;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    color: var(--slate);
+    padding: 8px 14px;
+    border-radius: 0;
+  }
+
+  .cell {
+    background: var(--ocean-mid);
+    padding: 12px 14px;
+    font-size: 12.5px;
+    line-height: 1.45;
+    display: flex;
+    align-items: center;
+  }
+
+  .cell:first-child { border-radius: 6px 0 0 6px; font-weight: 500; }
+  .cell:last-child { border-radius: 0 6px 6px 0; color: var(--slate); font-size: 12px; }
+
+  .cell.rating-cell {
+    justify-content: center;
+    font-weight: 700;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .rating-full { color: var(--full-color); }
+  .rating-partial { color: var(--partial-color); }
+  .rating-minimal { color: var(--minimal-color); }
+  .rating-none { color: var(--none-color); }
+
+  .dot {
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin-right: 6px;
+    flex-shrink: 0;
+  }
+
+  .dot.full { background: var(--full-color); }
+  .dot.partial { background: var(--partial-color); }
+  .dot.minimal { background: var(--minimal-color); }
+  .dot.none { background: var(--none-color); }
+
+  /* --- SUMMARY BAR --- */
+  .summary-section {
+    margin-bottom: 48px;
+  }
+
+  .summary-section h2 {
+    font-family: 'Source Serif 4', serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    color: var(--teal-accent);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .summary-bar-container {
+    background: var(--ocean-mid);
+    border-radius: 12px;
+    padding: 32px;
+  }
+
+  .stacked-bar {
+    display: flex;
+    height: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+
+  .bar-segment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--ocean-deep);
+    transition: flex 0.6s ease;
+  }
+
+  .bar-segment.full { background: var(--full-color); flex: 5; }
+  .bar-segment.partial { background: var(--partial-color); flex: 9; }
+  .bar-segment.minimal { background: var(--minimal-color); flex: 4; }
+  .bar-segment.none-seg { background: var(--none-color); flex: 5; }
+
+  .legend {
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+  }
+
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .legend-swatch {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    flex-shrink: 0;
+  }
+
+  .legend-swatch.full { background: var(--full-color); }
+  .legend-swatch.partial { background: var(--partial-color); }
+  .legend-swatch.minimal { background: var(--minimal-color); }
+  .legend-swatch.none-sw { background: var(--none-color); }
+
+  .legend-count {
+    font-weight: 700;
+    margin-left: 2px;
+  }
+
+  /* --- PILLAR BREAKDOWN --- */
+  .pillar-breakdown {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin-top: 28px;
+  }
+
+  .pillar-card {
+    background: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.06);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .pillar-card h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .pillar-card.env-card h4 { color: var(--teal-accent); }
+  .pillar-card.eco-card h4 { color: #60a5fa; }
+  .pillar-card.soc-card h4 { color: var(--coral); }
+  .pillar-card.ena-card h4 { color: var(--slate); }
+
+  .mini-bar {
+    display: flex;
+    height: 8px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+
+  .mini-bar .seg {
+    transition: flex 0.4s;
+  }
+
+  .seg.f { background: var(--full-color); }
+  .seg.p { background: var(--partial-color); }
+  .seg.m { background: var(--minimal-color); }
+  .seg.n { background: var(--none-color); }
+
+  .pillar-stat {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Source Serif 4', serif;
+  }
+
+  .pillar-stat-label {
+    font-size: 11px;
+    color: var(--slate);
+    margin-top: 2px;
+  }
+
+  /* --- FOOTER --- */
+  footer {
+    border-top: 1px solid rgba(255,255,255,0.06);
+    padding-top: 24px;
+    margin-top: 32px;
+  }
+
+  footer p {
+    font-size: 11px;
+    color: var(--slate);
+    line-height: 1.6;
+    max-width: 800px;
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .flow-diagram { flex-direction: column; gap: 12px; }
+    .flow-arrow-col { width: 100%; height: 40px; min-width: unset; flex-direction: row; }
+    .mapping-row { grid-template-columns: 1fr; }
+    .cell:first-child, .cell:last-child { border-radius: 0; }
+    .pillar-breakdown { grid-template-columns: 1fr 1fr; }
+    header h1 { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <div class="subtitle">Annex A &mdash; Concept Note</div>
+    <h1>Ocean Accounts &rarr; IBEI: Indicator Derivation Mapping</h1>
+  </header>
+
+  <!-- FLOW DIAGRAM -->
+  <section class="flow-section">
+    <h2>Data Transfer Architecture</h2>
+    <div class="flow-diagram">
+
+      <div class="flow-column">
+        <div class="flow-column-header">Ocean Accounts (SEEA-EA)</div>
+        <div class="flow-box source">Ecosystem Extent Accounts<div class="label">Mangrove, coral, seagrass stock/flow</div></div>
+        <div class="flow-box source">Ecosystem Condition Accounts<div class="label">Biophysical health indicators</div></div>
+        <div class="flow-box source">Ecosystem Service Accounts<div class="label">Provisioning, regulating, cultural flows</div></div>
+        <div class="flow-box source">Supply-Use Tables<div class="label">Service flows &harr; economic beneficiaries</div></div>
+        <div class="flow-box source">Ocean Economy Satellite Account<div class="label">GDP, employment, production by sector</div></div>
+        <div class="flow-box source">Governance Accounts<div class="label">Rules, institutions, management (emerging)</div></div>
+        <div class="flow-box source">Social Accounts<div class="label">Community well-being, education, livelihoods (emerging)</div></div>
+      </div>
+
+      <div class="flow-arrow-col">
+        <div class="arrow-label" style="margin-bottom: 12px;">Compiled by</div>
+        <div class="arrow-line"></div>
+      </div>
+
+      <div class="flow-column" style="max-width: 180px; justify-content: center;">
+        <div class="flow-box bps">
+          BPS<br>
+          <span style="font-size: 11px; font-weight: 400; color: var(--slate);">Statistics Indonesia</span>
+          <div class="label" style="color: rgba(45,212,191,0.6); margin-top: 8px;">National statistical authority &mdash; common institutional node</div>
+        </div>
+      </div>
+
+      <div class="flow-arrow-col">
+        <div class="arrow-label" style="margin-bottom: 12px;">Supplies to</div>
+        <div class="arrow-line"></div>
+      </div>
+
+      <div class="flow-column">
+        <div class="flow-column-header">IBEI Pillars (BAPPENAS)</div>
+        <div class="flow-box target">Environment Pillar<div class="label">MPA, blue carbon, habitat, debris, biodiversity</div></div>
+        <div class="flow-box target">Economy Pillar<div class="label">Fisheries, aquaculture, tourism, manufacturing</div></div>
+        <div class="flow-box target">Social Pillar<div class="label">HDI, gender, employment, health, education</div></div>
+        <div class="flow-box target">Governance Enabler<div class="label">Policy count, implementation coverage</div></div>
+        <div class="flow-box target">Technology Enabler<div class="label">R&D, innovation metrics</div></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- MAPPING TABLE -->
+  <section class="mapping-section">
+    <h2>Indicator-Level Mapping</h2>
+
+    <!-- ENVIRONMENT -->
+    <div class="pillar-group">
+      <div class="pillar-label env">Environment Pillar</div>
+
+      <div class="mapping-row header-row">
+        <div class="cell">IBEI Indicator</div>
+        <div class="cell">OA Rating</div>
+        <div class="cell">Source Account</div>
+      </div>
+
+      <div class="mapping-row">
+        <div class="cell">Blue carbon ecosystem area</div>
+        <div class="cell rating-cell"><span class="dot full"></span><span class="rating-full">Full</span></div>
+        <div class="cell">Ecosystem Extent Accounts</div>
+      </div>
+      <div class="mapping-row">
+        <div class="cell">Coral reef area / extent</div>
+        <div class="cell rating-cell"><span class="dot full"></span><span class="rating-full">Full</span></div>
+        <div class="cell">Ecosystem Extent Accounts</div>
+      </div>
+      <div class="mapping-row">
+        <div class="cell">Habitat quality / condition</div>
+        <div class="cell rating-cell"><span class="dot full"></span><span class="rating-full">Full</span></div>
+        <div class="cell">Ecosystem Condition Accounts</div>
+      </div>
+      <div class="mapping-row">
+        <div class="cell">MPA coverage</div>
+        <div class="cell rating-cell"><span class="dot partial"></span><span class="rating-partial">Partial</span></div>
+        <div class="cell">Extent + Governance Accounts</div>
+      </div>
+      <div class="mapping-row">
+        <div class="cell">Biodiversity indicators</div>
+        <div class="cell rating-cell"><span class="dot partial"></span><span class="rating-partial">Partial</span></div>
+        <div class="cell">Ecosystem Condition Accounts</div>
+      </div>
+      <div class="mapping-row">
+        <div class="cell">Seawater quality index</div>
+        <div class="cell rating-cell"><span class="dot partial"></span><span class="rating-partial">Partial</span></div>
+        <div class="cell">Ecosystem Condition Accounts</div>
+      </div>
+      <div class="mapping-row">
+        <div class="cell">Marine debris / waste</div>
+        <div class="cell rating-cell"><span class="dot minimal"></span><span class="rating-minimal">Minimal</span></div>
+        <div class="cell">Not a core account table</div>
+      </div>
+      <div class="mapping-row">
+        <div class="cell">Renewable energy resource quality</div>
+        <div class="cell rating-cell"><span class="dot none"></span><span class="rating-none">None</span></div>
+        <div class="cell">Outside current scope</div>
+      </div>
+    </div>
+
+    <!-- ECONOMY -->
+    <div class="pillar-group">
+      <div class="pillar-label eco">Economy Pillar</div>
+
+      <div class="mapping-row header-row">
+        <div class="cell">IBEI Indicator</div>
+        <div class="cell">OA Rating</div>
+        <div class="cell">Source Account</div>
+      </div>
+
+      <div class="mapping-row">
+        <div class="cell">Capture fisheries production</div>
+        <div class="cell rating-cell"><span class="dot full"></span><span class="rating-full">Full</span></div>
+        <div class="cell">Supply-Use Tables; Satellite Account</div>
+      </div>
+      <div class="mapping-row">
+        <div class="cell">Fisheries sector GDP</div>
+        <div class="cell rating-cell"><span class="dot full"></span><span class="rating-full">Full</span></div>
+        <div class="cell">Ocean Economy Satellite Account</div>
+      </div>
+      <div class="mapping-row">
+        <div class="cell">Aquaculture production</div>
+        <div class="cell rating-cell"><span class="dot partial"></span><span class="rating-partial">Partial</span></div>
+        <div class="cell">Ocean Economy Satellite Account</div>
+      </div>
+      <div class="mapping-row">
+        <div class="cell">Coastal tourism revenue</div>
+        <div class="cell rating-cell"><span class="dot partial"></span><span class="rating-partial">Partial</span></div>
+        <div class="cell">Satellite Account; Cultural Services</div>
+      </div>
+      <div class="mapping-row">
+        <div class="cell">Marine manufacturing output</div>
+        <div class="cell rating-cell"><span class="dot partial"></span><span class="rating-partial">Partial</span></div>
+        <div class="cell">Ocean Economy Satellite Account</div>
+      </div>
+      <div class="mapping-row">
+        <div class="cell">Inter-regional trade</div>
+        <div class="cell rating-cell"><span class="dot minimal"></span><span class="rating-minimal">Minimal</span></div>
+        <div class="cell">Not a core account table</div>
+      </div>
+      <div class="mapping-row">
+        <div class="cell">Renewable energy production</div>
+        <div class="cell rating-cell"><span class="dot none"></span><span class="rating-none">None</span></div>
+        <div class="cell">Outside current scope</div>
+      </div>
+    </div>
+
+    <!-- SOCIAL -->
+    <div class="pillar-group">
+      <div class="pillar-label soc">Social Pillar</div>
+
+      <div class="mapping-row header-row">
+        <div class="cell">IBEI Indicator</div>
+        <div class="cell">OA Rating</div>
+        <div class="cell">Source Account</div>
+      </div>
+
+      <div class="mapping-row">
+        <div class="cell">Employment in fisheries</div>
+        <div class="cell rating-cell"><span class="dot partial"></span><span class="rating-partial">Partial</span></div>
+        <div class="cell">Ocean Economy Satellite Account</div>
+      </div>
+      <div class="mapping-row">
+        <div class="cell">Coastal community poverty</div>
+        <div class="cell rating-cell"><span class="dot partial"></span><span class="rating-partial">Partial</span></div>
+        <div class="cell">Social Accounts; Satellite Account</div>
+      </div>
+      <div class="mapping-row">
+        <div class="cell">Human Development Index</div>
+        <div class="cell rating-cell"><span class="dot none"></span><span class="rating-none">None</span></div>
+        <div class="cell">Outside scope</div>
+      </div>
+      <div class="mapping-row">
+        <div class="cell">Gender Empowerment Index</div>
+        <div class="cell rating-cell"><span class="dot none"></span><span class="rating-none">None</span></div>
+        <div class="cell">Outside scope</div>
+      </div>
+      <div class="mapping-row">
+        <div class="cell">Health indicators</div>
+        <div class="cell rating-cell"><span class="dot none"></span><span class="rating-none">None</span></div>
+        <div class="cell">Outside scope</div>
+      </div>
+      <div class="mapping-row">
+        <div class="cell">Marine education / literacy</div>
+        <div class="cell rating-cell"><span class="dot partial"></span><span class="rating-partial">Partial</span></div>
+        <div class="cell">Social Accounts</div>
+      </div>
+    </div>
+
+    <!-- ENABLERS -->
+    <div class="pillar-group">
+      <div class="pillar-label ena">Enablers</div>
+
+      <div class="mapping-row header-row">
+        <div class="cell">IBEI Indicator</div>
+        <div class="cell">OA Rating</div>
+        <div class="cell">Source Account</div>
+      </div>
+
+      <div class="mapping-row">
+        <div class="cell">Blue economy policies enacted</div>
+        <div class="cell rating-cell"><span class="dot minimal"></span><span class="rating-minimal">Minimal</span></div>
+        <div class="cell">Governance Accounts (emerging)</div>
+      </div>
+      <div class="mapping-row">
+        <div class="cell">Policy implementation coverage</div>
+        <div class="cell rating-cell"><span class="dot minimal"></span><span class="rating-minimal">Minimal</span></div>
+        <div class="cell">Governance Accounts (emerging)</div>
+      </div>
+      <div class="mapping-row">
+        <div class="cell">Technology / R&D indicators</div>
+        <div class="cell rating-cell"><span class="dot none"></span><span class="rating-none">None</span></div>
+        <div class="cell">Outside scope</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUMMARY -->
+  <section class="summary-section">
+    <h2>Summary Distribution</h2>
+    <div class="summary-bar-container">
+
+      <div class="stacked-bar">
+        <div class="bar-segment full">5 (22%)</div>
+        <div class="bar-segment partial">9 (39%)</div>
+        <div class="bar-segment minimal">4 (17%)</div>
+        <div class="bar-segment none-seg">5 (22%)</div>
+      </div>
+
+      <div class="legend">
+        <div class="legend-item"><div class="legend-swatch full"></div>Full <span class="legend-count">&mdash; 5</span></div>
+        <div class="legend-item"><div class="legend-swatch partial"></div>Partial <span class="legend-count">&mdash; 9</span></div>
+        <div class="legend-item"><div class="legend-swatch minimal"></div>Minimal <span class="legend-count">&mdash; 4</span></div>
+        <div class="legend-item"><div class="legend-swatch none-sw"></div>None <span class="legend-count">&mdash; 5</span></div>
+      </div>
+
+      <div class="pillar-breakdown">
+        <div class="pillar-card env-card">
+          <h4>Environment</h4>
+          <div class="mini-bar">
+            <div class="seg f" style="flex:3"></div>
+            <div class="seg p" style="flex:3"></div>
+            <div class="seg m" style="flex:1"></div>
+            <div class="seg n" style="flex:1"></div>
+          </div>
+          <div class="pillar-stat" style="color:var(--teal-accent)">75%</div>
+          <div class="pillar-stat-label">Full or Partial</div>
+        </div>
+
+        <div class="pillar-card eco-card">
+          <h4>Economy</h4>
+          <div class="mini-bar">
+            <div class="seg f" style="flex:2"></div>
+            <div class="seg p" style="flex:3"></div>
+            <div class="seg m" style="flex:1"></div>
+            <div class="seg n" style="flex:1"></div>
+          </div>
+          <div class="pillar-stat" style="color:#60a5fa">71%</div>
+          <div class="pillar-stat-label">Full or Partial</div>
+        </div>
+
+        <div class="pillar-card soc-card">
+          <h4>Social</h4>
+          <div class="mini-bar">
+            <div class="seg p" style="flex:3"></div>
+            <div class="seg n" style="flex:3"></div>
+          </div>
+          <div class="pillar-stat" style="color:var(--coral)">50%</div>
+          <div class="pillar-stat-label">Full or Partial</div>
+        </div>
+
+        <div class="pillar-card ena-card">
+          <h4>Enablers</h4>
+          <div class="mini-bar">
+            <div class="seg m" style="flex:2"></div>
+            <div class="seg n" style="flex:1"></div>
+          </div>
+          <div class="pillar-stat" style="color:var(--slate)">0%</div>
+          <div class="pillar-stat-label">Full or Partial</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>Based on publicly available descriptions of IBEI indicators (Blue Economy Roadmap, 1st and 2nd editions; ARISE+ Indonesia) and the SEEA-EA / Ocean Accounts Framework as applied in Indonesia pilot accounts (Gili Matra, Saleh Bay). IBEI indicators are reconstructed from published sources; exact specifications may differ from BAPPENAS metadata. This mapping is illustrative and for information only.</p>
+  </footer>
+
+</div>
+</body>
+</html>
