@@ -1,0 +1,127 @@
+{
+  "build": "ibei-tier1",
+  "note": "Page ranges verified by TOC extraction and marker search. Offsets applied: Juknis +10, Report +12. All ranges are PDF pages, ready for pdftotext -f/-l.",
+  "base_dir": "/Users/z5238824/Documents/GitHub/3. Archive/IBEI",
+  "slices": [
+    {
+      "slice_id": "juknis-register",
+      "document_id": "doc_1",
+      "source": "00-background/Juknis Pedoman IBEI_5 Agustus (DIGITAL).pdf",
+      "pdf_from": 21,
+      "pdf_to": 23,
+      "printed": "pp. 11-13",
+      "section_path": "Tabel 1. Indikator Indeks Ekonomi Biru Indonesia",
+      "priority": 1,
+      "is_join_table_source": true,
+      "expect": "44 indicators with Data Pembentuk Indikator column; indicator numbers run 1-44"
+    },
+    {
+      "slice_id": "juknis-weights",
+      "document_id": "doc_1",
+      "source": "00-background/Juknis Pedoman IBEI_5 Agustus (DIGITAL).pdf",
+      "pdf_from": 103,
+      "pdf_to": 106,
+      "printed": "pp. 93-96",
+      "section_path": "Tabel 4/5/6. Bobot IBEI 2025 (pilar, subpilar, variabel)",
+      "priority": 1,
+      "expect": "Pillar weights stated: si_enviro 36.9% Tinggi, si_econ 32.6% Sedang, si_social 30.5% Rendah; plus subpilar and variable weight tables"
+    },
+    {
+      "slice_id": "juknis-method",
+      "document_id": "doc_1",
+      "source": "00-background/Juknis Pedoman IBEI_5 Agustus (DIGITAL).pdf",
+      "pdf_from": 73,
+      "pdf_to": 76,
+      "printed": "pp. 63-66",
+      "section_path": "2.5 Metodologi Perhitungan",
+      "priority": 1,
+      "expect": "Calculation principles and stages; interpretation of final IBEI score"
+    },
+    {
+      "slice_id": "juknis-sensitivity",
+      "document_id": "doc_1",
+      "source": "00-background/Juknis Pedoman IBEI_5 Agustus (DIGITAL).pdf",
+      "pdf_from": 111,
+      "pdf_to": 114,
+      "printed": "pp. 101-104",
+      "section_path": "Tabel 7. Analisis sensitivitas IBEI 2025",
+      "priority": 2,
+      "expect": "10% score-increase simulation, ranked by highest percentage gain"
+    },
+    {
+      "slice_id": "juknis-cascading",
+      "document_id": "doc_1",
+      "source": "00-background/Juknis Pedoman IBEI_5 Agustus (DIGITAL).pdf",
+      "pdf_from": 77,
+      "pdf_to": 81,
+      "printed": "pp. 67-71",
+      "section_path": "3.1 Perhitungan IBEI Nasional dan Daerah",
+      "priority": 2,
+      "expect": "Gambar 1 institutional framing; Tabel 2 provincial baseline and target per the Surat Edaran Bersama"
+    },
+    {
+      "slice_id": "report-method",
+      "document_id": "doc_2",
+      "source": "00-background/Report_20IBEI_20REVISI_20(DESEMBER_202025).pdf.pdf",
+      "pdf_from": 40,
+      "pdf_to": 47,
+      "printed": "pp. 28-35",
+      "section_path": "3.1 Metodologi Perhitungan; 3.2 Analisa Distribusi IBEI",
+      "priority": 1,
+      "expect": "Applied methodology and overall IBEI distribution"
+    },
+    {
+      "slice_id": "report-imputation",
+      "document_id": "doc_2",
+      "source": "00-background/Report_20IBEI_20REVISI_20(DESEMBER_202025).pdf.pdf",
+      "pdf_from": 76,
+      "pdf_to": 79,
+      "printed": "pp. 64-66",
+      "section_path": "Lampiran 1: Metodologi Imputasi Data Untuk Kelengkapan Indeks",
+      "priority": 1,
+      "expect": "Machine-learning imputation against socio-economic proxy variables from national surveys; validation protocol; methodological implications. Material to whether accounts could substitute for imputation."
+    },
+    {
+      "slice_id": "report-provincial",
+      "document_id": "doc_2",
+      "source": "00-background/Report_20IBEI_20REVISI_20(DESEMBER_202025).pdf.pdf",
+      "pdf_from": 79,
+      "pdf_to": 83,
+      "printed": "pp. 67-70",
+      "section_path": "Lampiran 2: IBEI 2024 Berdasarkan Provinsi",
+      "priority": 2,
+      "expect": "Computed provincial IBEI values"
+    }
+  ],
+  "markdown_sources": [
+    {
+      "slice_id": "rinaldi-methods",
+      "document_id": "doc_3",
+      "source": "00-background/Rinaldi-2024-IBEI-indicators.md",
+      "note": "Read the markdown, never the PDF. Target the Methods and PCA sections only (PDF pp. 7-10 and 14-17). Confirms three-stage PCA with Z-score standardisation, which voids the min-max normalisation argument in finding 03 round 1.",
+      "priority": 1,
+      "document_type": "scientific_paper"
+    },
+    {
+      "slice_id": "sirusa-metadata",
+      "document_id": "doc_4",
+      "source": "00-background/sirusa-ibei-metadata/",
+      "note": "Read all 12 markdown files (11 indikator-*.md plus kegiatan-94936.md), roughly 28KB total. Official BPS metadata, already extracted, zero extraction cost. Highest value per token in the workspace.",
+      "priority": 1,
+      "document_type": "dataset_documentation"
+    }
+  ],
+  "excluded": {
+    "note": "Deliberately out of this build. Recorded so the boundary is visible rather than silent.",
+    "juknis_indicator_narrative": "Juknis pdf 24-72 (printed 14-62), per-indicator prose. Read only the relevant sub-pillar range when a specific indicator needs adjudication.",
+    "report_spiderweb_annex": "Report pdf 84-87, Lampiran 3 per-province spiderweb. Provincial analysis only.",
+    "tier_2_policy": "Blue Economy Roadmap (227pp, TOC at pdf 4), Blue Economy Development Framework (112pp, TOC at pdf 8), PermenKP-18-2025 Renstra (274pp). Section-level lookup on demand; Renstra is grep-only, never read linearly.",
+    "tier_3_accounts": "MMAF 2022 trio and BPS Manila decks. Deprioritised because this build focuses on the IBEI side. The Gili Matra pilot study (106pp, 37MB) is likely image-heavy and is the one genuine OCR candidate in the workspace.",
+    "tier_4_reference": "SEEA-EA 2021 (443pp) and secondary literature. Lookup only, never ingest."
+  },
+  "premise_corrections": [
+    "CLAUDE.md records the BAPPENAS methodological handbook as unpublished and a permanent limitation. The Juknis Pedoman IBEI is that handbook and it is present in 00-background. The limitation is out of date.",
+    "CLAUDE.md records the 2022 MMAF pilot reports as non-retrievable. Both the Gili Matra pilot study and the development report are present locally. Text layers unverified.",
+    "Pillar weights are published in Juknis Tabel 4, not reconstructed. They are simplified by the document into High/Medium/Low tertiles alongside the percentages."
+  ]
+}

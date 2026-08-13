@@ -1,0 +1,1534 @@
+<!DOCTYPE html>
+<html lang="en-US" class="h-100">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Detail Metadata Kegiatan Statistik</title>
+    <link rel="icon" type="image/x-icon" href="/metadata/images/bps.ico">
+    
+    <meta name="csrf-param" content="_csrf-frontend">
+<meta name="csrf-token" content="3oToWiJpCfZ4RKBk8595IxQSpduiO7MvtDFy6Yz3lZ6mvLISVw08rwgdl1Oj2TB0Yk3QvM9M8QLudErdtZjk0w==">
+
+<link href="/metadata/assets/d7e3a45/dist/css/bootstrap.css" rel="stylesheet">
+<link href="/metadata/css/site.css" rel="stylesheet"></head>
+<body class="d-flex flex-column h-100">
+
+<header>
+    <nav id="w0" class="navbar navbar-expand-md navbar-meta fixed-top">
+<div class="container">
+<a class="navbar-brand" href="/metadata/"><img src="/metadata/images/bps.png" width="50px" alt=""> <span class="bps-brand">BADAN PUSAT STATISTIK</span></a>
+<button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#w0-collapse" aria-controls="w0-collapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+<div id="w0-collapse" class="collapse navbar-collapse">
+<ul id="w1" class="navbar-nav me-auto mb-2 mb-md-0 nav"><li class="nav-item"><a class="nav-link" href="/metadata/site/index">Beranda</a></li>
+<li class="dropdown nav-item"><a class="dropdown-toggle nav-link" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Metadata Statistik</a><div id="w2" class="dropdown-menu"><a class="dropdown-item" href="/metadata/kegiatan">Kegiatan Statistik</a>
+<a class="dropdown-item" href="/metadata/variabel">Variabel Statistik</a>
+<a class="dropdown-item" href="/metadata/indikator">Indikator Statistik</a></div></li>
+<li class="nav-item"><a class="nav-link" href="/metadata/site/instrumen">Instrumen</a></li>
+<li class="nav-item"><a class="nav-link" href="https://dna.web.bps.go.id/">API</a></li>
+<li class="nav-item"><a class="nav-link" href="https://indah.bps.go.id/">INDAH</a></li>
+<li class="nav-item"><a class="nav-link" href="/metadata/site/about">Tentang Kami</a></li></ul></div>
+</div>
+</nav></header>
+
+<main role="main" class="flex-shrink-0">
+    <div class="mt-5">
+        <div class="breadcrumb-box">
+            <div class="container">
+                <nav aria-label="breadcrumb"><ol id="w3" class="breadcrumb"><li class="breadcrumb-item"><a href="/metadata/site/index">Beranda</a></li>
+<li class="breadcrumb-item"><a href="/metadata/kegiatan/index">Metadata Kegiatan Statistik</a></li>
+<li class="breadcrumb-item active" aria-current="page">Detail Metadata Kegiatan Statistik</li>
+</ol></nav>            </div>
+        </div>
+        <div>
+            <div class="container">
+                            </div>
+        </div>
+        <div>
+            <style>
+	/* Create an active/current "tab button" class */
+	.tab a.active {
+		background-color: #146C94;
+	}
+
+	.tabcontent h4{
+		text-transform: uppercase;
+		margin-top: 10px;
+		margin-bottom: 15px;
+	}
+</style>
+
+<div class="mb-4 title-box">
+    <div class="container py-2">
+        <h1 class="display-6">Detail Metadata Kegiatan Statistik</h1>
+        <p class="fs-5 fw-light">Kompilasi Penyusunan Indonesia Blue Economy Index (IBEI) 2025</p>
+    </div>
+</div>
+
+<div class="metadata-mskeg-list-view container">
+
+	<div class="dropdown mb-2 d-flex justify-content-end">
+
+		<button id="btn-export" type="button" data-id="1ae877c3af2ba694bbd52bcc41aec73621c6f60c522de238935579b424c49ccc" class="btn btn-success mx-2">
+			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-spreadsheet" viewBox="0 0 16 16">
+        <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V9H3V2a1 1 0 0 1 1-1h5.5zM3 12v-2h2v2zm0 1h2v2H4a1 1 0 0 1-1-1zm3 2v-2h3v2zm4 0v-2h3v1a1 1 0 0 1-1 1zm3-3h-3v-2h3zm-7 0v-2h3v2z"/>
+      </svg>
+      <span id="btn-text">Export to Excel</span>
+			<span id="loading-spinner" class="spinner-border spinner-border-sm" role="status" aria-hidden="true" style="display: none;"></span>
+		</button>
+
+    <button id="btn-pdf" type="button" data-id="1ae877c3af2ba694bbd52bcc41aec73621c6f60c522de238935579b424c49ccc" class="btn btn-danger mx-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-pdf" viewBox="0 0 16 16">
+        <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z"/>
+        <path d="M4.603 14.087a.8.8 0 0 1-.438-.42c-.195-.388-.13-.776.08-1.102.198-.307.526-.568.897-.787a7.7 7.7 0 0 1 1.482-.645 20 20 0 0 0 1.062-2.227 7.3 7.3 0 0 1-.43-1.295c-.086-.4-.119-.796-.046-1.136.075-.354.274-.672.65-.823.192-.077.4-.12.602-.077a.7.7 0 0 1 .477.365c.088.164.12.356.127.538.007.188-.012.396-.047.614-.084.51-.27 1.134-.52 1.794a11 11 0 0 0 .98 1.686 5.8 5.8 0 0 1 1.334.05c.364.066.734.195.96.465.12.144.193.32.2.518.007.192-.047.382-.138.563a1.04 1.04 0 0 1-.354.416.86.86 0 0 1-.51.138c-.331-.014-.654-.196-.933-.417a5.7 5.7 0 0 1-.911-.95 11.7 11.7 0 0 0-1.997.406 11.3 11.3 0 0 1-1.02 1.51c-.292.35-.609.656-.927.787a.8.8 0 0 1-.58.029m1.379-1.901q-.25.115-.459.238c-.328.194-.541.383-.647.547-.094.145-.096.25-.04.361q.016.032.026.044l.035-.012c.137-.056.355-.235.635-.572a8 8 0 0 0 .45-.606m1.64-1.33a13 13 0 0 1 1.01-.193 12 12 0 0 1-.51-.858 21 21 0 0 1-.5 1.05zm2.446.45q.226.245.435.41c.24.19.407.253.498.256a.1.1 0 0 0 .07-.015.3.3 0 0 0 .094-.125.44.44 0 0 0 .059-.2.1.1 0 0 0-.026-.063c-.052-.062-.2-.152-.518-.209a4 4 0 0 0-.612-.053zM8.078 7.8a7 7 0 0 0 .2-.828q.046-.282.038-.465a.6.6 0 0 0-.032-.198.5.5 0 0 0-.145.04c-.087.035-.158.106-.196.283-.04.192-.03.469.046.822q.036.167.09.346z"/>
+      </svg>
+      <span id="pdf-text">Export to PDF</span>
+      <span id="pdf-spinner" class="spinner-border spinner-border-sm" role="status" style="display: none;"></span>
+    </button>
+		<!--
+		<button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+			<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-down" viewBox="0 0 16 16">
+			<path fill-rule="evenodd" d="M3.5 10a.5.5 0 0 1-.5-.5v-8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 0 0 1h2A1.5 1.5 0 0 0 14 9.5v-8A1.5 1.5 0 0 0 12.5 0h-9A1.5 1.5 0 0 0 2 1.5v8A1.5 1.5 0 0 0 3.5 11h2a.5.5 0 0 0 0-1h-2z"/>
+			<path fill-rule="evenodd" d="M7.646 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V5.5a.5.5 0 0 0-1 0v8.793l-2.146-2.147a.5.5 0 0 0-.708.708l3 3z"/>
+			</svg>
+			Ekspor Metadata
+		</button>
+		<ul class="dropdown-menu">
+			<li><a class="dropdown-item" href="/metadata/exporttopdf/94936"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-pdf" viewBox="0 0 16 16">
+				<path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
+				<path d="M4.603 14.087a.81.81 0 0 1-.438-.42c-.195-.388-.13-.776.08-1.102.198-.307.526-.568.897-.787a7.68 7.68 0 0 1 1.482-.645 19.697 19.697 0 0 0 1.062-2.227 7.269 7.269 0 0 1-.43-1.295c-.086-.4-.119-.796-.046-1.136.075-.354.274-.672.65-.823.192-.077.4-.12.602-.077a.7.7 0 0 1 .477.365c.088.164.12.356.127.538.007.188-.012.396-.047.614-.084.51-.27 1.134-.52 1.794a10.954 10.954 0 0 0 .98 1.686 5.753 5.753 0 0 1 1.334.05c.364.066.734.195.96.465.12.144.193.32.2.518.007.192-.047.382-.138.563a1.04 1.04 0 0 1-.354.416.856.856 0 0 1-.51.138c-.331-.014-.654-.196-.933-.417a5.712 5.712 0 0 1-.911-.95 11.651 11.651 0 0 0-1.997.406 11.307 11.307 0 0 1-1.02 1.51c-.292.35-.609.656-.927.787a.793.793 0 0 1-.58.029zm1.379-1.901c-.166.076-.32.156-.459.238-.328.194-.541.383-.647.547-.094.145-.096.25-.04.361.01.022.02.036.026.044a.266.266 0 0 0 .035-.012c.137-.056.355-.235.635-.572a8.18 8.18 0 0 0 .45-.606zm1.64-1.33a12.71 12.71 0 0 1 1.01-.193 11.744 11.744 0 0 1-.51-.858 20.801 20.801 0 0 1-.5 1.05zm2.446.45c.15.163.296.3.435.41.24.19.407.253.498.256a.107.107 0 0 0 .07-.015.307.307 0 0 0 .094-.125.436.436 0 0 0 .059-.2.095.095 0 0 0-.026-.063c-.052-.062-.2-.152-.518-.209a3.876 3.876 0 0 0-.612-.053zM8.078 7.8a6.7 6.7 0 0 0 .2-.828c.031-.188.043-.343.038-.465a.613.613 0 0 0-.032-.198.517.517 0 0 0-.145.04c-.087.035-.158.106-.196.283-.04.192-.03.469.046.822.024.111.054.227.09.346z"/>
+				</svg> PDF</a></li>
+			<li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark-excel" viewBox="0 0 16 16">
+				<path d="M5.884 6.68a.5.5 0 1 0-.768.64L7.349 10l-2.233 2.68a.5.5 0 0 0 .768.64L8 10.781l2.116 2.54a.5.5 0 0 0 .768-.641L8.651 10l2.233-2.68a.5.5 0 0 0-.768-.64L8 9.219l-2.116-2.54z"/>
+				<path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
+				</svg> CSV</a></li>
+			<li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filetype-csv" viewBox="0 0 16 16">
+				<path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM3.517 14.841a1.13 1.13 0 0 0 .401.823c.13.108.289.192.478.252.19.061.411.091.665.091.338 0 .624-.053.859-.158.236-.105.416-.252.539-.44.125-.189.187-.408.187-.656 0-.224-.045-.41-.134-.56a1.001 1.001 0 0 0-.375-.357 2.027 2.027 0 0 0-.566-.21l-.621-.144a.97.97 0 0 1-.404-.176.37.37 0 0 1-.144-.299c0-.156.062-.284.185-.384.125-.101.296-.152.512-.152.143 0 .266.023.37.068a.624.624 0 0 1 .246.181.56.56 0 0 1 .12.258h.75a1.092 1.092 0 0 0-.2-.566 1.21 1.21 0 0 0-.5-.41 1.813 1.813 0 0 0-.78-.152c-.293 0-.551.05-.776.15-.225.099-.4.24-.527.421-.127.182-.19.395-.19.639 0 .201.04.376.122.524.082.149.2.27.352.367.152.095.332.167.539.213l.618.144c.207.049.361.113.463.193a.387.387 0 0 1 .152.326.505.505 0 0 1-.085.29.559.559 0 0 1-.255.193c-.111.047-.249.07-.413.07-.117 0-.223-.013-.32-.04a.838.838 0 0 1-.248-.115.578.578 0 0 1-.255-.384h-.765ZM.806 13.693c0-.248.034-.46.102-.633a.868.868 0 0 1 .302-.399.814.814 0 0 1 .475-.137c.15 0 .283.032.398.097a.7.7 0 0 1 .272.26.85.85 0 0 1 .12.381h.765v-.072a1.33 1.33 0 0 0-.466-.964 1.441 1.441 0 0 0-.489-.272 1.838 1.838 0 0 0-.606-.097c-.356 0-.66.074-.911.223-.25.148-.44.359-.572.632-.13.274-.196.6-.196.979v.498c0 .379.064.704.193.976.131.271.322.48.572.626.25.145.554.217.914.217.293 0 .554-.055.785-.164.23-.11.414-.26.55-.454a1.27 1.27 0 0 0 .226-.674v-.076h-.764a.799.799 0 0 1-.118.363.7.7 0 0 1-.272.25.874.874 0 0 1-.401.087.845.845 0 0 1-.478-.132.833.833 0 0 1-.299-.392 1.699 1.699 0 0 1-.102-.627v-.495Zm8.239 2.238h-.953l-1.338-3.999h.917l.896 3.138h.038l.888-3.138h.879l-1.327 4Z"/>
+				</svg> CSV</a></li>
+			<li><a class="dropdown-item" href="/metadata/exporttoexcel/94936"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-filetype-xlsx" viewBox="0 0 16 16">
+				<path fill-rule="evenodd" d="M14 4.5V11h-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM7.86 14.841a1.13 1.13 0 0 0 .401.823c.13.108.29.192.479.252.19.061.411.091.665.091.338 0 .624-.053.858-.158.237-.105.416-.252.54-.44a1.17 1.17 0 0 0 .187-.656c0-.224-.045-.41-.135-.56a1.002 1.002 0 0 0-.375-.357 2.028 2.028 0 0 0-.565-.21l-.621-.144a.97.97 0 0 1-.405-.176.37.37 0 0 1-.143-.299c0-.156.061-.284.184-.384.125-.101.296-.152.513-.152.143 0 .266.023.37.068a.624.624 0 0 1 .245.181.56.56 0 0 1 .12.258h.75a1.093 1.093 0 0 0-.199-.566 1.21 1.21 0 0 0-.5-.41 1.813 1.813 0 0 0-.78-.152c-.293 0-.552.05-.777.15-.224.099-.4.24-.527.421-.127.182-.19.395-.19.639 0 .201.04.376.123.524.082.149.199.27.351.367.153.095.332.167.54.213l.618.144c.207.049.36.113.462.193a.387.387 0 0 1 .153.326.512.512 0 0 1-.085.29.558.558 0 0 1-.255.193c-.111.047-.25.07-.413.07-.117 0-.224-.013-.32-.04a.837.837 0 0 1-.249-.115.578.578 0 0 1-.255-.384h-.764Zm-3.726-2.909h.893l-1.274 2.007 1.254 1.992h-.908l-.85-1.415h-.035l-.853 1.415H1.5l1.24-2.016-1.228-1.983h.931l.832 1.438h.036l.823-1.438Zm1.923 3.325h1.697v.674H5.266v-3.999h.791v3.325Zm7.636-3.325h.893l-1.274 2.007 1.254 1.992h-.908l-.85-1.415h-.035l-.853 1.415h-.861l1.24-2.016-1.228-1.983h.931l.832 1.438h.036l.823-1.438Z"/>
+				</svg> Excel</a></li>
+		</ul> -->
+	</div>
+
+	<div class="row">
+		<div class="col-lg-3">
+			<div class="card">
+				<div class="card-header bg-gray">Detail Metadata</div>
+				<div class="list-group list-group-flush tab">
+					<a id="defaultOpen" href="#" class="tablinks list-group-item list-group-item-action list-group-item-light" onclick="openCity(event, 'Umum');return false;">Informasi Umum</a>
+					<a href="#" class="tablinks list-group-item list-group-item-action list-group-item-light" onclick="openCity(event, 'Perencanaan');return false;">Perencanaan</a>
+					<a href="#" class="tablinks list-group-item list-group-item-action list-group-item-light" onclick="openCity(event, 'Metodologi');return false;">Desain</a>
+					<a href="#" class="tablinks list-group-item list-group-item-action list-group-item-light" onclick="openCity(event, 'Pengumpulan');return false;">Pengumpulan Data</a>
+					<a href="#" class="tablinks list-group-item list-group-item-action list-group-item-light" onclick="openCity(event, 'Pengolahan');return false;">Pengolahan dan Diseminasi</a>
+					<a href="#" class="tablinks list-group-item list-group-item-action list-group-item-light" onclick="openCity(event, 'Variabel');return false;">Variabel Kegiatan</a>
+					<a href="#" class="tablinks list-group-item list-group-item-action list-group-item-light" onclick="openCity(event, 'Indikator');return false;">Indikator Kegiatan</a>
+				</div>
+			</div>
+
+		</div>
+		<div class="col-lg-9">
+			<div id="Umum" class="tabcontent">
+				<div class="row">
+					<div class="col-lg-12">
+
+						<h4>Informasi Umum</h4>
+
+						<b>Judul Kegiatan</b><br />
+						Kompilasi Penyusunan Indonesia Blue Economy Index (IBEI)<br /><br />
+
+						<b>Tahun Kegiatan</b><br />
+						2025<br /><br />
+
+						<b>Cara Pengumpulan Data</b><br />
+						Kompilasi Produk Administrasi<br /><br />
+
+						<b>Sektor Kegiatan</b><br />
+						Pertanian dan Perikanan<br /><br />
+
+						<b>Jenis Kegiatan Statistik</b><br />
+						Statistik Sektoral<br /><br />
+
+						<b>Identitas Rekomendasi</b><br />
+						-<br /><br />
+
+						<h4>Penyelenggara</h4>
+
+						<b>Instansi Penyelenggara</b><br />
+						Kementerian Perencanaan Pembangunan Nasional Republik Indonesia/Badan Perencanaan Pembangunan Nasional<br /><br />
+
+						<b>Alamat Lengkap Instansi Penyelenggara</b><br />
+						Jalan Taman Suropati No.2 Jakarta 10310 <br />
+						<table style="width:100%;">
+							<tr><td class="align-top" style="width:22%;">Telepon<span class="float-end">:&nbsp;</span></td><td class="align-top">021-3193 6207</td></tr>
+							<tr><td class="align-top" style="width:22%;">Faksimile<span class="float-end">:&nbsp;</span></td><td class="align-top">021-3145 374</td></tr>
+							<tr><td class="align-top" style="width:22%;">Email<span class="float-end">:&nbsp;</span></td><td class="align-top">ppid@bappenas.go.id</td></tr>
+						</table>
+						<!-- <div class="row">
+							<div class="col-lg-2">Telepon</div>
+							<div class="col-lg-10">: 021-3193 6207</div>
+
+							<div class="col-lg-2">Faksimile</div>
+							<div class="col-lg-10">: 021-3145 374</div>
+
+							<div class="col-lg-2">Email</div>
+							<div class="col-lg-10">: ppid@bappenas.go.id</div>
+						</div> -->
+						<br />
+
+						<h4>Penanggung Jawab</h4>
+
+						<b>Unit Eselon Penanggung Jawab</b><br />
+
+						<table style="width:100%;">
+							<tr><td class="align-top" style="width:22%;">Eselon 1<span class="float-end">:&nbsp;</span></td><td class="align-top">Deputi Bidang Pangan, Sumber Daya Alam dan Lingkungan Hidup</td></tr>
+							<tr><td class="align-top" style="width:22%;">Eselon 2<span class="float-end">:&nbsp;</span></td><td class="align-top">Direktorat Kelautan dan Perikanan</td></tr>
+						</table>
+						<!-- <div class="row">
+							<div class="col-lg-2">Eselon 1</div>
+							<div class="col-lg-10">: Deputi Bidang Pangan, Sumber Daya Alam dan Lingkungan Hidup</div>
+
+							<div class="col-lg-2">Eselon 2</div>
+							<div class="col-lg-10">: Direktorat Kelautan dan Perikanan</div>
+						</div> -->
+						<br />
+
+						<b>Penanggung Jawab Teknis</b><br />
+						<table  style="width:100%;">
+							<tr><td class="align-top" style="width:22%;">Nama<span class="float-end">:&nbsp;</span></td><td class="align-top">Siti Maftukhah</td></tr>
+							<tr><td class="align-top" style="width:22%;">Jabatan<span class="float-end">:&nbsp;</span></td><td class="align-top">Koordinator Bidang Kemaritiman</td></tr>
+							<tr><td class="align-top" style="width:22%;">Alamat<span class="float-end">:&nbsp;</span></td><td class="align-top">Jalan Taman Suropati No.2 Jakarta 10310 </td></tr>
+							<tr><td class="align-top" style="width:22%;">Telepon<span class="float-end">:&nbsp;</span></td><td class="align-top">085641558685</td></tr>
+							<tr><td class="align-top" style="width:22%;">Faksimile<span class="float-end">:&nbsp;</span></td><td class="align-top">-</td></tr>
+							<tr><td class="align-top" style="width:22%;">Email<span class="float-end">:&nbsp;</span></td><td class="align-top">siti.maftukhah@bappenas.go.id</td></tr>
+						</table>
+						<!-- <div class="row">
+							<div class="col-lg-2">Nama</div>
+							<div class="col-lg-10">: Siti Maftukhah</div>
+
+							<div class="col-lg-2">Jabatan</div>
+							<div class="col-lg-10">: Koordinator Bidang Kemaritiman</div>
+
+							<div class="col-lg-2">Alamat</div>
+							<div class="col-lg-10">: Jalan Taman Suropati No.2 Jakarta 10310 </div>
+
+							<div class="col-lg-2">Telepon</div>
+							<div class="col-lg-10">: 085641558685</div>
+
+							<div class="col-lg-2">Faksimile</div>
+							<div class="col-lg-10">: -</div>
+
+							<div class="col-lg-2">Email</div>
+							<div class="col-lg-10">: siti.maftukhah@bappenas.go.id</div>
+						</div> -->
+						<br />
+					</div>
+				</div>
+			</div>
+
+			<div id="Perencanaan" class="tabcontent">
+				<div class="row">
+					<div class="col-lg-12">
+
+						<h4>Perencanaan dan Persiapan</h4>
+												<b>Latar Belakang Kegiatan</b><br />
+						Indonesia memiliki modal dasar yang luar biasa untuk melakukan transformasi paradigma pembangunan dari yang berbasis daratan (land-based economy) menuju ekonomi yang mengoptimalkan potensi kelautan (ocean-based economy). Dalam konteks global, konsep Ekonomi Biru telah mengalami evolusi signifikan dari sekadar eksploitasi sumber daya laut menjadi sebuah kerangka pembangunan yang holistik dan berkelanjutan. Paradigma ini, yang pertama kali dipopulerkan dalam Rio+20 Conference on Sustainable Development, menekankan pada pemanfaatan sumber daya laut yang tidak hanya produktif secara ekonomi, tetapi juga menjaga integritas ekosistem dan memastikan distribusi manfaat yang berkeadilan.
+Penetapan Ekonomi Biru sebagai salah satu pilar utama pada satu dari lima sasaran Visi Indonesia Emas 2045, yaitu pendapatan per kapita setara dengan negara maju, mencerminkan pengakuan pemerintah terhadap peran krusial sektor kelautan sebagaimana tercantum dalam UU No. 59 Tahun 2024 tentang RPJPN Tahun 2025–2045. Peran Ekonomi Biru sebagai agenda prioritas nasional ditegaskan melalui arah kebijakan yang komprehensif dan penempatannya sebagai pilar utama dalam pembangunan wilayah strategis, seperti menjadikan Wilayah Maluku sebagai "Hub Ekonomi Biru Timur Indonesia"
+IBEI dirancang dengan pendekatan multidimensional yang menangkap kompleksitas ekonomi biru dalam tiga pilar fundamental: Ekonomi, Lingkungan, dan Sosial. Pendekatan holistik ini sejalan dengan prinsip-prinsip Sustainable Development Goals (SDGs), khususnya SDG 14 (Life Below Water), namun dengan kontekstualisasi yang spesifik terhadap karakteristik dan prioritas pembangunan Indonesia.<br /><br />
+						
+						<b>Tujuan Kegiatan</b><br />
+												Sebagai negara maritim terbesar di dunia, Indonesia memiliki potensi ekonomi biru yang luar biasa. Namun, untuk memastikan pemanfaatan sumber daya kelautan berjalan secara berkelanjutan dan inklusif, diperlukan sebuah alat ukur yang komprehensif. Indeks Ekonomi Biru Indonesia (IBEI) dirancang untuk memenuhi kebutuhan ini, berfungsi sebagai barometer holistik untuk mengukur kemajuan ekonomi biru di tingkat provinsi. Indeks ini tidak hanya menilai kinerja ekonomi, tetapi juga mengintegrasikan aspek sosial dan lingkungan secara seimbang. Bagian ini akan menguraikan definisi, kerangka konseptual, dan metodologi perhitungan yang mendasari IBEI, menunjukkan bagaimana indeks ini menjadi instrumen strategis dalam pengelolaan sumber daya laut nasional.<br /><br />
+
+						<b>Rencana Jadwal Kegiatan</b><br />
+						<div class="row">
+							<div class="col-lg-3">Perencanaan Kegiatan</div>
+							<div class="col-lg-9">
+								2025-02-01 s.d. 2025-03-01<br />							</div>
+
+							<div class="col-lg-3">Desain</div>
+							<div class="col-lg-9">
+								2025-02-01 s.d. 2025-03-01<br />							</div>
+
+							<div class="col-lg-3">Pengumpulan Data</div>
+							<div class="col-lg-9">
+								2025-04-01 s.d. 2025-05-01<br />							</div>
+
+							<div class="col-lg-3">Pengolahan Data</div>
+							<div class="col-lg-9">
+								2025-06-01 s.d. 2025-07-01<br />							</div>
+
+							<div class="col-lg-3">Analisis</div>
+							<div class="col-lg-9">
+								2025-07-01 s.d. 2025-08-01<br />							</div>
+
+							<div class="col-lg-3">Diseminasi Hasil</div>
+							<div class="col-lg-9">
+								2025-08-01 s.d. 2025-09-01<br />							</div>
+
+							<div class="col-lg-3">Evaluasi</div>
+							<div class="col-lg-9">
+								2025-09-01 s.d. 2026-01-30<br />							</div>
+						</div>
+
+						<br /><b>Variabel (Karakteristik) yang Dikumpulkan</b><br />
+
+																								<div class="row">
+							<div class="col-lg-12 overflow-auto">
+								<table class="table table-striped table-bordered mt-2">
+									<tr><th class="align-middle text-center">Nama Variabel</th><th class="align-middle text-center">Konsep</th><th class="align-middle text-center" width="40%">Definisi</th><th class="align-middle text-center">Referensi Waktu</th></tr>
+																		<tr><td>Peran sektor perikanan dalam PDB</td><td>Perikanan</td><td>Kontribusi PDRB sektor perikanan provinsi terhadap PDRB provinsi (ADHB)</td><td>2024</td></tr>
+																		<tr><td>Volume produksi perikanan</td><td>Produksi, Perikanan</td><td>Total produksi perikanan yang dihasilkan dalam setahun, yang merupakan penjumlahan dari perikanan tangkap dan budidaya pembesaran (mencakup tambak dan non tambak). Dalam perikanan tangkap termasuk perikanan tangkap laut dan perikanan tangkap perairan umum daratan (PUD) seperti gabus, lele, ikan nila, mujaer, mas, dan lain-lain</td><td>2024</td></tr>
+																		<tr><td>Volume produksi budidaya tambak</td><td>Produksi, Pembudidayaan Ikan</td><td>Produksi total yang bersumber dari budidaya tambak melalui kolam buatan yang dimanfaatkan sebagai sarana budidaya. Adapun biota yang dibudidayakan antara lain ikan, udang dan kerang. Secara umum, media air yang digunakan dapat berupa air tawar, air payau, dan air laut</td><td>2024</td></tr>
+																		<tr><td>Volume produksi akuakultur</td><td>Produksi, Pembudidayaan Ikan</td><td>Jumlah volume produksi perikanan budidaya pembesaran. Perikanan budidaya mencakup jenis-jenis ikan air tawar, ikan air laut, dan rumput laut</td><td>2024</td></tr>
+																		<tr><td>Volume produksi budidaya rumput laut</td><td>Produksi, Rumput Laut</td><td>Jumlah total rumput laut yang diproduksi melalui metode budidaya di lingkungan yang terkontrol, seperti tambak, kolam, atau laut terbuka yang dipersiapkan secara khusus untuk budidaya</td><td>2024</td></tr>
+																		<tr><td>Volume angkutan laut</td><td>Angkutan Laut</td><td>Volume ekspor dan impor muat dengan moda transportasi laut</td><td>2024</td></tr>
+																		<tr><td>Jumlah penumpang angkutan laut</td><td>Penumpang, Angkutan Laut</td><td>Jumlah penumpang angkutan laut yang meliputi aktivitas kedatangan dan kepulangan penumpang antar pulau dan luar negeri di seluruh pelabuhan komersial maupun non-komersial</td><td>2024</td></tr>
+																		<tr><td>Jumlah penumpang angkutan laut di 25 pelabuhan strategis</td><td>Penumpang, Angkutan Laut, Pelabuhan</td><td>
+No.
+Nama Variabel (Karakteristik)
+Definisi
+Referensi Waktu (Periode Enumerasi)
+1
+Peran sektor perikanan dalam PDB
+Kontribusi PDRB sektor perikanan provinsi terhadap PDRB provinsi (ADHB)
+T-1
+2
+Volume produksi perikanan
+Total produksi perikanan yang dihasilkan dalam setahun, yang merupakan penjumlahan dari perikanan tangkap dan budidaya pembesaran (mencakup tambak dan non tambak). Dalam perikanan tangkap termasuk perikanan tangkap laut dan perikanan tangkap perairan umum daratan (PUD) seperti gabus, lele, ikan nila, mujaer, mas, dan lain-lain
+T-1
+3
+Volume produksi budidaya tambak
+Produksi total yang bersumber dari budidaya tambak melalui kolam buatan yang dimanfaatkan sebagai sarana budidaya. Adapun biota yang dibudidayakan antara lain ikan, udang dan kerang. Secara umum, media air yang digunakan dapat berupa air tawar, air payau, dan air laut
+T-1
+4
+Volume produksi akuakultur
+Jumlah volume produksi perikanan budidaya pembesaran. Perikanan budidaya mencakup jenis-jenis ikan air tawar, ikan air laut, dan rumput laut
+T-1
+5
+Volume produksi budidaya rumput laut
+Jumlah total rumput laut yang diproduksi melalui metode budidaya di lingkungan yang terkontrol, seperti tambak, kolam, atau laut terbuka yang dipersiapkan secara khusus untuk budidaya
+T-1
+6
+Volume angkutan laut
+Volume ekspor dan impor muat dengan moda transportasi laut
+T-1
+7
+Jumlah penumpang angkutan laut
+Jumlah penumpang angkutan laut yang meliputi aktivitas kedatangan dan kepulangan penumpang antar pulau dan luar negeri di seluruh pelabuhan komersial maupun non-komersial
+T-1
+8
+Jumlah penumpang angkutan laut di 25 pelabuhan strategis
+Jumlah penumpang angkutan laut di 25 pelabuhan strategis mencakup penumpang di Pelabuhan Lhokseumawe, Belawan, Teluk Bayur, Dumai, Pekanbaru, Palembang, Panjang, Tanjung Pinang, Batam, Tanjung Priok, Tanjung Emas, Tanjung Perak, Banten, Benoa, Tenau, Pontianak, Banjarmasin, Balikpapan, Samarinda, Bitung, Makassar, Ambon, Sorong, Jayapura, dan Biak
+T-1
+9
+Volume ekspor perikanan
+Jumlah total produk perikanan yang diekspor dari suatu provinsi.  Komoditas perikanan mencakup komoditas yang tercantum pada website KKP pada tabel Volume Ekspor Hasil Perikanan Menurut Komoditas
+T-1
+10
+Kontribusi ekspor produk perikanan terhadap total ekspor
+Nilai ekspor produk perikanan terhadap total nilai ekspor di provinsi dimaksud. Komoditas perikanan mencakup komoditas yang tercantum pada website KKP pada tabel Data Nilai Ekspor Hasil Perikanan Menurut Komoditas
+T-1
+11
+Volume ekspor perikanan hidup dan segar
+Total ekspor perikanan tangkap (ISIC 031) dan akuakultur (ISIC 032), untuk ikan hidup dan segar
+T-1
+12
+Volume ekspor ikan olahan
+Total berat bersih volume ikan, krustasea, dan moluska (ISIC 102) yang sudah diproses dan/atau diawetkan
+T-2
+13
+Volume produksi garam
+Total produksi garam dari tambak dan non-tambak nasional
+T-2
+14
+Jumlah perahu/kapal penangkap ikan
+Jumlah perahu yang digunakan nelayan untuk menangkap ikan yang mencakup perahu tanpa motor, perahu motor tempel, dan kapal motor
+T-2
+15
+Jumlah wisata bahari
+Jumlah desa tepi laut yang memiliki wisata bahari
+T-1
+16
+Jumlah usaha/perusahaan wisata tirta komersial
+Jumlah usaha yang bergerak di wisata tirta yang mencakup arung jeram, wisata selam, dermaga marina, selancar, selancar angin, para layar, motor air, dan aktivitas tirta lainnya
+T-1
+17
+Jumlah kapal perikanan tangkap laut – kapal motor > 30 GT
+Jumlah kapal motor perikanan tangkap laut berukuran lebih dari 30 GT
+T-1
+18
+Jumlah pelabuhan perikanan dengan tempat pelelangan ikan
+Jumlah pelabuhan perikanan yang memiliki TPI menurut provinsi dan kategori pelabuhan
+T-1
+19
+Kawasan terumbu karang berkualitas baik
+Persentase kawasan terumbu karang dengan tutupan karang hidup antara 50 - 100%
+T-1
+20
+Kawasan lamun berkualitas baik
+Persentase kawasan lamun dengan tutupan lamun hidup antara 50 - 100%
+T-1
+21
+Kawasan hutan mangrove berkualitas baik
+Persentase mangrove dengan kerapatan tutupan antara 50%-100%
+T-1
+22
+Jumlah desa pesisir dengan tempat pembuangan sampah
+Jumlah desa tepi laut dengan tempat penampungan sampah sementara (TPS)
+T-1
+23
+Jumlah desa pesisir dengan tempat buang air besar
+Jumlah desa tepi laut dengan tempat buang air besar yang sebagian besar masyarakatnya memiliki jamban sendiri
+T-1
+24
+Penanaman/rehabilitasi hutan mangrove, rawa, dan lahan gambut
+Total luas kawasan mangrove, rawa, dan lahan gambut yang rusak kemudian ditanami kembali (direstorasi)
+T-1
+25
+Jumlah Kebocoran Sampah Laut
+Volume sampah, termasuk plastik dan limbah rumah tangga, yang terbuang ke laut dan dihitung jumlahnya per meter persegi di area laut
+T-1
+26
+Jumlah sampah yang dibuang di darat
+Timbunan sampah dalam setahun
+T-1
+27
+Luas kawasan konservasi perairan
+Jumlah kawasan yang mempunyai ciri khas tertentu sebagai satu kesatuan ekosistem yang dilindungi, dilestarikan, dan dimanfaatkan secara berkelanjutan. Kawasan konservasi perairan dibagi menjadi kawasan konservasi nasional (KKN), kawasan konservasi daerah (KKD), dan kawasan konservasi yang dikelola oleh Kementerian Lingkungan Hidup dan Kehutanan (KLHK)
+T-1
+28
+Kapasitas terpasang Pembangkit Listrik Tenaga Surya (PLTS)
+Kapasitas terpasang Pembangkit Listrik Tenaga Surya (PLTS)
+T-1
+29
+Listrik yang dihasilkan oleh Pembangkit Listrik Tenaga Surya (PLTS)
+Tenaga listrik yang dihasilkan oleh pembangkit listrik tenaga surya (PLTS)
+T-1
+30
+Kapasitas terpasang Pembangkit Listrik Tenaga Air (PLTA)
+Kapasitas terpasang Pembangkit Listrik Tenaga Air (PLTA)
+T-1
+31
+Listrik yang dihasilkan oleh Pembangkit Listrik Tenaga Air (PLTA)
+Tenaga Listrik yang dihasilkan oleh Pembangkit Listrik Tenaga Air (PLTA)
+T-1
+32
+Persentase penduduk bekerja di sektor perikanan penerima Program Keluarga Harapan (PKH)
+Persentase dari total penduduk yang bekerja di sektor perikanan dan menerima Program Keluarga Harapan
+T-1
+33
+Jumlah pekerja perempuan di sektor perikanan
+Jumlah penduduk perempuan yang ikut terlibat dalam sektor perikanan yang terdiri dari total nelayan perempuan dan pembudidaya ikan perempuan
+T-1
+34
+Jumlah nelayan dan pembudidaya ikan
+Jumlah penduduk yang berprofesi sebagai nelayan dan pembudidaya ikan
+T-1
+35
+Rata-rata konsumsi kalori ikan per kapita
+Rata-rata konsumsi kalori dari ikan oleh setiap individu per hari
+T-1
+36
+Rata-rata konsumsi protein dari ikan per kapita
+Rata-rata konsumsi protein dari ikan oleh setiap individu per hari
+T-1
+37
+Persentase penduduk bekerja di sektor perikanan yang memiliki jaminan kesehatan
+Persentase penduduk yang bekerja di sektor perikanan yang memiliki akses atau kepemilikan jaminan kesehatan, seperti BPJS Kesehatan atau asuransi kesehatan lainnya
+T-1
+38
+Persentase penduduk pesisir yang hidup di bawah garis kemiskinan
+Persentase penduduk yang tinggal di kabupaten atau kota pesisir yang berada di bawah garis kemiskinan terhadap penduduk miskin
+T-1
+39
+Jumlah SMK kemaritiman
+Jumlah Sekolah Menengah Kejuruan (SMK) Kemaritiman (Perikanan dan Kelautan) yang berada di bawah koordinasi Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi (Kemendikbudristek)
+T-1
+40
+Jumlah lulusan sekolah perikanan
+Jumlah lulusan satuan pendidikan Kelautan dan Perikanan (Kemaritiman) yang berada di bawah koordinasi Kementerian Kelautan dan Perikanan
+T-1
+41
+Jumlah peserta pelatihan perikanan
+Total jumlah peserta yang mengikuti pelatihan dan penyuluhan kelautan dan perikanan yang mencakup kompetensi Perikanan Tangkap, kompetensi Pembudidayaan Ikan, kompetensi Pengolahan Hasil Perikanan, kompetensi Permesinan Perikanan, Kompetensi Pengelolaan Sumberdaya KP, Kompetensi Pengelolaan Usaha KP, Kompetensi Garam, dan Kompetensi Penyuluh Perikanan
+T-1
+42
+Persentase penduduk sektor perikanan dengan pendidikan terakhir SMA atau sederajat
+Persentase penduduk di sektor perikanan yang memiliki tingkat pendidikan terakhir Sekolah Menengah Atas (SMA) atau sederajat
+T-1
+43
+Persentase penduduk di sektor perikanan dengan ijazah minimal SMA atau sederajat
+Persentase penduduk di sektor perikanan yang memiliki ijazah minimal Sekolah Menengah Atas (SMA)/Sederajat
+T-1
+44
+Persentase penduduk bekerja di sektor perikanan penerima Program Indonesia Pintar (PIP)
+Persentase dari total penduduk di sektor perikanan yang menerima Program Indonesia Pintar</td><td>2024</td></tr>
+																		<tr><td>Volume ekspor perikanan</td><td>Ekspor, Perikanan</td><td>Jumlah total produk perikanan yang diekspor dari suatu provinsi.  Komoditas perikanan mencakup komoditas yang tercantum pada website KKP pada tabel Volume Ekspor Hasil Perikanan Menurut Komoditas</td><td>2024</td></tr>
+																		<tr><td>Kontribusi ekspor produk perikanan terhadap total ekspor</td><td>Ekspor, Perikanan</td><td>Nilai ekspor produk perikanan terhadap total nilai ekspor di provinsi dimaksud. Komoditas perikanan mencakup komoditas yang tercantum pada website KKP pada tabel Data Nilai Ekspor Hasil Perikanan Menurut Komoditas</td><td>2024</td></tr>
+																		<tr><td>Volume ekspor perikanan hidup dan segar</td><td>Ekspor, Perikanan</td><td>Total ekspor perikanan tangkap (ISIC 031) dan akuakultur (ISIC 032), untuk ikan hidup dan segar</td><td>2024</td></tr>
+																		<tr><td>Volume ekspor ikan olahan</td><td>Ekspor, Produk Pengolahan Ikan</td><td>Total berat bersih volume ikan, krustasea, dan moluska (ISIC 102) yang sudah diproses dan/atau diawetkan</td><td>2024</td></tr>
+																		<tr><td>Volume produksi garam</td><td>Produksi, Garam</td><td>Total produksi garam dari tambak dan non-tambak nasional</td><td>2024</td></tr>
+																		<tr><td>Jumlah perahu/kapal penangkap ikan</td><td>Kapal Penangkap Ikan</td><td>Jumlah perahu yang digunakan nelayan untuk menangkap ikan yang mencakup perahu tanpa motor, perahu motor tempel, dan kapal motor</td><td>2024</td></tr>
+																		<tr><td>Jumlah wisata bahari</td><td>Wisata Bahari</td><td>Jumlah desa tepi laut yang memiliki wisata bahari</td><td>2024</td></tr>
+																		<tr><td>Jumlah usaha/perusahaan wisata tirta komersial</td><td>Wisata</td><td>Jumlah usaha yang bergerak di wisata tirta yang mencakup arung jeram, wisata selam, dermaga marina, selancar, selancar angin, para layar, motor air, dan aktivitas tirta lainnya</td><td>2024</td></tr>
+																		<tr><td>Jumlah kapal perikanan tangkap laut – kapal motor > 30 GT</td><td>Kapal Motor</td><td>Jumlah kapal motor perikanan tangkap laut berukuran lebih dari 30 GT</td><td>2024</td></tr>
+																		<tr><td>Jumlah pelabuhan perikanan dengan tempat pelelangan ikan</td><td>Pelabuhan Perikanan</td><td>Jumlah pelabuhan perikanan yang memiliki TPI menurut provinsi dan kategori pelabuhan</td><td>2024</td></tr>
+																		<tr><td>Kawasan terumbu karang berkualitas baik</td><td>Terumbu Karang</td><td>Persentase kawasan terumbu karang dengan tutupan karang hidup antara 50 - 100%</td><td>2024</td></tr>
+																		<tr><td>Kawasan lamun berkualitas baik</td><td>Padang Lamun</td><td>Persentase kawasan lamun dengan tutupan lamun hidup antara 50 - 100%</td><td>2024</td></tr>
+																		<tr><td>Kawasan hutan mangrove berkualitas baik</td><td>bakau/mangrove</td><td>Persentase mangrove dengan kerapatan tutupan antara 50%-100%</td><td>2024</td></tr>
+																		<tr><td>Jumlah desa pesisir dengan tempat pembuangan sampah</td><td>tempat penampungan sementara (TPS)</td><td>Jumlah desa tepi laut dengan tempat penampungan sampah sementara (TPS)</td><td>2024</td></tr>
+																		<tr><td>Jumlah desa pesisir dengan tempat buang air besar</td><td>tempat buang air besar</td><td>Jumlah desa tepi laut dengan tempat buang air besar yang sebagian besar masyarakatnya memiliki jamban sendiri</td><td>2024</td></tr>
+																		<tr><td>Penanaman/rehabilitasi hutan mangrove, rawa, dan lahan gambut</td><td>rehabilitasi hutan dan lahan</td><td>Total luas kawasan mangrove, rawa, dan lahan gambut yang rusak kemudian ditanami kembali (direstorasi)</td><td>2024</td></tr>
+																		<tr><td>Jumlah Kebocoran Sampah Laut</td><td>sampah laut</td><td>Volume sampah, termasuk plastik dan limbah rumah tangga, yang terbuang ke laut dan dihitung jumlahnya per meter persegi di area laut</td><td>2024</td></tr>
+																		<tr><td>Jumlah sampah yang dibuang di darat</td><td>sampah</td><td>Timbunan sampah dalam setahun</td><td>2024</td></tr>
+																		<tr><td>Luas kawasan konservasi perairan</td><td>Kawasan Konservasi Perairan</td><td>Jumlah kawasan yang mempunyai ciri khas tertentu sebagai satu kesatuan ekosistem yang dilindungi, dilestarikan, dan dimanfaatkan secara berkelanjutan. Kawasan konservasi perairan dibagi menjadi kawasan konservasi nasional (KKN), kawasan konservasi daerah (KKD), dan kawasan konservasi yang dikelola oleh Kementerian Lingkungan Hidup dan Kehutanan (KLHK)</td><td>2024</td></tr>
+																		<tr><td>Kapasitas terpasang Pembangkit Listrik Tenaga Surya (PLTS)</td><td>Pembangkit Tenaga Listrik</td><td>Kapasitas terpasang Pembangkit Listrik Tenaga Surya (PLTS)</td><td>2024</td></tr>
+																		<tr><td>Listrik yang dihasilkan oleh Pembangkit Listrik Tenaga Surya (PLTS)</td><td>Listrik, Pembangkit Tenaga Listrik</td><td>Tenaga listrik yang dihasilkan oleh pembangkit listrik tenaga surya (PLTS)</td><td>2024</td></tr>
+																		<tr><td>Kapasitas terpasang Pembangkit Listrik Tenaga Air (PLTA)</td><td>Pembangkit Tenaga Listrik</td><td>Kapasitas terpasang Pembangkit Listrik Tenaga Air (PLTA)</td><td>2024</td></tr>
+																		<tr><td>Listrik yang dihasilkan oleh Pembangkit Listrik Tenaga Air (PLTA)</td><td>Listrik, Pembangkit Tenaga Listrik</td><td>Tenaga Listrik yang dihasilkan oleh Pembangkit Listrik Tenaga Air (PLTA)</td><td>2024</td></tr>
+																		<tr><td>Persentase penduduk bekerja di sektor perikanan penerima Program Keluarga Harapan (PKH)</td><td>Penerima Program Perlindungan Sosial</td><td>Persentase dari total penduduk yang bekerja di sektor perikanan dan menerima Program Keluarga Harapan</td><td>2024</td></tr>
+																		<tr><td>Jumlah pekerja perempuan di sektor perikanan</td><td>Perempuan</td><td>Jumlah penduduk perempuan yang ikut terlibat dalam sektor perikanan yang terdiri dari total nelayan perempuan dan pembudidaya ikan perempuan</td><td>2024</td></tr>
+																		<tr><td>Jumlah nelayan dan pembudidaya ikan</td><td>Pembudi Daya Ikan, Nelayan</td><td>Jumlah penduduk yang berprofesi sebagai nelayan dan pembudidaya ikan</td><td>2024</td></tr>
+																		<tr><td>Rata-rata konsumsi kalori ikan per kapita</td><td>Konsumsi, Kalori</td><td>Rata-rata konsumsi kalori dari ikan oleh setiap individu per hari</td><td>2024</td></tr>
+																		<tr><td>Rata-rata konsumsi protein dari ikan per kapita</td><td>Konsumsi</td><td>Rata-rata konsumsi protein dari ikan oleh setiap individu per hari</td><td>2024</td></tr>
+																		<tr><td>Persentase penduduk bekerja di sektor perikanan yang memiliki jaminan kesehatan</td><td>Asuransi</td><td>Persentase penduduk yang bekerja di sektor perikanan yang memiliki akses atau kepemilikan jaminan kesehatan, seperti BPJS Kesehatan atau asuransi kesehatan lainnya</td><td>2024</td></tr>
+																		<tr><td>Persentase penduduk pesisir yang hidup di bawah garis kemiskinan</td><td>Penduduk Miskin</td><td>Persentase penduduk yang tinggal di kabupaten atau kota pesisir yang berada di bawah garis kemiskinan terhadap penduduk miskin</td><td>2024</td></tr>
+																		<tr><td>Jumlah SMK kemaritiman</td><td>sekolah menengah kejuruan (SMK)</td><td>Jumlah Sekolah Menengah Kejuruan (SMK) Kemaritiman (Perikanan dan Kelautan) yang berada di bawah koordinasi Kementerian Pendidikan, Kebudayaan, Riset, dan Teknologi (Kemendikbudristek)</td><td>2024</td></tr>
+																		<tr><td>Jumlah lulusan sekolah perikanan</td><td>Sekolah</td><td>Jumlah lulusan satuan pendidikan Kelautan dan Perikanan (Kemaritiman) yang berada di bawah koordinasi Kementerian Kelautan dan Perikanan</td><td>2024</td></tr>
+																		<tr><td>Jumlah peserta pelatihan perikanan</td><td>Peserta Pelatihan</td><td>Total jumlah peserta yang mengikuti pelatihan dan penyuluhan kelautan dan perikanan yang mencakup kompetensi Perikanan Tangkap, kompetensi Pembudidayaan Ikan, kompetensi Pengolahan Hasil Perikanan, kompetensi Permesinan Perikanan, Kompetensi Pengelolaan Sumberdaya KP, Kompetensi Pengelolaan Usaha KP, Kompetensi Garam, dan Kompetensi Penyuluh Perikanan</td><td>2024</td></tr>
+																		<tr><td>Persentase penduduk sektor perikanan dengan pendidikan terakhir SMA atau sederajat</td><td>Pendidikan, sekolah menengah atas (SMA)</td><td>Persentase penduduk di sektor perikanan yang memiliki tingkat pendidikan terakhir Sekolah Menengah Atas (SMA) atau sederajat</td><td>2024</td></tr>
+																		<tr><td>Persentase penduduk di sektor perikanan dengan ijazah minimal SMA atau sederajat</td><td>Pendidikan, sekolah menengah atas (SMA)</td><td>Persentase penduduk di sektor perikanan yang memiliki ijazah minimal Sekolah Menengah Atas (SMA)/Sederajat</td><td>2024</td></tr>
+																		<tr><td>Persentase penduduk bekerja di sektor perikanan penerima Program Indonesia Pintar (PIP)</td><td>Penerima Program Perlindungan Sosial</td><td>Persentase dari total penduduk di sektor perikanan yang menerima Program Indonesia Pintar</td><td>2024</td></tr>
+																	</table>
+							</div>
+						</div>
+											</div>
+				</div>
+			</div>
+
+			<div id="Metodologi" class="tabcontent">
+				<h4>Desain Kegiatan</h4>
+				<b>Kegiatan ini dilakukan</b><br />
+				BERULANG<br /><br />
+				<b>Frekuensi Penyelenggaraan</b><br />
+				TAHUNAN<br /><br />
+				<b>Tipe Pengumpulan Data</b><br />
+				CROSS_SECTIONAL<br /><br />
+				<b>Cakupan Wilayah Pengumpulan Data</b><br />
+				SELURUH_WILAYAH_INDONESIA<br /><br />
+				
+
+				<b>Metode Pengumpulan Data</b><br />
+				Pengumpulan data sekunder<br /><br />
+
+				<b>Sarana Pengumpulan Data</b><br />
+				Lainnya : Publikasi KKP dan BPS<br /><br />
+
+				<b>Unit Pengumpulan Data</b><br />
+				Lainnya : Provinsi<br /><br />
+
+							</div>
+
+			<div id="Pengumpulan" class="tabcontent">
+				<div class="row">
+					<div class="col-lg-12">
+						<h4>Pengumpulan Data</h4>
+						<b>Apakah Melakukan Uji Coba (Pilot Survey)</b><br />
+						Tidak<br /><br />
+
+						<b>Metode Pemeriksaan Kualitas Pengumpulan Data</b><br />
+						Supervisi<br /><br />
+
+						<b>Apakah Melakukan Penyesuaian Nonrespon</b><br />
+						Tidak<br /><br />
+
+						<b>Petugas Pengumpulan Data</b><br />
+						-<br /><br />
+
+						<b>Persyaratan Pendidikan Terendah Petugas Pengumpulan Data</b><br />
+						-<br /><br />
+
+						<b>Jumlah Petugas</b><br />
+						Supervisor/penyelia/pengawas: 0<br />
+						Pengumpul data/enumerator: 0<br /><br />
+
+						<b>Apakah Melakukan Pelatihan Petugas</b><br />
+						Tidak<br /><br />
+					</div>
+				</div>
+			</div>
+
+			<div id="Pengolahan" class="tabcontent">
+				<h4>Pengolahan dan Analisis</h4>
+
+				<b>Tahapan Pengolahan Data</b><br />
+				Editing, Coding, Data Entry, Validasi<br /><br />
+
+				<b>Metode Analisis</b><br />
+				DESKRIPTIF<br /><br />
+
+				<b>Unit Analisis</b><br />
+				Lainnya : Provinsi<br /><br />
+
+				<b>Tingkat Penyajian Hasil Analisis</b><br />
+				Nasional, Provinsi<br /><br />
+
+
+				<h4>Diseminasi Hasil</h4>
+
+				<b>Produk Kegiatan yang Tersedia untuk Umum</b><br />
+				Tercetak (hardcopy): Ya<br />
+				Digital (softcopy): Ya<br />
+				Data Mikro: Tidak<br /><br />
+
+				<b>Rencana Rilis Produk Kegiatan</b><br />
+				Tercetak (hardcopy):
+				2025-08-06; 				<br />
+				Digital (softcopy):
+				2025-08-06; <br />
+				Data Mikro:
+				-<br /><br />
+				
+			</div>
+
+			<div id="Diseminasi" class="tabcontent">
+			</div>
+
+			<div id="Variabel" class="tabcontent">
+        <div class="row">
+          <div class="col-lg-12">
+            <h4>Variabel Kegiatan</h4>
+
+            
+            <ol class="list-group list-group-flush">
+                          <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                <div class="fw-bold"><a class="link-u" href="/metadata/variabel/354397">Rata-rata konsumsi protein dari ikan per kapita</a></div>
+                Rata-rata konsumsi protein dari ikan oleh setiap individu per hari                </div>
+              </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                <div class="fw-bold"><a class="link-u" href="/metadata/variabel/354396">Persentase penduduk bekerja di sektor perikanan penerima Program Indonesia Pintar (PIP)</a></div>
+                Persentase dari total penduduk di sektor perikanan yang menerima Program Indonesia Pintar                </div>
+              </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                <div class="fw-bold"><a class="link-u" href="/metadata/variabel/354395">Jumlah sampah yang dibuang di darat</a></div>
+                Timbunan sampah dalam setahun                </div>
+              </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                <div class="fw-bold"><a class="link-u" href="/metadata/variabel/354394">Rata-rata konsumsi kalori ikan per kapita</a></div>
+                Rata-rata konsumsi kalori dari ikan oleh setiap individu per hari                </div>
+              </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                <div class="fw-bold"><a class="link-u" href="/metadata/variabel/354393">Jumlah pekerja perempuan di sektor perikanan</a></div>
+                Jumlah penduduk perempuan yang ikut terlibat dalam sektor perikanan yang terdiri dari total nelayan perempuan dan pembudidaya ikan perempuan                </div>
+              </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                <div class="fw-bold"><a class="link-u" href="/metadata/variabel/354392">Persentase penduduk bekerja di sektor perikanan penerima Program Keluarga Harapan (PKH)</a></div>
+                Persentase dari total penduduk yang bekerja di sektor perikanan dan menerima Program Keluarga Harapan                </div>
+              </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                <div class="fw-bold"><a class="link-u" href="/metadata/variabel/354391">Jumlah Kebocoran Sampah Laut</a></div>
+                Volume sampah, termasuk plastik dan limbah rumah tangga, yang terbuang ke laut dan dihitung jumlahnya per meter persegi di area laut                </div>
+              </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                <div class="fw-bold"><a class="link-u" href="/metadata/variabel/354390">Persentase penduduk pesisir yang hidup di bawah garis kemiskinan</a></div>
+                Persentase penduduk yang tinggal di kabupaten atau kota pesisir yang berada di bawah garis kemiskinan terhadap penduduk miskin                </div>
+              </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                <div class="fw-bold"><a class="link-u" href="/metadata/variabel/354389">Kapasitas terpasang Pembangkit Listrik Tenaga Air (PLTA)</a></div>
+                Kapasitas terpasang Pembangkit Listrik Tenaga Air (PLTA)                </div>
+              </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                <div class="fw-bold"><a class="link-u" href="/metadata/variabel/354388">Jumlah nelayan dan pembudidaya ikan</a></div>
+                Jumlah penduduk yang berprofesi sebagai nelayan dan pembudidaya ikan                </div>
+              </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                <div class="fw-bold"><a class="link-u" href="/metadata/variabel/354386">Persentase penduduk bekerja di sektor perikanan yang memiliki jaminan kesehatan</a></div>
+                Persentase penduduk yang bekerja di sektor perikanan yang memiliki akses atau kepemilikan jaminan kesehatan, seperti BPJS Kesehatan atau asuransi kesehatan lainnya                </div>
+              </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                <div class="fw-bold"><a class="link-u" href="/metadata/variabel/354383">Listrik yang dihasilkan oleh Pembangkit Listrik Tenaga Surya (PLTS)</a></div>
+                Tenaga listrik yang dihasilkan oleh pembangkit listrik tenaga surya (PLTS)                </div>
+              </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                <div class="fw-bold"><a class="link-u" href="/metadata/variabel/354381">Jumlah peserta pelatihan perikanan</a></div>
+                Total jumlah peserta yang mengikuti pelatihan dan penyuluhan kelautan dan perikanan yang mencakup kompetensi Perikanan Tangkap, kompetensi Pembudidayaan Ikan, kompetensi Pengolahan Hasil Perikanan, kompetensi Permesinan Perikanan, Kompetensi Pengelolaan Sumberdaya KP, Kompetensi Pengelolaan Usaha KP,....                </div>
+              </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                <div class="fw-bold"><a class="link-u" href="/metadata/variabel/354380">Jumlah lulusan sekolah perikanan</a></div>
+                Jumlah lulusan satuan pendidikan Kelautan dan Perikanan (Kemaritiman) yang berada di bawah koordinasi Kementerian Kelautan dan Perikanan                </div>
+              </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                <div class="fw-bold"><a class="link-u" href="/metadata/variabel/354379">Kapasitas terpasang Pembangkit Listrik Tenaga Surya (PLTS)</a></div>
+                Kapasitas terpasang Pembangkit Listrik Tenaga Surya (PLTS)                </div>
+              </li>
+                          <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                <div class="fw-bold"><a class="link-u" href="/metadata/variabel/354378">Listrik yang dihasilkan oleh Pembangkit Listrik Tenaga Air (PLTA)</a></div>
+                Tenaga Listrik yang dihasilkan oleh Pembangkit Listrik Tenaga Air (PLTA)                </div>
+              </li>
+                        </ol>
+          </div>
+        </div>
+			</div>
+
+			<div id="Indikator" class="tabcontent">
+			  <div class="row">
+					<div class="col-lg-12">
+						<h4>Indikator Kegiatan</h4>
+
+						
+						<ol class="list-group list-group-flush">
+													<li class="list-group-item d-flex justify-content-between align-items-start">
+								<div class="ms-2 me-auto">
+								<div class="fw-bold"><a class="link-u" href="/metadata/indikator/105718"> Indeks Ekonomi Biru Indonesia Pilar Sosial</a></div>
+								Pilar Sosial berfokus pada dimensi inklusivitas dengan mengukur sejauh mana sektor kelautan mampu meningkatkan kesejahteraan masyarakat, yang tercermin dalam subpilar kesejahteraan, akses kesehatan, dan pendidikan.								</div>
+							</li>
+													<li class="list-group-item d-flex justify-content-between align-items-start">
+								<div class="ms-2 me-auto">
+								<div class="fw-bold"><a class="link-u" href="/metadata/indikator/105717"> Indeks Ekonomi Biru Indonesia Subpilar Industri Berbasis Kelautan</a></div>
+								Subpilar ini mengukur tingkat kemajuan dan nilai tambah dalam sektor kelautan, dari bahan mentah menuju produk olahan dan aset industri.								</div>
+							</li>
+													<li class="list-group-item d-flex justify-content-between align-items-start">
+								<div class="ms-2 me-auto">
+								<div class="fw-bold"><a class="link-u" href="/metadata/indikator/105716"> Indeks Ekonomi Biru Indonesia Subpilar Energi Terbarukan</a></div>
+								Subpilar ini mengukur komitmen pengembangan terhadap energi terbarukan serta berapa banyak energi yang benar-benar diproduksi dan disalurkan ke jaringan listrik								</div>
+							</li>
+													<li class="list-group-item d-flex justify-content-between align-items-start">
+								<div class="ms-2 me-auto">
+								<div class="fw-bold"><a class="link-u" href="/metadata/indikator/105715"> Indeks Ekonomi Biru Indonesia Subpilar Kualitas Sumber Daya dan Konservasi Laut</a></div>
+								Indikator ini mengukur kesehatan dan ketahanan sumber daya laut sebagai sistem peringatan dini dan tolak ukur keberhasilan dalam menjaga modal alam yang menjadi dasar bagi seluruh aktivitas ekonomi biru								</div>
+							</li>
+													<li class="list-group-item d-flex justify-content-between align-items-start">
+								<div class="ms-2 me-auto">
+								<div class="fw-bold"><a class="link-u" href="/metadata/indikator/105714"> Indeks Ekonomi Biru Indonesia Subpilar Kesehatan</a></div>
+								Subpilar ini mengukur bagaimana pemanfaatan hasil laut untuk peningkatan kualitas kesehatan masyarakat, tingkat perlindungan sosial dan kesejahteraan di wilayah pesisir								</div>
+							</li>
+													<li class="list-group-item d-flex justify-content-between align-items-start">
+								<div class="ms-2 me-auto">
+								<div class="fw-bold"><a class="link-u" href="/metadata/indikator/105713"> Indeks Ekonomi Biru Indonesia Subpilar Perikanan Tangkap dan Budidaya</a></div>
+								Indikator yang mengukur aktivitas terkait pemanfaatan sumber daya hayati laut meliputi perikanan tangkap dan budidaya (akuakultur)								</div>
+							</li>
+													<li class="list-group-item d-flex justify-content-between align-items-start">
+								<div class="ms-2 me-auto">
+								<div class="fw-bold"><a class="link-u" href="/metadata/indikator/105712"> Indeks Ekonomi Biru Indonesia Subpilar Pendidikan</a></div>
+								Subpilar ini mengukur ketersediaan infrastruktur dan keberhasilan pendidikan dalam menghasilkan sumber daya manusia yang berkualitas di bidang kemaritiman								</div>
+							</li>
+													<li class="list-group-item d-flex justify-content-between align-items-start">
+								<div class="ms-2 me-auto">
+								<div class="fw-bold"><a class="link-u" href="/metadata/indikator/105711"> Indeks Ekonomi Biru Indonesia Subpilar Perdagangan, Transportasi dan Logistik</a></div>
+								Subpilar ini mengukur tingkat konektivitas dan efisiensi logistik maritim suatu wilayah, yang merefleksikan
+efektivitas infrastruktur pendukung dan keberhasilan suatu wilayah dalam memanfaatkan posisi geografisnya								</div>
+							</li>
+													<li class="list-group-item d-flex justify-content-between align-items-start">
+								<div class="ms-2 me-auto">
+								<div class="fw-bold"><a class="link-u" href="/metadata/indikator/105710"> Indeks Ekonomi Biru Indonesia Subpilar Kesejahteraan</a></div>
+								Subpilar ini mengukur bagaimana sektor kelautan dapat mendukung terciptanya kesejahteraan masyarakat								</div>
+							</li>
+													<li class="list-group-item d-flex justify-content-between align-items-start">
+								<div class="ms-2 me-auto">
+								<div class="fw-bold"><a class="link-u" href="/metadata/indikator/105709"> Indeks Ekonomi Biru Indonesia Subpilar Pariwisata Berbasis Bahari</a></div>
+								Subpilar ini mengukur pemanfaatan sumber daya kelautan dari sisi jasa, khususnya di sektor pariwisata, yang secara langsung menghubungkan nilai ekonomi dengan kelestarian lingkungan.								</div>
+							</li>
+													<li class="list-group-item d-flex justify-content-between align-items-start">
+								<div class="ms-2 me-auto">
+								<div class="fw-bold"><a class="link-u" href="/metadata/indikator/105372"> Indeks Ekonomi Biru Indonesia Pilar Lingkungan</a></div>
+								Pilar Lingkungan mengukur kualitas ekosistem pesisir dan laut, upaya mitigasi dampak lingkungan, serta pemanfaatan energi terbarukan.								</div>
+							</li>
+													<li class="list-group-item d-flex justify-content-between align-items-start">
+								<div class="ms-2 me-auto">
+								<div class="fw-bold"><a class="link-u" href="/metadata/indikator/105371">Indeks Ekonomi Biru Indonesia</a></div>
+								Skor komposit yang menghitung kontribusi multidimensional sektor kelautan terhadap pembangunan berkelanjutan								</div>
+							</li>
+													<li class="list-group-item d-flex justify-content-between align-items-start">
+								<div class="ms-2 me-auto">
+								<div class="fw-bold"><a class="link-u" href="/metadata/indikator/105370">Indeks Ekonomi Biru Indonesia Pilar Ekonomi</a></div>
+								Pilar Ekonomi mengukur vitalitas dan kontribusi langsung sektor kelautan terhadap perekonomian nasional dan regional. Pilar ini tidak hanya menilai volume produksi mentah, tetapi secara komprehensif memotret seluruh rantai nilai ekonomi biru—mulai dari ekstraksi sumber daya, pengolahan, perdagangan,....								</div>
+							</li>
+												</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clearfix mb-3"></div>
+
+</div>
+
+<script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script type="text/javascript">
+	function openCity(evt, cityName) {
+		// Declare all variables
+		var i, tabcontent, tablinks;
+
+		// Get all elements with class="tabcontent" and hide them
+		tabcontent = document.getElementsByClassName("tabcontent");
+		for (i = 0; i < tabcontent.length; i++) {
+		tabcontent[i].style.display = "none";
+	}
+	// Get all elements with class="tablinks" and remove the class "active"
+	tablinks = document.getElementsByClassName("tablinks");
+	for (i = 0; i < tablinks.length; i++) {
+		tablinks[i].className = tablinks[i].className.replace(" active", "");
+	}
+	// Show the current tab, and add an "active" class to the link that opened the tab
+	document.getElementById(cityName).style.display = "block";
+		evt.currentTarget.className += " active";
+	}
+	document.getElementById("defaultOpen").click();
+
+  // Fungsi Helper: Menghilangkan tag HTML dan membersihkan karakter aneh
+  function cleanText(text) {
+    if (!text) return "-";
+    // Hilangkan HTML tags dan decode entity seperti &amp;
+    let decoded = text.replace(/<[^>]*>?/gm, '');
+    return decoded.trim();
+  }
+  // Fungsi Helper: Mengubah string JSON menjadi teks biasa (untuk konsep/definisi)
+  function parseJsonField(field) {
+    try {
+      let parsed = JSON.parse(field);
+      return Array.isArray(parsed) ? parsed.join(", ") : parsed;
+    } catch (e) {
+      return field || "-";
+    }
+  }
+  const apiUrl = '/metadata/kegiatan/export?id=1ae877c3af2ba694bbd52bcc41aec73621c6f60c522de238935579b424c49ccc';
+  function formatJadwal(jsonString) {
+    try {
+        // Jika data kosong atau null
+        if (!jsonString || jsonString === "[]") return "-";
+
+        let data = JSON.parse(jsonString);
+
+        // Pastikan data adalah array dan memiliki isi
+        if (Array.isArray(data) && data.length > 0) {
+            const awal = data[0].awal || "";
+            const akhir = data[0].akhir || "";
+
+            if (!awal && !akhir) return "-";
+            return `${awal} s.d. ${akhir}`;
+        }
+    } catch (e) {
+        console.error("Error parsing jadwal:", e);
+    }
+    return "-"; // Fallback jika terjadi error atau data tidak sesuai
+  }
+  function appendVariables(targetArray, jsonString) {
+    targetArray.push(["3.4", "Variabel (Karakteristik) yang Dikumpulkan"]);
+    targetArray.push(["", "Nama Variabel", "Konsep", "Definisi", "Referensi Waktu"]);
+
+    try {
+        if (!jsonString || jsonString === "[]") {
+            targetArray.push(["", "-", "-", "-", "-"]);
+            return;
+        }
+
+        const variables = JSON.parse(jsonString);
+
+        if (Array.isArray(variables)) {
+            variables.forEach(v => {
+                targetArray.push([
+                    "",
+                    v.nama || "-",
+                    parseJsonField(v.konsep), // Menggunakan helper parseJsonField sebelumnya
+                    cleanText(v.definisi),     // Menggunakan helper cleanText sebelumnya
+                    v.referensi_waktu || "-"
+                ]);
+            });
+        }
+    } catch (e) {
+        console.error("Error parsing variabel:", e);
+        targetArray.push(["", "Gagal memuat data variabel", "", "", ""]);
+    }
+  }
+  function appendVariables2(targetArray, jsonString) {
+    targetArray.push(["3.4", "Variabel (Karakteristik) yang Dikumpulkan"]);
+
+    try {
+        if (!jsonString || jsonString === "[]") {
+            targetArray.push(["", "-"]);
+            return;
+        }
+
+        const variables = JSON.parse(jsonString);
+
+        if (Array.isArray(variables)) {
+          variables.forEach(v => {
+            targetArray.push([
+              "", // Kolom No kosong
+              {
+                // Kolom Informasi dan Keterangan digabung untuk menampilkan detail variabel
+                content: `Nama: ${v.nama}\nKonsep: ${parseJsonField(v.konsep)}\nDefinisi: ${cleanText(v.definisi)}\nReferensi Waktu: ${v.referensi_waktu}`,
+                colSpan: 2,
+                styles: { fontSize: 9, cellPadding: 3 }
+              }
+            ]);
+          });
+        }
+    } catch (e) {
+        console.error("Error parsing variabel:", e);
+        targetArray.push(["", "Gagal memuat data variabel", "", "", ""]);
+    }
+  }
+  function appendWilayah(targetArray, cakupan, jsonString) {
+    // Baris Judul Poin 4.4
+    targetArray.push(["4.4", "Cakupan Wilayah Pengumpulan Data", cakupan.replace(/_/g, ' ')]);
+
+    try {
+        if (cakupan === "SELURUH_WILAYAH_INDONESIA") {
+            targetArray.push(["", "Seluruh Wilayah Indonesia"]);
+            return;
+        }
+
+        if (cakupan === "SEBAGIAN_WILAYAH_INDONESIA") {
+            const wilayah = JSON.parse(jsonString || "[]");
+
+            if (Array.isArray(wilayah) && wilayah.length > 0) {
+                // Header tabel wilayah (cukup sekali saja di luar loop)
+                targetArray.push(["4.5", "Daftar Wilayah (Provinsi)", "Daftar Wilayah (Kabupaten/Kota)"]);
+
+                wilayah.forEach(v => {
+                    targetArray.push([
+                        "",
+                        cleanText(v.nama_provinsi) || "-",
+                        cleanText(v.nama_kabupaten_kota) || "-"
+                    ]);
+                });
+            } else {
+                targetArray.push(["", "Data wilayah sebagian tidak ditemukan"]);
+            }
+        }
+    } catch (e) {
+      console.error("Error parsing wilayah:", e);
+      targetArray.push(["", "Gagal memuat detail wilayah"]);
+    }
+  }
+  function formatValueDomain(jsonString) {
+    try {
+      if (!jsonString || jsonString === "[]") return "-";
+      const data = JSON.parse(jsonString);
+      if (Array.isArray(data)) {
+        // Map setiap objek menjadi string "kode. nilai"
+        return data.map(item => `${item.kode}. ${item.nilai}`).join("; ");
+      }
+    } catch (e) {
+      console.error("Error parsing value domain:", e);
+    }
+    return "-";
+  }
+  function parseLatex(latexString) {
+    if (!latexString) return "-";
+
+    try {
+      let clean = latexString;
+
+      // 1. Hapus tag begin dan end equation
+      clean = clean.replace(/\\begin\{equation\*?\}/g, '');
+      clean = clean.replace(/\\end\{equation\*?\}/g, '');
+
+      // 2. Hapus perintah \text{...} tapi ambil isinya
+      clean = clean.replace(/\\text\{([^}]*)\}/g, '$1');
+
+      // 3. Hapus backslash yang tersisa (seperti \, atau \quad)
+      clean = clean.replace(/\\[a-zA-Z]+/g, ' ');
+
+      // 4. Bersihkan spasi berlebih
+      return clean.trim();
+    } catch (e) {
+      console.error("Error parsing LaTeX:", e);
+      return latexString; // Jika gagal, kembalikan string asli
+    }
+  }
+  function parseDynamicArray(jsonString) {
+    try {
+      if (!jsonString || jsonString === "[]") return "-";
+
+      const data = JSON.parse(jsonString);
+
+      if (Array.isArray(data)) {
+        return data.map(item => {
+          let detail = [];
+
+          // Cek tipe json1 (sumber_publikasi - Array)
+          if (item.sumber_publikasi && Array.isArray(item.sumber_publikasi)) {
+              detail = item.sumber_publikasi;
+          }
+          // Cek tipe json2 (kegiatan_penghasil - Array)
+          else if (item.kegiatan_penghasil && Array.isArray(item.kegiatan_penghasil)) {
+              detail = item.kegiatan_penghasil;
+          }
+          // Cek tipe json3 (sumber - String tunggal)
+          else if (item.sumber) {
+              detail = [];
+          }
+
+          // Gabungkan nama dengan detailnya jika ada
+          if (detail.length > 0) {
+              return `${item.nama} (${detail.join(", ")})`;
+          }
+
+          return item.nama;
+        }).join("; ");
+      }
+    } catch (e) {
+      console.error("Error dynamic parsing:", e);
+    }
+    return "-";
+  }
+  async function exportMetadata(id) {
+    // 1. Ambil elemen UI
+    const btn = document.getElementById('btn-export');
+    const btnText = document.getElementById('btn-text');
+    const spinner = document.getElementById('loading-spinner');
+
+    // 2. Tampilkan Loading State
+    btn.disabled = true; // Cegah klik ganda
+    btnText.innerText = "Generating Excel...";
+    spinner.style.display = "inline-block";
+
+    try {
+      const response = await fetch(apiUrl);
+      const data = await response.json();
+      const keg = data.kegiatan;
+      const wb = XLSX.utils.book_new();
+
+      let ws_keg_data = [
+        ["METADATA STATISTIK KEGIATAN"],
+        [],
+        ["Judul Kegiatan", "", keg.judul_kegiatan],
+        ["Tahun Kegiatan", "", keg.tahun],
+        ["Cara Pengumpulan Data", "", keg.cara_pengumpulan_data],
+        ["Sektor Kegiatan", "", keg.sektor_kegiatan],
+        ["Jenis Kegiatan Statistik", "", keg.jenis_statistik],
+        ["Identitas Rekomendasi", "", keg.identitas_rekomendasi],
+        ["I. PENYELENGGARA"],
+        ["1.1", "Instansi Penyelenggara", keg.i_instansi_penyelanggara],
+        ["1.2", "Alamat", cleanText(keg.i_alamat)],
+        ["", "Telepon", keg.i_telepon],
+        ["", "Faksimile", keg.i_faksimile],
+        ["", "Email", keg.i_email],
+        ["II. PENANGGUNG JAWAB"],
+        ["2.1","Unit Eselon Penanggung Jawab"],
+        ["", "Eselon 1", keg.ii_unit_eselon1],
+        ["", "Eselon 2", keg.ii_unit_eselon2],
+        ["2.2","Penanggung Jawab Teknis"],
+        ["", "Nama", keg.ii_pj_nama],
+        ["", "Jabatan", keg.ii_pj_jabatan],
+        ["", "Alamat", keg.ii_pj_alamat],
+        ["", "Telepon", keg.ii_pj_telepon],
+        ["", "Faksimile", keg.ii_pj_faksimile],
+        ["", "Email", keg.ii_pj_email],
+        ["III. PERENCANAAN DAN PERSIAPAN"],
+        ["3.1", "Latar Belakang Kegiatan", keg.iii_latar_belakang_kegiatan],
+        ["3.2", "Tujuan Kegiatan", keg.iii_tujuan_kegiatan],
+        ["3.3", "Jadwal Kegiatan"],
+        ["", "Perencanaan Kegiatan", formatJadwal(keg.iii_jadwal_perencanaan_kegiatan)],
+        ["", "Desain",                formatJadwal(keg.iii_jadwal_desain)],
+        ["", "Pengumpulan Data",      formatJadwal(keg.iii_jadwal_pengumpulan_data)],
+        ["", "Pengolahan Data",       formatJadwal(keg.iii_jadwal_pengolahan_data)],
+        ["", "Analisis",              formatJadwal(keg.iii_jadwal_analisis)],
+        ["", "Diseminasi Hasil",      formatJadwal(keg.iii_jadwal_diseminasi_hasil)],
+        ["", "Evaluasi",              formatJadwal(keg.iii_jadwal_evaluasi)],
+      ];
+      appendVariables(ws_keg_data, keg.iii_variabel_yang_dikumpulkan);
+      ws_keg_data.push(
+        ["IV. DESAIN KEGIATAN"],
+        ["4.1", "Kegiatan ini dilakukan", keg.iv_kegiatan_ini_dilakukan],
+        ["4.2", "Frekuensi Penyelenggaraan", keg.iv_frekuensi_penyelanggara],
+        ["4.3", "Tipe Pengumpulan Data", keg.iv_tipe_pengumpulan_data],
+      );
+      appendWilayah(ws_keg_data, keg.iv_cakupan_wilayah_pengumpulan_data, keg.iv_sebagian_cakupan_wilayah_pengumpulan_data);
+      ws_keg_data.push(
+        ["4.6", "Metode Pengumpulan Data", keg.iv_metode_pengumpulan_data],
+        ["4.7", "Sarana Pengumpulan Data", keg.iv_sarana_pengumpulan_data],
+        ["4.8", "Unit Pengumpulan Data", keg.iv_unit_pengumpulan_data],
+      );
+      if(keg.cara_pengumpulan_data === "SURVEI"){
+        ws_keg_data.push(
+          ["V. DESAIN SAMPEL (khusus survei)"],
+          ["5.1", "Jenis Rancangan Sampel", keg.v_jenis_rancangan_sampel],
+          ["5.2", "Metode Pemilihan Sampel Tahap Terakhir", keg.v_metode_pemilihan_sampel_tahap_terakhir],
+          ["5.3", "Metode yang Digunakan", keg.v_metode_yang_digunakan],
+          ["5.4", "Kerangka Sampel Tahap Terakhir", keg.v_kerangka_sampel_tahap_terakhir],
+          ["5.5", "Fraksi Sampel Keseluruhan", keg.v_fraksi_sampel_keseluruhan],
+          ["5.6", "Nilai Perkiraan Sampling Error Variabel Utama", keg.v_nilai_perkiraan_sampling_error_variabel_utama],
+          ["5.7", "Unit Sampel", keg.v_unit_sampel],
+          ["5.8", "Unit Observasi", keg.v_unit_observasi],
+        );
+      }
+      ws_keg_data.push(
+        ["VI. PENGUMPULAN DATA"],
+        ["6.1", "Apakah Melakukan Uji Coba (Pilot Survey)?", keg.vi_apakah_melakukan_uji_coba],
+        ["6.2", "Metode Pemeriksaan Kualitas Pengumpulan Data", keg.vi_metode_pemeriksaan_kualitas_pengumpulan_data],
+        ["6.3", "Apakah Melakukan Penyesuaian Nonrespon?", keg.vi_apakah_melakukan_penyesuaian_nonrespon],
+        ["6.4", "Petugas Pengumpulan Data", keg.vi_petugas_pengumpulan_data],
+        ["6.5", "Persyaratan Pendidikan Terendah Petugas Pengumpulan Data", keg.vi_persyaratan_pendidikan_terendah_petugas_pengumpulan_data],
+        ["6.6", "Jumlah Petugas"],
+        ["", "Supervisor/penyelia/pengawas", keg.vi_jumlah_petugas_supervisor],
+        ["", "Pengumpul data/enumerator", keg.vi_jumlah_petugas_enumerator],
+        ["6.7", "Apakah Melakukan Pelatihan Petugas?", keg.vi_apakah_melakukan_pelatihan_petugas],
+        ["VII. PENGOLAHAN DAN ANALISIS"],
+        ["7.1", "Tahapan Pengolahan Data", keg.vii_tahapan_pengolahan_data],
+        ["7.2", "Metode Analisis", keg.vii_metode_analisis],
+        ["7.3", "Unit Analisis", keg.vii_unit_analisis],
+        ["7.4", "Tingkat Penyajian Hasil Analisis", keg.vii_tingkat_penyajian_hasil_analisis],
+        ["VIII. DISEMINASI HASIL"],
+        ["8.1", "Produk Kegiatan yang Tersedia untuk Umum"],
+        ["", "Tercetak (hardcopy)", keg.viii_ketersediaan_produk_tercetak],
+        ["", "Digital (softcopy)", keg.viii_ketersediaan_produk_digital],
+        ["", "Data Mikro", keg.viii_ketersediaan_produk_mikrodata],
+        ["8.2", "Rencana Rilis Produk Kegiatan"],
+        ["", "Tercetak (hardcopy)", parseJsonField(keg.viii_rencana_jadwal_rilis_produk_tercetak)],
+        ["", "Digital (softcopy)", parseJsonField(keg.viii_rencana_jadwal_rilis_produk_digital)],
+        ["", "Data Mikro", parseJsonField(keg.viii_rencana_jadwal_rilis_produk_mikrodata)],
+      );
+      const ws_keg = XLSX.utils.aoa_to_sheet(ws_keg_data);
+      XLSX.utils.book_append_sheet(wb, ws_keg, "MS-Keg");
+
+      // --- SHEET 2: MS-Var ---
+      let var_header = [["Nama Variabel", "Alias", "Konsep", "Definisi","Referensi Pemilihan","Referensi Waktu","Tipe Data","Klasifikasi Isian","Aturan Validasi","Kalimat Pertanyaan","Apakah variabel dapat diakses umum?"]];
+      let var_rows = data.msvars.map(v => [
+        v.nama,
+        v.alias,
+        parseJsonField(v.konsep),
+        cleanText(v.definisi),
+        parseJsonField(v.referensi_pemilihan),
+        v.referensi_waktu,
+        v.tipe_data,
+        formatValueDomain(v.value_domain),
+        parseJsonField(v.aturan_validasi),
+        cleanText(v.kalimat_pertanyaan),
+        v.apakah_variabel_bisa_diakses_umum,
+      ]);
+      const ws_var = XLSX.utils.aoa_to_sheet(var_header.concat(var_rows));
+      XLSX.utils.book_append_sheet(wb, ws_var, "MS-Var");
+
+      // --- SHEET 3: MS-Ind ---
+      let ind_header = [
+        ["Nama Indikator", "Konsep", "Definisi","Interpretasi","Metode Perhitungan","Rumus"
+        ,"Ukuran","Satuan","Klasifikasi Penyajian","Apakah Indikator Komposit"
+        ,"Indikator Pembangun","Variabel Pembangun","Level Estimasi","Apakah indikator dapat diakses umum"]
+      ];
+      let ind_rows = data.msinds.map(i => [
+        i.nama,
+        parseJsonField(i.konsep),
+        cleanText(i.definisi),
+        cleanText(i.interpretasi),
+        cleanText(i.metode_perhitungan),
+        parseLatex(i.rumus),
+        i.ukuran,
+        i.satuan,
+        parseDynamicArray(i.variabel_disaggregasi),
+        i.apakah_indikator_komposit,
+        parseDynamicArray(i.indikator_pembangun),
+        parseDynamicArray(i.variabel_pembangun),
+        parseJsonField(i.level_estimasi),
+        i.apakah_indikator_bisa_diakses_umum
+      ]);
+      const ws_ind = XLSX.utils.aoa_to_sheet(ind_header.concat(ind_rows));
+      XLSX.utils.book_append_sheet(wb, ws_ind, "MS-Ind");
+
+      // Generate File
+      XLSX.writeFile(wb, `Export_Metadata_${id}.xlsx`);
+    } catch (error) {
+      console.error("Export Error:", error);
+    } finally {
+      // 3. Kembalikan ke keadaan semula (Akan selalu dijalankan)
+      btn.disabled = false;
+      btnText.innerText = "Export ke Excel";
+      spinner.style.display = "none";
+    }
+  }
+  async function exportToPdf(id) {
+    // Inisialisasi Elemen UI
+    const btn = document.getElementById('btn-pdf');
+    const btnText = document.getElementById('pdf-text');
+    const spinner = document.getElementById('pdf-spinner');
+    const { jsPDF } = window.jspdf;
+    // Inisialisasi awal (Default Portrait A4)
+    const doc = new jsPDF('p', 'mm', 'a4');
+    // Aktifkan Status Loading
+    btn.disabled = true;
+    btnText.innerText = "Generating PDF...";
+    spinner.style.display = "inline-block";
+
+    try {
+        
+      // Ambil data dari API
+      const response = await fetch(apiUrl);
+      if (!response.ok) throw new Error("Gagal mengambil data dari server");
+
+      const data = await response.json();
+      const keg = data.kegiatan;
+
+      // --- FUNGSI HEADER/FOOTER GLOBAL ---
+      const drawHeaderFooter = (d, title) => {
+        const pageSize = d.internal.pageSize;
+        const pageHeight = pageSize.height ? pageSize.height : pageSize.getHeight();
+        const pageWidth = pageSize.width ? pageSize.width : pageSize.getWidth();
+        const pageNumber = d.internal.getNumberOfPages();
+
+        d.setFontSize(10);
+        d.setFont("helvetica", "bold");
+        d.setTextColor(0);
+        d.text("Badan Pusat Statistik", 14, 15); // Kiri
+        d.text(title, pageWidth - 14, 15, { align: "right" }); // Kanan (MS-Keg / MS-Var / MS-Ind)
+
+        d.setFontSize(8);
+        d.setFont("helvetica", "italic");
+        d.setTextColor(100);
+        d.text("Dokumen ini diunduh dari aplikasi Metadata Statistik https://sirusa.web.bps.go.id/metadata/", 14, pageHeight - 10);
+        d.text("Halaman " + pageNumber, pageWidth - 14, pageHeight - 10, { align: "right" });
+      };
+
+      // --- 1. SECTION MS-Keg (PORTRAIT) ---
+      const pageSizeP = doc.internal.pageSize;
+      const pageWidthP = pageSizeP.width ? pageSizeP.width : pageSizeP.getWidth();
+
+      // Tambahkan Judul Tengah
+      doc.setFontSize(12);
+      doc.setFont("helvetica", "bold");
+      doc.text("METADATA STATISTIK KEGIATAN", pageWidthP / 2, 22, { align: "center" });
+
+
+      let ws_keg_data = [
+        [{
+          content: "HALAMAN AWAL",
+          colSpan: 3,
+          styles: { halign: 'center', fillColor: [41, 128, 186], textColor:[255, 255, 255] }
+        }],
+        ["", "Judul Kegiatan", keg.judul_kegiatan],
+        ["", "Tahun Kegiatan", keg.tahun],
+        ["", "Cara Pengumpulan Data", keg.cara_pengumpulan_data],
+        ["", "Sektor Kegiatan", keg.sektor_kegiatan],
+        ["", "Jenis Kegiatan Statistik", keg.jenis_statistik],
+        ["", "Identitas Rekomendasi", keg.identitas_rekomendasi],
+        [{
+          content: "I. PENYELENGGARA",
+          colSpan: 3,
+          styles: { halign: 'center', fillColor: [41, 128, 186], textColor:[255, 255, 255] }
+        }],
+        ["1.1", "Instansi Penyelenggara", keg.i_instansi_penyelanggara],
+        ["1.2", "Alamat", cleanText(keg.i_alamat)],
+        ["", "Telepon", keg.i_telepon],
+        ["", "Faksimile", keg.i_faksimile],
+        ["", "Email", keg.i_email],
+        [{
+          content: "II. PENANGGUNG JAWAB",
+          colSpan: 3,
+          styles: { halign: 'center', fillColor: [41, 128, 186], textColor:[255, 255, 255] }
+        }],
+        ["2.1","Unit Eselon Penanggung Jawab"],
+        ["", "Eselon 1", keg.ii_unit_eselon1],
+        ["", "Eselon 2", keg.ii_unit_eselon2],
+        ["2.2","Penanggung Jawab Teknis"],
+        ["", "Nama", keg.ii_pj_nama],
+        ["", "Jabatan", keg.ii_pj_jabatan],
+        ["", "Alamat", keg.ii_pj_alamat],
+        ["", "Telepon", keg.ii_pj_telepon],
+        ["", "Faksimile", keg.ii_pj_faksimile],
+        ["", "Email", keg.ii_pj_email],
+        [{
+          content: "III. PERENCANAAN DAN PERSIAPAN",
+          colSpan: 3,
+          styles: { halign: 'center', fillColor: [41, 128, 186], textColor:[255, 255, 255] }
+        }],
+        ["3.1", "Latar Belakang Kegiatan", keg.iii_latar_belakang_kegiatan],
+        ["3.2", "Tujuan Kegiatan", keg.iii_tujuan_kegiatan],
+        ["3.3", "Jadwal Kegiatan"],
+        ["", "Perencanaan Kegiatan", formatJadwal(keg.iii_jadwal_perencanaan_kegiatan)],
+        ["", "Desain",                formatJadwal(keg.iii_jadwal_desain)],
+        ["", "Pengumpulan Data",      formatJadwal(keg.iii_jadwal_pengumpulan_data)],
+        ["", "Pengolahan Data",       formatJadwal(keg.iii_jadwal_pengolahan_data)],
+        ["", "Analisis",              formatJadwal(keg.iii_jadwal_analisis)],
+        ["", "Diseminasi Hasil",      formatJadwal(keg.iii_jadwal_diseminasi_hasil)],
+        ["", "Evaluasi",              formatJadwal(keg.iii_jadwal_evaluasi)],
+      ];
+      appendVariables2(ws_keg_data, keg.iii_variabel_yang_dikumpulkan);
+      ws_keg_data.push(
+        [{
+          content: "IV. DESAIN KEGIATAN",
+          colSpan: 3,
+          styles: { halign: 'center', fillColor: [41, 128, 186], textColor:[255, 255, 255] }
+        }],
+        ["4.1", "Kegiatan ini dilakukan", keg.iv_kegiatan_ini_dilakukan],
+        ["4.2", "Frekuensi Penyelenggaraan", keg.iv_frekuensi_penyelanggara],
+        ["4.3", "Tipe Pengumpulan Data", keg.iv_tipe_pengumpulan_data],
+      );
+      appendWilayah(ws_keg_data, keg.iv_cakupan_wilayah_pengumpulan_data, keg.iv_sebagian_cakupan_wilayah_pengumpulan_data);
+      ws_keg_data.push(
+        ["4.6", "Metode Pengumpulan Data", keg.iv_metode_pengumpulan_data],
+        ["4.7", "Sarana Pengumpulan Data", keg.iv_sarana_pengumpulan_data],
+        ["4.8", "Unit Pengumpulan Data", keg.iv_unit_pengumpulan_data],
+      );
+      if(keg.cara_pengumpulan_data === "SURVEI"){
+        ws_keg_data.push(
+          [{
+            content: "V. DESAIN SAMPEL (khusus survei)",
+            colSpan: 3,
+            styles: { halign: 'center', fillColor: [41, 128, 186], textColor:[255, 255, 255] }
+          }],
+          ["5.1", "Jenis Rancangan Sampel", keg.v_jenis_rancangan_sampel],
+          ["5.2", "Metode Pemilihan Sampel Tahap Terakhir", keg.v_metode_pemilihan_sampel_tahap_terakhir],
+          ["5.3", "Metode yang Digunakan", keg.v_metode_yang_digunakan],
+          ["5.4", "Kerangka Sampel Tahap Terakhir", keg.v_kerangka_sampel_tahap_terakhir],
+          ["5.5", "Fraksi Sampel Keseluruhan", keg.v_fraksi_sampel_keseluruhan],
+          ["5.6", "Nilai Perkiraan Sampling Error Variabel Utama", keg.v_nilai_perkiraan_sampling_error_variabel_utama],
+          ["5.7", "Unit Sampel", keg.v_unit_sampel],
+          ["5.8", "Unit Observasi", keg.v_unit_observasi],
+        );
+      }
+      ws_keg_data.push(
+        [{
+          content: "VI. PENGUMPULAN DATA",
+          colSpan: 3,
+          styles: { halign: 'center', fillColor: [41, 128, 186], textColor:[255, 255, 255] }
+        }],
+        ["6.1", "Apakah Melakukan Uji Coba (Pilot Survey)?", keg.vi_apakah_melakukan_uji_coba],
+        ["6.2", "Metode Pemeriksaan Kualitas Pengumpulan Data", keg.vi_metode_pemeriksaan_kualitas_pengumpulan_data],
+        ["6.3", "Apakah Melakukan Penyesuaian Nonrespon?", keg.vi_apakah_melakukan_penyesuaian_nonrespon],
+        ["6.4", "Petugas Pengumpulan Data", keg.vi_petugas_pengumpulan_data],
+        ["6.5", "Persyaratan Pendidikan Terendah Petugas Pengumpulan Data", keg.vi_persyaratan_pendidikan_terendah_petugas_pengumpulan_data],
+        ["6.6", "Jumlah Petugas"],
+        ["", "Supervisor/penyelia/pengawas", keg.vi_jumlah_petugas_supervisor],
+        ["", "Pengumpul data/enumerator", keg.vi_jumlah_petugas_enumerator],
+        ["6.7", "Apakah Melakukan Pelatihan Petugas?", keg.vi_apakah_melakukan_pelatihan_petugas],
+        [{
+          content: "VII. PENGOLAHAN DAN ANALISIS",
+          colSpan: 3,
+          styles: { halign: 'center', fillColor: [41, 128, 186], textColor:[255, 255, 255] }
+        }],
+        ["7.1", "Tahapan Pengolahan Data", keg.vii_tahapan_pengolahan_data],
+        ["7.2", "Metode Analisis", keg.vii_metode_analisis],
+        ["7.3", "Unit Analisis", keg.vii_unit_analisis],
+        ["7.4", "Tingkat Penyajian Hasil Analisis", keg.vii_tingkat_penyajian_hasil_analisis],
+        [{
+          content: "VIII. DISEMINASI HASIL",
+          colSpan: 3,
+          styles: { halign: 'center', fillColor: [41, 128, 186], textColor:[255, 255, 255] }
+        }],
+        ["8.1", "Produk Kegiatan yang Tersedia untuk Umum"],
+        ["", "Tercetak (hardcopy)", keg.viii_ketersediaan_produk_tercetak],
+        ["", "Digital (softcopy)", keg.viii_ketersediaan_produk_digital],
+        ["", "Data Mikro", keg.viii_ketersediaan_produk_mikrodata],
+        ["8.2", "Rencana Rilis Produk Kegiatan"],
+        ["", "Tercetak (hardcopy)", parseJsonField(keg.viii_rencana_jadwal_rilis_produk_tercetak)],
+        ["", "Digital (softcopy)", parseJsonField(keg.viii_rencana_jadwal_rilis_produk_digital)],
+        ["", "Data Mikro", parseJsonField(keg.viii_rencana_jadwal_rilis_produk_mikrodata)],
+      );
+
+      doc.autoTable({
+        startY: 30,
+        head: [],
+        body: ws_keg_data,
+        margin: { top: 25, bottom: 20 },
+        didDrawPage: (d) => drawHeaderFooter(doc, "MS-Keg")
+      });
+
+      // --- 2. SECTION MS-Var (PINDAH KE LANDSCAPE) ---
+      doc.addPage('a4', 'l'); // 'l' adalah Landscape
+      doc.autoTable({
+        startY: 25,
+        head: [["Nama Variabel", "Alias", "Konsep", "Definisi","Referensi Pemilihan","Referensi Waktu","Tipe Data","Klasifikasi Isian","Aturan Validasi","Kalimat Pertanyaan","Apakah variabel dapat diakses umum?"]],
+        body: data.msvars.map(v => [
+          v.nama,
+          v.alias,
+          parseJsonField(v.konsep),
+          cleanText(v.definisi),
+          parseJsonField(v.referensi_pemilihan),
+          v.referensi_waktu,
+          v.tipe_data,
+          formatValueDomain(v.value_domain),
+          parseJsonField(v.aturan_validasi),
+          cleanText(v.kalimat_pertanyaan),
+          v.apakah_variabel_bisa_diakses_umum,
+        ]),
+        margin: { top: 25, bottom: 20 },
+        styles: { fontSize: 7, cellPadding: 3 },
+        didDrawPage: (d) => drawHeaderFooter(doc, "MS-Var")
+      });
+
+      // --- 3. SECTION MS-Ind (TETAP LANDSCAPE) ---
+      doc.addPage('a4', 'l');
+      doc.autoTable({
+        startY: 25,
+        head: [["Nama Indikator", "Konsep", "Definisi","Interpretasi","Metode Perhitungan","Rumus"
+        ,"Ukuran","Satuan","Klasifikasi Penyajian","Apakah Indikator Komposit"
+        ,"Indikator Pembangun","Variabel Pembangun","Level Estimasi","Apakah indikator dapat diakses umum"]],
+        body: data.msinds.map(i => [
+          i.nama,
+          parseJsonField(i.konsep),
+          cleanText(i.definisi),
+          cleanText(i.interpretasi),
+          cleanText(i.metode_perhitungan),
+          parseLatex(i.rumus),
+          i.ukuran,
+          i.satuan,
+          parseDynamicArray(i.variabel_disaggregasi),
+          i.apakah_indikator_komposit,
+          parseDynamicArray(i.indikator_pembangun),
+          parseDynamicArray(i.variabel_pembangun),
+          parseJsonField(i.level_estimasi),
+          i.apakah_indikator_bisa_diakses_umum
+        ]),
+        margin: { top: 25, bottom: 20 },
+        styles: { fontSize: 7, cellPadding: 3 },
+        didDrawPage: (d) => drawHeaderFooter(doc, "MS-Ind")
+      });
+
+      // Simpan File
+      doc.save(`Export_Metadata_${id}.pdf`);
+
+      // Notifikasi Sukses
+      Swal.fire({
+        icon: 'success',
+        title: 'Berhasil!',
+        text: 'PDF telah berhasil diunduh.',
+        timer: 2000,
+        showConfirmButton: false
+      });
+
+    } catch (error) {
+      console.error("PDF Export Error:", error);
+      Swal.fire({
+        icon: 'error',
+        title: 'Gagal Export',
+        text: error.message
+      });
+    } finally {
+      // 7. Matikan Status Loading (Selalu dijalankan)
+      btn.disabled = false;
+      btnText.innerText = "Export ke PDF";
+      spinner.style.display = "none";
+    }
+  }
+
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const btnExport = document.getElementById('btn-export');
+        if (btnExport) {
+            btnExport.addEventListener('click', function() {
+                // Mengambil data-id
+                const idEncrypted = this.getAttribute('data-id');
+                exportMetadata(idEncrypted);
+            });
+        }
+    });
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const btnPdf = document.getElementById('btn-pdf');
+        if (btnPdf) {
+            btnPdf.addEventListener('click', function() {
+                // Mengambil data-id
+                const idEncrypted = this.getAttribute('data-id');
+                exportToPdf(idEncrypted);
+            });
+        }
+    });
+</script>
+
+        </div>
+    </div>
+</main>
+
+<button onclick="topFunction()" id="topBtn" title="Kembali ke atas">
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+    </svg>
+</button>
+
+<script>
+// Get the button
+let mybutton = document.getElementById("topBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+<footer class="footer mt-auto py-3 text-muted bg-footer">
+    <div class="container">
+        <p class="float-start">
+            &copy; Metadata Statistik 2026<br />
+            <img class="mt-2" src="/metadata/images/bps.png" width="40px" alt=""> <i>BADAN PUSAT STATISTIK</i>
+        </p>
+        <p class="float-end">
+            HUBUNGI KAMI<br />
+            Jl. Dr. Sutomo 6-8 Jakarta 10710 Indonesia <br />
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+            </svg> (+6221) 3841195, 3842508, 3810291<br />
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope-at" viewBox="0 0 16 16">
+                <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
+                <path d="M14.247 14.269c1.01 0 1.587-.857 1.587-2.025v-.21C15.834 10.43 14.64 9 12.52 9h-.035C10.42 9 9 10.36 9 12.432v.214C9 14.82 10.438 16 12.358 16h.044c.594 0 1.018-.074 1.237-.175v-.73c-.245.11-.673.18-1.18.18h-.044c-1.334 0-2.571-.788-2.571-2.655v-.157c0-1.657 1.058-2.724 2.64-2.724h.04c1.535 0 2.484 1.05 2.484 2.326v.118c0 .975-.324 1.39-.639 1.39-.232 0-.41-.148-.41-.42v-2.19h-.906v.569h-.03c-.084-.298-.368-.63-.954-.63-.778 0-1.259.555-1.259 1.4v.528c0 .892.49 1.434 1.26 1.434.471 0 .896-.227 1.014-.643h.043c.118.42.617.648 1.12.648Zm-2.453-1.588v-.227c0-.546.227-.791.573-.791.297 0 .572.192.572.708v.367c0 .573-.253.744-.564.744-.354 0-.581-.215-.581-.8Z"/>
+            </svg> bpshq@bps.go.id<br />
+            <a href="https://www.bps.go.id/" class="link-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+                    <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"/>
+                </svg> https://www.bps.go.id/
+            </a><br />
+            <a href="https://www.instagram.com/bps_statistics/" class="link-icon" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                    <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </svg> 
+            </a>
+            <a href="https://www.youtube.com/channel/UCn4IaaxHaaP-mAjZzrAtixA" class="link-icon" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                </svg> 
+            </a>
+            <a href="https://www.twitter.com/bps_statistics" class="link-icon" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg> 
+            </a>
+            <a href="https://www.facebook.com/pages/Badan-Pusat-Statistik/1394866840805957" class="link-icon" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                </svg>
+            </a>
+        </p>
+        <div class="clearfix"></div>
+        <p class="text-center mt-4">
+            <img src="/metadata/images/se2026-white.png" height="50px" alt=""> 
+            <img src="/metadata/images/bps.png" height="50px" alt=""> 
+                    </p>
+    </div>
+</footer>
+
+<script src="/metadata/assets/6e926f58/jquery.js"></script>
+<script src="/metadata/assets/e086e102/yii.js"></script>
+<script src="/metadata/assets/d7e3a45/dist/js/bootstrap.bundle.js"></script></body>
+</html>

@@ -1,0 +1,228 @@
+# **Integrating Ocean Accounts into the Indonesian Blue Economy Index: Mapping, Scale Reconciliation, and Methodological Compatibility**
+
+## **1\. Analytical Framework and Conceptual Alignment**
+
+The integration of the Indonesian Blue Economy Index (IBEI)—developed by the Ministry of National Development Planning (Bappenas)—with the Ocean Accounts (OA) framework piloted by the Ministry of Marine Affairs and Fisheries (MMAF) and Statistics Indonesia (BPS), represents a critical juncture in national environmental-economic policy architecture1. The IBEI is designed as an administrative, composite policy instrument evaluating provincial performance across economic, social, and environmental pillars, supported by enabling environments such as governance and technology1. Concurrently, the OA framework, which aligns with the UN System of Environmental-Economic Accounting Ecosystem Accounting (SEEA EA), seeks to provide spatially explicit, stock-and-flow data regarding marine ecosystem extent, condition, and economic valuation based on strictly defined spatial grids4.  
+A central hypothesis driving the statistical architecture of Indonesia's maritime policy is that the empirical outputs of Ocean Accounts can directly feed the structural requirements of the IBEI. Previous provisional mappings suggested a high degree of derivability, asserting that approximately 61% of reconstructed IBEI indicators could be fully or partially sourced from OA data. The ensuing analysis rigorously tests that hypothesis, indicator by indicator, against verified, compiled account tables rather than theoretical framework capabilities. Furthermore, the analysis addresses severe scale mismatches—from Marine Basic Spatial Units (MBSU) to provincial jurisdictions—and the methodological information loss inherent in compressing multidimensional accounting structures into singular composite index scores.
+
+## **2\. Verified Derivability Mapping (RQ3.1)**
+
+The fundamental error in prior provisional mappings was the conflation of the SEEA EA framework's theoretical *capability* to measure a variable with the *actual compiled existence* of that data within the Indonesian statistical system. To correct this, the derivability mapping applies a strict empirical standard: an indicator is only rated "Full" if it can be sourced directly from a compiled, existing account table at the required spatial resolution and periodicity.  
+To conduct this analysis, twenty-three core indicators were reconstructed from the available blue economy literature, policy roadmaps, and sectoral assessments6. These are evaluated against the current OA inventory, providing both a "Current Coverage Rating" (based on existing pilot data such as Gili Matra, Saleh Bay, Anambas Islands, and Central Java) and a "Counterfactual National Rating" (assuming the OA framework eventually achieves full, wall-to-wall national coverage).
+
+### **2.1 Revised Mapping Matrix of 23 IBEI Indicators**
+
+| IBEI Indicator (Reconstructed) | Current Rating | Counterfactual Rating | Target Account Table | Rationale for Rating & Required Processing | Confidence |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| **1\. Blue Carbon Extent (Mangrove)** | Partial | Full | Ecosystem Extent Account | National extent maps exist (2018/2021)10, but compiled *Extent Accounts* in tabular format only exist for pilot sites (e.g., Central Java, Anambas)11. | High |
+| **2\. Blue Carbon Extent (Seagrass)** | Partial | Full | Ecosystem Extent Account | Spatial mapping exists10, but translation into accounting tables linking MBSU to provincial boundaries is restricted to pilots4. | High |
+| **3\. Coral Reef Extent** | Partial | Full | Ecosystem Extent Account | Same as above. Total area mapped nationally, but the Opening/Closing stock tables required for index input are highly localized10. | High |
+| **4\. Habitat Condition Index** | Minimal | Partial | Ecosystem Condition Account | Condition accounts are complex and site-specific. Translating diverse biophysical metrics into a standardized index requires normative modeling outside the SEEA framework4. | Medium |
+| **5\. Capture Fisheries Production Value** | Partial | Partial | Supply and Use Tables (SUT) / Ocean Satellite Account | OA provides fisheries SUTs, but data requires complex "stripping coefficients" to separate marine from land-based activities within standard KBLI/ISIC classifications13. | High |
+| **6\. Aquaculture Production Value** | Partial | Partial | Supply and Use Tables (SUT) | Similar to capture fisheries, isolating coastal/marine aquaculture from inland freshwater aquaculture requires spatial disaggregation not natively present in high-level IO tables7. | High |
+| **7\. Fisheries Sector GDP Contribution** | Partial | Partial | Ocean Economy Satellite Account | Dependent on BPS finalizing the ocean satellite accounts. Current SNA aggregation requires secondary statistical disaggregation to isolate the marine component14. | High |
+| **8\. Fish Processing Unit Value** | Minimal | Partial | Ocean Economy Satellite Account | Deeply embedded in terrestrial manufacturing data. Requires significant cross-walking between traditional industry classifications and ocean sectors13. | Medium |
+| **9\. Marine Tourism Revenue / Trips** | Minimal | Partial | Ocean Economy Satellite Account / Flow to Economy | Tourism data rarely distinguishes between coastal and non-coastal activities in national accounts without specialized satellite tables7. | Medium |
+| **10\. Marine Transport / Logistics Vol.** | Partial | Partial | Supply and Use Tables (SUT) | Readily identifiable in SNA, but isolating domestic coastal shipping from international transshipment for provincial assignment requires complex attribution rules14. | High |
+| **11\. Marine Renewable Energy** | None | Minimal | Asset Accounts | Currently outside the primary focus of Indonesian OA pilots. Requires future integration of energy asset accounts15. | Low |
+| **12\. Seaweed / Marine Biotechnology** | Minimal | Partial | Supply and Use Tables (SUT) | Grouped under broader aquaculture/agriculture categories. Identifying specific biotechnological flows requires highly granular, firm-level data14. | Low |
+| **13\. Salt Production Value** | Partial | Partial | Supply and Use Tables (SUT) | Easily isolated in economic tables, but data must be spatially attributed to specific provincial extraction zones20. | High |
+| **14\. Marine Debris / Waste** | Minimal | Partial | Residual Flow Account (Flows to Environment) | Nascent in OA. Pilots track waste, but establishing attribution to specific economic sectors versus transboundary ocean drift remains a severe limitation21. | Medium |
+| **15\. Coastal Village Water Pollution** | Minimal | Minimal | Ecosystem Condition Account | Highly localized. Converting point-source pollution data into a generalized provincial indicator requires extensive non-account interpolation23. | Medium |
+| **16\. Marine Protected Area Coverage** | Partial | Full | Governance / Extent Accounts | Readily available via geospatial mapping1. Translating to OA governance accounts requires cross-referencing with administrative boundaries11. | High |
+| **17\. Overfishing Rate (MSY)** | Minimal | Minimal | Ecosystem Asset Account (Fish Stocks) | SEEA EA tracks biomass, but calculating Maximum Sustainable Yield requires distinct fisheries stock assessment modeling outside the standard OA framework24. | Medium |
+| **18\. Ocean Literacy** | None | Minimal | Social Accounts | Abstract social construct not tracked in physical or monetary flow accounts. Social accounts are currently focused on tangible demographics26. | Low |
+| **19\. Coastal Poverty Rate** | Minimal | Partial | Social Accounts | Social accounts are currently under audit and development26. Aligning spatial poverty data with marine jurisdictions requires novel methodologies27. | Low |
+| **20\. Coastal Employment / Seafarers** | Minimal | Partial | Social Accounts / SUT | Employment is tracked, but delineating "blue" employment from general coastal populace labor requires new social accounting structures1. | Medium |
+| **21\. Coastal Health / Basic Services** | None | Minimal | Social Accounts | Tangential to ocean resources. Standard SEEA EA does not capture basic health infrastructure access24. | Low |
+| **22\. Governance Enabler** | Minimal | Partial | Governance Accounts | Piloted in Gili Matra to map institutional fragmentation27, but scaling this into a quantitative index score requires normative weighting of jurisdictional overlaps27. | Medium |
+| **23\. Technology Enabler** | None | None | N/A | Technological adoption (e.g., digital logistics) is an IBEI requirement but falls entirely outside the scope of environmental-economic accounting23. | High |
+
+## **3\. Change Log Against the Provisional Mapping (RQ3.2)**
+
+The provisional mapping document previously asserted that approximately 61% of indicators were fully or partially derivable from Ocean Accounts. This assertion heavily overstated the maturity of Indonesia's statistical infrastructure. The primary vectors of change in this revised assessment are detailed below.  
+First, there is a fundamental downgrade of Extent Indicators from "Full" to "Partial." The provisional mapping assumed that because national spatial maps of mangroves and coral reefs exist10, the Extent Accounts themselves were fully mature. However, spatial mapping is merely the prerequisite for accounting; the actual compilation of Opening and Closing stock tables across MBSU grids currently exists only in localized pilots like Saleh Bay, the Northern Coast of Central Java, and the Anambas Islands4.  
+Second, Condition Indicators were downgraded from "Full" to "Minimal" or "Partial." The provisional mapping failed to recognize that "Condition" in the SEEA EA framework represents a vector of heterogeneous metrics—such as live coral cover percentage or seagrass shoot density. Transforming these disparate metrics into a uniform IBEI indicator requires severe methodological compression and normative weighting that the SEEA EA does not natively provide.  
+Third, Economic Indicators were downgraded from "Full" to "Partial." The provisional mapping assumed direct derivability of metrics like Fisheries GDP. The revised assessment notes that standard Input-Output (IO) tables must undergo a complex "stripping coefficient" process to isolate ocean economies from terrestrial economies within standard KBLI classifications13. Until the BPS Ocean Satellite Account is officially codified and standardized, this data cannot be pulled directly without extensive secondary processing.  
+Finally, Social and Governance Indicators experienced a downgrade from "Partial" to "Minimal." The Global Ocean Accounts Partnership (GOAP) social accounts are fundamentally still in the data audit phase globally26. While governance accounts were successfully piloted in Gili Matra to map institutional boundaries and fragmentation27, they produce qualitative and spatial descriptors, not the natively index-ready scores required by the IBEI27.
+
+### **3.1 Recomputed Summary Distribution**
+
+Analyzing the 23 reconstructed indicators under the strict criterion of *compiled data availability* yields a drastically different distribution:
+
+* **Full:** 0 indicators (0.00%) — No indicator can currently be extracted directly from a national account table without supplementary spatial, temporal, or statistical processing.  
+* **Partial:** 9 indicators (39.13%) — Primarily consisting of extent accounts and basic supply-use macroeconomic data that either exist in pilot forms or require stripping coefficients to isolate the "blue" component.  
+* **Minimal:** 10 indicators (43.48%) — Comprising condition accounts, residual flows (waste), and social/governance metrics that produce related but specification-incompatible data.  
+* **None:** 4 indicators (17.39%) — Indicators falling entirely outside the scope of ocean accounting, such as technology enablers and broad coastal health infrastructure.
+
+The revised full-or-partial derivability stands at approximately 39.13% under current infrastructure, effectively refuting the provisional 61% claim. Even under a counterfactual scenario of full national OA coverage, the "Full" category would only rise to capture basic extent metrics, as the SEEA EA framework fundamentally resists the reductionist requirements of a composite index.
+
+## **4\. Scale Reconciliation: MBSU Grids to Provincial Jurisdictions (RQ3.3)**
+
+Ocean Accounts are inherently spatial constructs, built upon Marine Basic Spatial Units (MBSU)—highly localized geographic grid cells that form the foundation of ecosystem accounting4. The IBEI, conversely, is an administrative policy tool that evaluates and ranks provinces3. Reconciling these two scales introduces severe ecological, mathematical, and legal challenges.
+
+### **4.1 Aggregation Rules and Jurisdictional Boundaries**
+
+Indonesia's administrative architecture for marine management is dictated by Law No. 23 of 2014 concerning Regional Government. Article 27 of this legislation explicitly grants provincial governments the authority to manage marine areas up to exactly 12 nautical miles from the coastline30.  
+Aggregating MBSU data to feed the IBEI requires an explicit spatial clipping of OA data at this 12-nautical-mile boundary. Ecologically, this boundary is arbitrary. A continuous coral reef or pelagic habitat spanning the 11-to-14 nautical mile mark would be statistically bifurcated25. The Extent and Condition Accounts for that ecosystem would capture the whole, but the IBEI aggregation rule would require truncating the data to assign credit solely for the portion falling within provincial jurisdiction. Currently, no standardized aggregation rules for clipping MBSUs to administrative boundaries exist in the IBEI methodology; they must be invented and legally codified to prevent cross-provincial data disputes. This is particularly critical in archipelagic straits where provincial claims overlap, such as the boundary between South Sumatra and Bangka Belitung, where inter-provincial distances are significantly less than 24 nautical miles33.
+
+### **4.2 Sensitivity to Grid Resolution: The Saleh Bay Findings**
+
+The process of constructing MBSUs is highly sensitive to grid resolution and the mathematical method of designation. Empirical testing conducted in Saleh Bay compared 10x10 meter grids against 25x25 meter grids, utilizing both "dominance" (extent-based) and "hierarchy" (criteria-based) designation methods4.  
+The findings present a critical vulnerability for the IBEI: larger grid sizes (25x25m) significantly increase the error rate in estimating the total area and spatial configuration of ecosystems4. While the dominance method produced more accurate results, it carries a substantially higher computational cost compared to the hierarchy method when applied to vast marine areas4.  
+If provinces are compiled using different MBSU resolutions or designation methods—for instance, if a well-funded province utilizes 10x10m dominance while a resource-constrained province utilizes 25x25m hierarchy—their total ecosystem extent values will carry entirely different margins of error. Normalizing these heterogeneous values into a comparative index like the IBEI mathematically codifies these errors, rendering cross-provincial rankings statistically invalid.
+
+### **4.3 Partial-Coverage Bias and Mixed-Coverage Scoring**
+
+Currently, OA compilation in Indonesia is restricted to strategic pilot sites, overwhelmingly focused on prominent Marine Protected Areas (MPAs) such as Gili Matra, the Anambas Islands, and Saleh Bay11.  
+If the IBEI attempts to score provinces based on this partial coverage, it introduces a severe positive selection bias. MPAs are, by definition, zones subjected to heightened conservation efforts and specialized governance11. If a province's OA data is derived solely from its premier MPA, its IBEI environmental pillar score will reflect the pristine condition of the protected zone, completely ignoring the potentially degraded state of its unprotected coastal industrial areas. Conversely, an uncovered province would be forced to rely on proxy data or national averages.  
+Scoring covered and uncovered provinces within the same index using mixed methodologies is statistically indefensible. It penalizes provinces with comprehensive, wall-to-wall OA data (which inherently captures degraded areas alongside pristine ones) while artificially inflating scores for provinces represented only by carefully curated MPA pilot sites. The adoption of account-derived indicators in the IBEI strictly requires continuous national OA coverage to ensure baseline parity.
+
+## **5\. Temporal Reconciliation: Compilation Lags and Vintages (RQ3.4)**
+
+The synchronization of data vintage is a persistent structural challenge in national accounting. The IBEI is conceptualized as a dynamic, recurring policy instrument to monitor the progress of the blue economy1. However, the underlying OA data relies on earth observation, ground-truthing, and inter-agency data reconciliation, which suffers from inherent compilation lags.
+
+### **5.1 Lag vs. Periodicity**
+
+Geospatial data collection and economic supply-use table balancing require extensive time horizons. For example, the Anambas Islands pilot, published in late 2023, utilized an opening year of 2015-2017 and a closing year of 2020/2021 for its ecosystem asset accounts, while its economic flow data was anchored to 202211. Similarly, the national-scale ecosystem mapping utilizing Sentinel-2 and SPOT imagery mapped the discrete years of 2018 and 202110.  
+If the IBEI operates on an annual reporting cycle, it will inevitably carry indicators that are three to five years stale relative to the publication date, creating a disconnect between the policy instrument's reporting cycle and the reality of the ecosystem.
+
+### **5.2 The Mixed-Vintage Problem**
+
+Mixing vintages across indicators creates deep interpretative flaws within a composite index. If the IBEI's economic pillar relies on near-real-time data (e.g., capture fisheries export volumes from the current fiscal year) while the environmental pillar relies on OA extent data from three years prior, the index fundamentally cannot accurately capture the immediate environmental cost of recent economic expansion. An aggressive coastal development project could artificially boost the economic pillar in Year ![][image1], while the corresponding habitat destruction would not register in the environmental pillar until Year ![][image2]. This latency undermines the IBEI’s primary utility as a real-time diagnostic tool for sustainable blue economy development.
+
+## **6\. Methodological Compatibility and Information Loss (RQ3.5)**
+
+The most profound tension between Ocean Accounts and the IBEI is methodological. The SEEA EA framework is designed to preserve complexity: it maintains strict identities between stocks and flows, distinguishes clearly between physical biometrics (hectares, biomass) and monetary valuation, and retains spatial explicitness down to the grid level4. Composite indices, by mathematical necessity, destroy this complexity in pursuit of a singular narrative score.
+
+### **6.1 What Compression Destroys**
+
+To generate a single score, the IBEI methodology normalizes disparate unit data (e.g., tons of carbon, dollars of GDP, hectares of coral) into dimensionless scales (typically 0 to 100), applies weighting schemes, and aggregates the results3.  
+This compression destroys critical spatial heterogeneity. An OA map demonstrating catastrophic mangrove loss in one district offset by restoration in another provides actionable, spatially explicit intelligence for local managers. Aggregated to a provincial IBEI score, this nets out to "zero change," communicating a false stability to policymakers and stripping the data of its management utility.
+
+### **6.2 Normalisation of Signed Change Variables**
+
+The OECD/JRC *Handbook on Constructing Composite Indicators* outlines severe statistical vulnerabilities when incorporating flow metrics, particularly signed change variables, into composite architectures35.  
+Extent *change* (e.g., the net addition or loss of seagrass area between accounting periods) is a signed variable that often hovers near zero. Standard min-max normalization, mathematically expressed as:  
+![][image3]  
+behaves erratically with signed change data. If the vast majority of provinces experience minute changes (e.g., between \-0.5% and \+1.0%), the denominator becomes extremely small. Consequently, a marginal absolute error in MBSU grid mapping (such as those identified in the Saleh Bay 25x25m grids4) could shift a province from the bottom of the index to the top. Furthermore, if a single outlier province experiences a massive restoration success (+15%), it stretches the max boundary, artificially compressing the normalized scores of all other provinces into a tight, indistinguishable cluster near the median, neutralizing the index's discriminative power35.
+
+### **6.3 Substitution of Extent-Change for Point-in-Time Proxies**
+
+Because measuring flow (change) is statistically volatile in normalisation, index developers often substitute point-in-time stock proxies (e.g., absolute mangrove hectares). However, this heavily biases the index in favor of geographically larger provinces or those with historically vast coastlines, regardless of their actual current management efficacy. The OECD/JRC framework explicitly warns against mixing stock and flow measures within the same pillar without rigorous mathematical transformation, as it conflates *state* (historical endowments) with *performance* (current policy effectiveness)35.
+
+## **7\. The Economy-Environment Linkage Claim (RQ3.6)**
+
+A central analytical promise of the IBEI concept note is that by utilizing supply-use tables and environmental accounts, the index will successfully flag provinces that achieve high economic scores through the unsustainable depletion of natural capital.
+
+### **7.1 The Masking Effect of Compensatory Aggregation**
+
+Evaluating the mechanics of the IBEI reveals that this promise is fundamentally compromised by the index's aggregation architecture. Like most composite indices, the IBEI utilizes compensatory aggregation (often geometric or arithmetic means) across its economic, social, and environmental pillars3.  
+If a province permits aggressive, unsustainable aquaculture expansion by clearing mangroves, its Economic Pillar score will naturally rise (due to increased production value and employment) while its Environmental Pillar score will fall (due to habitat loss and reduced blue carbon stock). Under a compensatory aggregation model, the economic gain offsets the environmental penalty, resulting in a stable or even increased overarching IBEI score. The depletion signal is entirely hidden within the mathematical average.  
+Empirical studies on Sumatra's application of the Blue Economy Index noted exactly this phenomenon: regions with a high extraction focus often achieved high overall economic scores, masking underlying environmental degradation7. The index structure allows "technical efficiency" to mathematically dominate "ecological restoration"37.
+
+### **7.2 The Appropriate Instrument for the Diagnostic**
+
+A composite index is mathematically the incorrect instrument for surfacing natural capital depletion. To identify trade-offs, the pillars must be jointly analyzed in a non-compensatory framework, or visualized separately. The diagnostic function desired by Bappenas is far better served by the Indonesian Ocean Accounts Dashboard38 or cross-tabulated satellite tables. In such formats, economic value-added can be divided by ecosystem asset depreciation to create a direct efficiency ratio (e.g., GDP generated per hectare of habitat degraded), rather than blending these opposing forces into a single, opaque score.
+
+## **8\. Gap Closure Sequencing Roadmap (RQ3.7)**
+
+To elevate the "Partial" and "Minimal" indicators to "Full" derivability, specific statistical and institutional investments must be sequenced. The roadmap below orders these by dependency and effort leverage:  
+**Phase 1: Foundational Correspondences (High Leverage, Low Cost)**
+
+* *Action:* Establish a formal classification correspondence (cross-walk) between standard KBLI/ISIC codes and IBEI sector definitions.  
+* *Dependency unlocked:* Enables the isolation of the "Blue Economy" within national GDP, transforming Fisheries, Marine Manufacturing, and Marine Transport indicators from Partial to Full.
+
+**Phase 2: Standardizing Spatial Aggregation (High Leverage, Medium Cost)**
+
+* *Action:* Legally codify the aggregation rules mapping MBSU grids to the 0-12 nautical mile provincial jurisdiction limit defined by Law 23/201430. Decide the mathematical treatment of bisected grid cells (e.g., centroid-inclusion vs. proportional area).  
+* *Dependency unlocked:* Allows national extent maps10 to be reliably translated into provincial IBEI environmental pillar scores without generating spatial border disputes.
+
+**Phase 3: National Extent Account Compilation (Medium Leverage, High Cost)**
+
+* *Action:* Scale the SEEA EA Extent Accounts from pilot sites (Anambas, Saleh Bay, Central Java) to wall-to-wall national coverage using consistent MBSU resolutions (optimizing the trade-off between 10x10m and 25x25m grids)4.  
+* *Dependency unlocked:* Provides unbiased, non-MPA-skewed data for Blue Carbon and Coral Reef extent indicators, eliminating partial-coverage bias.
+
+**Phase 4: Condition and Social Account Maturation (Low Leverage, Extreme Cost)**
+
+* *Action:* Finalize the social data audit methodologies26 and establish standardized reference levels for ecosystem condition metrics.  
+* *Dependency unlocked:* Moves highly subjective poverty, ocean literacy, and habitat quality indicators from Minimal to Partial/Full.
+
+## **9\. Classification Correspondence (RQ3.8)**
+
+A critical hidden vulnerability in the mapping of IBEI economic indicators is classification correspondence. Ocean Accounts operate strictly within statistical frameworks linked to the System of National Accounts (SNA), relying on standard industry classifications (ISIC globally, KBLI in Indonesia)13.  
+Standard KBLI classifications do not cleanly distinguish between terrestrial and marine activities in borderline sectors. For example, "Tourism" includes both inland mountain resorts and coastal dive operators; "Manufacturing" blends inland food processing with marine fish processing.
+
+### **9.1 Mapping KBLI to the Ocean Economy**
+
+To achieve Full derivability for economic indicators, the statistical infrastructure must utilize a "stripping coefficient" methodology13. This involves applying spatial filters or enterprise-level survey data to strip out the terrestrial components of KBLI sectors, isolating the ocean economy.
+
+| Broad Economic Sector | KBLI / SNA Reality | Requirement for OA-to-IBEI Derivation |
+| :---- | :---- | :---- |
+| **Capture Fisheries** | Generally distinct, but inland freshwater capture is often grouped with coastal capture. | Moderate spatial stripping required to separate inland lakes/rivers from coastal marine capture. |
+| **Aquaculture** | Blends inland pond farming with coastal brackish water (tambak) and marine cage farming. | High spatial stripping required. Satellite imagery must delineate coastal vs. inland ponds. |
+| **Marine Manufacturing** | KBLI groups "food processing" together. Fish processing is nested deep within sub-codes. | Granular firm-level survey data required to isolate marine resource processing from general food manufacturing. |
+| **Coastal Tourism** | KBLI tracks "Accommodation and Food Service." No native distinction for coastal proximity. | Severe stripping required. Requires geospatial cross-referencing of hotel coordinates against the 0-12nm coastal zone. |
+| **Marine Transport** | Tracks shipping, but mixes domestic inter-island routes with international freight. | Moderate stripping required to allocate domestic logistical value-add to specific provincial jurisdictions. |
+
+Until BPS finalizes a standardized, published Ocean Satellite Account with agreed-upon stripping coefficients for Indonesia14, any mapping of "Marine-based manufacturing" or "Coastal tourism" from IO tables to the IBEI remains an ad-hoc, partial estimation vulnerable to massive double-counting and terrestrial contamination.
+
+## **10\. Residual Unknowns**
+
+Several critical parameters remain unresolved based on currently available evidence, requiring further targeted inquiry:
+
+> 1. **Non-Compensatory Architecture Appetite:** It remains unknown if Bappenas is willing to alter the fundamental mathematical structure of the IBEI (e.g., moving from an arithmetic mean to a multi-criteria outranking approach) to prevent economic scores from masking environmental degradation.  
+> 2. **MBSU Grid Standardization:** While the Saleh Bay study proves that grid size and designation methods alter extent data4, it is unknown which exact parameters the Geospatial Information Agency (BIG) and MMAF will legally mandate for the final national rollout.  
+> 3. **Cross-Provincial Spillovers:** The treatment of highly mobile stocks (e.g., pelagic fisheries spawning grounds that span beyond the 12nm line into EEZ waters25) within a strict provincial index remains completely undocumented.
+
+To resolve these ambiguities, direct access to the internal methodological guidelines of the MMAF Ocean Accounts Task Force and the specific mathematical aggregation formulas utilized in the December 2023 update of the IBEI1 is required.  
+The empirical integration of Ocean Accounts into the Indonesian Blue Economy Index reveals that while OA provides a vastly superior empirical foundation for marine policy compared to traditional statistics, the data cannot be seamlessly plugged into a composite index. The translation from spatially explicit, biophysical accounting stocks to a normalized administrative index requires careful, legally codified statistical bridging to ensure that the pursuit of a high IBEI score does not inadvertently incentivize, or mathematically mask, the depletion of natural capital.
+
+#### **Works cited**
+
+> 1. Indonesia National Snapshot | ASEAN Blue Wealth, [https://aseanbluewealth.com/national-snapshots/indonesia/](https://aseanbluewealth.com/national-snapshots/indonesia/)  
+> 2. Trade & Investment Policy \- ARISE+ Indonesia, [https://ariseplus-indonesia.org/en/priority/trade-investment-policy.html](https://ariseplus-indonesia.org/en/priority/trade-investment-policy.html)  
+> 3. (PDF) Digital Business Transformation: A Systematic Literature Review On Models, Strategies, And Challenges In The Digital Economy Era \- ResearchGate, [https://www.researchgate.net/publication/404251710\_Digital\_Business\_Transformation\_A\_Systematic\_Literature\_Review\_On\_Models\_Strategies\_And\_Challenges\_In\_The\_Digital\_Economy\_Era](https://www.researchgate.net/publication/404251710_Digital_Business_Transformation_A_Systematic_Literature_Review_On_Models_Strategies_And_Challenges_In_The_Digital_Economy_Era)  
+> 4. Optimising Marine Basic Spatial Units (MBSU) for Ocean Accounting using empirical data from Saleh Bay, Indonesia \- ResearchGate, [https://www.researchgate.net/publication/383249415\_Optimising\_Marine\_Basic\_Spatial\_Units\_MBSU\_for\_Ocean\_Accounting\_using\_empirical\_data\_from\_Saleh\_Bay\_Indonesia](https://www.researchgate.net/publication/383249415_Optimising_Marine_Basic_Spatial_Units_MBSU_for_Ocean_Accounting_using_empirical_data_from_Saleh_Bay_Indonesia)  
+> 5. National Accounting for the Ocean and Ocean Economy, [https://oceanpanel.org/wp-content/uploads/2022/05/National-Accounting-for-the-Ocean-and-Ocean-Economy.pdf](https://oceanpanel.org/wp-content/uploads/2022/05/National-Accounting-for-the-Ocean-and-Ocean-Economy.pdf)  
+> 6. Sustainability analysis of fisheries and marine resource development in Indonesia's blue economy framework | Biodiversitas \- SMUJO, [https://smujo.id/biodiv/article/download/21788/8778/1179218](https://smujo.id/biodiv/article/download/21788/8778/1179218)  
+> 7. (PDF) Bayesian Spatio-Temporal Modeling: Application to Development of Blue Economy Index and Its Influence to GRDP in Sumatera Island \- ResearchGate, [https://www.researchgate.net/publication/398527593\_Bayesian\_Spatio-Temporal\_Modeling\_Application\_to\_Development\_of\_Blue\_Economy\_Index\_and\_Its\_Influence\_to\_GRDP\_in\_Sumatera\_Island](https://www.researchgate.net/publication/398527593_Bayesian_Spatio-Temporal_Modeling_Application_to_Development_of_Blue_Economy_Index_and_Its_Influence_to_GRDP_in_Sumatera_Island)  
+> 8. Blue Economy Policy Implementation and Its Ecological Implications in Tomini Bay \- ScholarHub UI, [https://scholarhub.ui.ac.id/cgi/viewcontent.cgi?article=1555\&context=jbb](https://scholarhub.ui.ac.id/cgi/viewcontent.cgi?article=1555&context=jbb)  
+> 9. Enhancing fisheries sustainability in Indonesia: A critical review of, [https://journal-iasssf.com/index.php/JMarPT/article/download/1664/1148/10008](https://journal-iasssf.com/index.php/JMarPT/article/download/1664/1148/10008)  
+> 10. Jessica Pingkan's research works | Wildlife Conservation Society and other places, [https://www.researchgate.net/scientific-contributions/Jessica-Pingkan-2179989325](https://www.researchgate.net/scientific-contributions/Jessica-Pingkan-2179989325)  
+> 11. Ocean Accounts of Anambas Islands MPA 2015 and 2020 Period \- SIDAKO, [https://sidako.kkp.go.id/storage/documents/3.%20OCEAN%20ACCOUNTS%20OF%20ANAMBAS%20ISLANDS%20MPA\_compressed%20(1)\_69f7f49bab42d.pdf](https://sidako.kkp.go.id/storage/documents/3.%20OCEAN%20ACCOUNTS%20OF%20ANAMBAS%20ISLANDS%20MPA_compressed%20\(1\)_69f7f49bab42d.pdf)  
+> 12. Ocean Accounts of Critical Ecosystems for Marine Spatial Planning in the Northern Coast of Central Java Province 2010, 2018, and \- SIDAKO, [https://sidako.kkp.go.id/storage/documents/6.%20OCEAN%20ACCOUNTS%20OF%20CRITICAL%20ECOSYSTEM%20CENTRAL%20JAVA\_compressed\_69f7f259a5fcd.pdf](https://sidako.kkp.go.id/storage/documents/6.%20OCEAN%20ACCOUNTS%20OF%20CRITICAL%20ECOSYSTEM%20CENTRAL%20JAVA_compressed_69f7f259a5fcd.pdf)  
+> 13. Ocean economic input-output tables of coastal provinces in China \- PMC, [https://pmc.ncbi.nlm.nih.gov/articles/PMC12116797/](https://pmc.ncbi.nlm.nih.gov/articles/PMC12116797/)  
+> 14. Studi Mendalam Neraca Laut 2021 | PDF \- Scribd, [https://id.scribd.com/document/550548887/03-Modul-Ocean-Accounts](https://id.scribd.com/document/550548887/03-Modul-Ocean-Accounts)  
+> 15. Annual Report 2022\. International development cooperation in Statistics Norway \- SSB, [https://www.ssb.no/en/omssb/ssbs-virksomhet/planer-og-meldinger/annual-report-2022.international-development-cooperation-in-statistics-norway/\_/attachment/inline/943e96b0-1a83-4826-9988-f592f03b09b2:6614ed0cac44516289d67d7a44e01cec046043c5/PM2023-02\_interactive.pdf](https://www.ssb.no/en/omssb/ssbs-virksomhet/planer-og-meldinger/annual-report-2022.international-development-cooperation-in-statistics-norway/_/attachment/inline/943e96b0-1a83-4826-9988-f592f03b09b2:6614ed0cac44516289d67d7a44e01cec046043c5/PM2023-02_interactive.pdf)  
+> 16. The Government's Adaptive Capacity in Developing Marine Tourism Potential in Makassar City \- ResearchGate, [https://www.researchgate.net/publication/401970547\_The\_Government's\_Adaptive\_Capacity\_in\_Developing\_Marine\_Tourism\_Potential\_in\_Makassar\_City](https://www.researchgate.net/publication/401970547_The_Government's_Adaptive_Capacity_in_Developing_Marine_Tourism_Potential_in_Makassar_City)  
+> 17. The Maritime Industry and Logistics in Indonesia Blue Economy Roadmap \- Samudera indonesia Research Initiative, [https://research.samudera.id/logistics-brief/ODY=](https://research.samudera.id/logistics-brief/ODY=)  
+> 18. Ocean Accounts of Indonesia, [https://oceanaccounts.org/publications/ocean-accounts-of-indonesia/](https://oceanaccounts.org/publications/ocean-accounts-of-indonesia/)  
+> 19. GAF9 \- Book of Abstracts \- GAF CONFERENCE, [https://gafconference.org/docs/gaf9\_book\_of\_abstract.pdf](https://gafconference.org/docs/gaf9_book_of_abstract.pdf)  
+> 20. (19 07 2022\) Blue Economy Roadmap | PDF \- Scribd, [https://www.scribd.com/document/652605646/19-07-2022-Blue-Economy-Roadmap-1](https://www.scribd.com/document/652605646/19-07-2022-Blue-Economy-Roadmap-1)  
+> 21. REPORT OF THE OCEAN ACCOUNTS DEVELOPMENT IN INDONESIA \- AWS, [https://webunwto.s3.eu-west-1.amazonaws.com/s3fs-public/2023-12/Indonesia\_Ocean\_Accounts\_Development\_Report.pdf](https://webunwto.s3.eu-west-1.amazonaws.com/s3fs-public/2023-12/Indonesia_Ocean_Accounts_Development_Report.pdf)  
+> 22. Assessing the Impact of Marine Tourism and Protection on Cultural Ecosystem Services Using Integrated Approach: A Case Study of Gili Matra Islands \- MDPI, [https://www.mdpi.com/1660-4601/19/19/12078](https://www.mdpi.com/1660-4601/19/19/12078)  
+> 23. CONSTRUCTION OF BLUE ECONOMY DEVELOPMENT INDEX AT THE PROVINCIAL LEVEL IN INDONESIA USING EXPLORATORY FACTOR ANALYSIS \- Semantic Scholar, [https://pdfs.semanticscholar.org/a0af/0ee61e83d0bf5542d8bd30c489dca0ff319e.pdf](https://pdfs.semanticscholar.org/a0af/0ee61e83d0bf5542d8bd30c489dca0ff319e.pdf)  
+> 24. Bayesian Spatio-Temporal Modeling: Application to Development of Blue Economy Index and Its Influence to GRDP in Sumatera Island, [https://mjms.upm.edu.my/fullpaper/2025-December-19-4/Rinaldi,%20A.-1471-1506.pdf](https://mjms.upm.edu.my/fullpaper/2025-December-19-4/Rinaldi,%20A.-1471-1506.pdf)  
+> 25. Firdaus Agung's research while affiliated with Ministry of Marine Affairs and Fisheries and other places \- ResearchGate, [https://www.researchgate.net/scientific-contributions/Firdaus-Agung-2208012799](https://www.researchgate.net/scientific-contributions/Firdaus-Agung-2208012799)  
+> 26. Leveraging national social data for Ocean Accounts, [https://oceanaccounts.org/publications/leveraging-national-social-data-for-ocean-accounts/](https://oceanaccounts.org/publications/leveraging-national-social-data-for-ocean-accounts/)  
+> 27. Governance Accounts Explained | Global Ocean Accounts Partnership, [https://oceanaccounts.org/insights/governance-accounts-explained/](https://oceanaccounts.org/insights/governance-accounts-explained/)  
+> 28. Sustainable ocean development policies in Indonesia: paving the pathways towards a maritime destiny \- Frontiers, [https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1401332/full](https://www.frontiersin.org/journals/marine-science/articles/10.3389/fmars.2024.1401332/full)  
+> 29. Assessment of Stakeholder's Perceptions of the Value of Coral Reef Ecosystem Services: The Case of Gili Matra Marine Tourism Park \- PMC, [https://pmc.ncbi.nlm.nih.gov/articles/PMC9819916/](https://pmc.ncbi.nlm.nih.gov/articles/PMC9819916/)  
+> 30. Environmental Impact and Maritime Jurisdiction Dispute in 2025 \- Hukum dan Demokrasi (HD), [https://journal.stih-pgl.ac.id/ojs-stih/index.php/jhd/article/download/84/72](https://journal.stih-pgl.ac.id/ojs-stih/index.php/jhd/article/download/84/72)  
+> 31. Legal Policy Management of Coastal Areas and Small Islands in Indonesia \- Repository Universitas Islam Riau, [https://repository.uir.ac.id/22929/3/6.%20Legal%20Policy%20Management%20of%20Coastal%20Areas%20and%20Small%20Islands\_Suparto.pdf](https://repository.uir.ac.id/22929/3/6.%20Legal%20Policy%20Management%20of%20Coastal%20Areas%20and%20Small%20Islands_Suparto.pdf)  
+> 32. FAILURES IN THE GOVERNANCE OF COASTAL AUTHORITY IN THE DESIGNATION OF NATIONAL STRATEGIC PROJECTS: A CASE STUDY OF REMPANG ECO C, [https://jurnal.amikom.ac.id/index.php/jspg/article/download/2747/949](https://jurnal.amikom.ac.id/index.php/jspg/article/download/2747/949)  
+> 33. Constructing an Imaginary Wall in the Ocean: A Technical Cartography Study on the Delimitation of Maritime Boundaries in the Provinces \- ASEAN Journal on Science and Technology for Development, [https://ajstd.ubd.edu.bn/cgi/viewcontent.cgi?article=1427\&context=journal](https://ajstd.ubd.edu.bn/cgi/viewcontent.cgi?article=1427&context=journal)  
+> 34. Defining a Complete Sequence of National Ocean Accounts | IDEEA Group, [https://www.ideeagroup.com/wp-content/uploads/Defining-a-Complete-Sequence-of-National-Ocean-Accounts.pdf](https://www.ideeagroup.com/wp-content/uploads/Defining-a-Complete-Sequence-of-National-Ocean-Accounts.pdf)  
+> 35. OECD System of Composite Leading Indicators, [https://ws089.juntadeandalucia.es/jornadas/indicadoreseconomicos/ponencias/GyorgyGyomai.pdf](https://ws089.juntadeandalucia.es/jornadas/indicadoreseconomicos/ponencias/GyorgyGyomai.pdf)  
+> 36. Use of Early Warning and Business Cycle Indicators in Analytical Frameworks \- UN Statistics Division \- the United Nations, [https://unstats.un.org/unsd/nationalaccount/workshops/2009/netherlands/AC202-S72.PDF](https://unstats.un.org/unsd/nationalaccount/workshops/2009/netherlands/AC202-S72.PDF)  
+> 37. Augmented Dickey-Fuller (ADF) unit root test | Download Scientific Diagram \- ResearchGate, [https://www.researchgate.net/figure/Augmented-Dickey-Fuller-ADF-unit-root-test\_tbl1\_398918625](https://www.researchgate.net/figure/Augmented-Dickey-Fuller-ADF-unit-root-test_tbl1_398918625)  
+> 38. Let's Explore Indonesia's Ocean Accounts Dashboard \- FRCI, [https://perikanan.org/en/kegiatan/mari-jelajahi-dashboard-neraca-sumber-daya-laut-indonesia/show](https://perikanan.org/en/kegiatan/mari-jelajahi-dashboard-neraca-sumber-daya-laut-indonesia/show)  
+> 39. Ocean Accounts Indonesia \- Coral Reef Rescue Portal, [https://coralreefrescueportal.com/resource/ocean-accounts-indonesia/](https://coralreefrescueportal.com/resource/ocean-accounts-indonesia/)  
+> 40. (PDF) Indonesia Blue Economy Roadmap \- ResearchGate, [https://www.researchgate.net/publication/379268565\_Indonesia\_Blue\_Economy\_Roadmap](https://www.researchgate.net/publication/379268565_Indonesia_Blue_Economy_Roadmap)
+
+[image1]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAaCAYAAABozQZiAAAAsUlEQVR4XmNgGLlgGRA/g+I9QLwZiN9C8T0gXg/E24H4CRS3QrQxMAgA8VEgFoViEOAD4j9QXAYVA4F0KC6ACSQCsRtcGgJ8gPg/FBsjiYPUgrArTCAQiBnh0hDQB8TvoJgJSdwZioVgAhRpxgYuMkACCYRJAqBA+wfEOVBMEghjgASUFhSTBGYA8Qt0QWIBRZrvAPFydEFcwAiI1wDxbij+yQBJkhugOAKhdBSMAnoCANRXKgYN57dgAAAAAElFTkSuQmCC>
+
+[image2]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAaCAYAAAD1wA/qAAABf0lEQVR4Xu2WTSsGURTHDzvJS6KsrKwUimRnQaxsWEhZ2ZCSbPgGXlbKgoQ1G0UpFo+tD8CCBVlJIvbe/U/3zDhzjdxn5kGm+6vfYv5zp+5pzj0zRB6Px4UN8QoewF14J17AbbgPL8UZ89iPUwon4Lq4CJsjKxSV8FCskawcPovTkjGj4qTKXOi2A0d44yPqegrewHqVhQzDHjGgF76JrSrntWy+G1uxA0dOyXRHQBuZPY2pLKQPFokBC/BeLFZ5l1ilMhdW7cAR7pYSdT0OH2GtykIyU0gcR2QOOFsIkhbCNMFZ8Qy2R29/DR/4VzLVs4UgTSH89vmcsmtwicww+pYBMgeqQcyHfrgc40lMxjaKrnCbPcE5+0YcPGGu7TAlSd5IHZlvWoeV38JjK4slM4Wcw007TEmSQng6vsAhlVWTaXtuy0+0wC0xBx/I/JbsiIMfSxOTpBBmnswegsHDZ20PlulFv0nSQhieWp1i8Av1Z1TYwX8lM4V4PB6PJ8I71VdWgWXOpW4AAAAASUVORK5CYII=>
+
+[image3]: <data:image/png;base64,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>
