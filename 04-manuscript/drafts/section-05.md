@@ -55,7 +55,7 @@ extent surface exists (Section 4.1), and cover is measured at survey stations, g
 of 18.11% in 2016 and live hard coral cover of 16.99% in 2021, which the report does not state to be
 the same measure and which are therefore not read here as a series, and seagrass cover averaging
 32.28% with a station maximum of 82.01% (MMAF, 2022, pp. 40, 45 [pdf 54, 59]). The 2021 coral figure is
-unreconciled in the source, where the narrative reports 16.99% whilst the report's own Table 3 on the same page prints
+unreconciled in the source, where the narrative reports 16.99% whilst the report's own tab. 3 on the same page prints
 an average of 18.36%. The cross-tabulation of extent by cover class is not published, and the step
 from the input layer to indicator 19 is one tabulation that has not been performed.
 
