@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "ibei",
+  "project_id": "87a07ae1-5d04-4a51-97f7-d72158c90326"
+}
