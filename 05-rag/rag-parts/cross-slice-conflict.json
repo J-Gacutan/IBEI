@@ -1,0 +1,38 @@
+[
+  {
+    "chunk_id": "doc_1_cross-slice-conflict_chunk_001",
+    "document_id": "doc_1",
+    "slice_id": "cross-slice-conflict",
+    "section_path": "Konflik internal: Tabel 1 (empat pilar) vs Tabel 4/5 dan Gambar 11 (tiga pilar)",
+    "printed_page": "pp. 11-13; pp. 93-94",
+    "pdf_page": 21,
+    "content": "[Locus A — Tabel 1, Indikator Indeks Ekonomi Biru Indonesia, hlm. 11-13 (pdf 21-23):] \"Pilar: Enabler (teknologi & tata kelola) — Subpilar: Pariwisata berbasis bahari (indikator 15-16); Subpilar “-” (indikator 17-18).\" [Locus B — Tabel 4, Bobot IBEI 2025 berdasarkan pilar, hlm. 94 (pdf 104):] \"Kode Pillar / Nama Pilar / Kontribusi terhadap IBEI: si_enviro | Index pilar lingkungan | Tinggi (36,9%); si_econ | Index pilar ekonomi | Sedang (32,6%); si_social | Index pilar sosial | Rendah (30,5%).\" [Locus B — Tabel 5, Bobot subpilar dalam membentuk pilar IBEI, hlm. 94 (pdf 104):] \"Pembentuk Pilar Ekonomi: ... si_econ_s4 | Indeks subpilar pariwisata berbasis kelautan | Tinggi (22,1%); si_econ_tech | Indeks subpilar teknologi | Rendah (4,1%); si_econ_gov | Indeks subpilar tatakelola | Sedang (15,8%).\"",
+    "content_en": "Recorded conflict, not resolved. Locus A (Tabel 1, pp. 11-13 [pdf 21-23]) prints a FOUR-pillar structure in which a pillar 'Enabler (teknologi & tata kelola)' holds indicators 15-18, with marine tourism as its sub-pillar (15-16) and an unnamed sub-pillar printed as a dash (17-18). Locus B (Tabel 4 and Tabel 5, p. 94 [pdf 104], consistent with Gambar 11) prints a THREE-pillar structure — si_enviro 36.9%, si_econ 32.6%, si_social 30.5% — with no Enabler pillar, and places marine tourism (22.1%), technology (4.1%) and governance (15.8%) as sub-pillars OF the Economy pillar. The two loci are incompatible on both the number of pillars and the parent of indicators 15-18. Neither is adopted here. The indicator_join_table propagates the Tabel 1 (four-pillar) labels for rows 15-18; those rows carry pillar_placement_conflict recording the alternative Ekonomi placement. Any re-scoring that aggregates by pillar must state which locus it follows.",
+    "chunk_type": "evidence",
+    "maturity_tag": "not_applicable",
+    "maturity_note": "Specification chunk: states what the IBEI requires or how it is weighted, not that any datum is produced and published. maturity_tag is not_applicable because the maturity scale applies to data availability; the Juknis itself is a published document, which is a separate matter from the availability of the inputs it names.",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "pp. 11-13 [pdf 21-23]; pp. 93-94 [pdf 103-104]"
+    },
+    "tags": [
+      "conflict",
+      "unresolved",
+      "pillar-structure",
+      "Enabler",
+      "Tabel 1",
+      "Tabel 4",
+      "Tabel 5",
+      "Gambar 11",
+      "indicators-15-18"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  }
+]

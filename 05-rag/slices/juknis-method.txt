@@ -1,0 +1,222 @@
+                                                                  Petunjuk Teknis Pedoman Indikator Ekonomi Biru
+                                              Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025–2045                63
+
+
+
+2.5. METODOLOGI PERHITUNGAN
+
+    Setelah memaparkan secara rinci 44 indikator                 Component Analysis - PCA). Metode ini dipilih karena
+yang menyusun pilar Ekonomi, Lingkungan, dan Sosial,             keunggulannya dalam menentukan bobot setiap
+langkah krusial berikutnya adalah menggabungkan                  komponen secara objektif berdasarkan struktur
+informasi yang beragam ini menjadi sebuah skor                   data itu sendiri, sehingga menghindari subjektivitas
+tunggal yang komprehensif dan dapat diperbandingkan              dalam pembobotan manual. Berbeda dengan
+antarwilayah. Tantangan utama dalam penyusunan                   metode pembobotan setara (equal weighting) yang
+indeks komposit adalah bagaimana mengagregasi                    mengasumsikan semua indikator memiliki kontribusi
+puluhan variabel yang memiliki satuan, skala, dan                yang sama, atau pembobotan ahli (expert weighting)
+rentang nilai yang berbeda—mulai dari nilai moneter,             yang rentan terhadap bias individu, PCA secara
+persentase, hingga ukuran fisik—tanpa kehilangan                 statistik mengidentifikasi pola korelasi dan varians
+informasi penting atau memasukkan bias subjektif.                dalam data. PCA bekerja dengan mengidentifikasi pola
+Oleh karena itu, pemilihan metodologi yang tepat                 dan varians dalam data, memastikan bahwa skor IBEI
+menjadi fondasi bagi kredibilitas dan validitas indeks.          yang dihasilkan benar-benar merefleksikan kontribusi
+Bab ini akan menguraikan secara sistematis dan teknis            multidimensional dari setiap aspek ekonomi biru.
+metodologi yang digunakan untuk melakukan agregasi               Dengan demikian, bobot yang dihasilkan bersifat data-
+dari tingkat indikator individual hingga menjadi skor            driven, di mana indikator yang memiliki variabilitas lebih
+akhir Indeks Ekonomi Biru Indonesia (IBEI).                      besar dan berkorelasi kuat dengan indikator lain dalam
+                                                                 domainnya akan secara alami mendapatkan bobot
+    Pendekatan yang digunakan adalah Analisis                    yang lebih tinggi.
+Komponen Utama Bertahap (Multi-stage Principal
+
+
+
+2.5.1. PRINSIP DASAR DAN TAHAPAN PERHITUNGAN
+
+    Proses perhitungan IBEI dilakukan melalui serangkaian tahapan yang terstruktur secara hirarkis, mengikuti
+kerangka konseptual indeks itu sendiri. Pendekatan hirarkis ini tidak hanya memudahkan proses perhitungan,
+tetapi juga memungkinkan analisis yang lebih mendalam pada setiap tingkatan—sub-pilar dan pilar—sehingga
+pembuat kebijakan dapat mengidentifikasi kekuatan dan kelemahan spesifik suatu wilayah dengan lebih presisi. Alur
+perhitungannya adalah sebagai berikut:
+
+                     1                                       2                                               3
+       Agregasi Tingkat Sub-Pilar                 Agregasi Tingkat Pilar                     Agregasi Indeks Komposit IBEI
+         Menggabungkan indikator-                Menggabungkan skor-skor                       Menggabungkan ketiga skor
+    indikator yang telah distandardisasi         sub-pilar menjadi skor pilar                  pilar (Ekonomi, Lingkungan,
+           menjadi skor sub-pilar              menggunakan PCA tahap kedua.                   Sosial) menjadi skor IBEI akhir
+    menggunakan PCA tahap pertama.                                                            menggunakan PCA tahap final.
+
+
+    Penggunaan PCA yang konsisten di setiap tahapan memastikan bahwa prinsip objektivitas dan pembobotan
+berbasis data diterapkan secara menyeluruh, dari level mikro (indikator) hingga makro (indeks komposit). Berikut
+adalah penjelasan detail untuk setiap tahapan.
+
+
+
+                                                                                Kementerian Perencanaan Pembangunan Nasional/Bappenas
+          Petunjuk Teknis Pedoman Indikator Ekonomi Biru
+64        Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025–2045
+
+
+
+
+2.5.1.1. TAHAP 1: AGREGASI TINGKAT SUB-PILAR (PCA TAHAP PERTAMA)
+
+
+     Setelah semua indikator distandardisasi, proses agregasi dimulai pada tingkat sub-pilar. Standardisasi,
+adalah langkah pra-pemrosesan yang esensial. Langkah ini mengubah semua data indikator ke dalam skala yang
+kompatibel, sehingga memastikan bahwa indikator dengan satuan atau rentang nilai yang besar tidak secara tidak
+adil mendominasi proses analisis. Untuk setiap subpilar, skor komposit dihitung dengan menerapkan PCA pada
+set indikator standar yang relevan. PCA akan mengekstrak komponen utama pertama (PC1), yaitu kombinasi linear
+dari indikator-indikator yang mampu menjelaskan varians terbesar dalam data. PC1 dapat diinterpretasikan sebagai
+dimensi laten atau faktor mendasar yang paling merepresentasikan kinerja sub-pilar tersebut.
+
+
+     Bobot untuk setiap indikator ditentukan oleh loading factor (koefisien eigenvector) dari PC1. Loading factor ini
+menunjukkan seberapa kuat korelasi antara setiap indikator asli dengan komponen utama pertama, yang sekaligus
+berfungsi sebagai bobotnya dalam pembentukan skor sub-pilar.
+
+
+
+
+                                                                                #!
+                                                                                                  '()
+            Skor untuk setiap subpilar dihitung dengan formula:       𝑆𝑆!" = #          %𝑤𝑤"$ ⋅ 𝐼𝐼!$" )
+                                                                                $%&
+            di mana:
+
+            Sik = Skor subpilar k untuk provinsi i                              +"
+            Wkj = Bobot (loading factor dari PC1) untuk indikator𝑃𝑃j dalam       subpilar k%𝑤𝑤       '()
+                                                                          !* = #              *" ⋅ 𝑆𝑆!"* )
+
+            I ijkstd = Nilai standar (Z-score) indikator j dalam subpilar k untuk"%&
+                                                                                  provinsi i
+
+            nk      = Jumlah indikator dalam subpilar k
+
+                                           𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼! = %𝑤𝑤, ⋅ 𝑃𝑃!,'()                    '()                        '()
+                                                                   ,".#.+! ) + %𝑤𝑤/ ⋅ 𝑃𝑃!, /!#0"1#02# ) + %𝑤𝑤3 ⋅ 𝑃𝑃!, 3.'!24 )
+
+
+
+
+2.5.1.2. TAHAP 2: AGREGASI TINGKAT PILAR (PCA TAHAP KEDUA)
+
+
+     Langkah selanjutnya adalah menggabungkan skor-skor sub-pilar yang telah diperoleh menjadi skor pilar. Proses
+ini kembali menggunakan PCA, namun kali ini inputnya adalah skor sub-pilar yang juga telah distandardisasi terlebih
+dahulu. Sama seperti pada tahap pertama, standardisasi skor sub-pilar diperlukan untuk menormalkan skala sebelum
+diagregasi lebih lanjut, memastikan bahwa setiap sub-pilar memiliki kesempatan yang setara untuk berkontribusi
+pada skor pilar.
+
+
+     Dengan menerapkan logika yang sama, PCA tahap kedua ini akan mengidentifikasi kombinasi linear dari skor-
+skor sub-pilar yang paling baik dalam menjelaskan variasi kinerja di tingkat pilar.
+
+
+
+
+Kementerian Perencanaan Pembangunan Nasional/Bappenas
+                                                                                     #!
+                                                                         Petunjuk Teknis Pedoman Indikator
+                                                                                                         '()Ekonomi Biru
+                                                                            𝑆𝑆 = #             %𝑤𝑤
+                                                                            !" Jangka Panjang Nasional
+                                                     Dalam Rencana Pembangunan                   "$     ⋅ 𝐼𝐼
+                                                                                                         !$"    )
+                                                                                                       (RPJPN) 2025–2045            65
+                                                                                     $%&
+
+
+
+
+                                                                                    +"
+                                                                                                        '()
+          Skor untuk setiap pilar dihitung dengan formula:                  𝑃𝑃!* = #          %𝑤𝑤*" ⋅ 𝑆𝑆!"* )
+                                                                                    "%&
+          di mana:
+
+           Pip = Skor pilar p (Ekonomi, Lingkungan, atau Sosial) untuk provinsi i
+                                   𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼! = %𝑤𝑤, ⋅ 𝑃𝑃!,'()
+          W pk = Bobot (loading factor                     ,".#.+!    ) + %𝑤𝑤/ ⋅ 𝑃𝑃!,'()                       '()
+                                                                                      /!#0"1#02# ) + %𝑤𝑤3 ⋅ 𝑃𝑃!, 3.'!24
+                                        dari PC1) untuk subpilar k dalam pilar p
+             std
+           Sikp  = Skor standar dari subpilar k dalam pilar p untuk provinsi i
+
+           mp      = Jumlah subpilar dalam pilar p
+
+
+
+
+                                                                      #!
+2.5.1.3. TAHAP 3: AGREGASI INDEKS KOMPOSIT
+                                    𝑆𝑆 = # IBEI (PCA
+                                                 %𝑤𝑤 TAHAP
+                                                      ⋅ 𝐼𝐼 '() )AKHIR)
+                                                               !"    "$   !$"
+                                                           $%&
+    Pada tahap final, ketiga skor pilar tersebut digabungkan untuk membentuk skor IBEI akhir. Tahap ini merupakan
+puncak dari proses agregasi, di mana kinerja multidimensional dari pilar Ekonomi, Lingkungan, dan Sosial
+diintegrasikan menjadi satu ukuran tunggal yang holistik. PCA
+                                                           + diterapkan untuk terakhir kalinya pada tiga skor pilar
+                                                                        "
+(yang juga telah distandardisasi).
+                                                                                        '()
+                                                             𝑃𝑃!* = #         %𝑤𝑤*" ⋅ 𝑆𝑆!"* )
+                                                                     "%&
+
+          Skor IBEI akhir dihitung sebagai berikut:
+
+                        𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼! = %𝑤𝑤, ⋅ 𝑃𝑃!,'()                    '()                        '()
+                                                ,".#.+! ) + %𝑤𝑤/ ⋅ 𝑃𝑃!, /!#0"1#02# ) + %𝑤𝑤3 ⋅ 𝑃𝑃!, 3.'!24 )
+
+
+          di mana:
+
+           IBEI i                                         = Skor Indeks Ekonomi Biru Indonesia untuk provinsi i
+
+           Pi ,std           std               std
+                Ekonomi , Pi , Lingkungan , Pi , Sosial
+                                                          = Skor standar dari masing-masing pilar
+
+           wE , wL , wS                                   = Bobot (loading factor dari PC1) untuk masing-masing pilar
+
+
+
+
+    Bobot yang dihasilkan pada tahap ini sangat krusial karena secara objektif merefleksikan kontribusi relatif
+dari setiap pilar terhadap variasi total kinerja ekonomi biru antarprovinsi. Misalnya, jika data menunjukkan bahwa
+perbedaan kinerja antarprovinsi lebih banyak didorong oleh variasi pada pilar Ekonomi, maka pilar tersebut secara
+alami akan menerima bobot yang lebih tinggi dari PCA.
+
+
+
+                                                                                   Kementerian Perencanaan Pembangunan Nasional/Bappenas
+          Petunjuk Teknis Pedoman Indikator Ekonomi Biru
+66        Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025–2045
+
+
+
+
+2.5.2. INTERPRETASI SKOR AKHIR IBEI
+
+     Skor IBEI yang dihasilkan dari metodologi ini                   Dengan demikian, fokus interpretasi bukanlah
+adalah skor komponen utama (principal component                 pada nilai numerik itu sendiri, melainkan pada posisi
+score). Skor ini merupakan ukuran relatif yang tidak            relatif suatu provinsi terhadap provinsi lainnya. Skor
+memiliki batas atas atau bawah yang pasti dan dapat             IBEI berfungsi sebagai alat benchmarking yang
+bernilai positif maupun negatif. Secara teknis, rata-rata       memungkinkan pemeringkatan dan perbandingan
+dari skor IBEI di seluruh provinsi akan mendekati nol.          kinerja antarwilayah secara adil dan objektif. Metodologi
+Oleh karena itu, skor positif mengindikasikan kinerja           yang sistematis dan objektif ini memastikan bahwa IBEI
+di atas rata-rata nasional, sementara skor negatif              merupakan alat ukur yang andal dan kredibel untuk
+mengindikasikan kinerja di bawah rata-rata.                     memetakan posisi dan memandu arah pembangunan
+                                                                ekonomi biru di tingkat nasional dan daerah. Pada
+•    Nilai yang lebih tinggi menunjukkan kinerja                akhirnya, hasil pemeringkatan ini dapat digunakan
+     ekonomi biru yang secara keseluruhan lebih baik            sebagai dasar untuk merumuskan kebijakan yang lebih
+     dibandingkan provinsi lain.                                terarah, mengalokasikan sumber daya secara lebih
+•    Nilai yang lebih rendah (termasuk nilai negatif)           efektif, dan mendorong pembelajaran antarprovinsi
+     menunjukkan kinerja yang relatif lebih tertinggal.         untuk percepatan pembangunan ekonomi biru yang
+                                                                berkelanjutan di seluruh Indonesia.
+
+
+
+
+Kementerian Perencanaan Pembangunan Nasional/Bappenas
+

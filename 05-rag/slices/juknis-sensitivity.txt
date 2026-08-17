@@ -1,0 +1,310 @@
+                                                               Petunjuk Teknis Pedoman Indikator Ekonomi Biru
+                                           Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025–2045          101
+
+
+
+     Untuk setiap dari 59 skenario ini, skor IBEI dihitung ulang untuk 38 provinsi, dan hasilnya dirata-ratakan untuk
+mendapatkan IBEI Nasional yang baru. Tabel 7 menyajikan hasil lengkap, diurutkan berdasarkan persentase
+peningkatan tertinggi.
+
+
+
+
+Tabel 7. Analisis sensitivitas IBEI 2025: simulasi peningkatan skor sebesar 10%; Berdasarkan presentase
+peningkatan tertinggi
+
+
+    Analisis                                                    Baseline IBEI       Skenario IBEI          Persentase
+                 Nama Variabel             Deskripsi
+     Level                                                        Nasional            Nasional              Kenaikan
+
+ Pilar           si_enviro          Indeks pilar lingkungan         35,60                37,86                  6,37
+
+ Pilar           si_econ            Indeks pilar ekonomi            35,60                37,60                  5,62
+
+ Pilar           si_social          Indeks pilar sosial             35,60                37,47                  5,27
+
+                                    Indeks subpilar
+ Sub-Pilar       si_social_s3                                       35,60                37,37                  5,00
+                                    kesehatan
+
+                                    Indeks subpilar kualitas
+ Sub-Pilar       si_enviro_s1       sumber daya dan                 35,60                37,20                  4,50
+                                    konservasi laut
+
+                                    Indeks subpilar energi
+ Sub-Pilar       si_enviro_s2                                       35,60                37,20                  4,50
+                                    terbaharukan
+
+                                    Rata-rata konsumsi
+ Variable        social_s3_var11    kalori ikan per kapita          35,60                36,68                  3,03
+                                    (kkal)
+
+                                    Indeks subpilar industri
+ Sub-Pilar       si_econ_s2                                         35,60                36,67                  3,03
+                                    berbasis kelautan
+
+                                    Rata-rata konsumsi
+ Variable        social_s3_var12                                    35,60                36,65                  2,97
+                                    protein per kapita (kkal)
+
+                                    Indeks subpilar
+ Sub-Pilar       si_econ_s4         pariwisata berbasis             35,60                36,61                  2,84
+                                    kelautan
+
+                                    Memiliki jaminan
+ Variable        social_s3_var13                                    35,60                36,53                  2,63
+                                    kesehatan (%)
+
+                                    Indeks subpilar
+ Sub-Pilar       si_econ_s3         perdagangan,                    35,60                36,48                  2,48
+                                    transportasi dan logistik
+
+                 enviro_s1_         Luas kawasan
+ Variable                                                           35,60                36,47                  2,45
+                 var10              konservasi perairan (Ha)
+
+                                    Kapasitas terpasang
+                 enviro_s2_
+ Variable                           Pembangkit Listrik              35,60                36,44                  2,39
+                 var13
+                                    Tenaga Air (PLTA)(MW)
+
+
+
+
+                                                                         Kementerian Perencanaan Pembangunan Nasional/Bappenas
+          Petunjuk Teknis Pedoman Indikator Ekonomi Biru
+102       Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025–2045
+
+
+
+
+                                           Jumlah desa pesisir
+                                           dengan tempat buang
+ Variable           enviro_s1_var5                                     35,60    36,42   2,31
+                                           air besar dan saluran air
+                                           limbah (desa)
+
+                                           Listrik yang dihasilkan
+                    enviro_s2_
+ Variable                                  oleh Pembangkit Listrik     35,60    36,39   2,23
+                    var14
+                                           Tenaga Air (PLTA)(GWh)
+
+                                           Kapasitas terpasang
+                    enviro_s2_
+ Variable                                  Pembangkit Listrik          35,60    36,38   2,21
+                    var11
+                                           Tenaga Surya (PLTS)(MW)
+
+                                           Listrik yang dihasilkan
+                    enviro_s2_             oleh Pembangkit Listrik
+ Variable                                                              35,60    36,37   2,18
+                    var12                  Tenaga Surya (PLTS)
+                                           (GWh)
+
+                                           Jumlah desa pesisir dan
+ Variable           enviro_s1_var4         tempat pembuangan           35,60    36,34   2,08
+                                           sampah (desa)
+
+                                           Jumlah pelabuhan
+                    econ_gov_              perikanan dengan
+ Variable                                                              35,60    36,32   2,03
+                    var22                  Tempat Pelelangan Ikan
+                                           (TPI)(pelabuhan)
+
+                                           Indeks subpilar
+ Sub-Pilar          si_econ_gov                                        35,60    36,32   2,03
+                                           tatakelola
+
+                                           Jumlah wisata bahari
+ Variable           econ_s4_var19                                      35,60    36,31   2,01
+                                           (titik)
+
+                                           Jumlah usaha/
+ Variable           econ_s4_var20          perusahaan wisata tirta     35,60    36,31   2,01
+                                           komersial (usaha)
+
+                                           Indeks subpilar perikanan
+ Sub-Pilar          si_econ_s1                                         35,60    36,29   1,95
+                                           tangkap dan budidaya
+
+                                           Volume produksi garam
+ Variable           econ_s2_var10                                      35,60    36,28   1,94
+                                           (ton)
+
+                                           Volume ekspor ikan
+ Variable           econ_s2_var9                                       35,60    36,22   1,75
+                                           olahan (ton)
+
+                    enviro_s1_             Reversed dr Jumlah
+ Variable                                                              35,60    36,18   1,65
+                    var8_r                 Sampah dibuang di Laut
+
+                                           Jumlah perahu/kapal
+ Variable           econ_s2_var12                                      35,60    36,14   1,54
+                                           penangkap ikan(unit)
+
+                                           Indeks subpilar
+ Sub-Pilar          si_social_s1                                       35,60    36,07   1,34
+                                           kesejahteraan
+
+
+
+
+Kementerian Perencanaan Pembangunan Nasional/Bappenas
+                                                         Petunjuk Teknis Pedoman Indikator Ekonomi Biru
+                                     Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025–2045          103
+
+
+
+                              Reverse dari jumlah
+Variable    social_s1_var10                                   35,60                36,07                  1,32
+                              peserta PKH (%)
+
+                              Volume ekspor
+Variable    econ_s3_var18     perikanan dan                   35,60                36,05                  1,29
+                              akuakultur (ton)
+
+                              Jumlah penumpang
+                              angkutan laut di 25
+Variable    econ_s3_var15                                     35,60                36,05                  1,27
+                              pelabuhan strategis
+                              (orang)
+
+                              Volume produksi
+Variable    econ_s1_var8      budidaya rumput laut            35,60                36,01                  1,16
+                              (ton)
+
+                              Volume ekspor
+Variable    econ_s3_var16                                     35,60                35,99                  1,10
+                              perikanan (ton)
+
+                              Volume produksi
+Variable    econ_s1_var5                                      35,60                35,98                  1,08
+                              akuakultur (ton)
+
+                              Volume produksi
+Variable    econ_s1_var6                                      35,60                35,96                  1,04
+                              budidaya tambak (ton)
+
+                              Indeks subpilar
+Sub-Pilar   si_social_s2                                      35,60                35,95                  1,01
+                              pendidikan
+
+                              Jumlah penumpang
+Variable    econ_s3_var14                                     35,60                35,95                  0,99
+                              angkutan laut (orang)
+
+                              Kawasan lamun
+Variable    enviro_s1_var2                                    35,60                35,93                  0,95
+                              berkualitas baik (%)
+
+                              Peran ekspor produk
+Variable    econ_s3_var17     perikanan terhadap total        35,60                35,90                  0,85
+                              ekspor (%)
+
+                              Penanaman/rehabilitasi
+Variable    enviro_s1_var6    hutan mangrove, rawa,           35,60                35,86                  0,76
+                              dan lahan gambut (Ha)
+
+                              Jumlah kapal perikanan
+            econ_tech_
+Variable                      tangkap laut - kapal            35,60                35,78                  0,52
+            var21
+                              motor > 30 GT(unit)
+
+Sub-Pilar   si_econ_tech      Indeks subpilar teknologi       35,60                35,78                  0,52
+
+                              Jumlah SMK
+Variable    social_s2_var6                                    35,60                35,78                  0,51
+                              kemaritiman - 2023
+
+                              Proporsi jenjang
+Variable    social_s2_var7                                    35,60                35,77                  0,49
+                              pendidikan terakhir SMA
+
+                              Proporsi ijazah terakhir
+Variable    social_s2_var8                                    35,60                35,77                  0,48
+                              SMA
+
+
+
+
+                                                                   Kementerian Perencanaan Pembangunan Nasional/Bappenas
+          Petunjuk Teknis Pedoman Indikator Ekonomi Biru
+104       Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025–2045
+
+
+
+
+                                           Reversed dr Jumlah
+                    enviro_s1_
+ Variable                                  Sampah dibuang di                35,60               35,76              0,46
+                    var9_r
+                                           darat
+
+                                           Peran sektor perikanan
+ Variable           econ_s1_var1           dalam Produk Domestik            35,60               35,74              0,42
+                                           Bruto (PDB)(%)
+
+                                           Kawasan terumbu
+ Variable           enviro_s1_var1         karang berkualitas baik          35,60               35,74              0,41
+                                           (%)
+
+                                           Jumlah peserta pelatihan
+ Variable           social_s2_var5                                          35,60               35,74              0,40
+                                           perikanan (orang)
+
+                                           Jumlah lulusan sekolah
+ Variable           social_s2_var4                                          35,60               35,72              0,34
+                                           perikanan (orang)
+
+                                           Volume produksi
+ Variable           econ_s1_var7                                            35,60               35,68              0,25
+                                           perikanan (ton)
+
+                                           Reversed dr jumlah
+ Variable           social_s3_var14                                         35,60               35,65              0,14
+                                           penduduk miskin (%)
+
+                                           Jumlah nelayan dan
+ Variable           social_s1_var1                                          35,60               35,64              0,14
+                                           petani ikan (orang)
+
+                                           Jumlah perempuan di
+ Variable           social_s1_var2                                          35,60               35,64              0,14
+                                           sektor perikanan (orang)
+
+                                           Reverse dari jumlah
+ Variable           social_s2_var9                                          35,60               35,62              0,07
+                                           peserta PIP
+
+                                           Volume angkutan laut
+ Variable           econ_s3_var13                                           35,60               35,62              0,06
+                                           (ton)
+
+                                           Kawasan hutan
+ Variable           enviro_s1_var3         mangrove berkualitas             35,60               35,61              0,04
+                                           baik (%)
+
+                                                                                    Sumber: Perhitungan Tim Penyusun IBEI, 2025
+
+
+      Beberapa temuan penting dapat diidentifikasi,                       Hasil analisis menunjukkan bahwa intervensi
+berdasarkan analisis Tabel 7. Pada tingkat pilar, pilar               pada aspek kesehatan dan nutrisi masyarakat
+lingkungan memberikan dampak terbesar dengan                          pesisir memiliki potensi dampak terbesar terhadap
+peningkatan 6,37%, diikuti pilar ekonomi (5,62%) dan                  peningkatan IBEI nasional. Investasi pada infrastruktur
+pilar sosial (5,27%). Pada tingkat sub-pilar, subpilar                perikanan, konservasi sumber daya laut, dan energi
+kesehatan menunjukkan dampak paling signifikan                        terbarukan juga menunjukkan potensi yang signifikan.
+dengan peningkatan 5,00%. Sementara itu, pada                         Untuk optimalisasi dampak, diperlukan pendekatan
+tingkat variabel, rata-rata konsumsi kalori ikan per                  terintegrasi yang menggabungkan peningkatan
+kapita memberikan dampak terbesar sebesar 3,03%,                      kesejahteraan sosial, penguatan ekonomi, dan
+diikuti rata-rata konsumsi protein ikan per kapita                    pelestarian lingkungan.
+sebesar 2,97%.
+
+
+
+Kementerian Perencanaan Pembangunan Nasional/Bappenas
+

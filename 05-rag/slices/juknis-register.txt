@@ -1,0 +1,253 @@
+                                                                       Petunjuk Teknis Pedoman Indikator Ekonomi Biru
+                                                   Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025–2045                   11
+
+
+
+Tabel 1. Indikator Indeks Ekonomi Biru Indonesia
+
+
+No   Pilar        Subpilar                Indikator                                     Data Pembentuk Indikator
+
+                                                                  • Nilai Produk Domestik Regional Bruto (PDRB) dari sektor perikanan
+                               Peran sektor perikanan dalam         suatu provinsi, dihitung Atas Dasar Harga Berlaku (ADHB).
+ 1
+                               PDB (%)                            • Nilai PDRB total dari provinsi yang sama, juga dihitung Atas Dasar
+                                                                    Harga Berlaku (ADHB).
+
+                                                                  • Volume produksi perikanan tangkap (mencakup laut dan perairan
+                                                                    umum daratan) per provinsi.
+ 2                             Volume produksi perikanan (ton)
+                Perikanan                                         • Volume produksi perikanan budidaya pembesaran (mencakup tambak
+                tangkap dan                                         dan non-tambak) per provinsi.
+                budidaya
+                               Volume produksi budidaya           • Total volume produksi dari budidaya tambak (tambak intensif, tambak
+ 3
+                               tambak (ton)                         sederhana, dan tambak semi intensif) per provinsi.
+
+                                                                  • Volume produksi dari setiap komoditas budidaya pembesaran per
+ 4                             Volume produksi akuakultur (ton)
+                                                                    provinsi.
+
+                               Volume produksi budidaya
+ 5                                                                • Total volume produksi dari budidaya rumput laut per provinsi.
+                               rumput laut (ton)
+
+                                                                  • Total volume (berat bersih) kegiatan ekspor yang dimuat melalui
+                                                                    moda transportasi laut per provinsi.
+ 6                             Volume angkutan laut (ton)
+                                                                  • Total volume (berat bersih) kegiatan impor yang dibongkar melalui
+                                                                    moda transportasi laut per provinsi.
+
+
+      Ekonomi
+                                                                  • Jumlah penumpang kapal antar pulau (datang dan berangkat) per
+                               Jumlah penumpang angkutan            provinsi.
+ 7
+                               laut (orang)                       • Jumlah penumpang kapal luar negeri (datang dan berangkat) per
+                                                                    provinsi.
+                Perdagangan,
+                transportasi, Jumlah penumpang angkutan           • Jumlah penumpang (datang dan berangkat) di setiap pelabuhan yang
+ 8              dan logistik  laut di 25 pelabuhan strategis
+                                                                    termasuk dalam daftar 25 pelabuhan strategis nasional, per provinsi.
+                              (orang)
+
+ 9                             Volume ekspor perikanan (ton)      • Total volume ekspor hasil perikanan per provinsi.
+
+                               Kontribusi ekspor produk
+                                                                  • Nilai ekspor hasil perikanan per provinsi.
+10                             perikanan terhadap total ekspor
+                                                                  • Total nilai ekspor seluruh komoditas per provinsi.
+                               (%)
+
+                               Volume ekspor perikanan hidup      • Volume ekspor perikanan tangkap (kode ISIC 031) per provinsi.
+11
+                               dan segar (ton)                    • Volume ekspor akuakultur (kode ISIC 032) per provinsi.
+
+                                                                  • Total volume ekspor produk ikan, krustasea, dan moluska yang telah
+12                             Volume ekspor ikan olahan (ton)
+                                                                    diproses dan/atau diawetkan, sesuai dengan kode ISIC 102.
+
+                Industri                                          • Volume produksi garam dari tambak per provinsi.
+13                             Volume produksi garam (ton)
+                berbasis                                          • Volume produksi garam non-tambak per provinsi.
+                kelautan
+                                                                  • Jumlah perahu tanpa motor per provinsi.
+                               Jumlah perahu/kapal penangkap
+14                                                                • Jumlah perahu motor tempel per provinsi.
+                               ikan (unit)
+                                                                  • Jumlah kapal motor per provinsi.
+
+
+
+
+                                                                                      Kementerian Perencanaan Pembangunan Nasional/Bappenas
+                   Petunjuk Teknis Pedoman Indikator Ekonomi Biru
+12                 Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025–2045
+
+
+
+
+ No      Pilar                        Subpilar              Indikator                                    Data Pembentuk Indikator
+
+                                                                                   • Jumlah desa di tepi laut yang teridentifikasi memiliki wisata bahari
+ 15                               Pariwisata     Jumlah wisata bahari (desa)
+                                                                                     per provinsi.
+                                  berbasis
+                                                 Jumlah usaha/perusahaan wisata • Jumlah usaha/perusahaan komersial yang bergerak di bidang wisata
+ 16                               bahari
+                                                 tirta komersial (unit usaha)     tirta per provinsi.
+
+
+
+              Enabler
+                                                 Jumlah kapal perikanan tangkap • Jumlah kapal motor untuk perikanan tangkap laut dengan ukuran
+ 17
+                                                 laut – kapal motor > 30 GT (unit) lebih dari 30 GT per provinsi.
+
+                                  -
+
+
+      (teknologi & tata kelola)
+                                                 Jumlah pelabuhan perikanan
+                                                                                   • Jumlah pelabuhan perikanan yang dilengkapi dengan fasilitas Tempat
+ 18                                              dengan tempat pelelangan ikan
+                                                                                     Pelelangan Ikan (TPI) per provinsi.
+                                                 (unit)
+
+                                                 Kawasan terumbu karang            • Persentase kawasan terumbu karang dengan tutupan karang hidup
+ 19
+                                                 berkualitas baik (%)                antara 50-100% per provinsi.
+                                                 Kawasan lamun berkualitas         • Persentase kawasan lamun dengan tutupan lamun hidup antara 50-
+ 20
+                                                 baik (%)                            100% per provinsi.
+                                                 Kawasan hutan mangrove            • Persentase kawasan mangrove dengan kerapatan tutupan antara
+ 21
+                                                 berkualitas baik (%)                50-100% per provinsi.
+                                                 Jumlah desa pesisir dengan        • Jumlah desa di tepi laut yang memiliki Tempat Penampungan
+ 22                                              tempat pembuangan sampah            Sampah Sementara (TPS) per provinsi.
+                                  Kualitas       (desa)
+                                  sumber
+                                                 Jumlah desa pesisir dengan        • Jumlah desa di tepi laut di mana sebagian besar keluarga memiliki
+ 23                               daya dan
+                                                 tempat buang air besar (desa)       jamban sendiri.
+                                  konservasi
+                                  laut           Penanaman/rehabilitasi hutan
+                                                                                   • Total luas kawasan mangrove, rawa, dan lahan gambut yang
+ 24                                              mangrove, rawa, dan lahan
+                                                                                     direstorasi per provinsi.
+                                                 gambut (hektar)
+                                                 Jumlah Kebocoran Sampah Laut
+
+
+           Lingkungan
+ 25                                                                                • Volume kebocoran sampah laut per provinsi.
+                                                 (Ton)
+                                                 Jumlah sampah yang dibuang di     • Total timbunan sampah tahunan per provinsi, yang merupakan
+ 26
+                                                 darat (ton/tahun)                   agregat dari data kabupaten/kota.
+                                                 Luas kawasan konservasi           • Total luas kawasan konservasi perairan yang ditetapkan oleh KKP,
+ 27
+                                                 perairan (ha)                       KLHK, dan Pemerintah Daerah per provinsi.
+                                                 Kapasitas terpasang Pembangkit
+ 28                                              Listrik Tenaga Surya (PLTS)       • Kapasitas terpasang PLTS per provinsi.
+                                                 (megawatt)
+                                                 Listrik yang dihasilkan oleh
+ 29                                              Pembangkit Listrik Tenaga Surya   • Total tenaga listrik yang dibangkitkan oleh PLTS per provinsi.
+                                  Energi         (PLTS) (gigawatt/hour – GWh)
+                                  terbarukan     Kapasitas terpasang Pembangkit
+ 30                                              Listrik Tenaga Air (PLTA)         • Kapasitas terpasang PLTA per provinsi.
+                                                 (megawatt)
+                                                 Listrik yang dihasilkan oleh
+ 31                                              Pembangkit Listrik Tenaga Air     • Total tenaga listrik yang dibangkitkan oleh PLTA per provinsi.
+                                                 (PLTA) (gigawatt/hour – GWh)
+
+
+
+Kementerian Perencanaan Pembangunan Nasional/Bappenas
+                                                                       Petunjuk Teknis Pedoman Indikator Ekonomi Biru
+                                                   Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025–2045                 13
+
+
+
+No   Pilar      Subpilar               Indikator                                     Data Pembentuk Indikator
+
+                            Persentase penduduk bekerja
+                                                               • Jumlah penduduk bekerja di sektor perikanan yang menerima PKH
+                            di sektor perikanan penerima
+32                                                               per provinsi.
+                            Program Keluarga Harapan
+                                                               • Total jumlah penduduk di provinsi yang sama yang menerima PKH.
+                            (PKH) (%)
+
+                                                               • Total jumlah nelayan perikanan tangkap per provinsi.
+              Kesejahteraan Jumlah pekerja perempuan di
+33                                                             • Total jumlah pembudidaya ikan per provinsi.
+                            sektor perikanan (orang)
+                                                               • Proporsi nelayan dan pembudidaya ikan perempuan per provinsi.
+
+                                                               • Jumlah penduduk yang berprofesi sebagai nelayan per provinsi.
+                            Jumlah nelayan dan
+34                                                             • Jumlah penduduk yang berprofesi sebagai pembudidaya ikan per
+                            pembudidaya ikan (orang)
+                                                                 provinsi.
+
+                            Rata-rata konsumsi kalori ikan     • Rata-rata konsumsi kalori dari ikan per kapita per hari di tingkat
+35
+                            per kapita (kkal)                    provinsi.
+
+                            Rata-rata konsumsi protein dari    • Rata-rata konsumsi protein dari ikan per kapita per hari di tingkat
+36
+                            ikan per kapita (kkal)               provinsi.
+
+                                                               • Jumlah penduduk bekerja di sektor perikanan yang memiliki jaminan
+              Kesehatan     Persentase penduduk bekerja di
+                                                                 kesehatan per provinsi.
+37                          sektor perikanan yang memiliki
+                                                               • Total penduduk yang memiliki jaminan kesehatan di provinsi yang
+                            jaminan kesehatan (%)
+                                                                 sama.
+
+                            Persentase penduduk pesisir        • Jumlah penduduk miskin di setiap kabupaten/kota pesisir dalam satu
+     Sosial
+38                          yang hidup di bawah garis            provinsi.
+                            kemiskinan (%)                     • Total penduduk miskin di provinsi tersebut.
+
+                            Jumlah SMK kemaritiman (unit       • Jumlah Sekolah Menengah Kejuruan (SMK) bidang kemaritiman per
+39
+                            sekolah)                             provinsi.
+
+                            Jumlah lulusan sekolah
+40                                                             • Jumlah lulusan dari satuan pendidikan di bawah KKP per provinsi.
+                            perikanan (orang)
+
+                            Jumlah peserta pelatihan           • Total jumlah peserta pelatihan dan penyuluhan kelautan dan
+41
+                            perikanan (orang)                    perikanan per provinsi.
+
+                                                               • Jumlah penduduk bekerja di sektor perikanan dengan pendidikan
+                            Persentase penduduk sektor
+                                                                 terakhir SMA/sederajat per provinsi.
+42                          perikanan dengan pendidikan
+              Pendidikan                                       • Total penduduk dengan pendidikan terakhir SMA/sederajat di provinsi
+                            terakhir SMA atau sederajat (%)
+                                                                 yang sama.
+
+                                                               • Jumlah penduduk bekerja di sektor perikanan dengan ijazah minimal
+                            Persentase penduduk di sektor
+                                                                 SMA/sederajat per provinsi.
+43                          perikanan dengan ijazah minimal
+                                                               • Total penduduk dengan ijazah minimal SMA/sederajat di provinsi yang
+                            SMA atau sederajat (%)
+                                                                 sama.
+
+                            Persentase penduduk bekerja        • Jumlah penduduk bekerja di sektor perikanan yang keluarganya
+                            di sektor perikanan penerima         menerima PIP per provinsi.
+44
+                            Program Indonesia Pintar (PIP)     • Total penduduk yang keluarganya menerima PIP di provinsi yang
+                            (%)                                  sama.
+
+
+
+
+                                                                                    Kementerian Perencanaan Pembangunan Nasional/Bappenas
+

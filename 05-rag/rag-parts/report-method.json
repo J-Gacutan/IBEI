@@ -1,0 +1,675 @@
+[
+  {
+    "chunk_id": "doc_2_report-method_chunk_001",
+    "document_id": "doc_2",
+    "slice_id": "report-method",
+    "section_path": "3.1. Metodologi Perhitungan > pengantar",
+    "printed_page": "p. 29",
+    "pdf_page": 41,
+    "content": "Setelah memaparkan secara rinci seluruh indikator dari masing-masing pilar dan enabler, langkah krusial berikutnya adalah menggabungkan informasi yang beragam ini menjadi sebuah skor tunggal yang komprehensif dan dapat dibandingkan antar wilayah. Tantangan utama dalam penyusunan indeks komposit adalah bagaimana mengagregasi puluhan variabel yang memiliki satuan, skala, dan rentang nilai yang berbeda—mulai dari nilai moneter, persentase, hingga ukuran fisik—tanpa menghilangkan informasi penting atau memasukkan bias subjektif. Oleh karena itu, pemilihan metodologi yang tepat menjadi fondasi bagi kredibilitas dan validitas indeks. Bab ini akan menguraikan secara sistematis dan teknis metodologi yang digunakan untuk melakukan agregasi dari tingkat indikator individual hingga menjadi skor akhir IBEI.",
+    "content_en": "Having set out in detail all the indicators of each pillar and enabler, the next crucial step is to combine this diverse information into a single comprehensive score that is comparable across regions. The main challenge in constructing a composite index is how to aggregate dozens of variables with different units, scales and value ranges — from monetary values and percentages through to physical measures — without losing important information or introducing subjective bias. The choice of an appropriate methodology is therefore the foundation of the index's credibility and validity. This chapter sets out systematically and technically the methodology used to aggregate from the level of individual indicators up to the final IBEI score.",
+    "chunk_type": "context",
+    "maturity_tag": "not_applicable",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 29 [pdf 41]"
+    },
+    "tags": [
+      "composite index",
+      "aggregation",
+      "methodology",
+      "IBEI",
+      "heterogeneous units"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-method_chunk_002",
+    "document_id": "doc_2",
+    "slice_id": "report-method",
+    "section_path": "3.1. Metodologi Perhitungan > pemilihan metode",
+    "printed_page": "p. 29",
+    "pdf_page": 41,
+    "content": "Pendekatan yang digunakan adalah Analisis Komponen Utama Bertahap (Multi-stage Principal Component Analysis - PCA). Metode ini dipilih karena keunggulannya dalam menentukan bobot setiap komponen secara objektif berdasarkan struktur data itu sendiri, sehingga menghindari subjektivitas dalam pembobotan manual. Berbeda dengan metode pembobotan setara (equal weighting) yang mengasumsikan semua indikator memiliki kontribusi yang sama, atau pembobotan ahli (expert weighting) yang rentan terhadap bias individu, PCA secara statistik mengidentifikasi pola korelasi dan varians dalam data. PCA bekerja dengan mengidentifikasi pola dan varians dalam data, memastikan bahwa skor IBEI yang dihasilkan benar-benar merefleksikan kontribusi multidimensional dari setiap aspek ekonomi biru. Dengan demikian, bobot yang dihasilkan bersifat data-driven, di mana indikator yang memiliki variabilitas lebih besar dan berkorelasi kuat dengan indikator lain dalam domainnya akan secara alami mendapatkan bobot yang lebih tinggi.",
+    "content_en": "The approach used is Multi-stage Principal Component Analysis (PCA). This method was chosen for its strength in determining the weight of each component objectively on the basis of the data structure itself, thereby avoiding subjectivity in manual weighting. Unlike equal weighting, which assumes all indicators contribute equally, or expert weighting, which is prone to individual bias, PCA statistically identifies patterns of correlation and variance in the data. PCA works by identifying patterns and variance in the data, ensuring that the resulting IBEI score genuinely reflects the multidimensional contribution of each aspect of the blue economy. The weights produced are therefore data-driven: indicators with greater variability and strong correlation with other indicators in their domain will naturally receive higher weight.",
+    "chunk_type": "methodology",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 29 [pdf 41]"
+    },
+    "tags": [
+      "multi-stage PCA",
+      "data-driven weights",
+      "equal weighting",
+      "expert weighting",
+      "weighting rationale"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-method_chunk_003",
+    "document_id": "doc_2",
+    "slice_id": "report-method",
+    "section_path": "3.1. Metodologi Perhitungan > struktur hirarkis tiga tingkatan",
+    "printed_page": "p. 29",
+    "pdf_page": 41,
+    "content": "Proses perhitungan IBEI dilakukan melalui serangkaian tahapan yang terstruktur dan hirarkis, mengikuti kerangka konseptual indeks itu sendiri. Pendekatan hirarkis ini tidak hanya memudahkan proses perhitungan, tetapi juga memungkinkan analisis yang lebih mendalam pada setiap tingkatan—subpilar dan pilar—sehingga pembuat kebijakan dapat mengidentifikasi kekuatan dan kelemahan spesifik suatu wilayah dengan lebih presisi. IBEI menerapkan metodologi PCA secara bertahap dalam tiga tingkatan untuk membangun indeks dari level paling spesifik hingga level komposit. Alur hirarkis ini memungkinkan analisis yang lebih mendalam di setiap tingkatan.",
+    "content_en": "The IBEI calculation proceeds through a structured, hierarchical series of stages following the conceptual framework of the index itself. This hierarchical approach not only eases the calculation but also permits deeper analysis at each level — sub-pillar and pillar — so that policymakers can identify a region's specific strengths and weaknesses with more precision. The IBEI applies the PCA methodology in stages across three levels, building the index from the most specific level up to the composite. This hierarchical flow permits deeper analysis at each level.",
+    "chunk_type": "methodology",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 29 [pdf 41]"
+    },
+    "tags": [
+      "three-stage PCA",
+      "hierarchy",
+      "subpilar",
+      "pilar",
+      "composite index"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-method_chunk_004",
+    "document_id": "doc_2",
+    "slice_id": "report-method",
+    "section_path": "3.1. Metodologi Perhitungan > PCA Tahap Pertama (Level Subpilar)",
+    "printed_page": "p. 29",
+    "pdf_page": 41,
+    "content": "PCA Tahap Pertama (Level Subpilar). PCA diterapkan pada setiap kelompok indikator yang telah distandardisasi di dalam masing-masing subpilar. Dari proses ini, dihasilkan skor untuk setiap subpilar. Bobot untuk setiap indikator dalam pembentukan skor subpilar ditentukan secara objektif oleh loading factor dari komponen utama pertama (PC1) yang diekstrak.",
+    "content_en": "First-stage PCA (sub-pillar level). PCA is applied to each group of standardised indicators within each sub-pillar. This produces a score for every sub-pillar. The weight of each indicator in forming the sub-pillar score is determined objectively by the loading factor of the first principal component (PC1) extracted.",
+    "chunk_type": "methodology",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 29 [pdf 41]"
+    },
+    "tags": [
+      "PC1 loading factor",
+      "sub-pillar score",
+      "stage 1",
+      "standardisation"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-method_chunk_005",
+    "document_id": "doc_2",
+    "slice_id": "report-method",
+    "section_path": "3.1. Metodologi Perhitungan > PCA Tahap Kedua (Level Pilar)",
+    "printed_page": "p. 29",
+    "pdf_page": 41,
+    "content": "PCA Tahap Kedua (Level Pilar). Skor subpilar yang telah diperoleh kemudian distandarisasi kembali dan diagregasi menggunakan PCA untuk membentuk skor pilar (Ekonomi, Lingkungan, dan Sosial). Sama seperti tahap sebelumnya, bobot setiap subpilar ditentukan oleh loading factor yang dihasilkan dari analisis ini.",
+    "content_en": "Second-stage PCA (pillar level). The sub-pillar scores obtained are then re-standardised and aggregated using PCA to form the pillar scores (Economy, Environment and Social). As in the previous stage, the weight of each sub-pillar is determined by the loading factor produced by this analysis.",
+    "chunk_type": "methodology",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 29 [pdf 41]"
+    },
+    "tags": [
+      "stage 2",
+      "pillar score",
+      "re-standardisation",
+      "three pillars"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-method_chunk_006",
+    "document_id": "doc_2",
+    "slice_id": "report-method",
+    "section_path": "3.1. Metodologi Perhitungan > PCA Tahap Akhir (Level Indeks Komposit)",
+    "printed_page": "p. 30",
+    "pdf_page": 42,
+    "content": "PCA Tahap Akhir (Level Indeks Komposit). Pada tahap final, ketiga skor pilar yang telah distandardisasi digabungkan sekali lagi menggunakan PCA. Proses ini menghasilkan skor IBEI akhir untuk setiap provinsi, dengan bobot untuk masing-masing pilar (Ekonomi, Lingkungan, Sosial) ditentukan oleh kontribusi relatifnya terhadap variasi total kinerja ekonomi biru antarprovinsi. Penggunaan PCA yang konsisten di setiap tahapan memastikan bahwa prinsip objektivitas dan pembobotan berbasis data diterapkan secara menyeluruh, dari level mikro (indikator) hingga makro (indeks komposit).",
+    "content_en": "Final-stage PCA (composite index level). At the final stage the three standardised pillar scores are combined once more using PCA. This produces the final IBEI score for each province, with the weight of each pillar (Economy, Environment, Social) determined by its relative contribution to the total variation in blue economy performance across provinces. Consistent use of PCA at every stage ensures that the principles of objectivity and data-based weighting are applied throughout, from the micro level (indicator) to the macro level (composite index).",
+    "chunk_type": "methodology",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 30 [pdf 42]"
+    },
+    "tags": [
+      "stage 3",
+      "composite score",
+      "pillar weights",
+      "provincial variation"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-method_chunk_007",
+    "document_id": "doc_2",
+    "slice_id": "report-method",
+    "section_path": "3.1. Metodologi Perhitungan > Gambar 3.1.1. Alur perhitungan IBEI dengan metode Multi-stage PCA",
+    "printed_page": "p. 30",
+    "pdf_page": 42,
+    "content": "Gambar 3.1.1. Alur perhitungan IBEI dengan metode Multi-stage PCA. [Kotak alur, verbatim:] \"Standarisasi nilai indikator\" — \"Run - PCA Subpilar\" — \"Reversi nilai indikator (atau drop indikator) jika ditemukan relasi negatif\" — \"Run kembali - PCA Subpilar\" — \"Standarisasi indeks subpilar\" — \"Run - PCA Pilar\" — \"Standarisasi indeks pilar\" — \"Run - PCA IBEI\" — \"Standarisasi indeks IBEI\". Sumber: Tim Penyusun IBEI, 2024.",
+    "content_en": "Figure 3.1.1. Flow of IBEI calculation using the Multi-stage PCA method. Flow boxes, verbatim: \"Standardise indicator values\" — \"Run sub-pillar PCA\" — \"Reverse indicator values (or drop the indicator) if a negative relation is found\" — \"Re-run sub-pillar PCA\" — \"Standardise sub-pillar index\" — \"Run pillar PCA\" — \"Standardise pillar index\" — \"Run IBEI PCA\" — \"Standardise IBEI index\". Source: IBEI Drafting Team, 2024.",
+    "chunk_type": "methodology",
+    "maturity_tag": "a",
+    "is_reconstructed": true,
+    "reconstruction_note": "The figure is a boxed flow diagram; pdftotext -layout returns the box labels but not the arrow topology. Box labels are verbatim; the reading order presented here follows the figure's left-to-right, top-to-bottom column layout and is the extractor's ordering, not printed sequence numbering. Confidence: medium on ordering, high on the label set. No step was added or invented.",
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 30 [pdf 42]"
+    },
+    "tags": [
+      "calculation flow",
+      "indicator reversal",
+      "drop indicator",
+      "negative relation",
+      "iteration"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-method_chunk_008",
+    "document_id": "doc_2",
+    "slice_id": "report-method",
+    "section_path": "3.1. Metodologi Perhitungan > Tahap 1: Agregasi Tingkat Subpilar (PCA Tahap Pertama)",
+    "printed_page": "p. 31",
+    "pdf_page": 43,
+    "content": "Tahap 1: Agregasi Tingkat Subpilar (PCA Tahap Pertama). Setelah semua indikator distandardisasi, proses agregasi dimulai pada tingkat subpilar. Standardisasi, adalah langkah pra-pemrosesan yang penting. Langkah ini mengubah semua data indikator ke dalam skala yang kompatibel, sehingga memastikan bahwa indikator dengan satuan atau rentang nilai yang besar tidak secara timpang mendominasi proses analisis. Untuk setiap subpilar, skor komposit dihitung dengan menerapkan PCA pada set indikator standar yang relevan. PCA akan mengekstrak komponen utama pertama (PC1), yaitu kombinasi linear dari indikator-indikator yang mampu menjelaskan varians terbesar dalam data. PC1 dapat diinterpretasikan sebagai dimensi laten atau faktor mendasar yang paling merepresentasikan kinerja subpilar tersebut. Bobot untuk setiap indikator ditentukan oleh loading factor (koefisien eigenvector) dari PC1. Loading factor ini menunjukkan seberapa kuat korelasi antara setiap indikator asli dengan komponen utama pertama, yang sekaligus berfungsi sebagai bobotnya dalam pembentukan skor subpilar.",
+    "content_en": "Stage 1: sub-pillar level aggregation (first-stage PCA). Once all indicators are standardised, aggregation begins at the sub-pillar level. Standardisation is an important pre-processing step: it converts all indicator data onto a compatible scale, ensuring that indicators with large units or value ranges do not disproportionately dominate the analysis. For each sub-pillar a composite score is computed by applying PCA to the relevant set of standardised indicators. PCA extracts the first principal component (PC1), the linear combination of indicators explaining the largest variance in the data. PC1 can be interpreted as the latent dimension or underlying factor that best represents that sub-pillar's performance. The weight of each indicator is determined by the loading factor (eigenvector coefficient) of PC1. This loading factor shows how strongly each original indicator correlates with the first principal component, and simultaneously serves as its weight in forming the sub-pillar score.",
+    "chunk_type": "methodology",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 31 [pdf 43]"
+    },
+    "tags": [
+      "standardisation",
+      "PC1",
+      "eigenvector coefficient",
+      "latent dimension",
+      "sub-pillar aggregation"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-method_chunk_009",
+    "document_id": "doc_2",
+    "slice_id": "report-method",
+    "section_path": "3.1. Metodologi Perhitungan > Tahap 1 > formula skor subpilar",
+    "printed_page": "p. 31",
+    "pdf_page": 43,
+    "content": "Skor untuk setiap subpilar dihitung dengan formula: [formula matematis, lapisan glif rusak pada ekstraksi teks] di mana: Sik = Skor subpilar k untuk provinsi i; Wkj = Bobot (loading factor dari PC1) untuk indikator j dalam subpilar k; I ijk std = Nilai standar (Z-score) indikator j dalam subpilar k untuk provinsi i; nk = Jumlah indikator dalam subpilar k.",
+    "content_en": "The score for each sub-pillar is computed with the formula [mathematical formula; the glyph layer is corrupted in text extraction] where: Sik = score of sub-pillar k for province i; Wkj = weight (PC1 loading factor) for indicator j in sub-pillar k; I ijk std = standardised value (Z-score) of indicator j in sub-pillar k for province i; nk = number of indicators in sub-pillar k. The symbol definitions confirm Z-score standardisation as the stated normalisation, not min-max.",
+    "chunk_type": "definition",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": "The equation body itself is NOT transcribed: the embedded math font renders as corrupted glyphs under pdftotext -layout (e.g. \"𝑆𝑆!\\\" = # %𝑤𝑤\\\"$ ⋅ 𝐼𝐼!$\\\" )\"). Only the printed symbol-definition list is quoted, which is clean text. Per the no-fabricated-specificity rule the formula is reported as unreadable rather than reconstructed; recovering it requires reading the rendered page image.",
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 31 [pdf 43]"
+    },
+    "tags": [
+      "Z-score",
+      "formula",
+      "sub-pillar score",
+      "loading factor weight",
+      "glyph corruption"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-method_chunk_010",
+    "document_id": "doc_2",
+    "slice_id": "report-method",
+    "section_path": "3.1. Metodologi Perhitungan > Tahap 2: Agregasi Tingkat Pilar (PCA Tahap Kedua)",
+    "printed_page": "pp. 31-32",
+    "pdf_page": 43,
+    "content": "Tahap 2: Agregasi Tingkat Pilar (PCA Tahap Kedua). Langkah selanjutnya adalah menggabungkan skor-skor subpilar yang telah diperoleh menjadi skor pilar. Proses ini kembali menggunakan PCA, namun kali ini inputnya adalah skor subpilar yang juga telah distandardisasi terlebih dahulu. Sama seperti pada tahap pertama, standardisasi skor subpilar diperlukan untuk menormalkan skala sebelum diagregasi lebih lanjut, memastikan bahwa setiap subpilar memiliki kesempatan yang setara untuk berkontribusi pada skor pilar. Dengan menerapkan logika yang sama, PCA tahap kedua ini akan mengidentifikasi kombinasi linear dari skor-skor subpilar yang paling baik dalam menjelaskan variasi kinerja di tingkat pilar. [Formula skor pilar, p. 32:] di mana: Pip = Skor pilar p (Ekonomi, Lingkungan, atau Sosial) untuk provinsi i; Wpk = Bobot (loading factor dari PC1) untuk subpilar k dalam pilar p; Sikp std = Skor standar dari subpilar k dalam pilar p untuk provinsi i; mp = Jumlah subpilar dalam pilar p.",
+    "content_en": "Stage 2: pillar level aggregation (second-stage PCA). The next step combines the sub-pillar scores obtained into pillar scores. This again uses PCA, but here the inputs are sub-pillar scores that have themselves first been standardised. As at the first stage, standardisation of sub-pillar scores is needed to normalise scale before further aggregation, ensuring each sub-pillar has an equal opportunity to contribute to the pillar score. Applying the same logic, this second-stage PCA identifies the linear combination of sub-pillar scores that best explains performance variation at the pillar level. Pillar score formula (p. 32), where: Pip = score of pillar p (Economy, Environment or Social) for province i; Wpk = weight (PC1 loading factor) for sub-pillar k in pillar p; Sikp std = standardised score of sub-pillar k in pillar p for province i; mp = number of sub-pillars in pillar p.",
+    "chunk_type": "methodology",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": "Equation body not transcribed: math glyph layer corrupted under pdftotext -layout. Only the printed prose and symbol-definition list are quoted. The definition list appears on printed p. 32 [pdf 44]; the prose on printed p. 31 [pdf 43].",
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "pp. 31-32 [pdf 43-44]"
+    },
+    "tags": [
+      "stage 2",
+      "pillar aggregation",
+      "standardisation",
+      "equal opportunity to contribute",
+      "formula"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-method_chunk_011",
+    "document_id": "doc_2",
+    "slice_id": "report-method",
+    "section_path": "3.1. Metodologi Perhitungan > Tahap 3: Agregasi Indeks Komposit IBEI (PCA Tahap Akhir)",
+    "printed_page": "p. 32",
+    "pdf_page": 44,
+    "content": "Tahap 3: Agregasi Indeks Komposit IBEI (PCA Tahap Akhir). Pada tahap final, ketiga skor pilar tersebut digabungkan untuk membentuk skor IBEI akhir. Tahap ini merupakan puncak dari proses agregasi, di mana kinerja multidimensional dari pilar ekonomi, lingkungan, dan sosial diintegrasikan menjadi satu ukuran tunggal yang holistik. PCA diterapkan untuk terakhir kalinya pada tiga skor pilar (yang juga telah distandardisasi). [Formula skor IBEI akhir:] di mana: IBEI i = Skor Indeks Ekonomi Biru Indonesia untuk provinsi i; Pi,Ekonomi std, Pi,Lingkungan std, Pi,Sosial std = Skor standar dari masing-masing pilar; wE, wL, wS = Bobot (loading factor dari PC1) untuk masing-masing pilar.",
+    "content_en": "Stage 3: aggregation of the composite IBEI index (final-stage PCA). At the final stage the three pillar scores are combined to form the final IBEI score. This stage is the culmination of the aggregation process, in which the multidimensional performance of the economic, environmental and social pillars is integrated into a single holistic measure. PCA is applied for the last time to the three pillar scores (which have also been standardised). Final IBEI score formula, where: IBEI i = Indonesia Blue Economy Index score for province i; Pi,Economy std, Pi,Environment std, Pi,Social std = standardised score of each pillar; wE, wL, wS = weight (PC1 loading factor) for each pillar.",
+    "chunk_type": "methodology",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": "Equation body not transcribed: math glyph layer corrupted under pdftotext -layout. Only printed prose and the symbol-definition list are quoted. Note the report does not print numeric values of wE, wL, wS at this location; pillar weight percentages are published elsewhere (Juknis Tabel 4) and must not be back-filled here.",
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 32 [pdf 44]"
+    },
+    "tags": [
+      "stage 3",
+      "final IBEI formula",
+      "pillar weights",
+      "standardised pillar scores"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-method_chunk_012",
+    "document_id": "doc_2",
+    "slice_id": "report-method",
+    "section_path": "3.1. Metodologi Perhitungan > Tahap 3 > interpretasi bobot pilar",
+    "printed_page": "p. 32",
+    "pdf_page": 44,
+    "content": "Bobot yang dihasilkan pada tahap ini sangat krusial karena secara objektif merefleksikan kontribusi relatif dari setiap pilar terhadap variasi total kinerja ekonomi biru antarprovinsi. Misalnya, jika data menunjukkan bahwa perbedaan kinerja antar provinsi lebih banyak didorong oleh variasi pada pilar ekonomi, maka pilar tersebut secara alami akan menerima bobot yang lebih tinggi dari PCA.",
+    "content_en": "The weights produced at this stage are highly crucial because they objectively reflect the relative contribution of each pillar to the total variation in blue economy performance across provinces. For example, if the data show that differences in performance between provinces are driven more by variation in the economic pillar, then that pillar will naturally receive a higher weight from the PCA.",
+    "chunk_type": "claim",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 32 [pdf 44]"
+    },
+    "tags": [
+      "weight interpretation",
+      "variance-driven weighting",
+      "cross-province variation"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-method_chunk_013",
+    "document_id": "doc_2",
+    "slice_id": "report-method",
+    "section_path": "3.1. Metodologi Perhitungan > Standardisasi Skor Akhir",
+    "printed_page": "p. 33",
+    "pdf_page": 45,
+    "content": "Standardisasi Skor Akhir. Skor mentah yang dihasilkan dari proses PCA (di masing-masing level) bersifat relatif, dengan rata-rata di seluruh provinsi mendekati nol. Untuk mempermudah interpretasi dan perbandingan, skor IBEI akhir perlu distandarisasi ke dalam rentang nilai yang lebih intuitif, yaitu 1 hingga 100. Standardisasi ini dilakukan dengan membagi skor indeks setiap provinsi dengan nilai indeks maksimum teoretis yang dihitung berdasarkan nilai tertinggi dari setiap indikator pada tahun dasar (IBEI, 2023). Formula yang digunakan adalah sebagai berikut: Standardize(index) = (index / Max(index)) * 100. Dengan metodologi yang sistematis dan objektif ini, skor IBEI yang dihasilkan dapat menjadi alat ukur yang andal untuk memetakan posisi dan memandu arah pembangunan ekonomi biru di tingkat nasional dan daerah.",
+    "content_en": "Standardisation of the final score. The raw scores produced by the PCA process (at each level) are relative, with a mean across all provinces close to zero. To ease interpretation and comparison, the final IBEI score needs to be standardised into a more intuitive value range, namely 1 to 100. This standardisation is done by dividing each province's index score by the theoretical maximum index value, computed from the highest value of each indicator in the base year (IBEI, 2023). The formula used is: Standardize(index) = (index / Max(index)) * 100. With this systematic and objective methodology, the resulting IBEI score can be a reliable measuring tool for mapping position and guiding the direction of blue economy development at national and regional level.",
+    "chunk_type": "methodology",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 33 [pdf 45]"
+    },
+    "tags": [
+      "final standardisation",
+      "1-100 scale",
+      "theoretical maximum",
+      "base year 2023",
+      "rescaling formula"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-method_chunk_014",
+    "document_id": "doc_2",
+    "slice_id": "report-method",
+    "section_path": "3.1. Metodologi Perhitungan > Interpretasi Skor Akhir IBEI",
+    "printed_page": "p. 33",
+    "pdf_page": 45,
+    "content": "Interpretasi Skor Akhir IBEI. Skor IBEI yang dihasilkan dari metodologi ini adalah skor komponen utama (principal component score). Skor ini merupakan ukuran relatif yang tidak memiliki batas atas atau bawah yang pasti dan dapat bernilai positif maupun negatif. Secara teknis, rata-rata dari skor IBEI di seluruh provinsi akan mendekati nol. Oleh karena itu, skor positif mengindikasikan kinerja di atas rata-rata nasional, sementara skor negatif mengindikasikan kinerja di bawah rata-rata. [Kotak:] \"Nilai yang lebih tinggi menunjukkan kinerja ekonomi biru yang secara keseluruhan lebih baik dibandingkan provinsi lain.\" \"Nilai yang lebih rendah (termasuk nilai negatif) menunjukkan kinerja yang relatif lebih tertinggal.\"",
+    "content_en": "Interpretation of the final IBEI score. The IBEI score produced by this methodology is a principal component score. It is a relative measure with no definite upper or lower bound and can be positive or negative. Technically, the mean IBEI score across all provinces will be close to zero. A positive score therefore indicates above-national-average performance, while a negative score indicates below-average performance. Boxes: \"A higher value indicates overall better blue economy performance compared with other provinces.\" \"A lower value (including a negative value) indicates relatively lagging performance.\"",
+    "chunk_type": "definition",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 33 [pdf 45]"
+    },
+    "tags": [
+      "principal component score",
+      "relative measure",
+      "unbounded",
+      "negative scores",
+      "interpretation"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-method_chunk_015",
+    "document_id": "doc_2",
+    "slice_id": "report-method",
+    "section_path": "3.1. Metodologi Perhitungan > konflik internal: skala skor akhir",
+    "printed_page": "p. 33",
+    "pdf_page": 45,
+    "content": "Konflik internal dalam satu halaman yang sama, dikutip verbatim dari kedua sisi. (i) \"skor IBEI akhir perlu distandarisasi ke dalam rentang nilai yang lebih intuitif, yaitu 1 hingga 100\" — dengan formula \"Standardize(index) = (index / Max(index)) * 100\". (ii) \"Skor ini merupakan ukuran relatif yang tidak memiliki batas atas atau bawah yang pasti dan dapat bernilai positif maupun negatif... rata-rata dari skor IBEI di seluruh provinsi akan mendekati nol\" dan \"Nilai yang lebih rendah (termasuk nilai negatif) menunjukkan kinerja yang relatif lebih tertinggal.\"",
+    "content_en": "An internal conflict on the same printed page, quoted verbatim from both sides. (i) The final IBEI score is said to be standardised into a 1-to-100 range, using Standardize(index) = (index / Max(index)) * 100. (ii) The score is said to be a relative measure with no definite upper or lower bound, able to be positive or negative, with a cross-province mean near zero, and lower values 'including negative values' indicating lagging performance. A 1-to-100 rescaled index cannot simultaneously be unbounded and negative-valued; the document does not state which scale the published figures are on, nor whether the rescaling is applied to the reported values. Presented as a conflict, not resolved. Bears directly on whether reported IBEI values are comparable across editions.",
+    "chunk_type": "evidence",
+    "maturity_tag": "not_applicable",
+    "is_reconstructed": false,
+    "reconstruction_note": "No reconstruction. Both limbs are verbatim quotations from printed p. 33 [pdf 45]; the observation that they are mutually inconsistent is the extractor's, flagged rather than adjudicated per the preserve-disagreement rule.",
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 33 [pdf 45]"
+    },
+    "tags": [
+      "internal contradiction",
+      "score scale",
+      "1-100 rescaling",
+      "unbounded PC score",
+      "comparability"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-method_chunk_016",
+    "document_id": "doc_2",
+    "slice_id": "report-method",
+    "section_path": "3.1. Metodologi Perhitungan > interpretasi sebagai alat benchmarking",
+    "printed_page": "p. 33",
+    "pdf_page": 45,
+    "content": "Dengan demikian, fokus interpretasi bukanlah pada nilai numerik itu sendiri, melainkan pada posisi relatif suatu provinsi terhadap provinsi lainnya. Skor IBEI berfungsi sebagai alat benchmarking yang memungkinkan pemeringkatan dan perbandingan kinerja antar wilayah secara adil dan objektif. Metodologi yang sistematis dan objektif ini memastikan bahwa IBEI merupakan alat ukur yang andal dan kredibel untuk memetakan posisi dan memandu arah pembangunan ekonomi biru di tingkat nasional dan daerah. Pada akhirnya, hasil pemeringkatan ini dapat digunakan sebagai dasar untuk merumuskan kebijakan yang lebih terarah, mengalokasikan sumber daya secara lebih efektif, dan mendorong pembelajaran antar provinsi untuk percepatan pembangunan ekonomi biru yang berkelanjutan di seluruh Indonesia.",
+    "content_en": "Accordingly, interpretation should focus not on the numerical value itself but on a province's relative position against other provinces. The IBEI score functions as a benchmarking tool permitting fair and objective ranking and comparison of performance across regions. This systematic and objective methodology ensures the IBEI is a reliable and credible instrument for mapping position and guiding the direction of blue economy development at national and regional level. Ultimately the ranking results can be used as a basis for formulating better-targeted policy, allocating resources more effectively, and encouraging inter-provincial learning to accelerate sustainable blue economy development across Indonesia.",
+    "chunk_type": "claim",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 33 [pdf 45]"
+    },
+    "tags": [
+      "benchmarking",
+      "relative ranking",
+      "policy use",
+      "resource allocation",
+      "intended function"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-method_chunk_017",
+    "document_id": "doc_2",
+    "slice_id": "report-method",
+    "section_path": "3.1.1. Keterbatasan Metodologi IBEI > pengantar",
+    "printed_page": "p. 34",
+    "pdf_page": 46,
+    "content": "3.1.1. KETERBATASAN METODOLOGI IBEI. Meskipun metodologi Multi-stage PCA yang diterapkan dalam IBEI memberikan kearangka yang objektif dan berbasis data, penting untuk memahami keterbatasan pendekatan ini. Pemahaman yang mendalam terhadap keterbatasan metodologi akan membantu pengguna dalam menginterpretasikan hasil IBEI secara tepat dan menghindari kesalahpahaman dalam perumusan kebijakan.",
+    "content_en": "3.1.1. Limitations of the IBEI methodology. Although the Multi-stage PCA methodology applied in the IBEI provides an objective, data-based framework, it is important to understand the limitations of this approach. A thorough understanding of the methodological limitations will help users interpret IBEI results correctly and avoid misunderstandings in policy formulation.",
+    "chunk_type": "context",
+    "maturity_tag": "not_applicable",
+    "is_reconstructed": false,
+    "reconstruction_note": "\"kearangka\" is a typographical error in the printed source for \"kerangka\" (framework); quoted as printed, not silently corrected.",
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 34 [pdf 46]"
+    },
+    "tags": [
+      "methodological limitations",
+      "self-stated caveats",
+      "interpretation guidance"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-method_chunk_018",
+    "document_id": "doc_2",
+    "slice_id": "report-method",
+    "section_path": "3.1.1. Keterbatasan Metodologi IBEI > keterbatasan umum metodologi PCA (1) linearitas, (2) outlier",
+    "printed_page": "p. 34",
+    "pdf_page": 46,
+    "content": "Keterbatasan umum metodologi PCA. Hal utama yang perlu disadari adalah metode PCA sendiri memiliki beberapa keterbatasannya secara umum. Pertama, terkait asumsi linearitas dan hubungan monotonik (monotonic relationship). Yaitu, PCA mengasumsikan bahwa hubungan antar variabel bersifat linear dan monotonik. Dalam konteks ekonomi biru, asumsi ini mungkin tidak selalu berlaku. Sebagai contoh, hubungan antara intensitas aktivitas perikanan dan kesehatan ekosistem laut mungkin mengikuti pola non-linear, di mana peningkatan aktivitas hingga titik tertentu dapat memberikan manfaat ekonomi tanpa merusak lingkungan, namun setelah melewati ambang batas tertentu, dampak negatif terhadap ekosistem dapat meningkat secara eksponensial. Kedua, sensitivitas terhadap outlier, yang merupakah keadaan dimana metode PCA sangat sensitif terhadap nilai ekstrem (outlier) dalam data. Dalam konteks IBEI, provinsi dengan kinerja yang sangat tinggi atau sangat rendah pada indikator tertentu dapat mempengaruhi struktur komponen utama secara tidak proporsional.",
+    "content_en": "General limitations of the PCA methodology. The main point to recognise is that PCA itself has several general limitations. First, the assumption of linearity and monotonic relationships: PCA assumes relations between variables are linear and monotonic. In the blue economy context this assumption may not always hold. For example, the relationship between fishing activity intensity and marine ecosystem health may follow a non-linear pattern, where increasing activity up to a certain point yields economic benefit without environmental damage, but beyond a certain threshold negative ecosystem impacts may rise exponentially. Second, sensitivity to outliers: PCA is highly sensitive to extreme values in the data. In the IBEI context, provinces with very high or very low performance on a particular indicator can disproportionately affect the principal component structure.",
+    "chunk_type": "evidence",
+    "maturity_tag": "not_applicable",
+    "is_reconstructed": false,
+    "reconstruction_note": "\"merupakah\" is a typographical error in the printed source for \"merupakan\"; quoted as printed.",
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 34 [pdf 46]"
+    },
+    "tags": [
+      "linearity assumption",
+      "monotonicity",
+      "non-linear fishing-ecosystem relation",
+      "outlier sensitivity",
+      "threshold effects"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-method_chunk_019",
+    "document_id": "doc_2",
+    "slice_id": "report-method",
+    "section_path": "3.1.1. Keterbatasan Metodologi IBEI > keterbatasan umum metodologi PCA (3) variasi antar-waktu, (4) heterogenitas regional",
+    "printed_page": "p. 34",
+    "pdf_page": 46,
+    "content": "Ketiga, keterbatasan dalam menangkap variasi antar-waktu. PCA adalah metode analisis cross-sectional yang menangkap struktur data pada satu waktu tertentu. Metode ini tidak dapat menangkap dinamika perubahan struktural yang terjadi antar-waktu, atau misalnya dalam hal evolusi prioritas kebijakan yang berubah seiring berjalannya waktu. Bobot yang ditetapkan berdasarkan data tahun 2024 mungkin saja menjadi tidak relevan untuk tahun-tahun mendatang, jika lalu terjadi perubahan mendasar dalam struktur ataupun cakupan ekonomi biru Indonesia. Keempat, keterbatasan dalam menggambarkan heterogenitas regional. Hal ini terkait dengan fakta unik dari Indonesia sebagai suatu negara yang memiliki keragaman geografis, ekologi, dan sosio-ekonomi yang sangat besar antara provinsi. Pendekatan PCA yang menerapkan struktur bobot yang sama untuk seluruh provinsi mungkin tidak dapat menangkap perbedaan mendasar yang mungkin saja terjadi secara regional/antar provinsi. Misalnya, strategi ekonomi biru yang optimal untuk provinsi kepulauan kecil mungkin berbeda secara fundamental dengan provinsi yang memiliki garis pantai panjang di pulau besar.",
+    "content_en": "Third, a limitation in capturing variation over time. PCA is a cross-sectional method capturing the data structure at one particular point in time. It cannot capture the dynamics of structural change over time, nor for instance the evolution of policy priorities as they shift. Weights fixed on the basis of 2024 data may become irrelevant for future years if fundamental change occurs in the structure or coverage of Indonesia's blue economy. Fourth, a limitation in representing regional heterogeneity. This relates to Indonesia's unique position as a country with very large geographic, ecological and socio-economic diversity between provinces. A PCA approach applying the same weight structure to all provinces may not capture fundamental differences that may exist regionally or between provinces. For example, the optimal blue economy strategy for a small-island province may differ fundamentally from a province with a long coastline on a large island.",
+    "chunk_type": "evidence",
+    "maturity_tag": "not_applicable",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 34 [pdf 46]"
+    },
+    "tags": [
+      "cross-sectional limitation",
+      "time comparability",
+      "2024 weights",
+      "regional heterogeneity",
+      "uniform weight structure"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-method_chunk_020",
+    "document_id": "doc_2",
+    "slice_id": "report-method",
+    "section_path": "3.1.1. Keterbatasan Metodologi IBEI > Saran untuk interpretasi yang bijaksana",
+    "printed_page": "pp. 34-35",
+    "pdf_page": 46,
+    "content": "Saran untuk interpretasi yang bijaksana. Pertama, melakukan analisa komplementer. Hasil IBEI sebaiknya diinterpretasikan bersama dengan analisis sektoral yang lebih mendalam, terutama untuk subpilar yang mendapat bobot rendah namun secara substantif penting seperti perikanan tangkap dan budidaya. Analisis tambahan dapat mencakup kontribusi sektor terhadap PDB, penyerapan tenaga kerja, atau dampak sosial di komunitas pesisir. Kedua, penggunaan analisis sensitivitas. Untuk memahami robustness hasil IBEI, perlu dilakukan analisis sensitivitas dengan menggunakan metode pembobotan alternatif, seperti equal weighting ataupun expert weighting, untuk melihat sejauh mana peringkat provinsi berubah dengan skema pembobotan yang berbeda. Ketiga, konteks regional. Interpretasi hasil IBEI perlu mempertimbangkan konteks spesifik setiap provinsi. Provinsi yang mendapat skor rendah dalam subpilar tertentu tidak otomatis berarti memiliki kinerja buruk jika faktor-faktor kontekstual seperti potensi sumber daya atau tahap pembangunan diperhitungkan. Keempat, fokus pada tren dan pola yang terlihat. Alih-alih terfokus pada nilai absolut indeks, pengguna sebaiknya lebih memperhatikan pola dan tren relatif antar provinsi untuk mengidentifikasi best practices yang dapat diadaptasi.",
+    "content_en": "Advice for prudent interpretation. First, complementary analysis. IBEI results should be interpreted alongside deeper sectoral analysis, especially for sub-pillars that receive low weight but are substantively important, such as capture fisheries and aquaculture. Additional analysis may cover the sector's contribution to GDP, employment absorption, or social impacts in coastal communities. Second, use of sensitivity analysis. To understand the robustness of IBEI results, sensitivity analysis using alternative weighting methods such as equal weighting or expert weighting is needed, to see how far provincial rankings change under different weighting schemes. Third, regional context. Interpretation of IBEI results must consider each province's specific context. A province scoring low on a particular sub-pillar does not automatically perform badly once contextual factors such as resource potential or stage of development are taken into account. Fourth, focus on visible trends and patterns. Rather than fixating on absolute index values, users should attend more to relative patterns and trends between provinces to identify adaptable best practices.",
+    "chunk_type": "evidence",
+    "maturity_tag": "not_applicable",
+    "is_reconstructed": false,
+    "reconstruction_note": "Text spans printed pp. 34-35 [pdf 46-47]; the first recommendation begins on p. 34 and recommendations two to four continue on p. 35.",
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "pp. 34-35 [pdf 46-47]"
+    },
+    "tags": [
+      "complementary sectoral analysis",
+      "sensitivity analysis",
+      "alternative weighting",
+      "low-weight sub-pillars",
+      "capture fisheries and aquaculture"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-method_chunk_021",
+    "document_id": "doc_2",
+    "slice_id": "report-method",
+    "section_path": "3.2. Analisa Distribusi IBEI (Keseluruhan) > pengantar",
+    "printed_page": "p. 35",
+    "pdf_page": 47,
+    "content": "3.2. ANALISA DISTRIBUSI IBEI (KESELURUHAN). Pada bagian ini, disajikan analisis distribusi Indeks Ekonomi Biru (IBEI) 2024 di tingkat nasional. Tabel 3.2.1 memberikan angka IBEI 2024 nasional berdasarkan pilar dan subpilar. IBEI 2024 yang ditampilkan dalam Tabel 3.2.1 merupakan angka yang selaras dengan capaian nasional yang menjadi target prioritas nasional pada RPJMN 2025–2029.",
+    "content_en": "3.2. Analysis of the IBEI distribution (overall). This section presents the distribution analysis of the 2024 Blue Economy Index (IBEI) at national level. Table 3.2.1 gives the national IBEI 2024 figures by pillar and sub-pillar. The IBEI 2024 shown in Table 3.2.1 is the figure aligned with the national achievement that constitutes a national priority target in the RPJMN 2025-2029.",
+    "chunk_type": "context",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 35 [pdf 47]"
+    },
+    "tags": [
+      "national distribution",
+      "RPJMN 2025-2029",
+      "national priority target",
+      "IBEI 2024"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-method_chunk_022",
+    "document_id": "doc_2",
+    "slice_id": "report-method",
+    "section_path": "3.2. Analisa Distribusi IBEI (Keseluruhan) > Tabel 3.2.1. IBEI 2024 berdasarkan Pilar dan Subpilar, Nasional",
+    "printed_page": "p. 35",
+    "pdf_page": 47,
+    "content": "Tabel 3.2.1. IBEI 2024 berdasarkan Pilar dan Subpilar, Nasional. Kolom: \"Pilar dan subpilar\" / \"Nasional\". Indeks pilar ekonomi 25,40. Indeks subpilar perikanan tangkap dan budidaya 12,86. Indeks subpilar industri berbasis kelautan 19,08. Indeks subpilar perdagangan, transport dan logistik 17,67. Indeks subpilar pariwisata berbasis kelautan 31,38. Indeks subpilar teknologi 54,42. Indeks subpilar tatakelola 18,20. Indeks pilar lingkungan 26,25. Indeks subpilar kualitas sumber daya dan konservasi laut 21,96. Indeks subpilar energi terbarukan 11,96.",
+    "content_en": "Table 3.2.1. IBEI 2024 by pillar and sub-pillar, national. Columns: 'Pillar and sub-pillar' / 'National'. Economic pillar index 25.40. Capture fisheries and aquaculture sub-pillar index 12.86. Marine-based industry sub-pillar index 19.08. Trade, transport and logistics sub-pillar index 17.67. Marine-based tourism sub-pillar index 31.38. Technology sub-pillar index 54.42. Governance sub-pillar index 18.20. Environment pillar index 26.25. Marine resource quality and conservation sub-pillar index 21.96. Renewable energy sub-pillar index 11.96. Note the decimal comma is the Indonesian convention: 25,40 is 25.40.",
+    "chunk_type": "data",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": "The table is TRUNCATED at the slice boundary: this slice ends at printed p. 35 [pdf 47] with the renewable energy row, and the table continues beyond the assigned range. The social pillar index, the remaining environment sub-pillars and the headline composite IBEI 2024 national figure are NOT present in this slice and must not be inferred. Values recorded exactly as printed, including the Indonesian decimal comma.",
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 35 [pdf 47]"
+    },
+    "tags": [
+      "Tabel 3.2.1",
+      "national index values",
+      "pillar index",
+      "sub-pillar index",
+      "truncated table"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  }
+]

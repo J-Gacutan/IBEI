@@ -1,0 +1,552 @@
+[
+  {
+    "indicator_no": 1,
+    "pilar": "Ekonomi",
+    "subpilar": "Perikanan tangkap dan budidaya",
+    "indikator": "Peran sektor perikanan dalam PDB (%)",
+    "data_pembentuk": [
+      "Nilai Produk Domestik Regional Bruto (PDRB) dari sektor perikanan suatu provinsi, dihitung Atas Dasar Harga Berlaku (ADHB).",
+      "Nilai PDRB total dari provinsi yang sama, juga dihitung Atas Dasar Harga Berlaku (ADHB)."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 11",
+    "pdf_page": 21
+  },
+  {
+    "indicator_no": 2,
+    "pilar": "Ekonomi",
+    "subpilar": "Perikanan tangkap dan budidaya",
+    "indikator": "Volume produksi perikanan (ton)",
+    "data_pembentuk": [
+      "Volume produksi perikanan tangkap (mencakup laut dan perairan umum daratan) per provinsi.",
+      "Volume produksi perikanan budidaya pembesaran (mencakup tambak dan non-tambak) per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 11",
+    "pdf_page": 21
+  },
+  {
+    "indicator_no": 3,
+    "pilar": "Ekonomi",
+    "subpilar": "Perikanan tangkap dan budidaya",
+    "indikator": "Volume produksi budidaya tambak (ton)",
+    "data_pembentuk": [
+      "Total volume produksi dari budidaya tambak (tambak intensif, tambak sederhana, dan tambak semi intensif) per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 11",
+    "pdf_page": 21
+  },
+  {
+    "indicator_no": 4,
+    "pilar": "Ekonomi",
+    "subpilar": "Perikanan tangkap dan budidaya",
+    "indikator": "Volume produksi akuakultur (ton)",
+    "data_pembentuk": [
+      "Volume produksi dari setiap komoditas budidaya pembesaran per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 11",
+    "pdf_page": 21
+  },
+  {
+    "indicator_no": 5,
+    "pilar": "Ekonomi",
+    "subpilar": "Perikanan tangkap dan budidaya",
+    "indikator": "Volume produksi budidaya rumput laut (ton)",
+    "data_pembentuk": [
+      "Total volume produksi dari budidaya rumput laut per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 11",
+    "pdf_page": 21
+  },
+  {
+    "indicator_no": 6,
+    "pilar": "Ekonomi",
+    "subpilar": "Perdagangan, transportasi, dan logistik",
+    "indikator": "Volume angkutan laut (ton)",
+    "data_pembentuk": [
+      "Total volume (berat bersih) kegiatan ekspor yang dimuat melalui moda transportasi laut per provinsi.",
+      "Total volume (berat bersih) kegiatan impor yang dibongkar melalui moda transportasi laut per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 11",
+    "pdf_page": 21
+  },
+  {
+    "indicator_no": 7,
+    "pilar": "Ekonomi",
+    "subpilar": "Perdagangan, transportasi, dan logistik",
+    "indikator": "Jumlah penumpang angkutan laut (orang)",
+    "data_pembentuk": [
+      "Jumlah penumpang kapal antar pulau (datang dan berangkat) per provinsi.",
+      "Jumlah penumpang kapal luar negeri (datang dan berangkat) per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 11",
+    "pdf_page": 21
+  },
+  {
+    "indicator_no": 8,
+    "pilar": "Ekonomi",
+    "subpilar": "Perdagangan, transportasi, dan logistik",
+    "indikator": "Jumlah penumpang angkutan laut di 25 pelabuhan strategis (orang)",
+    "data_pembentuk": [
+      "Jumlah penumpang (datang dan berangkat) di setiap pelabuhan yang termasuk dalam daftar 25 pelabuhan strategis nasional, per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 11",
+    "pdf_page": 21
+  },
+  {
+    "indicator_no": 9,
+    "pilar": "Ekonomi",
+    "subpilar": "Perdagangan, transportasi, dan logistik",
+    "indikator": "Volume ekspor perikanan (ton)",
+    "data_pembentuk": [
+      "Total volume ekspor hasil perikanan per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 11",
+    "pdf_page": 21
+  },
+  {
+    "indicator_no": 10,
+    "pilar": "Ekonomi",
+    "subpilar": "Perdagangan, transportasi, dan logistik",
+    "indikator": "Kontribusi ekspor produk perikanan terhadap total ekspor (%)",
+    "data_pembentuk": [
+      "Nilai ekspor hasil perikanan per provinsi.",
+      "Total nilai ekspor seluruh komoditas per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 11",
+    "pdf_page": 21
+  },
+  {
+    "indicator_no": 11,
+    "pilar": "Ekonomi",
+    "subpilar": "Perdagangan, transportasi, dan logistik",
+    "indikator": "Volume ekspor perikanan hidup dan segar (ton)",
+    "data_pembentuk": [
+      "Volume ekspor perikanan tangkap (kode ISIC 031) per provinsi.",
+      "Volume ekspor akuakultur (kode ISIC 032) per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 11",
+    "pdf_page": 21
+  },
+  {
+    "indicator_no": 12,
+    "pilar": "Ekonomi",
+    "subpilar": "Perdagangan, transportasi, dan logistik",
+    "indikator": "Volume ekspor ikan olahan (ton)",
+    "data_pembentuk": [
+      "Total volume ekspor produk ikan, krustasea, dan moluska yang telah diproses dan/atau diawetkan, sesuai dengan kode ISIC 102."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 11",
+    "pdf_page": 21
+  },
+  {
+    "indicator_no": 13,
+    "pilar": "Ekonomi",
+    "subpilar": "Industri berbasis kelautan",
+    "indikator": "Volume produksi garam (ton)",
+    "data_pembentuk": [
+      "Volume produksi garam dari tambak per provinsi.",
+      "Volume produksi garam non-tambak per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 11",
+    "pdf_page": 21
+  },
+  {
+    "indicator_no": 14,
+    "pilar": "Ekonomi",
+    "subpilar": "Industri berbasis kelautan",
+    "indikator": "Jumlah perahu/kapal penangkap ikan (unit)",
+    "data_pembentuk": [
+      "Jumlah perahu tanpa motor per provinsi.",
+      "Jumlah perahu motor tempel per provinsi.",
+      "Jumlah kapal motor per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 11",
+    "pdf_page": 21
+  },
+  {
+    "indicator_no": 15,
+    "pilar": "Enabler (teknologi & tata kelola)",
+    "subpilar": "Pariwisata berbasis bahari",
+    "indikator": "Jumlah wisata bahari (desa)",
+    "data_pembentuk": [
+      "Jumlah desa di tepi laut yang teridentifikasi memiliki wisata bahari per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 12",
+    "pdf_page": 22,
+    "pillar_placement_conflict": "Pillar placement conflicts within the Juknis: Tabel 1 (pp. 11-13 [pdf 21-23]) assigns this indicator to a fourth pillar 'Enabler (teknologi & tata kelola)'; Tabel 4/5 and Gambar 11 (pp. 93-94 [pdf 103-104]) print only three pillars and place pariwisata (22,1%), teknologi (4,1%) and tatakelola (15,8%) as sub-pillars of Ekonomi. Unresolved; see chunk doc_1_cross-slice-conflict_chunk_001."
+  },
+  {
+    "indicator_no": 16,
+    "pilar": "Enabler (teknologi & tata kelola)",
+    "subpilar": "Pariwisata berbasis bahari",
+    "indikator": "Jumlah usaha/perusahaan wisata tirta komersial (unit usaha)",
+    "data_pembentuk": [
+      "Jumlah usaha/perusahaan komersial yang bergerak di bidang wisata tirta per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 12",
+    "pdf_page": 22,
+    "pillar_placement_conflict": "Pillar placement conflicts within the Juknis: Tabel 1 (pp. 11-13 [pdf 21-23]) assigns this indicator to a fourth pillar 'Enabler (teknologi & tata kelola)'; Tabel 4/5 and Gambar 11 (pp. 93-94 [pdf 103-104]) print only three pillars and place pariwisata (22,1%), teknologi (4,1%) and tatakelola (15,8%) as sub-pillars of Ekonomi. Unresolved; see chunk doc_1_cross-slice-conflict_chunk_001."
+  },
+  {
+    "indicator_no": 17,
+    "pilar": "Enabler (teknologi & tata kelola)",
+    "subpilar": "-",
+    "indikator": "Jumlah kapal perikanan tangkap laut - kapal motor > 30 GT (unit)",
+    "data_pembentuk": [
+      "Jumlah kapal motor untuk perikanan tangkap laut dengan ukuran lebih dari 30 GT per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 12",
+    "pdf_page": 22,
+    "pillar_placement_conflict": "Pillar placement conflicts within the Juknis: Tabel 1 (pp. 11-13 [pdf 21-23]) assigns this indicator to a fourth pillar 'Enabler (teknologi & tata kelola)'; Tabel 4/5 and Gambar 11 (pp. 93-94 [pdf 103-104]) print only three pillars and place pariwisata (22,1%), teknologi (4,1%) and tatakelola (15,8%) as sub-pillars of Ekonomi. Unresolved; see chunk doc_1_cross-slice-conflict_chunk_001."
+  },
+  {
+    "indicator_no": 18,
+    "pilar": "Enabler (teknologi & tata kelola)",
+    "subpilar": "-",
+    "indikator": "Jumlah pelabuhan perikanan dengan tempat pelelangan ikan (unit)",
+    "data_pembentuk": [
+      "Jumlah pelabuhan perikanan yang dilengkapi dengan fasilitas Tempat Pelelangan Ikan (TPI) per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 12",
+    "pdf_page": 22,
+    "pillar_placement_conflict": "Pillar placement conflicts within the Juknis: Tabel 1 (pp. 11-13 [pdf 21-23]) assigns this indicator to a fourth pillar 'Enabler (teknologi & tata kelola)'; Tabel 4/5 and Gambar 11 (pp. 93-94 [pdf 103-104]) print only three pillars and place pariwisata (22,1%), teknologi (4,1%) and tatakelola (15,8%) as sub-pillars of Ekonomi. Unresolved; see chunk doc_1_cross-slice-conflict_chunk_001."
+  },
+  {
+    "indicator_no": 19,
+    "pilar": "Lingkungan",
+    "subpilar": "Kualitas sumber daya dan konservasi laut",
+    "indikator": "Kawasan terumbu karang berkualitas baik (%)",
+    "data_pembentuk": [
+      "Persentase kawasan terumbu karang dengan tutupan karang hidup antara 50-100% per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 12",
+    "pdf_page": 22
+  },
+  {
+    "indicator_no": 20,
+    "pilar": "Lingkungan",
+    "subpilar": "Kualitas sumber daya dan konservasi laut",
+    "indikator": "Kawasan lamun berkualitas baik (%)",
+    "data_pembentuk": [
+      "Persentase kawasan lamun dengan tutupan lamun hidup antara 50-100% per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 12",
+    "pdf_page": 22
+  },
+  {
+    "indicator_no": 21,
+    "pilar": "Lingkungan",
+    "subpilar": "Kualitas sumber daya dan konservasi laut",
+    "indikator": "Kawasan hutan mangrove berkualitas baik (%)",
+    "data_pembentuk": [
+      "Persentase kawasan mangrove dengan kerapatan tutupan antara 50-100% per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 12",
+    "pdf_page": 22
+  },
+  {
+    "indicator_no": 22,
+    "pilar": "Lingkungan",
+    "subpilar": "Kualitas sumber daya dan konservasi laut",
+    "indikator": "Jumlah desa pesisir dengan tempat pembuangan sampah (desa)",
+    "data_pembentuk": [
+      "Jumlah desa di tepi laut yang memiliki Tempat Penampungan Sampah Sementara (TPS) per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 12",
+    "pdf_page": 22
+  },
+  {
+    "indicator_no": 23,
+    "pilar": "Lingkungan",
+    "subpilar": "Kualitas sumber daya dan konservasi laut",
+    "indikator": "Jumlah desa pesisir dengan tempat buang air besar (desa)",
+    "data_pembentuk": [
+      "Jumlah desa di tepi laut di mana sebagian besar keluarga memiliki jamban sendiri."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 12",
+    "pdf_page": 22
+  },
+  {
+    "indicator_no": 24,
+    "pilar": "Lingkungan",
+    "subpilar": "Kualitas sumber daya dan konservasi laut",
+    "indikator": "Penanaman/rehabilitasi hutan mangrove, rawa, dan lahan gambut (hektar)",
+    "data_pembentuk": [
+      "Total luas kawasan mangrove, rawa, dan lahan gambut yang direstorasi per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 12",
+    "pdf_page": 22
+  },
+  {
+    "indicator_no": 25,
+    "pilar": "Lingkungan",
+    "subpilar": "Kualitas sumber daya dan konservasi laut",
+    "indikator": "Jumlah Kebocoran Sampah Laut (Ton)",
+    "data_pembentuk": [
+      "Volume kebocoran sampah laut per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 12",
+    "pdf_page": 22
+  },
+  {
+    "indicator_no": 26,
+    "pilar": "Lingkungan",
+    "subpilar": "Kualitas sumber daya dan konservasi laut",
+    "indikator": "Jumlah sampah yang dibuang di darat (ton/tahun)",
+    "data_pembentuk": [
+      "Total timbunan sampah tahunan per provinsi, yang merupakan agregat dari data kabupaten/kota."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 12",
+    "pdf_page": 22
+  },
+  {
+    "indicator_no": 27,
+    "pilar": "Lingkungan",
+    "subpilar": "Kualitas sumber daya dan konservasi laut",
+    "indikator": "Luas kawasan konservasi perairan (ha)",
+    "data_pembentuk": [
+      "Total luas kawasan konservasi perairan yang ditetapkan oleh KKP, KLHK, dan Pemerintah Daerah per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 12",
+    "pdf_page": 22
+  },
+  {
+    "indicator_no": 28,
+    "pilar": "Lingkungan",
+    "subpilar": "Energi terbarukan",
+    "indikator": "Kapasitas terpasang Pembangkit Listrik Tenaga Surya (PLTS) (megawatt)",
+    "data_pembentuk": [
+      "Kapasitas terpasang PLTS per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 12",
+    "pdf_page": 22
+  },
+  {
+    "indicator_no": 29,
+    "pilar": "Lingkungan",
+    "subpilar": "Energi terbarukan",
+    "indikator": "Listrik yang dihasilkan oleh Pembangkit Listrik Tenaga Surya (PLTS) (gigawatt/hour - GWh)",
+    "data_pembentuk": [
+      "Total tenaga listrik yang dibangkitkan oleh PLTS per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 12",
+    "pdf_page": 22
+  },
+  {
+    "indicator_no": 30,
+    "pilar": "Lingkungan",
+    "subpilar": "Energi terbarukan",
+    "indikator": "Kapasitas terpasang Pembangkit Listrik Tenaga Air (PLTA) (megawatt)",
+    "data_pembentuk": [
+      "Kapasitas terpasang PLTA per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 12",
+    "pdf_page": 22
+  },
+  {
+    "indicator_no": 31,
+    "pilar": "Lingkungan",
+    "subpilar": "Energi terbarukan",
+    "indikator": "Listrik yang dihasilkan oleh Pembangkit Listrik Tenaga Air (PLTA) (gigawatt/hour - GWh)",
+    "data_pembentuk": [
+      "Total tenaga listrik yang dibangkitkan oleh PLTA per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 12",
+    "pdf_page": 22
+  },
+  {
+    "indicator_no": 32,
+    "pilar": "Sosial",
+    "subpilar": "Kesejahteraan",
+    "indikator": "Persentase penduduk bekerja di sektor perikanan penerima Program Keluarga Harapan (PKH) (%)",
+    "data_pembentuk": [
+      "Jumlah penduduk bekerja di sektor perikanan yang menerima PKH per provinsi.",
+      "Total jumlah penduduk di provinsi yang sama yang menerima PKH."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 13",
+    "pdf_page": 23
+  },
+  {
+    "indicator_no": 33,
+    "pilar": "Sosial",
+    "subpilar": "Kesejahteraan",
+    "indikator": "Jumlah pekerja perempuan di sektor perikanan (orang)",
+    "data_pembentuk": [
+      "Total jumlah nelayan perikanan tangkap per provinsi.",
+      "Total jumlah pembudidaya ikan per provinsi.",
+      "Proporsi nelayan dan pembudidaya ikan perempuan per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 13",
+    "pdf_page": 23
+  },
+  {
+    "indicator_no": 34,
+    "pilar": "Sosial",
+    "subpilar": "Kesejahteraan",
+    "indikator": "Jumlah nelayan dan pembudidaya ikan (orang)",
+    "data_pembentuk": [
+      "Jumlah penduduk yang berprofesi sebagai nelayan per provinsi.",
+      "Jumlah penduduk yang berprofesi sebagai pembudidaya ikan per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 13",
+    "pdf_page": 23
+  },
+  {
+    "indicator_no": 35,
+    "pilar": "Sosial",
+    "subpilar": "Kesejahteraan",
+    "indikator": "Rata-rata konsumsi kalori ikan per kapita (kkal)",
+    "data_pembentuk": [
+      "Rata-rata konsumsi kalori dari ikan per kapita per hari di tingkat provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 13",
+    "pdf_page": 23
+  },
+  {
+    "indicator_no": 36,
+    "pilar": "Sosial",
+    "subpilar": "Kesejahteraan",
+    "indikator": "Rata-rata konsumsi protein dari ikan per kapita (kkal)",
+    "data_pembentuk": [
+      "Rata-rata konsumsi protein dari ikan per kapita per hari di tingkat provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 13",
+    "pdf_page": 23
+  },
+  {
+    "indicator_no": 37,
+    "pilar": "Sosial",
+    "subpilar": "Kesehatan",
+    "indikator": "Persentase penduduk bekerja di sektor perikanan yang memiliki jaminan kesehatan (%)",
+    "data_pembentuk": [
+      "Jumlah penduduk bekerja di sektor perikanan yang memiliki jaminan kesehatan per provinsi.",
+      "Total penduduk yang memiliki jaminan kesehatan di provinsi yang sama."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 13",
+    "pdf_page": 23
+  },
+  {
+    "indicator_no": 38,
+    "pilar": "Sosial",
+    "subpilar": "Kesehatan",
+    "indikator": "Persentase penduduk pesisir yang hidup di bawah garis kemiskinan (%)",
+    "data_pembentuk": [
+      "Jumlah penduduk miskin di setiap kabupaten/kota pesisir dalam satu provinsi.",
+      "Total penduduk miskin di provinsi tersebut."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 13",
+    "pdf_page": 23
+  },
+  {
+    "indicator_no": 39,
+    "pilar": "Sosial",
+    "subpilar": "Pendidikan",
+    "indikator": "Jumlah SMK kemaritiman (unit sekolah)",
+    "data_pembentuk": [
+      "Jumlah Sekolah Menengah Kejuruan (SMK) bidang kemaritiman per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 13",
+    "pdf_page": 23
+  },
+  {
+    "indicator_no": 40,
+    "pilar": "Sosial",
+    "subpilar": "Pendidikan",
+    "indikator": "Jumlah lulusan sekolah perikanan (orang)",
+    "data_pembentuk": [
+      "Jumlah lulusan dari satuan pendidikan di bawah KKP per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 13",
+    "pdf_page": 23
+  },
+  {
+    "indicator_no": 41,
+    "pilar": "Sosial",
+    "subpilar": "Pendidikan",
+    "indikator": "Jumlah peserta pelatihan perikanan (orang)",
+    "data_pembentuk": [
+      "Total jumlah peserta pelatihan dan penyuluhan kelautan dan perikanan per provinsi."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 13",
+    "pdf_page": 23
+  },
+  {
+    "indicator_no": 42,
+    "pilar": "Sosial",
+    "subpilar": "Pendidikan",
+    "indikator": "Persentase penduduk sektor perikanan dengan pendidikan terakhir SMA atau sederajat (%)",
+    "data_pembentuk": [
+      "Jumlah penduduk bekerja di sektor perikanan dengan pendidikan terakhir SMA/sederajat per provinsi.",
+      "Total penduduk dengan pendidikan terakhir SMA/sederajat di provinsi yang sama."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 13",
+    "pdf_page": 23
+  },
+  {
+    "indicator_no": 43,
+    "pilar": "Sosial",
+    "subpilar": "Pendidikan",
+    "indikator": "Persentase penduduk di sektor perikanan dengan ijazah minimal SMA atau sederajat (%)",
+    "data_pembentuk": [
+      "Jumlah penduduk bekerja di sektor perikanan dengan ijazah minimal SMA/sederajat per provinsi.",
+      "Total penduduk dengan ijazah minimal SMA/sederajat di provinsi yang sama."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 13",
+    "pdf_page": 23
+  },
+  {
+    "indicator_no": 44,
+    "pilar": "Sosial",
+    "subpilar": "Pendidikan",
+    "indikator": "Persentase penduduk bekerja di sektor perikanan penerima Program Indonesia Pintar (PIP) (%)",
+    "data_pembentuk": [
+      "Jumlah penduduk bekerja di sektor perikanan yang keluarganya menerima PIP per provinsi.",
+      "Total penduduk yang keluarganya menerima PIP di provinsi yang sama."
+    ],
+    "stated_producer": "not_stated",
+    "printed_page": "p. 13",
+    "pdf_page": 23
+  }
+]

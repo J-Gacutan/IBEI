@@ -1,0 +1,350 @@
+[
+  {
+    "chunk_id": "doc_2_report-provincial_chunk_101",
+    "document_id": "doc_2",
+    "slice_id": "report-provincial",
+    "section_path": "Lampiran 2: IBEI 2024 Berdasarkan Provinsi > A Sumatera - Normalized > indeks subpilar",
+    "printed_page": "p. 67",
+    "pdf_page": 79,
+    "content": "LAMPIRAN 2: IBEI 2024 BERDASARKAN PROVINSI. A Sumatera - Normalized. Kolom: Aceh | Sumatera Utara | Sumatera Barat | Riau | Jambi | Sumatera Selatan | Bengkulu | Lampung | Kep. Bangka Belitung | Kepulauan Riau. Indeks subpilar perikanan tangkap dan budidaya: 3,75 | 5,20 | 4,30 | 2,36 | 1,28 | 4,58 | 3,88 | 4,15 | 2,87 | 1,45. Indeks subpilar industri berbasis kelautan: 10,79 | 24,34 | 8,08 | 6,25 | 1,50 | 1,49 | 2,02 | 5,63 | 0,00 | 16,14. Indeks subpilar perdagangan, transport dan logistik: 8,65 | 12,25 | 1,40 | 11,07 | 0,03 | 0,50 | 0,10 | 2,69 | 4,71 | 111,50. Indeks subpilar pariwisata berbasis kelautan: 28,89 | 23,16 | 10,67 | 15,62 | 1,30 | 1,82 | 11,45 | 26,55 | 11,97 | 20,04. Indeks subpilar teknologi: 190,37 | 86,76 | 4,38 | 3,46 | 1,38 | 2,54 | 1,15 | 0,46 | 1,85 | 64,15. Indeks subpilar tatakelola: 84,59 | 14,67 | 9,49 | 1,73 | 0,00 | 0,87 | 21,58 | 6,04 | 8,63 | 0,87. Indeks subpilar kualitas sumber daya dan konservasi laut: 22,27 | 17,55 | 4,97 | 8,31 | 1,49 | 6,03 | 11,11 | 10,06 | 10,82 | 14,69. Indeks subpilar energi terbarukan: 0,00 | 31,15 | 8,82 | 4,23 | 0,00 | 2,00 | 7,17 | 4,76 | 0,20 | 2,13. Indeks subpilar kesejahteraan: 32,94 | 29,74 | 40,01 | 19,82 | 8,46 | 17,67 | 9,89 | 15,23 | 25,35 | 36,49. Indeks subpilar pendidikan: 61,81 | 42,83 | 32,04 | 31,33 | 24,43 | 30,50 | 32,56 | 46,68 | 40,83 | 36,26. Indeks subpilar kesehatan: 69,24 | 60,35 | 41,92 | 50,49 | 40,41 | 42,21 | 51,39 | 39,07 | 66,87 | 59,67.",
+    "content_en": "ANNEX 2: IBEI 2024 BY PROVINCE. A Sumatra - Normalized. Sub-pillar index values for the ten Sumatran provinces (Aceh, North Sumatra, West Sumatra, Riau, Jambi, South Sumatra, Bengkulu, Lampung, Bangka Belitung Islands, Riau Islands) across eleven sub-pillars: capture fisheries and aquaculture; marine-based industry; trade, transport and logistics; marine-based tourism; technology; governance; resource quality and marine conservation; renewable energy; welfare; education; health. Note that several sub-pillar values exceed 100 (Aceh technology 190.37, Aceh governance 84.59, Riau Islands trade/transport/logistics 111.50), so sub-pillar indices are not bounded to a 0-100 range.",
+    "chunk_type": "data",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) - Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 67 [pdf 79]"
+    },
+    "tags": [
+      "provincial IBEI",
+      "Sumatera",
+      "subpilar index",
+      "Lampiran 2",
+      "normalized",
+      "unbounded values"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-provincial_chunk_102",
+    "document_id": "doc_2",
+    "slice_id": "report-provincial",
+    "section_path": "Lampiran 2: IBEI 2024 Berdasarkan Provinsi > A Sumatera - Normalized > indeks pilar dan indeks total",
+    "printed_page": "p. 67",
+    "pdf_page": 79,
+    "content": "A Sumatera - Normalized. Kolom: Aceh | Sumatera Utara | Sumatera Barat | Riau | Jambi | Sumatera Selatan | Bengkulu | Lampung | Kep. Bangka Belitung | Kepulauan Riau. Indeks pilar ekonomi: 37,46 | 23,05 | 7,97 | 9,09 | 1,04 | 2,07 | 8,20 | 10,81 | 6,30 | 38,00. Indeks pilar lingkungan: 17,24 | 37,69 | 10,67 | 9,71 | 1,15 | 6,22 | 14,15 | 11,48 | 8,53 | 13,02. Indeks pilar sosial: 64,83 | 55,11 | 42,32 | 44,48 | 34,10 | 38,02 | 43,41 | 37,64 | 58,66 | 54,97. Indeks Ekonomi Biru Level Provinsi: 50,37 | 50,22 | 25,54 | 26,43 | 14,67 | 19,14 | 27,77 | 25,28 | 30,34 | 44,60. Notes: normalized factor sebesar 0,6819",
+    "content_en": "A Sumatra - Normalized. Pillar-level and headline results for the ten Sumatran provinces: economy pillar index, environment pillar index, social pillar index, and Provincial-Level Blue Economy Index. Aceh (50.37) and North Sumatra (50.22) are the highest headline values in the region; Jambi (14.67) the lowest. Note: normalized factor of 0.6819.",
+    "chunk_type": "data",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) - Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 67 [pdf 79]"
+    },
+    "tags": [
+      "provincial IBEI",
+      "Sumatera",
+      "pillar index",
+      "Indeks Ekonomi Biru Level Provinsi",
+      "normalized factor 0,6819"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-provincial_chunk_103",
+    "document_id": "doc_2",
+    "slice_id": "report-provincial",
+    "section_path": "Lampiran 2: IBEI 2024 Berdasarkan Provinsi > B Jawa, Bali dan Nusa Tenggara - Normalized > indeks subpilar",
+    "printed_page": "p. 68",
+    "pdf_page": 80,
+    "content": "B Jawa, Bali dan Nusa Tenggara - Normalized. Kolom: DKI Jakarta | Jawa Barat | Jawa Tengah | DI Yogyakarta | Jawa Timur | Banten | Bali | Nusa Tenggara Barat | Nusa Tenggara Timur. Indeks subpilar perikanan tangkap dan budidaya: 0,42 | 17,52 | 8,59 | 1,10 | 23,38 | 2,43 | 2,13 | 18,93 | 29,89. Indeks subpilar industri berbasis kelautan: 21,03 | 20,18 | 51,35 | 0,45 | 85,73 | 5,88 | 12,27 | 16,95 | 12,70. Indeks subpilar perdagangan, transport dan logistik: 23,42 | 5,47 | 11,24 | 0,00 | 38,95 | 3,65 | 34,72 | 3,39 | 21,83. Indeks subpilar pariwisata berbasis kelautan: 5,46 | 74,17 | 54,13 | 6,25 | 72,09 | 22,12 | 40,60 | 28,11 | 47,62. Indeks subpilar teknologi: 483,43 | 88,84 | 51,82 | 0,46 | 41,30 | 12,46 | 147,45 | 0,46 | 0,46. Indeks subpilar tatakelola: 4,32 | 37,98 | 67,32 | 13,81 | 46,61 | 24,17 | 4,32 | 5,18 | 6,91. Indeks subpilar kualitas sumber daya dan konservasi laut: 4,90 | 8,76 | 27,57 | 1,27 | 26,03 | 5,49 | 10,24 | 21,08 | 32,06. Indeks subpilar energi terbarukan: 0,37 | 56,83 | 12,26 | 0,00 | 9,77 | 0,00 | 5,99 | 40,20 | 20,16. Indeks subpilar kesejahteraan: 13,01 | 40,09 | 63,24 | 7,87 | 58,24 | 12,89 | 10,73 | 25,61 | 43,88. Indeks subpilar pendidikan: 30,76 | 54,56 | 126,64 | 39,92 | 73,36 | 29,96 | 27,06 | 41,54 | 53,77. Indeks subpilar kesehatan: 37,27 | 31,43 | 26,52 | 21,96 | 36,40 | 46,72 | 37,18 | 56,17 | 44,64.",
+    "content_en": "B Java, Bali and Nusa Tenggara - Normalized. Sub-pillar index values for nine provinces (Jakarta, West Java, Central Java, Yogyakarta, East Java, Banten, Bali, West Nusa Tenggara, East Nusa Tenggara) across the same eleven sub-pillars. Extreme values above 100 occur in the technology sub-pillar (Jakarta 483.43, Bali 147.45) and the education sub-pillar (Central Java 126.64).",
+    "chunk_type": "data",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) - Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 68 [pdf 80]"
+    },
+    "tags": [
+      "provincial IBEI",
+      "Jawa",
+      "Bali",
+      "Nusa Tenggara",
+      "subpilar index",
+      "Lampiran 2",
+      "unbounded values"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-provincial_chunk_104",
+    "document_id": "doc_2",
+    "slice_id": "report-provincial",
+    "section_path": "Lampiran 2: IBEI 2024 Berdasarkan Provinsi > B Jawa, Bali dan Nusa Tenggara - Normalized > indeks pilar dan indeks total",
+    "printed_page": "p. 68",
+    "pdf_page": 80,
+    "content": "B Jawa, Bali dan Nusa Tenggara - Normalized. Kolom: DKI Jakarta | Jawa Barat | Jawa Tengah | DI Yogyakarta | Jawa Timur | Banten | Bali | Nusa Tenggara Barat | Nusa Tenggara Timur. Indeks pilar ekonomi: 36,08 | 40,02 | 46,76 | 4,47 | 65,31 | 13,55 | 29,68 | 16,91 | 27,14. Indeks pilar lingkungan: 4,07 | 50,77 | 30,82 | 0,98 | 27,71 | 4,25 | 12,57 | 47,43 | 40,42. Indeks pilar sosial: 33,63 | 38,06 | 49,39 | 23,00 | 47,81 | 40,27 | 32,59 | 51,14 | 48,14. Indeks Ekonomi Biru Level Provinsi: 30,89 | 56,99 | 54,75 | 11,61 | 60,55 | 24,00 | 31,86 | 50,73 | 50,50. Notes: normalized factor sebesar 0,6819",
+    "content_en": "B Java, Bali and Nusa Tenggara - Normalized. Pillar-level and headline results: East Java records the highest Provincial-Level Blue Economy Index in this region (60.55), followed by West Java (56.99) and Central Java (54.75); Yogyakarta is lowest (11.61). Jakarta's headline value is 30.89 despite a 483.43 technology sub-pillar. Note: normalized factor of 0.6819.",
+    "chunk_type": "data",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) - Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 68 [pdf 80]"
+    },
+    "tags": [
+      "provincial IBEI",
+      "Jawa",
+      "Bali",
+      "Nusa Tenggara",
+      "pillar index",
+      "Indeks Ekonomi Biru Level Provinsi"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-provincial_chunk_105",
+    "document_id": "doc_2",
+    "slice_id": "report-provincial",
+    "section_path": "Lampiran 2: IBEI 2024 Berdasarkan Provinsi > C Kalimantan dan Sulawesi - Normalized > indeks subpilar",
+    "printed_page": "p. 69",
+    "pdf_page": 81,
+    "content": "C Kalimantan dan Sulawesi - Normalized. Kolom: Kalimantan Barat | Kalimantan Tengah | Kalimantan Selatan | Kalimantan Timur | Kalimantan Utara | Sulawesi Utara | Sulawesi Tengah | Sulawesi Selatan | Sulawesi Tenggara | Gorontalo | Sulawesi Barat. Indeks subpilar perikanan tangkap dan budidaya: 1,75 | 2,50 | 3,18 | 4,79 | 18,90 | 7,40 | 15,94 | 89,01 | 11,42 | 4,13 | 5,39. Indeks subpilar industri berbasis kelautan: 8,39 | 4,98 | 12,15 | 10,13 | 4,95 | 13,71 | 18,99 | 27,36 | 21,58 | 5,84 | 4,66. Indeks subpilar perdagangan, transport dan logistik: 2,49 | 2,17 | 3,85 | 10,20 | 7,55 | 13,67 | 3,53 | 39,28 | 11,52 | 0,42 | 0,14. Indeks subpilar pariwisata berbasis kelautan: 11,45 | 4,43 | 8,33 | 14,05 | 3,90 | 33,57 | 42,16 | 32,53 | 30,19 | 9,89 | 7,55. Indeks subpilar teknologi: 17,77 | 7,36 | 33,96 | 1,38 | 0,46 | 43,61 | 1,15 | 0,23 | 22,29 | 11,77 | 24,23. Indeks subpilar tatakelola: 13,81 | 4,32 | 3,45 | 4,32 | 1,73 | 3,45 | 11,22 | 21,58 | 8,63 | 10,36 | 1,73. Indeks subpilar kualitas sumber daya dan konservasi laut: 15,69 | 6,98 | 7,19 | 14,70 | 2,69 | 25,09 | 31,92 | 29,86 | 31,13 | 9,17 | 11,04. Indeks subpilar energi terbarukan: 6,87 | 0,00 | 0,98 | 0,12 | 0,89 | 30,30 | 12,55 | 14,03 | 0,49 | 22,03 | 0,00. Indeks subpilar kesejahteraan: 23,66 | 40,12 | 33,72 | 35,33 | 42,24 | 26,01 | 26,98 | 74,61 | 47,25 | 18,01 | 20,10. Indeks subpilar pendidikan: 35,70 | 32,75 | 50,24 | 29,82 | 56,69 | 43,55 | 47,58 | 89,01 | 58,75 | 41,85 | 66,88. Indeks subpilar kesehatan: 48,54 | 51,33 | 48,66 | 58,73 | 77,65 | 70,99 | 64,90 | 70,43 | 79,74 | 64,86 | 68,76.",
+    "content_en": "C Kalimantan and Sulawesi - Normalized. Sub-pillar index values for eleven provinces (West/Central/South/East/North Kalimantan, North/Central/South/Southeast Sulawesi, Gorontalo, West Sulawesi) across the same eleven sub-pillars. South Sulawesi records the region's highest capture-fisheries-and-aquaculture value (89.01) and the highest education value (89.01, an identical figure in both rows).",
+    "chunk_type": "data",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) - Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 69 [pdf 81]"
+    },
+    "tags": [
+      "provincial IBEI",
+      "Kalimantan",
+      "Sulawesi",
+      "subpilar index",
+      "Lampiran 2"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-provincial_chunk_106",
+    "document_id": "doc_2",
+    "slice_id": "report-provincial",
+    "section_path": "Lampiran 2: IBEI 2024 Berdasarkan Provinsi > C Kalimantan dan Sulawesi - Normalized > indeks pilar dan indeks total",
+    "printed_page": "p. 69",
+    "pdf_page": 81,
+    "content": "C Kalimantan dan Sulawesi - Normalized. Kolom: Kalimantan Barat | Kalimantan Tengah | Kalimantan Selatan | Kalimantan Timur | Kalimantan Utara | Sulawesi Utara | Sulawesi Tengah | Sulawesi Selatan | Sulawesi Tenggara | Gorontalo | Sulawesi Barat. Indeks pilar ekonomi: 9,47 | 4,56 | 9,12 | 10,36 | 7,71 | 19,42 | 21,73 | 44,28 | 20,88 | 7,41 | 5,65. Indeks pilar lingkungan: 17,46 | 5,40 | 6,32 | 11,48 | 2,78 | 42,86 | 34,42 | 33,97 | 24,47 | 24,14 | 8,54. Indeks pilar sosial: 44,45 | 49,18 | 48,56 | 53,14 | 71,89 | 62,13 | 58,53 | 77,59 | 74,65 | 55,96 | 62,76. Indeks Ekonomi Biru Level Provinsi: 30,34 | 24,28 | 26,44 | 31,30 | 33,47 | 53,99 | 49,44 | 66,51 | 50,72 | 37,30 | 31,72. Notes: normalized factor sebesar 0,6819",
+    "content_en": "C Kalimantan and Sulawesi - Normalized. Pillar-level and headline results: South Sulawesi records the highest Provincial-Level Blue Economy Index in this region (66.51), followed by North Sulawesi (53.99), Southeast Sulawesi (50.72) and Central Sulawesi (49.44); all five Kalimantan provinces fall between 24.28 and 33.47. Note: normalized factor of 0.6819.",
+    "chunk_type": "data",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) - Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 69 [pdf 81]"
+    },
+    "tags": [
+      "provincial IBEI",
+      "Kalimantan",
+      "Sulawesi",
+      "pillar index",
+      "Indeks Ekonomi Biru Level Provinsi"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-provincial_chunk_107",
+    "document_id": "doc_2",
+    "slice_id": "report-provincial",
+    "section_path": "Lampiran 2: IBEI 2024 Berdasarkan Provinsi > D Maluku dan Papua - Normalized > indeks subpilar",
+    "printed_page": "p. 70",
+    "pdf_page": 82,
+    "content": "D Maluku dan Papua - Normalized. Kolom: Maluku | Maluku Utara | Papua Barat | Papua | Papua Barat Daya | Papua Tengah | Papua Selatan. Indeks subpilar perikanan tangkap dan budidaya: 7,62 | 3,93 | 1,47 | 3,01 | 2,34 | 0,46 | 3,02. Indeks subpilar industri berbasis kelautan: 26,84 | 9,14 | 4,66 | 5,22 | 0,00 | 0,00 | 0,00. Indeks subpilar perdagangan, transport dan logistik: 40,61 | 5,18 | 3,12 | 4,19 | 2,29 | 0,01 | 0,00. Indeks subpilar pariwisata berbasis kelautan: 23,94 | 30,02 | 5,99 | 16,92 | 11,19 | 3,12 | 0,52. Indeks subpilar teknologi: 1,85 | 12,92 | 4,15 | 6,69 | 0,00 | 0,00 | 0,00. Indeks subpilar tatakelola: 2,59 | 8,63 | 1,73 | 2,59 | 0,00 | 0,00 | 0,00. Indeks subpilar kualitas sumber daya dan konservasi laut: 31,57 | 42,84 | 25,81 | 14,69 | 6,17 | 1,28 | 1,48. Indeks subpilar energi terbarukan: 0,85 | 0,55 | 1,17 | 0,70 | 1,57 | 0,67 | 1,98. Indeks subpilar kesejahteraan: 34,13 | 17,55 | 27,83 | 35,49 | 27,81 | 56,86 | 46,88. Indeks subpilar pendidikan: 47,92 | 37,95 | 34,27 | 46,36 | 24,81 | 14,57 | 11,97. Indeks subpilar kesehatan: 71,22 | 73,63 | 71,95 | 50,36 | 17,64 | 7,64 | 22,22.",
+    "content_en": "D Maluku and Papua - Normalized. Sub-pillar index values for seven provinces (Maluku, North Maluku, West Papua, Papua, Southwest Papua, Central Papua, South Papua). The three newly created Papuan provinces record 0.00 across the marine-based industry, technology and governance sub-pillars, and Central Papua and South Papua record 0.01 and 0.00 for trade/transport/logistics - a pattern consistent with absent rather than zero underlying data.",
+    "chunk_type": "data",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) - Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 70 [pdf 82]"
+    },
+    "tags": [
+      "provincial IBEI",
+      "Maluku",
+      "Papua",
+      "subpilar index",
+      "zero values",
+      "new provinces",
+      "data gaps"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-provincial_chunk_108",
+    "document_id": "doc_2",
+    "slice_id": "report-provincial",
+    "section_path": "Lampiran 2: IBEI 2024 Berdasarkan Provinsi > D Maluku dan Papua - Normalized > indeks pilar dan indeks total",
+    "printed_page": "p. 70",
+    "pdf_page": 82,
+    "content": "D Maluku dan Papua - Normalized. Kolom: Maluku | Maluku Utara | Papua Barat | Papua | Papua Barat Daya | Papua Tengah | Papua Selatan. Indeks pilar ekonomi: 24,50 | 14,25 | 4,28 | 8,03 | 3,80 | 0,89 | 0,67. Indeks pilar lingkungan: 25,09 | 33,58 | 20,88 | 11,91 | 5,99 | 1,51 | 2,68. Indeks pilar sosial: 64,47 | 61,58 | 61,82 | 49,57 | 21,54 | 18,46 | 26,62. Indeks Ekonomi Biru Level Provinsi: 48,48 | 47,06 | 36,73 | 29,08 | 13,16 | 8,51 | 12,25. Notes: normalized factor sebesar 0,6819",
+    "content_en": "D Maluku and Papua - Normalized. Pillar-level and headline results: Maluku (48.48) and North Maluku (47.06) lead the region; Central Papua records the lowest Provincial-Level Blue Economy Index in the whole annex (8.51), with Southwest Papua 13.16 and South Papua 12.25. Note: normalized factor of 0.6819.",
+    "chunk_type": "data",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) - Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 70 [pdf 82]"
+    },
+    "tags": [
+      "provincial IBEI",
+      "Maluku",
+      "Papua",
+      "pillar index",
+      "Indeks Ekonomi Biru Level Provinsi",
+      "lowest score"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-provincial_chunk_109",
+    "document_id": "doc_2",
+    "slice_id": "report-provincial",
+    "section_path": "Lampiran 2: IBEI 2024 Berdasarkan Provinsi > Notes",
+    "printed_page": "pp. 67-70",
+    "pdf_page": 79,
+    "content": "Notes: normalized factor sebesar 0,6819. [Catatan ini dicetak identik di bawah keempat tabel regional: A Sumatera - Normalized (hlm. 67), B Jawa, Bali dan Nusa Tenggara - Normalized (hlm. 68), C Kalimantan dan Sulawesi - Normalized (hlm. 69), D Maluku dan Papua - Normalized (hlm. 70).]",
+    "content_en": "Notes: normalized factor of 0.6819. This single note is printed identically beneath all four regional tables in Annex 2, and every table heading carries the suffix \"- Normalized\". The annex states the factor's value but gives no formula, derivation, or statement of what quantity it rescales; that explanation is not present in this slice.",
+    "chunk_type": "methodology",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) - Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "pp. 67-70 [pdf 79-82]"
+    },
+    "tags": [
+      "normalized factor",
+      "0,6819",
+      "provincial normalisation",
+      "unexplained parameter",
+      "Lampiran 2"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-provincial_chunk_110",
+    "document_id": "doc_2",
+    "slice_id": "report-provincial",
+    "section_path": "Lampiran 2 > province coverage",
+    "printed_page": "pp. 67-70",
+    "pdf_page": 79,
+    "content": "Provinsi yang tercantum dalam Lampiran 2: (A) Aceh, Sumatera Utara, Sumatera Barat, Riau, Jambi, Sumatera Selatan, Bengkulu, Lampung, Kep. Bangka Belitung, Kepulauan Riau; (B) DKI Jakarta, Jawa Barat, Jawa Tengah, DI Yogyakarta, Jawa Timur, Banten, Bali, Nusa Tenggara Barat, Nusa Tenggara Timur; (C) Kalimantan Barat, Kalimantan Tengah, Kalimantan Selatan, Kalimantan Timur, Kalimantan Utara, Sulawesi Utara, Sulawesi Tengah, Sulawesi Selatan, Sulawesi Tenggara, Gorontalo, Sulawesi Barat; (D) Maluku, Maluku Utara, Papua Barat, Papua, Papua Barat Daya, Papua Tengah, Papua Selatan.",
+    "content_en": "Provinces tabulated in Annex 2, listed exactly as printed: 10 in table A, 9 in table B, 11 in table C, 7 in table D, giving 37 provinces reported. Landlocked-by-name Yogyakarta and Jakarta are included, and the annex covers three of the four provinces created in Papua in 2022 (Southwest Papua, Central Papua, South Papua) but does not include Papua Pegunungan (Highland Papua), so one of Indonesia's 38 provinces has no row. The document gives no statement of why any province is absent; the omission is inferred from the printed column headings alone, not from an explanatory note.",
+    "chunk_type": "evidence",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) - Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "pp. 67-70 [pdf 79-82]"
+    },
+    "tags": [
+      "province coverage",
+      "37 provinces",
+      "Papua Pegunungan absent",
+      "spatial completeness",
+      "Lampiran 2"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-provincial_chunk_111",
+    "document_id": "doc_2",
+    "slice_id": "report-provincial",
+    "section_path": "Lampiran 3: Analisis Spiderweb Berdasarkan Provinsi",
+    "printed_page": "p. 71",
+    "pdf_page": 83,
+    "content": "LAMPIRAN 3: ANALISIS SPIDERWEB BERDASARKAN PROVINSI. Analisis lengkap spider-web untuk seluruh provinsi dapat diakses melalui tautan berikut: https://link.bappenas.go.id/LampiranJuknisIBEI",
+    "content_en": "ANNEX 3: SPIDERWEB ANALYSIS BY PROVINCE. The complete spider-web analysis for all provinces can be accessed via the following link: https://link.bappenas.go.id/LampiranJuknisIBEI. The annex itself contains only this pointer - the per-province spiderweb material is held off-document behind a BAPPENAS short link, so its contents are announced rather than printed here.",
+    "chunk_type": "context",
+    "maturity_tag": "d",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) - Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 71 [pdf 83]"
+    },
+    "tags": [
+      "Lampiran 3",
+      "spiderweb analysis",
+      "external link",
+      "off-document annex",
+      "bappenas.go.id"
+    ],
+    "needs_web_search": true,
+    "suggested_query": "link.bappenas.go.id LampiranJuknisIBEI lampiran analisis spiderweb IBEI provinsi"
+  }
+]

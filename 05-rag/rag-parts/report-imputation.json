@@ -1,0 +1,490 @@
+[
+  {
+    "chunk_id": "doc_2_report-imputation_chunk_001",
+    "document_id": "doc_2",
+    "slice_id": "report-imputation",
+    "section_path": "Lampiran 1: Metodologi Imputasi Data Untuk Kelengkapan Indeks > 1.1 Latar Belakang dan Rasional",
+    "printed_page": "p. 64",
+    "pdf_page": 76,
+    "content": "1.1. LATAR BELAKANG DAN RASIONAL — Penyusunan Indeks Ekonomi Biru Indonesia (IBEI) yang komprehensif menuntut kelengkapan data di seluruh indikator dan wilayah cakupan. Dalam siklus pengumpulan data, dapat terjadi tantangan yang menyebabkan ketersediaan data tidak merata. Untuk mengatasi kekosongan data tersebut secara objektif, ilmiah, dan dapat dipertanggungjawabkan, sebuah metodologi imputasi berbasis pembelajaran mesin (machine learning) diterapkan.",
+    "content_en": "1.1 Background and rationale — Compiling a comprehensive Indonesia Blue Economy Index (IBEI) requires complete data across all indicators and areas of coverage. In the data collection cycle, challenges can arise that cause data availability to be uneven. To address those data gaps objectively, scientifically and accountably, a machine-learning-based imputation methodology is applied.",
+    "chunk_type": "methodology",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 64 [pdf 76]"
+    },
+    "tags": [
+      "imputasi",
+      "machine learning",
+      "kelengkapan data",
+      "IBEI",
+      "data gaps"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-imputation_chunk_002",
+    "document_id": "doc_2",
+    "slice_id": "report-imputation",
+    "section_path": "Lampiran 1 > 1.1 Latar Belakang dan Rasional",
+    "printed_page": "p. 64",
+    "pdf_page": 76,
+    "content": "Tujuan dari pendekatan ini adalah untuk mengestimasi nilai-nilai yang tidak tersedia dengan memanfaatkan hubungan statistik antara indikator IBEI dan serangkaian variabel proksi sosio-ekonomi yang relevan. Lampiran ini menyajikan dokumentasi teknis yang transparan mengenai kerangka kerja, tahapan proses, dan protokol validasi yang digunakan untuk memastikan integritas data yang menjadi pondasi perhitungan IBEI.",
+    "content_en": "The purpose of this approach is to estimate unavailable values by exploiting the statistical relationship between IBEI indicators and a set of relevant socio-economic proxy variables. This annex presents transparent technical documentation of the framework, the process stages, and the validation protocol used to ensure the integrity of the data underpinning the IBEI calculation.",
+    "chunk_type": "methodology",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 64 [pdf 76]"
+    },
+    "tags": [
+      "variabel proksi",
+      "estimasi",
+      "protokol validasi",
+      "integritas data"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-imputation_chunk_003",
+    "document_id": "doc_2",
+    "slice_id": "report-imputation",
+    "section_path": "Lampiran 1 > 1.2 Kerangka Konseptual Imputasi",
+    "printed_page": "p. 64",
+    "pdf_page": 76,
+    "content": "1.2. KERANGKA KONSEPTUAL IMPUTASI — Pendekatan imputasi didasarkan pada hipotesis bahwa indikator-indikator makro IBEI memiliki korelasi yang dapat diukur dengan variabel-variabel mikro yang dikumpulkan secara rutin melalui survei berskala nasional, seperti Survei Sosial Ekonomi Nasional (SUSENAS). Dengan memanfaatkan kekayaan informasi dari data proksi tersebut, model prediktif yang andal dapat dibangun untuk setiap indikator IBEI yang memerlukan estimasi.",
+    "content_en": "1.2 Conceptual framework of imputation — The imputation approach rests on the hypothesis that the IBEI's macro indicators are measurably correlated with micro variables collected routinely through national-scale surveys, such as the National Socio-Economic Survey (SUSENAS). By exploiting the informational richness of those proxy data, a reliable predictive model can be built for each IBEI indicator requiring estimation.",
+    "chunk_type": "definition",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 64 [pdf 76]"
+    },
+    "tags": [
+      "SUSENAS",
+      "kerangka konseptual",
+      "korelasi makro-mikro",
+      "model prediktif",
+      "survei nasional"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-imputation_chunk_004",
+    "document_id": "doc_2",
+    "slice_id": "report-imputation",
+    "section_path": "Lampiran 1 > 1.2 Kerangka Konseptual Imputasi > Skenario 1",
+    "printed_page": "p. 64",
+    "pdf_page": 76,
+    "content": "Strategi imputasi dirancang secara adaptif berdasarkan pola ketersediaan data, yang terbagi menjadi dua skenario utama: Skenario 1: Indikator Tidak Tersedia di Seluruh Wilayah — Untuk indikator yang datanya tidak tersedia di semua provinsi pada tahun referensi, model dilatih menggunakan data historis yang lengkap dari siklus IBEI sebelumnya sebagai variabel target. Model yang telah terlatih ini kemudian digunakan untuk menghasilkan prediksi untuk seluruh provinsi pada tahun referensi saat ini, dengan menggunakan data proksi dari tahun yang bersesuaian.",
+    "content_en": "The imputation strategy is designed adaptively according to the pattern of data availability, divided into two main scenarios. Scenario 1: Indicator unavailable across all regions — For indicators whose data are unavailable in all provinces in the reference year, the model is trained using complete historical data from the previous IBEI cycle as the target variable. The trained model is then used to generate predictions for all provinces in the current reference year, using proxy data from the corresponding year.",
+    "chunk_type": "methodology",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 64 [pdf 76]"
+    },
+    "tags": [
+      "skenario imputasi",
+      "data historis",
+      "provinsi",
+      "tahun referensi",
+      "variabel target"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-imputation_chunk_005",
+    "document_id": "doc_2",
+    "slice_id": "report-imputation",
+    "section_path": "Lampiran 1 > 1.2 Kerangka Konseptual Imputasi > Skenario 2",
+    "printed_page": "p. 64",
+    "pdf_page": 76,
+    "content": "Skenario 2: Indikator Tidak Tersedia di Sebagian Wilayah — Untuk indikator yang datanya tersedia di sebagian provinsi, model dilatih menggunakan gabungan data (hybrid dataset) yang terdiri dari data historis yang lengkap dan data aktual yang tersedia pada tahun referensi. Pendekatan ini bertujuan untuk meningkatkan robustness dan daya generalisasi model. Prediksi kemudian hanya diterapkan pada provinsi-provinsi di mana data tidak tersedia. Kerangka kerja bertingkat ini memastikan bahwa setiap proses estimasi memanfaatkan informasi yang paling relevan dan kaya, baik dari tren historis maupun kondisi aktual.",
+    "content_en": "Scenario 2: Indicator unavailable in some regions — For indicators whose data are available in some provinces, the model is trained on a hybrid dataset comprising complete historical data plus the actual data available in the reference year. This approach aims to improve the model's robustness and generalisability. Predictions are then applied only to provinces where data are unavailable. This tiered framework ensures that each estimation process draws on the most relevant and richest information, from both historical trends and actual conditions.",
+    "chunk_type": "methodology",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 64 [pdf 76]"
+    },
+    "tags": [
+      "hybrid dataset",
+      "skenario imputasi",
+      "generalisasi",
+      "provinsi",
+      "kerangka bertingkat"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-imputation_chunk_006",
+    "document_id": "doc_2",
+    "slice_id": "report-imputation",
+    "section_path": "Lampiran 1 > 1.3 Metodologi dan Tahapan Proses > 1. Persiapan dan Analisis Awal",
+    "printed_page": "p. 65",
+    "pdf_page": 77,
+    "content": "1.3 METODOLOGI DAN TAHAPAN PROSES — Proses imputasi data dilaksanakan melalui serangkaian tahapan yang terstruktur dan sistematis untuk menjamin konsistensi dan keandalan hasil. 1 Persiapan dan Analisis Awal — Proses diawali dengan identifikasi sistematis terhadap indikator yang memerlukan imputasi dan pengkategoriannya berdasarkan skenario ketersediaan data. Data target (IBEI) dan data fitur (proksi sosio-ekonomi) kemudian disiapkan dan diselaraskan untuk pemodelan.",
+    "content_en": "1.3 Methodology and process stages — The data imputation process is carried out through a series of structured and systematic stages to guarantee consistency and reliability of results. Stage 1, Preparation and initial analysis — The process begins with systematic identification of the indicators requiring imputation and their categorisation according to the data-availability scenario. Target data (IBEI) and feature data (socio-economic proxies) are then prepared and aligned for modelling.",
+    "chunk_type": "methodology",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 65 [pdf 77]"
+    },
+    "tags": [
+      "tahapan proses",
+      "data target",
+      "data fitur",
+      "persiapan data"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-imputation_chunk_007",
+    "document_id": "doc_2",
+    "slice_id": "report-imputation",
+    "section_path": "Lampiran 1 > 1.3 Metodologi dan Tahapan Proses > 2. Rekayasa Fitur dan Pra-pemrosesan",
+    "printed_page": "p. 65",
+    "pdf_page": 77,
+    "content": "2 Rekayasa Fitur dan Pra-pemrosesan — Variabel-variabel proksi yang digunakan sebagai fitur prediktor melalui tahap pra-pemrosesan. Ini mencakup penanganan nilai yang hilang pada data fitur dan penerapan beberapa strategi standardisasi (penskalaan) untuk mengoptimalkan kinerja model. Pengujian beberapa teknik penskalaan memastikan bahwa kombinasi terbaik dipilih untuk setiap model.",
+    "content_en": "Stage 2, Feature engineering and pre-processing — The proxy variables used as predictor features pass through a pre-processing stage. This covers treatment of missing values in the feature data and the application of several standardisation (scaling) strategies to optimise model performance. Testing several scaling techniques ensures the best combination is selected for each model.",
+    "chunk_type": "methodology",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 65 [pdf 77]"
+    },
+    "tags": [
+      "rekayasa fitur",
+      "standardisasi",
+      "penskalaan",
+      "missing values"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-imputation_chunk_008",
+    "document_id": "doc_2",
+    "slice_id": "report-imputation",
+    "section_path": "Lampiran 1 > 1.3 Metodologi dan Tahapan Proses > 3. Pemodelan dan Validasi Silang",
+    "printed_page": "p. 65",
+    "pdf_page": 77,
+    "content": "3 Pemodelan dan Validasi Silang — Spektrum luas model statistik dan pembelajaran mesin diuji untuk setiap indikator. Ini mencakup model linear, model berbasis pohon keputusan (tree-based), jaringan saraf tiruan, dan lainnya. Untuk memastikan objektivitas dan mencegah overfitting (ketika model terlalu sesuai dengan data latih dan tidak dapat digeneralisasi), setiap model divalidasi menggunakan teknik validasi silang (k-fold cross-validation). Teknik ini secara berulang membagi data menjadi set pelatihan dan set validasi, sehingga memberikan estimasi kinerja model yang lebih andal.",
+    "content_en": "Stage 3, Modelling and cross-validation — A broad spectrum of statistical and machine-learning models is tested for each indicator, including linear models, decision-tree-based models, artificial neural networks and others. To ensure objectivity and prevent overfitting (where a model fits the training data too closely and cannot generalise), each model is validated using k-fold cross-validation, which repeatedly splits the data into training and validation sets, giving a more reliable estimate of model performance.",
+    "chunk_type": "methodology",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 65 [pdf 77]"
+    },
+    "tags": [
+      "k-fold cross-validation",
+      "tree-based",
+      "jaringan saraf tiruan",
+      "overfitting",
+      "pemodelan"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-imputation_chunk_009",
+    "document_id": "doc_2",
+    "slice_id": "report-imputation",
+    "section_path": "Lampiran 1 > 1.3 Metodologi dan Tahapan Proses > 4. Evaluasi dan Seleksi Model",
+    "printed_page": "p. 65",
+    "pdf_page": 77,
+    "content": "4 Evaluasi dan Seleksi Model — Kinerja dari setiap model dievaluasi berdasarkan serangkaian metrik statistik standar, seperti Root Mean Squared Error (RMSE), Mean Absolute Error (MAE), dan R-squared (R). Model-model dengan kinerja terbaik berdasarkan kriteria evaluasi tersebut kemudian diseleksi untuk tahap selanjutnya.",
+    "content_en": "Stage 4, Model evaluation and selection — The performance of each model is evaluated against a set of standard statistical metrics such as Root Mean Squared Error (RMSE), Mean Absolute Error (MAE) and R-squared (printed in the source as bare 'R', the superscript 2 lost in the document's typesetting). The best-performing models on those evaluation criteria are then selected for the next stage. No threshold values, fitted metric values, or per-indicator model choices are reported anywhere in the annex.",
+    "chunk_type": "methodology",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 65 [pdf 77]"
+    },
+    "tags": [
+      "RMSE",
+      "MAE",
+      "R-squared",
+      "seleksi model",
+      "metrik evaluasi"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-imputation_chunk_010",
+    "document_id": "doc_2",
+    "slice_id": "report-imputation",
+    "section_path": "Lampiran 1 > 1.3 Metodologi dan Tahapan Proses > 5. Generasi Prediksi dan Penerapan Batasan",
+    "printed_page": "p. 65",
+    "pdf_page": 77,
+    "content": "5 Generasi Prediksi dan Penerapan Batasan — Model-model terpilih digunakan untuk menghasilkan nilai prediksi. Untuk meningkatkan stabilitas, teknik prediksi ensemble—yang menggabungkan hasil dari beberapa model terbaik—diterapkan. Langkah krusial berikutnya adalah penerapan batasan domain (domain constraints), di mana hasil prediksi disesuaikan untuk memastikan nilainya tetap logis dan sesuai dengan sifat indikator (misalnya, nilai persentase harus berada di antara 0 dan 100).",
+    "content_en": "Stage 5, Prediction generation and constraint application — The selected models are used to generate predicted values. To improve stability, an ensemble prediction technique combining the results of several best models is applied. The next crucial step is the application of domain constraints, where predictions are adjusted to keep values logical and consistent with the nature of the indicator (for example, a percentage value must lie between 0 and 100).",
+    "chunk_type": "methodology",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 65 [pdf 77]"
+    },
+    "tags": [
+      "ensemble",
+      "domain constraints",
+      "prediksi",
+      "batasan nilai"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-imputation_chunk_011",
+    "document_id": "doc_2",
+    "slice_id": "report-imputation",
+    "section_path": "Lampiran 1 > 1.3 Metodologi dan Tahapan Proses > 6. Pasca-pemrosesan dan Integrasi",
+    "printed_page": "p. 65",
+    "pdf_page": 77,
+    "content": "6 Pasca-pemrosesan dan Integrasi — Tahap akhir meliputi penggabungan data hasil imputasi dengan data asli yang telah tersedia. Pada tahap ini pula, variabel-variabel turunan (misalnya, indikator yang memiliki hubungan terbalik) dihitung secara matematis. Hasilnya adalah sebuah set data yang lengkap dan telah diformat sesuai standar untuk diintegrasikan ke dalam kalkulator IBEI.",
+    "content_en": "Stage 6, Post-processing and integration — The final stage covers merging the imputed data with the original available data. At this stage derived variables (for example, indicators with an inverse relationship) are also computed mathematically. The result is a complete dataset, formatted to standard, for integration into the IBEI calculator.",
+    "chunk_type": "methodology",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 65 [pdf 77]"
+    },
+    "tags": [
+      "pasca-pemrosesan",
+      "variabel turunan",
+      "kalkulator IBEI",
+      "integrasi data"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-imputation_chunk_012",
+    "document_id": "doc_2",
+    "slice_id": "report-imputation",
+    "section_path": "Lampiran 1 > 1.4 Protokol Validasi dan Jaminan Kualitas > 1. Reproduktibilitas",
+    "printed_page": "p. 66",
+    "pdf_page": 78,
+    "content": "1.4. PROTOKOL VALIDASI DAN JAMINAN KUALITAS — Integritas metodologi ini dijaga melalui beberapa protokol jaminan kualitas yang ketat: 1 Reproduktibilitas — Seluruh alur kerja dirancang untuk dapat direproduksi sepenuhnya. Penggunaan parameter acak yang terkontrol (fixed seeds) dan lingkungan komputasi yang terdefinisi memastikan bahwa hasil yang sama dapat diperoleh kembali jika proses dijalankan ulang.",
+    "content_en": "1.4 Validation protocol and quality assurance — The integrity of this methodology is safeguarded through several strict quality-assurance protocols. (1) Reproducibility — The entire workflow is designed to be fully reproducible. The use of controlled random parameters (fixed seeds) and a defined computing environment ensures the same results can be obtained again if the process is re-run. Note: the annex asserts reproducibility in principle; no code, seed value, environment specification, or repository location is published in the document.",
+    "chunk_type": "claim",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 66 [pdf 78]"
+    },
+    "tags": [
+      "reproduktibilitas",
+      "fixed seeds",
+      "jaminan kualitas",
+      "lingkungan komputasi"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-imputation_chunk_013",
+    "document_id": "doc_2",
+    "slice_id": "report-imputation",
+    "section_path": "Lampiran 1 > 1.4 Protokol Validasi dan Jaminan Kualitas > 2. Perlakuan Variabel Turunan",
+    "printed_page": "p. 66",
+    "pdf_page": 78,
+    "content": "2 Perlakuan Variabel Turunan — Indikator dengan korelasi negatif terhadap tujuan indeks (misalnya, tingkat polusi) diperlakukan secara terpisah. Nilai-nilai ini tidak diprediksi secara langsung oleh model, melainkan dihitung melalui transformasi matematis pada tahap pasca-pemrosesan untuk menjaga konsistensi logis.",
+    "content_en": "(2) Treatment of derived variables — Indicators negatively correlated with the index objective (for example, pollution levels) are treated separately. These values are not predicted directly by the model but computed through a mathematical transformation at the post-processing stage to maintain logical consistency. The transformation itself is not specified in the annex.",
+    "chunk_type": "methodology",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 66 [pdf 78]"
+    },
+    "tags": [
+      "variabel turunan",
+      "korelasi negatif",
+      "polusi",
+      "transformasi matematis"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-imputation_chunk_014",
+    "document_id": "doc_2",
+    "slice_id": "report-imputation",
+    "section_path": "Lampiran 1 > 1.4 Protokol Validasi dan Jaminan Kualitas > 3. Manajemen Konfigurasi; 4. Validasi Objektif",
+    "printed_page": "p. 66",
+    "pdf_page": 78,
+    "content": "3 Manajemen Konfigurasi — Seluruh parameter pemodelan dan spesifikasi dikelola secara eksternal, memungkinkan audit dan peninjauan yang transparan tanpa mengubah logika inti dari proses. 4 Validasi Objektif — Penggunaan teknik validasi silang dan evaluasi multi-metrik menjadi dasar dari proses seleksi model, memastikan bahwa model yang dipilih terbukti andal secara statistik.",
+    "content_en": "(3) Configuration management — All modelling parameters and specifications are managed externally, permitting transparent audit and review without altering the core logic of the process. (4) Objective validation — The use of cross-validation and multi-metric evaluation forms the basis of model selection, ensuring the selected model is statistically demonstrated to be reliable. Neither the external configuration files nor any audit output is published with the report.",
+    "chunk_type": "claim",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 66 [pdf 78]"
+    },
+    "tags": [
+      "manajemen konfigurasi",
+      "audit",
+      "validasi objektif",
+      "validasi silang",
+      "multi-metrik"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-imputation_chunk_015",
+    "document_id": "doc_2",
+    "slice_id": "report-imputation",
+    "section_path": "Lampiran 1 > 1.5 Implikasi Metodologis",
+    "printed_page": "p. 66",
+    "pdf_page": 78,
+    "content": "1.5. IMPLIKASI METODOLOGIS — Penerapan metodologi imputasi yang terstruktur ini memastikan bahwa setiap kekosongan data ditangani dengan pendekatan yang berbasis bukti, objektif, dan transparan. Dengan demikian, metodologi ini tidak hanya berfungsi sebagai solusi teknis untuk melengkapi data, tetapi juga sebagai pilar yang memperkuat kredibilitas dan keandalan Indeks Ekonomi Biru Indonesia sebagai instrumen kebijakan yang valid dan dapat diandalkan.",
+    "content_en": "1.5 Methodological implications — Applying this structured imputation methodology ensures that every data gap is handled through an evidence-based, objective and transparent approach. The methodology therefore serves not only as a technical solution for completing the data but as a pillar reinforcing the credibility and reliability of the Indonesia Blue Economy Index as a valid and dependable policy instrument.",
+    "chunk_type": "claim",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "p. 66 [pdf 78]"
+    },
+    "tags": [
+      "implikasi metodologis",
+      "instrumen kebijakan",
+      "kredibilitas indeks",
+      "kekosongan data"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_2_report-imputation_chunk_016",
+    "document_id": "doc_2",
+    "slice_id": "report-imputation",
+    "section_path": "Lampiran 1 — coverage note on what the annex does not state",
+    "printed_page": "pp. 64-66",
+    "pdf_page": 76,
+    "content": "[No verbatim text available: this chunk records an absence.] Lampiran 1 (pp. 64-66 [pdf 76-78]) names no individual IBEI indicator as imputed, gives no count of imputed cells, provinces or indicators, names no selected model per indicator, reports no fitted RMSE/MAE/R-squared value, names no proxy variable beyond \"survei berskala nasional, seperti Survei Sosial Ekonomi Nasional (SUSENAS)\", and specifies no k for the k-fold cross-validation. The annex documents the imputation framework only, not its applied results.",
+    "content_en": "Coverage note: Annex 1 documents the imputation framework in the abstract. It does not identify which of the 44 indicators were imputed, how many values were imputed, for which provinces, which model was chosen for any indicator, or any achieved error metric; SUSENAS is the only proxy source named, and the value of k in k-fold cross-validation is not given. Absence of these specifics is itself a finding for any later assessment of whether ocean accounts could substitute for imputed values.",
+    "chunk_type": "context",
+    "maturity_tag": "not_applicable",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy Index (IBEI) — Report IBEI Revisi (Desember 2025)",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "technical_report",
+      "locator": "pp. 64-66 [pdf 76-78]"
+    },
+    "tags": [
+      "gap",
+      "absence of evidence",
+      "imputasi",
+      "coverage note",
+      "unspecified"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  }
+]

@@ -1,0 +1,380 @@
+[
+  {
+    "chunk_id": "doc_1_juknis-sensitivity_chunk_401",
+    "document_id": "doc_1",
+    "slice_id": "juknis-sensitivity",
+    "section_path": "Tabel 7. Analisis sensitivitas IBEI 2025 > pengantar prosedur",
+    "printed_page": "p. 101",
+    "pdf_page": 111,
+    "content": "Untuk setiap dari 59 skenario ini, skor IBEI dihitung ulang untuk 38 provinsi, dan hasilnya dirata-ratakan untuk mendapatkan IBEI Nasional yang baru. Tabel 7 menyajikan hasil lengkap, diurutkan berdasarkan persentase peningkatan tertinggi.",
+    "content_en": "For each of these 59 scenarios, the IBEI score is recomputed for 38 provinces, and the results are averaged to obtain a new National IBEI. Table 7 presents the complete results, ordered by highest percentage increase.",
+    "chunk_type": "methodology",
+    "maturity_tag": "c",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 101 [pdf 111]"
+    },
+    "tags": [
+      "sensitivity analysis",
+      "59 scenarios",
+      "38 provinces",
+      "national IBEI",
+      "averaging"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-sensitivity_chunk_402",
+    "document_id": "doc_1",
+    "slice_id": "juknis-sensitivity",
+    "section_path": "Tabel 7. Analisis sensitivitas IBEI 2025 > judul tabel dan kepala kolom",
+    "printed_page": "p. 101",
+    "pdf_page": 111,
+    "content": "Tabel 7. Analisis sensitivitas IBEI 2025: simulasi peningkatan skor sebesar 10%; Berdasarkan presentase peningkatan tertinggi | Kolom: Analisis Level | Nama Variabel | Deskripsi | Baseline IBEI Nasional | Skenario IBEI Nasional | Persentase Kenaikan",
+    "content_en": "Table 7. IBEI 2025 sensitivity analysis: simulation of a 10% score increase; ordered by highest percentage increase. Columns: Analysis level | Variable name | Description | Baseline national IBEI | Scenario national IBEI | Percentage increase.",
+    "chunk_type": "methodology",
+    "maturity_tag": "c",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 101 [pdf 111]"
+    },
+    "tags": [
+      "Tabel 7",
+      "10% increase simulation",
+      "column headers",
+      "analysis level"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-sensitivity_chunk_403",
+    "document_id": "doc_1",
+    "slice_id": "juknis-sensitivity",
+    "section_path": "Tabel 7 > baris tingkat Pilar",
+    "printed_page": "p. 101",
+    "pdf_page": 111,
+    "content": "Pilar | si_enviro | Indeks pilar lingkungan | 35,60 | 37,86 | 6,37 || Pilar | si_econ | Indeks pilar ekonomi | 35,60 | 37,60 | 5,62 || Pilar | si_social | Indeks pilar sosial | 35,60 | 37,47 | 5,27",
+    "content_en": "Pillar level rows: si_enviro (environmental pillar index) baseline 35.60, scenario 37.86, +6.37%; si_econ (economic pillar index) 35.60 to 37.60, +5.62%; si_social (social pillar index) 35.60 to 37.47, +5.27%. Baseline national IBEI is 35.60 throughout the table.",
+    "chunk_type": "data",
+    "maturity_tag": "b",
+    "is_reconstructed": true,
+    "reconstruction_note": "Row values and labels are verbatim from Tabel 7; only the column layout has been linearised from the pdftotext -layout rendering. No figure inferred or computed. High confidence.",
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 101 [pdf 111]"
+    },
+    "tags": [
+      "pillar level",
+      "si_enviro",
+      "si_econ",
+      "si_social",
+      "baseline 35.60",
+      "sensitivity ranking"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-sensitivity_chunk_404",
+    "document_id": "doc_1",
+    "slice_id": "juknis-sensitivity",
+    "section_path": "Tabel 7 > baris tingkat Sub-Pilar",
+    "printed_page": "pp. 101-103",
+    "pdf_page": 111,
+    "content": "Sub-Pilar | si_social_s3 | Indeks subpilar kesehatan | 35,60 | 37,37 | 5,00 || Sub-Pilar | si_enviro_s1 | Indeks subpilar kualitas sumber daya dan konservasi laut | 35,60 | 37,20 | 4,50 || Sub-Pilar | si_enviro_s2 | Indeks subpilar energi terbaharukan | 35,60 | 37,20 | 4,50 || Sub-Pilar | si_econ_s2 | Indeks subpilar industri berbasis kelautan | 35,60 | 36,67 | 3,03 || Sub-Pilar | si_econ_s4 | Indeks subpilar pariwisata berbasis kelautan | 35,60 | 36,61 | 2,84 || Sub-Pilar | si_econ_s3 | Indeks subpilar perdagangan, transportasi dan logistik | 35,60 | 36,48 | 2,48 || Sub-Pilar | si_econ_gov | Indeks subpilar tatakelola | 35,60 | 36,32 | 2,03 || Sub-Pilar | si_econ_s1 | Indeks subpilar perikanan tangkap dan budidaya | 35,60 | 36,29 | 1,95 || Sub-Pilar | si_social_s1 | Indeks subpilar kesejahteraan | 35,60 | 36,07 | 1,34 || Sub-Pilar | si_social_s2 | Indeks subpilar pendidikan | 35,60 | 35,95 | 1,01 || Sub-Pilar | si_econ_tech | Indeks subpilar teknologi | 35,60 | 35,78 | 0,52",
+    "content_en": "All eleven sub-pillar rows of Table 7, in the document's own descending order of percentage gain: health (si_social_s3) +5.00; marine resource quality and conservation (si_enviro_s1) +4.50; renewable energy (si_enviro_s2) +4.50; marine-based industry (si_econ_s2) +3.03; marine-based tourism (si_econ_s4) +2.84; trade, transport and logistics (si_econ_s3) +2.48; governance (si_econ_gov) +2.03; capture fisheries and aquaculture (si_econ_s1) +1.95; welfare (si_social_s1) +1.34; education (si_social_s2) +1.01; technology (si_econ_tech) +0.52. Baseline 35.60 in every row.",
+    "chunk_type": "data",
+    "maturity_tag": "b",
+    "is_reconstructed": true,
+    "reconstruction_note": "Rows collated across printed pp. 101-103 and linearised from the pdftotext -layout columns; labels and figures verbatim, ordering as printed. No value inferred. High confidence.",
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "pp. 101-103 [pdf 111-113]"
+    },
+    "tags": [
+      "sub-pillar level",
+      "eleven sub-pillars",
+      "sub-pillar naming scheme",
+      "si_econ_gov",
+      "si_econ_tech",
+      "sensitivity ranking"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-sensitivity_chunk_405",
+    "document_id": "doc_1",
+    "slice_id": "juknis-sensitivity",
+    "section_path": "Tabel 7 > baris variabel, peringkat teratas (p. 101)",
+    "printed_page": "p. 101",
+    "pdf_page": 111,
+    "content": "Variable | social_s3_var11 | Rata-rata konsumsi kalori ikan per kapita (kkal) | 35,60 | 36,68 | 3,03 || Variable | social_s3_var12 | Rata-rata konsumsi protein per kapita (kkal) | 35,60 | 36,65 | 2,97 || Variable | social_s3_var13 | Memiliki jaminan kesehatan (%) | 35,60 | 36,53 | 2,63 || Variable | enviro_s1_var10 | Luas kawasan konservasi perairan (Ha) | 35,60 | 36,47 | 2,45 || Variable | enviro_s2_var13 | Kapasitas terpasang Pembangkit Listrik Tenaga Air (PLTA)(MW) | 35,60 | 36,44 | 2,39",
+    "content_en": "Highest-ranked variable rows: average per capita fish calorie consumption (kcal) +3.03; average per capita protein consumption (kcal) +2.97; holds health insurance (%) +2.63; area of aquatic conservation areas (ha) +2.45; installed hydropower (PLTA) capacity (MW) +2.39. Baseline 35.60 in every row.",
+    "chunk_type": "data",
+    "maturity_tag": "b",
+    "is_reconstructed": true,
+    "reconstruction_note": "Column layout linearised from pdftotext -layout; variable codes, descriptions and figures verbatim. High confidence.",
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 101 [pdf 111]"
+    },
+    "tags": [
+      "variable level",
+      "social_s3_var11",
+      "fish calorie consumption",
+      "kawasan konservasi perairan",
+      "PLTA",
+      "variable codes"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-sensitivity_chunk_406",
+    "document_id": "doc_1",
+    "slice_id": "juknis-sensitivity",
+    "section_path": "Tabel 7 > baris variabel (p. 102)",
+    "printed_page": "p. 102",
+    "pdf_page": 112,
+    "content": "Variable | enviro_s1_var5 | Jumlah desa pesisir dengan tempat buang air besar dan saluran air limbah (desa) | 35,60 | 36,42 | 2,31 || Variable | enviro_s2_var14 | Listrik yang dihasilkan oleh Pembangkit Listrik Tenaga Air (PLTA)(GWh) | 35,60 | 36,39 | 2,23 || Variable | enviro_s2_var11 | Kapasitas terpasang Pembangkit Listrik Tenaga Surya (PLTS)(MW) | 35,60 | 36,38 | 2,21 || Variable | enviro_s2_var12 | Listrik yang dihasilkan oleh Pembangkit Listrik Tenaga Surya (PLTS) (GWh) | 35,60 | 36,37 | 2,18 || Variable | enviro_s1_var4 | Jumlah desa pesisir dan tempat pembuangan sampah (desa) | 35,60 | 36,34 | 2,08 || Variable | econ_gov_var22 | Jumlah pelabuhan perikanan dengan Tempat Pelelangan Ikan (TPI)(pelabuhan) | 35,60 | 36,32 | 2,03 || Variable | econ_s4_var19 | Jumlah wisata bahari (titik) | 35,60 | 36,31 | 2,01 || Variable | econ_s4_var20 | Jumlah usaha/perusahaan wisata tirta komersial (usaha) | 35,60 | 36,31 | 2,01 || Variable | econ_s2_var10 | Volume produksi garam (ton) | 35,60 | 36,28 | 1,94 || Variable | econ_s2_var9 | Volume ekspor ikan olahan (ton) | 35,60 | 36,22 | 1,75 || Variable | enviro_s1_var8_r | Reversed dr Jumlah Sampah dibuang di Laut | 35,60 | 36,18 | 1,65 || Variable | econ_s2_var12 | Jumlah perahu/kapal penangkap ikan(unit) | 35,60 | 36,14 | 1,54",
+    "content_en": "Variable rows on printed p. 102: coastal villages with toilets and wastewater channels +2.31; hydropower electricity generated (GWh) +2.23; installed solar (PLTS) capacity (MW) +2.21; solar electricity generated (GWh) +2.18; coastal villages and waste disposal sites +2.08; fishing ports with a fish auction place (TPI) +2.03; number of marine tourism sites +2.01; commercial water-tourism businesses +2.01; salt production volume (t) +1.94; processed fish export volume (t) +1.75; reversed volume of waste dumped at sea +1.65; number of fishing boats/vessels (units) +1.54. Baseline 35.60 in every row.",
+    "chunk_type": "data",
+    "maturity_tag": "b",
+    "is_reconstructed": true,
+    "reconstruction_note": "Column layout linearised from pdftotext -layout; codes, descriptions and figures verbatim, including the 'Reversed dr' notation on enviro_s1_var8_r. High confidence.",
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 102 [pdf 112]"
+    },
+    "tags": [
+      "variable level",
+      "reversed variables",
+      "PLTS",
+      "TPI",
+      "salt production",
+      "marine tourism",
+      "sanitation"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-sensitivity_chunk_407",
+    "document_id": "doc_1",
+    "slice_id": "juknis-sensitivity",
+    "section_path": "Tabel 7 > baris variabel (p. 103)",
+    "printed_page": "p. 103",
+    "pdf_page": 113,
+    "content": "Variable | social_s1_var10 | Reverse dari jumlah peserta PKH (%) | 35,60 | 36,07 | 1,32 || Variable | econ_s3_var18 | Volume ekspor perikanan dan akuakultur (ton) | 35,60 | 36,05 | 1,29 || Variable | econ_s3_var15 | Jumlah penumpang angkutan laut di 25 pelabuhan strategis (orang) | 35,60 | 36,05 | 1,27 || Variable | econ_s1_var8 | Volume produksi budidaya rumput laut (ton) | 35,60 | 36,01 | 1,16 || Variable | econ_s3_var16 | Volume ekspor perikanan (ton) | 35,60 | 35,99 | 1,10 || Variable | econ_s1_var5 | Volume produksi akuakultur (ton) | 35,60 | 35,98 | 1,08 || Variable | econ_s1_var6 | Volume produksi budidaya tambak (ton) | 35,60 | 35,96 | 1,04 || Variable | econ_s3_var14 | Jumlah penumpang angkutan laut (orang) | 35,60 | 35,95 | 0,99 || Variable | enviro_s1_var2 | Kawasan lamun berkualitas baik (%) | 35,60 | 35,93 | 0,95 || Variable | econ_s3_var17 | Peran ekspor produk perikanan terhadap total ekspor (%) | 35,60 | 35,90 | 0,85 || Variable | enviro_s1_var6 | Penanaman/rehabilitasi hutan mangrove, rawa, dan lahan gambut (Ha) | 35,60 | 35,86 | 0,76 || Variable | econ_tech_var21 | Jumlah kapal perikanan tangkap laut - kapal motor > 30 GT(unit) | 35,60 | 35,78 | 0,52 || Variable | social_s2_var6 | Jumlah SMK kemaritiman - 2023 | 35,60 | 35,78 | 0,51 || Variable | social_s2_var7 | Proporsi jenjang pendidikan terakhir SMA | 35,60 | 35,77 | 0,49 || Variable | social_s2_var8 | Proporsi ijazah terakhir SMA | 35,60 | 35,77 | 0,48",
+    "content_en": "Variable rows on printed p. 103: reversed PKH cash-transfer recipients (%) +1.32; fisheries and aquaculture export volume (t) +1.29; sea transport passengers at 25 strategic ports +1.27; seaweed culture production (t) +1.16; fisheries export volume (t) +1.10; aquaculture production (t) +1.08; brackish-pond production (t) +1.04; sea transport passengers +0.99; seagrass area in good condition (%) +0.95; share of fishery product exports in total exports (%) +0.85; mangrove, swamp and peatland planting/rehabilitation (ha) +0.76; marine capture vessels > 30 GT (units) +0.52; number of maritime vocational schools (SMK), 2023 +0.51; proportion with upper-secondary (SMA) level +0.49; proportion with an SMA certificate +0.48. Baseline 35.60 in every row.",
+    "chunk_type": "data",
+    "maturity_tag": "b",
+    "is_reconstructed": true,
+    "reconstruction_note": "Column layout linearised from pdftotext -layout; codes, descriptions and figures verbatim, including the year suffix printed on social_s2_var6 ('Jumlah SMK kemaritiman - 2023'). High confidence.",
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 103 [pdf 113]"
+    },
+    "tags": [
+      "variable level",
+      "seagrass",
+      "mangrove rehabilitation",
+      "seaweed",
+      "export volume",
+      "PKH",
+      "SMK kemaritiman"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-sensitivity_chunk_408",
+    "document_id": "doc_1",
+    "slice_id": "juknis-sensitivity",
+    "section_path": "Tabel 7 > baris variabel, peringkat terbawah (p. 104)",
+    "printed_page": "p. 104",
+    "pdf_page": 114,
+    "content": "Variable | enviro_s1_var9_r | Reversed dr Jumlah Sampah dibuang di darat | 35,60 | 35,76 | 0,46 || Variable | econ_s1_var1 | Peran sektor perikanan dalam Produk Domestik Bruto (PDB)(%) | 35,60 | 35,74 | 0,42 || Variable | enviro_s1_var1 | Kawasan terumbu karang berkualitas baik (%) | 35,60 | 35,74 | 0,41 || Variable | social_s2_var5 | Jumlah peserta pelatihan perikanan (orang) | 35,60 | 35,74 | 0,40 || Variable | social_s2_var4 | Jumlah lulusan sekolah perikanan (orang) | 35,60 | 35,72 | 0,34 || Variable | econ_s1_var7 | Volume produksi perikanan (ton) | 35,60 | 35,68 | 0,25 || Variable | social_s3_var14 | Reversed dr jumlah penduduk miskin (%) | 35,60 | 35,65 | 0,14 || Variable | social_s1_var1 | Jumlah nelayan dan petani ikan (orang) | 35,60 | 35,64 | 0,14 || Variable | social_s1_var2 | Jumlah perempuan di sektor perikanan (orang) | 35,60 | 35,64 | 0,14 || Variable | social_s2_var9 | Reverse dari jumlah peserta PIP | 35,60 | 35,62 | 0,07 || Variable | econ_s3_var13 | Volume angkutan laut (ton) | 35,60 | 35,62 | 0,06 || Variable | enviro_s1_var3 | Kawasan hutan mangrove berkualitas baik (%) | 35,60 | 35,61 | 0,04",
+    "content_en": "Lowest-ranked variable rows: reversed waste dumped on land +0.46; fisheries share of GDP (%) +0.42; coral reef area in good condition (%) +0.41; fisheries training participants +0.40; fisheries school graduates +0.34; fisheries production volume (t) +0.25; reversed poverty headcount (%) +0.14; number of fishers and fish farmers +0.14; women in the fisheries sector +0.14; reversed PIP recipients +0.07; sea freight volume (t) +0.06; mangrove forest area in good condition (%) +0.04. Baseline 35.60 in every row.",
+    "chunk_type": "data",
+    "maturity_tag": "b",
+    "is_reconstructed": true,
+    "reconstruction_note": "Column layout linearised from pdftotext -layout; codes, descriptions and figures verbatim. High confidence.",
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 104 [pdf 114]"
+    },
+    "tags": [
+      "variable level",
+      "lowest sensitivity",
+      "coral reef condition",
+      "mangrove condition",
+      "fisheries GDP share",
+      "ecosystem condition variables"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-sensitivity_chunk_409",
+    "document_id": "doc_1",
+    "slice_id": "juknis-sensitivity",
+    "section_path": "Tabel 7 > sumber",
+    "printed_page": "p. 104",
+    "pdf_page": 114,
+    "content": "Sumber: Perhitungan Tim Penyusun IBEI, 2025",
+    "content_en": "Source: Calculations of the IBEI Drafting Team, 2025.",
+    "chunk_type": "context",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 104 [pdf 114]"
+    },
+    "tags": [
+      "source attribution",
+      "Tim Penyusun IBEI",
+      "own calculation",
+      "not official statistics"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-sensitivity_chunk_410",
+    "document_id": "doc_1",
+    "slice_id": "juknis-sensitivity",
+    "section_path": "Tabel 7 > temuan penting (narasi)",
+    "printed_page": "p. 104",
+    "pdf_page": 114,
+    "content": "Beberapa temuan penting dapat diidentifikasi, berdasarkan analisis Tabel 7. Pada tingkat pilar, pilar lingkungan memberikan dampak terbesar dengan peningkatan 6,37%, diikuti pilar ekonomi (5,62%) dan pilar sosial (5,27%). Pada tingkat sub-pilar, subpilar kesehatan menunjukkan dampak paling signifikan dengan peningkatan 5,00%. Sementara itu, pada tingkat variabel, rata-rata konsumsi kalori ikan per kapita memberikan dampak terbesar sebesar 3,03%, diikuti rata-rata konsumsi protein ikan per kapita sebesar 2,97%.",
+    "content_en": "Several key findings can be identified from Table 7. At pillar level, the environmental pillar has the largest impact with a 6.37% increase, followed by the economic pillar (5.62%) and the social pillar (5.27%). At sub-pillar level, the health sub-pillar shows the most significant impact at 5.00%. At variable level, average per capita fish calorie consumption has the largest impact at 3.03%, followed by average per capita fish protein consumption at 2.97%.",
+    "chunk_type": "claim",
+    "maturity_tag": "b",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 104 [pdf 114]"
+    },
+    "tags": [
+      "key findings",
+      "environmental pillar largest impact",
+      "health sub-pillar",
+      "fish consumption",
+      "narrative interpretation"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-sensitivity_chunk_411",
+    "document_id": "doc_1",
+    "slice_id": "juknis-sensitivity",
+    "section_path": "Tabel 7 > implikasi kebijakan (narasi)",
+    "printed_page": "p. 104",
+    "pdf_page": 114,
+    "content": "Hasil analisis menunjukkan bahwa intervensi pada aspek kesehatan dan nutrisi masyarakat pesisir memiliki potensi dampak terbesar terhadap peningkatan IBEI nasional. Investasi pada infrastruktur perikanan, konservasi sumber daya laut, dan energi terbarukan juga menunjukkan potensi yang signifikan. Untuk optimalisasi dampak, diperlukan pendekatan terintegrasi yang menggabungkan peningkatan kesejahteraan sosial, penguatan ekonomi, dan pelestarian lingkungan.",
+    "content_en": "The analysis shows that interventions in the health and nutrition of coastal communities have the greatest potential impact on raising the national IBEI. Investment in fisheries infrastructure, marine resource conservation and renewable energy also shows significant potential. To optimise impact, an integrated approach is required combining improved social welfare, economic strengthening and environmental conservation.",
+    "chunk_type": "claim",
+    "maturity_tag": "c",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 104 [pdf 114]"
+    },
+    "tags": [
+      "policy implication",
+      "coastal health and nutrition",
+      "integrated approach",
+      "intervention priority"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-sensitivity_chunk_412",
+    "document_id": "doc_1",
+    "slice_id": "juknis-sensitivity",
+    "section_path": "Tabel 7 > catatan ekstraksi: hitungan baris dan perbedaan internal",
+    "printed_page": "pp. 101-104",
+    "pdf_page": 111,
+    "content": "Teks pengantar menyatakan '59 skenario' (p. 101), sedangkan Tabel 7 sebagaimana tercetak pada pp. 101-104 memuat 58 baris: 3 baris Pilar, 11 baris Sub-Pilar, dan 44 baris Variable. Selain itu, baris tabel untuk social_s3_var12 tercetak 'Rata-rata konsumsi protein per kapita (kkal)', sedangkan narasi pada p. 104 menyebutnya 'rata-rata konsumsi protein ikan per kapita'.",
+    "content_en": "Extraction note, preserving two internal discrepancies rather than resolving them. (1) The introductory text states 59 scenarios (p. 101), but Table 7 as printed across pp. 101-104 contains 58 rows: 3 pillar rows, 11 sub-pillar rows and 44 variable rows. The 44 variable rows match the 44-indicator register count, but the one-row shortfall against 59 is unexplained in the slice; no missing row was located and none is inferred. (2) The table row for social_s3_var12 reads 'average per capita protein consumption (kcal)' while the p. 104 narrative calls it 'average per capita FISH protein consumption' - the word 'ikan' appears in the narrative only.",
+    "chunk_type": "context",
+    "maturity_tag": "not_applicable",
+    "is_reconstructed": true,
+    "reconstruction_note": "The row counts (58 total; 3/11/44 split) are counted by the extracting agent from the printed table, not stated in the document. Medium-high confidence: the count is mechanical but depends on the slice containing the table complete and unbroken. The 59-vs-58 gap is reported as unresolved, not reconciled.",
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "pp. 101-104 [pdf 111-114]"
+    },
+    "tags": [
+      "internal discrepancy",
+      "row count",
+      "59 vs 58 scenarios",
+      "44 variables",
+      "preserve disagreement",
+      "extraction note"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  }
+]

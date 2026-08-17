@@ -1,0 +1,282 @@
+                                                                           Petunjuk Teknis Pedoman Indikator Ekonomi Biru
+                                                       Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025–2045                      93
+
+
+
+5.4. ANALISA DEKOMPOSISI
+
+      Kekuatan dan kelemahan dari setiap provinsi tidak hanya dapat dilihat dari skor mentahnya saja, melainkan juga
+dapat dilihat dari bobot atau tingkat kepentingan dari setiap komponen dalam formula IBEI. Metodologi IBEI memiliki
+struktur hierarkis, di mana skor akhir dibentuk dari beberapa lapisan. Secara umum, bobot kontribusi tingkat indikator,
+subpilar, dan pilar IBEI tergambar pada Gambar 11.
+
+
+
+Gambar 11. Kontribusi Komponen Pembentuk IBEI 2025
+
+
+
+      44 Indikator Indeks Ekonomi Biru
+
+      11                 A
+                        5%
+                                    B
+                                   8%
+                                               C
+                                              6%
+                                                        D
+                                                        7%
+                                                                   E
+                                                                   1%
+                                                                              F
+                                                                             5%
+                                                                                        G
+                                                                                       18%
+                                                                                                      H
+                                                                                                     18%
+                                                                                                                   I
+                                                                                                                  6%
+                                                                                                                              J
+                                                                                                                             4%
+                                                                                                                                          K
+                                                                                                                                          21%
+      Sub-pilar
+
+
+
+                                                Pilar 1                                    Pilar 2                         Pilar 3
+      3                                       (Ekonomi)                                (Lingkungan)                       (Sosial)
+      Pilar                                     33%                                            37%                           31%
+
+
+Legend Sub-Pilar                                         Index sub pilar pariwisata berbasis
+                                                   D                                             H        Index sub pilar energi terbaharukan
+                                                         kelautan
+          Index sub pilar perikanan tangkap
+  A                                                E     Index sub pilar teknologi                I       Index sub pilar kesejahteraan
+          dan budidaya
+          Index sub pilar industri berbasis
+  B                                                F     Index sub pilar tatakelola               J       Index sub pilar pendidikan
+          kelautan
+          Index sub pilar perdagangan,                   Index sub pilar kualitas sumber daya
+  C                                                G                                              K       Index sub pilar kesehatan
+          transport dan logistik                         dan konservasi laut
+
+
+
+
+Keterangan:
+Besaran pembobot dihasilkan secara otomatis melalui proses PCA
+
+
+
+
+                                                                                          Kementerian Perencanaan Pembangunan Nasional/Bappenas
+            Petunjuk Teknis Pedoman Indikator Ekonomi Biru
+94          Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025–2045
+
+
+
+
+     Dengan penyederhanaan, tingkat kontribusi (bobot) dari setiap komponen dikategorikan dalam tiga peringkat:
+Tinggi, Sedang, dan Rendah. Peringkat ini ditentukan secara relatif dengan mengurutkan bobot komponen di dalam
+grupnya masing-masing. Komponen dengan bobot sepertiga teratas dikategorikan sebagai “Tinggi”, sepertiga
+terbawah sebagai “Rendah”, dan sisanya sebagai “Sedang”. Tabel-tabel berikut menyajikan resep dari perhitungan
+IBEI ini.
+
+
+Kontribusi Level Pilar pada IBEI
+
+     Tabel 4 ini menunjukkan tingkat kepentingan dari tiga pilar utama dalam menentukan skor akhir IBEI. Terlihat
+bahwa Pilar Lingkungan memiliki bobot tertinggi.
+
+
+Tabel 4. Bobot IBEI 2025 berdasarkan pilar
+
+
+                 Kode Pillar                                 Nama Pilar                  Kontribusi terhadap IBEI
+
+                  si_enviro                              Index pilar lingkungan               Tinggi (36,9%)
+
+                   si_econ                                Index pilar ekonomi                Sedang (32,6%)
+
+                  si_social                                Index pilar sosial                Rendah (30,5%)
+
+
+
+
+Kontribusi Level Subpilar pada Pilar
+
+     Setiap subpilar juga memiliki bobot yang menentukan kontribusi subpilar tersebut pada pilar induknya seperti
+terjabarkan pada Tabel 5 di bawah ini.
+
+
+Tabel 5. Bobot subpilar dalam membentuk pilar IBEI
+
+   Kode Sub-Pillar                                         Deskripsi                           Tingkat Kontribusi
+                                                    Pembentuk Pilar Ekonomi
+ si_econ_s1                   Indeks subpilar perikanan tangkap dan budidaya               Rendah (15,2%)
+ si_econ_s2                   Indeks subpilar industri berbasis kelautan                   Tinggi (23,6%)
+ si_econ_s3                   Indeks subpilar perdagangan, transport dan logistik          Sedang (19,3%)
+ si_econ_s4                   Indeks subpilar pariwisata berbasis kelautan                 Tinggi (22,1%)
+ si_econ_tech                 Indeks subpilar teknologi                                    Rendah (4,1%)
+ si_econ_gov                  Indeks subpilar tatakelola                                   Sedang (15,8%)
+                                                  Pembentuk Pilar Lingkungan
+ si_enviro_s1                 Indeks subpilar kualitas sumber daya dan konservasi laut     Tinggi (50,0%)
+ si_enviro_s2                 Indeks subpilar energi terbaharukan                          Rendah (50,0%)
+                                                        Pembentuk Pilar Sosial
+ si_social_s1                 Indeks subpilar kesejahteraan                                Sedang (18,2%)
+ si_social_s2                 Indeks subpilar pendidikan                                   Rendah (13,7%)
+ si_social_s3                 Indeks subpilar kesehatan                                    Tinggi (68,1%)
+
+
+
+Kementerian Perencanaan Pembangunan Nasional/Bappenas
+                                                               Petunjuk Teknis Pedoman Indikator Ekonomi Biru
+                                           Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025–2045            95
+
+
+
+Kontribusi Indikator terhadap Sub-Pilar
+
+    Sementara Tabel 6 menunjukkan tingkat kepentingan dari setiap variabel individu di dalam subpilarnya. Ini adalah
+blueprint terperinci dari keseluruhan metodologi IBEI.
+
+
+
+Tabel 6. Bobot IBEI 2025 berdasarkan variabel pembentuk subpilar
+
+
+ Nama Variabel                                        Deskripsi                                       Tingkat Kontribusi
+
+ Variabel Pembentuk Sub-Pilar Tatakelola
+
+ econ_gov_var22     Jumlah pelabuhan perikanan dengan Tempat Pelelangan Ikan (TPI) (unit)             Sedang (100,0%)
+
+ Variabel Pembentuk Sub-Pilar Perikanan Tangkap dan Budidaya
+
+ econ_s1_var1       Peran sektor perikanan dalam Produk Domestik Bruto (PDB) (%)                      Rendah (10,6%)
+
+ econ_s1_var5       Volume produksi akuakultur (ton)                                                  Tinggi (27,3%)
+
+ econ_s1_var6       Volume produksi budidaya tambak (ton)                                             Sedang (26,3%)
+
+ econ_s1_var7       Volume produksi perikanan (ton)                                                   Rendah (6,3%)
+
+ econ_s1_var8       Volume produksi budidaya rumput laut (ton)                                        Tinggi (29,4%)
+
+ Variabel Pembentuk Sub-Pilar Industri Berbasis Kelautan
+
+ econ_s2_var10      Volume produksi garam (ton)                                                       Tinggi (37,0%)
+
+ econ_s2_var12      Jumlah perahu/kapal penangkap ikan (unit)                                         Rendah (29,5%)
+
+ econ_s2_var9       Volume ekspor ikan olahan (ton)                                                   Sedang (33,5%)
+
+ Variabel Pembentuk Sub-Pilar Perdagangan, Transport dan Logistik
+
+ econ_s3_var13      Volume angkutan laut (ton)                                                        Rendah (1,1%)
+
+ econ_s3_var14      Jumlah penumpang angkutan laut (orang)                                            Sedang (17,8%)
+
+ econ_s3_var15      Jumlah penumpang angkutan laut di 25 pelabuhan strategis (orang)                  Tinggi (22,8%)
+
+ econ_s3_var16      Volume ekspor perikanan (ton)                                                     Sedang (19,8%)
+
+ econ_s3_var17      Peran ekspor produk perikanan terhadap total ekspor (%)                           Rendah (15,3%)
+
+ econ_s3_var18      Volume ekspor perikanan dan akuakultur (ton)                                      Tinggi (23,2%)
+
+ Variabel Pembentuk Sub-Pilar Pariwisata Berbasis Kelautan
+
+ econ_s4_var19      Jumlah wisata bahari (titik)                                                      Tinggi (50,0%)
+
+ econ_s4_var20      Jumlah usaha/perusahaan wisata tirta komersial (unit)                             Rendah (50,0%)
+
+ Variabel Pembentuk Sub-Pilar Teknologi
+
+ econ_tech_var21 Jumlah kapal perikanan tangkap laut - kapal motor > 30 GT (unit)                     Sedang (100,0%)
+
+ Variabel Pembentuk Sub-Pilar Kualitas Sumber Daya dan Konservasi Laut
+
+ enviro_s1_var1     Kawasan terumbu karang berkualitas baik (%)                                       Rendah (3,7%)
+
+
+
+
+                                                                         Kementerian Perencanaan Pembangunan Nasional/Bappenas
+          Petunjuk Teknis Pedoman Indikator Ekonomi Biru
+96        Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025–2045
+
+
+
+
+ enviro_s1_var10        Luas kawasan konservasi perairan (Ha)                                     Tinggi (22,0%)
+
+ enviro_s1_var2         Kawasan lamun berkualitas baik (%)                                        Sedang (8,6%)
+
+ enviro_s1_var3         Kawasan hutan mangrove berkualitas baik (%)                               Rendah (0,3%)
+
+ enviro_s1_var4         Jumlah desa pesisir dengan tempat pembuangan sampah (desa)                Tinggi (18,7%)
+
+ enviro_s1_var5         Jumlah desa pesisir dengan tempat buang air besar (desa)                  Tinggi (20,8%)
+
+ enviro_s1_var6         Penanaman/rehabilitasi hutan mangrove, rawa, dan lahan gambut (Ha)        Sedang (6,8%)
+
+ enviro_s1_var8_r       Reversed dr volume sampah yang bocor ke laut                              Sedang (14,9%)
+
+ enviro_s1_var9_r       Reversed dr jumlah sampah yang dibuang di darat                           Rendah (4,2%)
+
+ Variabel Pembentuk Sub-Pilar Energi Terbarukan
+
+ enviro_s2_var11        Kapasitas terpasang Pembangkit Listrik Tenaga Surya (PLTS) (MW)           Sedang (24,5%)
+
+ enviro_s2_var12        Listrik yang dihasilkan oleh Pembangkit Listrik Tenaga Surya (PLTS) (GWh) Rendah (24,2%)
+
+ enviro_s2_var13        Kapasitas terpasang Pembangkit Listrik Tenaga Air (PLTA) (MW)             Tinggi (26,5%)
+
+ enviro_s2_var14        Listrik yang dihasilkan oleh Pembangkit Listrik Tenaga Air (PLTA) (GWh)   Sedang (24,8%)
+
+ Variabel Pembentuk Sub-Pilar Kesejahteraan
+
+ social_s1_var1         Jumlah nelayan dan petani ikan (orang)                                    Sedang (8,7%)
+
+                        Reverse dari proporsi penduduk sektor perikanan yang menjadi peserta
+ social_s1_var10                                                                                  Tinggi (82,6%)
+                        PKH
+
+ social_s1_var2         Jumlah perempuan di sektor perikanan (orang)                              Rendah (8,7%)
+
+ Variabel Pembentuk Sub-Pilar Pendidikan
+
+ social_s2_var4         Jumlah lulusan sekolah perikanan (orang)                                  Rendah (14,8%)
+
+ social_s2_var5         Jumlah peserta pelatihan perikanan (orang)                                Sedang (17,3%)
+
+ social_s2_var6         Jumlah SMK kemaritiman                                                    Tinggi (22,4%)
+
+                        Proporsi penduduk sektor perikanan dengan jenjang pendidikan terakhir
+ social_s2_var7                                                                                   Tinggi (21,3%)
+                        SMA (%)
+
+ social_s2_var8         Proporsi penduduk sektor perikanan yang memiliki ijazah terakhir SMA (%) Sedang (21,2%)
+
+                        Reverse dari proporsi penduduk sektor perikanan yang menjadi peserta
+ social_s2_var9                                                                                   Rendah (3,1%)
+                        PIP
+
+ Variabel Pembentuk Sub-Pilar Kesehatan
+
+ social_s3_var11        Rata-rata konsumsi kalori ikan per kapita (kkal)                          Tinggi (34,6%)
+
+ social_s3_var12        Rata-rata konsumsi protein ikan per kapita (kkal)                         Sedang (33,8%)
+
+ social_s3_var13        Proporsi penduduk sektor perikanan yang memiliki jaminan kesehatan (%)    Sedang (30,0%)
+
+ social_s3_var14        Reversed dari proporsi jumlah penduduk miskin di sektor perikanan (%)     Rendah (1,6%)
+
+
+
+
+Kementerian Perencanaan Pembangunan Nasional/Bappenas
+

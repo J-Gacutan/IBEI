@@ -1,0 +1,467 @@
+[
+  {
+    "chunk_id": "doc_1_juknis-method_chunk_101",
+    "document_id": "doc_1",
+    "slice_id": "juknis-method",
+    "section_path": "2.5 Metodologi Perhitungan",
+    "printed_page": "p. 63",
+    "pdf_page": 73,
+    "content": "Setelah memaparkan secara rinci 44 indikator yang menyusun pilar Ekonomi, Lingkungan, dan Sosial, langkah krusial berikutnya adalah menggabungkan informasi yang beragam ini menjadi sebuah skor tunggal yang komprehensif dan dapat diperbandingkan antarwilayah. Tantangan utama dalam penyusunan indeks komposit adalah bagaimana mengagregasi puluhan variabel yang memiliki satuan, skala, dan rentang nilai yang berbeda—mulai dari nilai moneter, persentase, hingga ukuran fisik—tanpa kehilangan informasi penting atau memasukkan bias subjektif. Oleh karena itu, pemilihan metodologi yang tepat menjadi fondasi bagi kredibilitas dan validitas indeks. Bab ini akan menguraikan secara sistematis dan teknis metodologi yang digunakan untuk melakukan agregasi dari tingkat indikator individual hingga menjadi skor akhir Indeks Ekonomi Biru Indonesia (IBEI).",
+    "content_en": "Having set out in detail the 44 indicators composing the Economy, Environment and Social pillars, the next crucial step is to combine this diverse information into a single comprehensive score comparable across regions. The main challenge in constructing a composite index is how to aggregate dozens of variables having different units, scales and value ranges — from monetary values, to percentages, to physical measures — without losing important information or introducing subjective bias. The choice of an appropriate methodology is therefore the foundation of the index's credibility and validity. This chapter sets out systematically and technically the methodology used to aggregate from the individual indicator level up to the final Indonesia Blue Economy Index (IBEI) score.",
+    "chunk_type": "context",
+    "maturity_tag": "not_applicable",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 63 [pdf 73]"
+    },
+    "tags": [
+      "IBEI",
+      "composite index",
+      "44 indicators",
+      "aggregation",
+      "methodology",
+      "pillars"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-method_chunk_102",
+    "document_id": "doc_1",
+    "slice_id": "juknis-method",
+    "section_path": "2.5 Metodologi Perhitungan",
+    "printed_page": "p. 63",
+    "pdf_page": 73,
+    "content": "Pendekatan yang digunakan adalah Analisis Komponen Utama Bertahap (Multi-stage Principal Component Analysis - PCA). Metode ini dipilih karena keunggulannya dalam menentukan bobot setiap komponen secara objektif berdasarkan struktur data itu sendiri, sehingga menghindari subjektivitas dalam pembobotan manual. Berbeda dengan metode pembobotan setara (equal weighting) yang mengasumsikan semua indikator memiliki kontribusi yang sama, atau pembobotan ahli (expert weighting) yang rentan terhadap bias individu, PCA secara statistik mengidentifikasi pola korelasi dan varians dalam data.",
+    "content_en": "The approach used is Multi-stage Principal Component Analysis (PCA). This method was chosen for its advantage in determining each component's weight objectively on the basis of the data structure itself, thereby avoiding the subjectivity of manual weighting. Unlike equal weighting, which assumes all indicators contribute equally, or expert weighting, which is vulnerable to individual bias, PCA statistically identifies patterns of correlation and variance in the data.",
+    "chunk_type": "methodology",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 63 [pdf 73]"
+    },
+    "tags": [
+      "multi-stage PCA",
+      "weighting",
+      "equal weighting",
+      "expert weighting",
+      "objectivity",
+      "IBEI methodology"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-method_chunk_103",
+    "document_id": "doc_1",
+    "slice_id": "juknis-method",
+    "section_path": "2.5 Metodologi Perhitungan",
+    "printed_page": "p. 63",
+    "pdf_page": 73,
+    "content": "PCA bekerja dengan mengidentifikasi pola dan varians dalam data, memastikan bahwa skor IBEI yang dihasilkan benar-benar merefleksikan kontribusi multidimensional dari setiap aspek ekonomi biru. Dengan demikian, bobot yang dihasilkan bersifat data-driven, di mana indikator yang memiliki variabilitas lebih besar dan berkorelasi kuat dengan indikator lain dalam domainnya akan secara alami mendapatkan bobot yang lebih tinggi.",
+    "content_en": "PCA works by identifying patterns and variance in the data, ensuring that the resulting IBEI score genuinely reflects the multidimensional contribution of each aspect of the blue economy. The resulting weights are therefore data-driven: an indicator with greater variability that correlates strongly with other indicators in its domain will naturally receive a higher weight.",
+    "chunk_type": "methodology",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 63 [pdf 73]"
+    },
+    "tags": [
+      "data-driven weights",
+      "variance",
+      "correlation",
+      "PCA",
+      "IBEI"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-method_chunk_104",
+    "document_id": "doc_1",
+    "slice_id": "juknis-method",
+    "section_path": "2.5.1 Prinsip Dasar dan Tahapan Perhitungan",
+    "printed_page": "p. 63",
+    "pdf_page": 73,
+    "content": "Proses perhitungan IBEI dilakukan melalui serangkaian tahapan yang terstruktur secara hirarkis, mengikuti kerangka konseptual indeks itu sendiri. Pendekatan hirarkis ini tidak hanya memudahkan proses perhitungan, tetapi juga memungkinkan analisis yang lebih mendalam pada setiap tingkatan—sub-pilar dan pilar—sehingga pembuat kebijakan dapat mengidentifikasi kekuatan dan kelemahan spesifik suatu wilayah dengan lebih presisi.",
+    "content_en": "The IBEI calculation process is carried out through a series of hierarchically structured stages, following the conceptual framework of the index itself. This hierarchical approach not only eases the calculation process but also permits deeper analysis at each level — sub-pillar and pillar — so that policymakers can identify a region's specific strengths and weaknesses with greater precision.",
+    "chunk_type": "methodology",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 63 [pdf 73]"
+    },
+    "tags": [
+      "hierarchical aggregation",
+      "sub-pillar",
+      "pillar",
+      "policy use",
+      "IBEI calculation"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-method_chunk_105",
+    "document_id": "doc_1",
+    "slice_id": "juknis-method",
+    "section_path": "2.5.1 Prinsip Dasar dan Tahapan Perhitungan — Alur perhitungan (figure)",
+    "printed_page": "p. 63",
+    "pdf_page": 73,
+    "content": "1 Agregasi Tingkat Sub-Pilar: Menggabungkan indikator-indikator yang telah distandardisasi menjadi skor sub-pilar menggunakan PCA tahap pertama. 2 Agregasi Tingkat Pilar: Menggabungkan skor-skor sub-pilar menjadi skor pilar menggunakan PCA tahap kedua. 3 Agregasi Indeks Komposit IBEI: Menggabungkan ketiga skor pilar (Ekonomi, Lingkungan, Sosial) menjadi skor IBEI akhir menggunakan PCA tahap final. [...] Penggunaan PCA yang konsisten di setiap tahapan memastikan bahwa prinsip objektivitas dan pembobotan berbasis data diterapkan secara menyeluruh, dari level mikro (indikator) hingga makro (indeks komposit).",
+    "content_en": "1 Sub-Pillar Level Aggregation: combining standardised indicators into a sub-pillar score using first-stage PCA. 2 Pillar Level Aggregation: combining sub-pillar scores into a pillar score using second-stage PCA. 3 IBEI Composite Index Aggregation: combining the three pillar scores (Economy, Environment, Social) into the final IBEI score using the final-stage PCA. [...] The consistent use of PCA at every stage ensures that the principles of objectivity and data-based weighting are applied throughout, from the micro level (indicator) to the macro level (composite index).",
+    "chunk_type": "methodology",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 63 [pdf 73]"
+    },
+    "tags": [
+      "three-stage PCA",
+      "aggregation flow",
+      "sub-pillar",
+      "pillar",
+      "composite index"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-method_chunk_106",
+    "document_id": "doc_1",
+    "slice_id": "juknis-method",
+    "section_path": "2.5.1.1 Tahap 1: Agregasi Tingkat Sub-Pilar (PCA Tahap Pertama)",
+    "printed_page": "p. 64",
+    "pdf_page": 74,
+    "content": "Setelah semua indikator distandardisasi, proses agregasi dimulai pada tingkat sub-pilar. Standardisasi, adalah langkah pra-pemrosesan yang esensial. Langkah ini mengubah semua data indikator ke dalam skala yang kompatibel, sehingga memastikan bahwa indikator dengan satuan atau rentang nilai yang besar tidak secara tidak adil mendominasi proses analisis. Untuk setiap subpilar, skor komposit dihitung dengan menerapkan PCA pada set indikator standar yang relevan. PCA akan mengekstrak komponen utama pertama (PC1), yaitu kombinasi linear dari indikator-indikator yang mampu menjelaskan varians terbesar dalam data. PC1 dapat diinterpretasikan sebagai dimensi laten atau faktor mendasar yang paling merepresentasikan kinerja sub-pilar tersebut.",
+    "content_en": "Once all indicators have been standardised, aggregation begins at the sub-pillar level. Standardisation is an essential pre-processing step. It converts all indicator data onto a compatible scale, ensuring that indicators with large units or value ranges do not unfairly dominate the analysis. For each sub-pillar, the composite score is computed by applying PCA to the relevant set of standardised indicators. PCA extracts the first principal component (PC1), the linear combination of indicators explaining the greatest variance in the data. PC1 can be interpreted as the latent dimension or underlying factor that best represents that sub-pillar's performance.",
+    "chunk_type": "methodology",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 64 [pdf 74]"
+    },
+    "tags": [
+      "standardisation",
+      "PC1",
+      "first-stage PCA",
+      "sub-pillar score",
+      "latent dimension"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-method_chunk_107",
+    "document_id": "doc_1",
+    "slice_id": "juknis-method",
+    "section_path": "2.5.1.1 Tahap 1: Agregasi Tingkat Sub-Pilar (PCA Tahap Pertama)",
+    "printed_page": "p. 64",
+    "pdf_page": 74,
+    "content": "Bobot untuk setiap indikator ditentukan oleh loading factor (koefisien eigenvector) dari PC1. Loading factor ini menunjukkan seberapa kuat korelasi antara setiap indikator asli dengan komponen utama pertama, yang sekaligus berfungsi sebagai bobotnya dalam pembentukan skor sub-pilar.",
+    "content_en": "The weight for each indicator is determined by the loading factor (eigenvector coefficient) of PC1. This loading factor shows how strongly each original indicator correlates with the first principal component, and simultaneously serves as its weight in forming the sub-pillar score.",
+    "chunk_type": "definition",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 64 [pdf 74]"
+    },
+    "tags": [
+      "loading factor",
+      "eigenvector",
+      "indicator weight",
+      "PC1",
+      "definition"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-method_chunk_108",
+    "document_id": "doc_1",
+    "slice_id": "juknis-method",
+    "section_path": "2.5.1.1 Tahap 1 — Formula skor subpilar",
+    "printed_page": "p. 64",
+    "pdf_page": 74,
+    "content": "Skor untuk setiap subpilar dihitung dengan formula: [rumus tercetak; glif matematis tidak terbaca pada lapisan teks PDF] di mana: Sik = Skor subpilar k untuk provinsi i; Wkj = Bobot (loading factor dari PC1) untuk indikator j dalam subpilar k; I ijk std = Nilai standar (Z-score) indikator j dalam subpilar k untuk provinsi i; nk = Jumlah indikator dalam subpilar k",
+    "content_en": "The score for each sub-pillar is computed with the formula [printed formula; the mathematical glyphs are not legible in the PDF text layer], where: Sik = sub-pillar k score for province i; Wkj = weight (PC1 loading factor) for indicator j within sub-pillar k; I ijk std = the standardised value (Z-score) of indicator j within sub-pillar k for province i; nk = the number of indicators in sub-pillar k. The variable definitions establish that standardisation is by Z-score, not min-max normalisation.",
+    "chunk_type": "data",
+    "maturity_tag": "a",
+    "is_reconstructed": true,
+    "reconstruction_note": "The formula's symbolic body is unrecoverable from the pdftotext text layer (glyph corruption, e.g. '𝑆𝑆!\" = # %𝑤𝑤\"$ ⋅ 𝐼𝐼!$\" )'). Only the variable-definition list beneath it is verbatim-legible, and it is quoted here. The functional form — a weighted sum over j=1..nk of Wkj times the Z-score of indicator j — is inferable from the legible variable list with high confidence, but the printed expression itself has NOT been read and must not be quoted as such. Confidence: high on Z-score standardisation and on the identity of each variable; medium-high on the exact summation form; no confidence in any transcribed symbol string.",
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 64 [pdf 74]"
+    },
+    "tags": [
+      "Z-score",
+      "standardisation",
+      "sub-pillar formula",
+      "loading factor",
+      "glyph corruption",
+      "not min-max"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-method_chunk_109",
+    "document_id": "doc_1",
+    "slice_id": "juknis-method",
+    "section_path": "2.5.1.2 Tahap 2: Agregasi Tingkat Pilar (PCA Tahap Kedua)",
+    "printed_page": "p. 64",
+    "pdf_page": 74,
+    "content": "Langkah selanjutnya adalah menggabungkan skor-skor sub-pilar yang telah diperoleh menjadi skor pilar. Proses ini kembali menggunakan PCA, namun kali ini inputnya adalah skor sub-pilar yang juga telah distandardisasi terlebih dahulu. Sama seperti pada tahap pertama, standardisasi skor sub-pilar diperlukan untuk menormalkan skala sebelum diagregasi lebih lanjut, memastikan bahwa setiap sub-pilar memiliki kesempatan yang setara untuk berkontribusi pada skor pilar. Dengan menerapkan logika yang sama, PCA tahap kedua ini akan mengidentifikasi kombinasi linear dari skor-skor sub-pilar yang paling baik dalam menjelaskan variasi kinerja di tingkat pilar.",
+    "content_en": "The next step combines the obtained sub-pillar scores into a pillar score. This process again uses PCA, but the inputs are sub-pillar scores that have themselves first been standardised. As in the first stage, standardisation of sub-pillar scores is required to normalise the scale before further aggregation, ensuring each sub-pillar has an equal opportunity to contribute to the pillar score. Applying the same logic, this second-stage PCA identifies the linear combination of sub-pillar scores that best explains variation in performance at the pillar level.",
+    "chunk_type": "methodology",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 64 [pdf 74]"
+    },
+    "tags": [
+      "second-stage PCA",
+      "pillar score",
+      "re-standardisation",
+      "sub-pillar inputs"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-method_chunk_110",
+    "document_id": "doc_1",
+    "slice_id": "juknis-method",
+    "section_path": "2.5.1.2 Tahap 2 — Formula skor pilar",
+    "printed_page": "p. 65",
+    "pdf_page": 75,
+    "content": "Skor untuk setiap pilar dihitung dengan formula: [rumus tercetak; glif matematis tidak terbaca pada lapisan teks PDF] di mana: Pip = Skor pilar p (Ekonomi, Lingkungan, atau Sosial) untuk provinsi i; W pk = Bobot (loading factor dari PC1) untuk subpilar k dalam pilar p; Sikp std = Skor standar dari subpilar k dalam pilar p untuk provinsi i; mp = Jumlah subpilar dalam pilar p",
+    "content_en": "The score for each pillar is computed with the formula [printed formula; mathematical glyphs not legible in the PDF text layer], where: Pip = pillar p score (Economy, Environment or Social) for province i; Wpk = weight (PC1 loading factor) for sub-pillar k within pillar p; Sikp std = the standardised score of sub-pillar k within pillar p for province i; mp = the number of sub-pillars in pillar p.",
+    "chunk_type": "data",
+    "maturity_tag": "a",
+    "is_reconstructed": true,
+    "reconstruction_note": "As with the stage-1 formula, the symbolic expression is glyph-corrupted in the text layer ('𝑃𝑃!* = # %𝑤𝑤*\" ⋅ 𝑆𝑆!\"* )') and is not transcribed. Only the variable-definition list is quoted verbatim. Confidence: high on variable identities; medium-high on the weighted-sum form over k=1..mp; no confidence in any symbol string.",
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 65 [pdf 75]"
+    },
+    "tags": [
+      "pillar formula",
+      "loading factor",
+      "standardised sub-pillar score",
+      "glyph corruption"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-method_chunk_111",
+    "document_id": "doc_1",
+    "slice_id": "juknis-method",
+    "section_path": "2.5.1.3 Tahap 3: Agregasi Indeks Komposit IBEI (PCA Tahap Akhir)",
+    "printed_page": "p. 65",
+    "pdf_page": 75,
+    "content": "Pada tahap final, ketiga skor pilar tersebut digabungkan untuk membentuk skor IBEI akhir. Tahap ini merupakan puncak dari proses agregasi, di mana kinerja multidimensional dari pilar Ekonomi, Lingkungan, dan Sosial diintegrasikan menjadi satu ukuran tunggal yang holistik. PCA diterapkan untuk terakhir kalinya pada tiga skor pilar (yang juga telah distandardisasi).",
+    "content_en": "At the final stage, the three pillar scores are combined to form the final IBEI score. This stage is the culmination of the aggregation process, in which the multidimensional performance of the Economy, Environment and Social pillars is integrated into a single holistic measure. PCA is applied for the last time to the three pillar scores (which have also been standardised).",
+    "chunk_type": "methodology",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 65 [pdf 75]"
+    },
+    "tags": [
+      "final-stage PCA",
+      "three pillars",
+      "composite IBEI score",
+      "standardisation"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-method_chunk_112",
+    "document_id": "doc_1",
+    "slice_id": "juknis-method",
+    "section_path": "2.5.1.3 Tahap 3 — Formula skor IBEI akhir",
+    "printed_page": "p. 65",
+    "pdf_page": 75,
+    "content": "Skor IBEI akhir dihitung sebagai berikut: [rumus tercetak; glif matematis tidak terbaca pada lapisan teks PDF] di mana: IBEI i = Skor Indeks Ekonomi Biru Indonesia untuk provinsi i; Pi,Ekonomi std , Pi,Lingkungan std , Pi,Sosial std = Skor standar dari masing-masing pilar; wE , wL , wS = Bobot (loading factor dari PC1) untuk masing-masing pilar",
+    "content_en": "The final IBEI score is computed as follows: [printed formula; mathematical glyphs not legible in the PDF text layer], where: IBEI i = the Indonesia Blue Economy Index score for province i; Pi,Economy std, Pi,Environment std, Pi,Social std = the standardised score of each pillar; wE, wL, wS = the weight (PC1 loading factor) for each pillar.",
+    "chunk_type": "data",
+    "maturity_tag": "a",
+    "is_reconstructed": true,
+    "reconstruction_note": "The printed expression is glyph-corrupted in the text layer ('𝐼𝐼𝐼𝐼𝐼𝐼𝐼𝐼! = %𝑤𝑤, ⋅ 𝑃𝑃!,...') and is not transcribed. The variable-definition list is quoted verbatim. The legible fragments show three additive terms, one per pillar, each a weight times a standardised pillar score. Confidence: high on the three-term additive structure and on variable identities; no confidence in any symbol string. The wE/wL/wS values themselves are not given here — see slice juknis-weights (Tabel 4).",
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 65 [pdf 75]"
+    },
+    "tags": [
+      "IBEI formula",
+      "pillar weights",
+      "wE wL wS",
+      "standardised pillar score",
+      "glyph corruption"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-method_chunk_113",
+    "document_id": "doc_1",
+    "slice_id": "juknis-method",
+    "section_path": "2.5.1.3 Tahap 3: Agregasi Indeks Komposit IBEI (PCA Tahap Akhir)",
+    "printed_page": "p. 65",
+    "pdf_page": 75,
+    "content": "Bobot yang dihasilkan pada tahap ini sangat krusial karena secara objektif merefleksikan kontribusi relatif dari setiap pilar terhadap variasi total kinerja ekonomi biru antarprovinsi. Misalnya, jika data menunjukkan bahwa perbedaan kinerja antarprovinsi lebih banyak didorong oleh variasi pada pilar Ekonomi, maka pilar tersebut secara alami akan menerima bobot yang lebih tinggi dari PCA.",
+    "content_en": "The weights produced at this stage are highly crucial because they objectively reflect the relative contribution of each pillar to total variation in blue economy performance across provinces. For example, if the data show that inter-provincial performance differences are driven more by variation in the Economy pillar, that pillar will naturally receive a higher weight from the PCA.",
+    "chunk_type": "claim",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 65 [pdf 75]"
+    },
+    "tags": [
+      "pillar weights",
+      "inter-provincial variance",
+      "PCA interpretation",
+      "endogenous weighting"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-method_chunk_114",
+    "document_id": "doc_1",
+    "slice_id": "juknis-method",
+    "section_path": "2.5.2 Interpretasi Skor Akhir IBEI",
+    "printed_page": "p. 66",
+    "pdf_page": 76,
+    "content": "Skor IBEI yang dihasilkan dari metodologi ini adalah skor komponen utama (principal component score). Skor ini merupakan ukuran relatif yang tidak memiliki batas atas atau bawah yang pasti dan dapat bernilai positif maupun negatif. Secara teknis, rata-rata dari skor IBEI di seluruh provinsi akan mendekati nol. Oleh karena itu, skor positif mengindikasikan kinerja di atas rata-rata nasional, sementara skor negatif mengindikasikan kinerja di bawah rata-rata. • Nilai yang lebih tinggi menunjukkan kinerja ekonomi biru yang secara keseluruhan lebih baik dibandingkan provinsi lain. • Nilai yang lebih rendah (termasuk nilai negatif) menunjukkan kinerja yang relatif lebih tertinggal.",
+    "content_en": "The IBEI score produced by this methodology is a principal component score. It is a relative measure with no definite upper or lower bound and may be positive or negative. Technically, the mean IBEI score across all provinces will approach zero. A positive score therefore indicates performance above the national average, while a negative score indicates below-average performance. • A higher value indicates overall better blue economy performance relative to other provinces. • A lower value (including a negative value) indicates relatively lagging performance.",
+    "chunk_type": "definition",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 66 [pdf 76]"
+    },
+    "tags": [
+      "principal component score",
+      "unbounded scale",
+      "mean zero",
+      "score interpretation",
+      "relative measure",
+      "no 0-100 scale"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  },
+  {
+    "chunk_id": "doc_1_juknis-method_chunk_115",
+    "document_id": "doc_1",
+    "slice_id": "juknis-method",
+    "section_path": "2.5.2 Interpretasi Skor Akhir IBEI",
+    "printed_page": "p. 66",
+    "pdf_page": 76,
+    "content": "Dengan demikian, fokus interpretasi bukanlah pada nilai numerik itu sendiri, melainkan pada posisi relatif suatu provinsi terhadap provinsi lainnya. Skor IBEI berfungsi sebagai alat benchmarking yang memungkinkan pemeringkatan dan perbandingan kinerja antarwilayah secara adil dan objektif. Metodologi yang sistematis dan objektif ini memastikan bahwa IBEI merupakan alat ukur yang andal dan kredibel untuk memetakan posisi dan memandu arah pembangunan ekonomi biru di tingkat nasional dan daerah. Pada akhirnya, hasil pemeringkatan ini dapat digunakan sebagai dasar untuk merumuskan kebijakan yang lebih terarah, mengalokasikan sumber daya secara lebih efektif, dan mendorong pembelajaran antarprovinsi untuk percepatan pembangunan ekonomi biru yang berkelanjutan di seluruh Indonesia.",
+    "content_en": "The focus of interpretation is therefore not the numerical value itself but a province's relative position against other provinces. The IBEI score serves as a benchmarking tool enabling fair and objective ranking and comparison of performance across regions. This systematic and objective methodology ensures the IBEI is a reliable and credible measurement tool for mapping position and guiding the direction of blue economy development at national and regional level. Ultimately these ranking results can be used as a basis for formulating better-targeted policy, allocating resources more effectively, and encouraging inter-provincial learning to accelerate sustainable blue economy development across Indonesia.",
+    "chunk_type": "claim",
+    "maturity_tag": "a",
+    "is_reconstructed": false,
+    "reconstruction_note": null,
+    "citation": {
+      "type": "self",
+      "title": "Petunjuk Teknis Pedoman Indikator Ekonomi Biru Dalam Rencana Pembangunan Jangka Panjang Nasional (RPJPN) 2025-2045",
+      "author": "Kementerian Perencanaan Pembangunan Nasional/Bappenas",
+      "year": "2025",
+      "document_type": "policy_document",
+      "locator": "p. 66 [pdf 76]"
+    },
+    "tags": [
+      "benchmarking",
+      "provincial ranking",
+      "policy targeting",
+      "resource allocation",
+      "intended use"
+    ],
+    "needs_web_search": false,
+    "suggested_query": null
+  }
+]

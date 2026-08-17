@@ -1,0 +1,248 @@
+          Indeks Ekonomi Biru Indonesia 2024
+64        Indonesia Blue Economy Index (IBEI)
+
+
+
+
+LAMPIRAN 1:
+METODOLOGI IMPUTASI DATA UNTUK KELENGKAPAN INDEKS
+
+1.1. LATAR BELAKANG DAN RASIONAL
+     Penyusunan Indeks Ekonomi Biru Indonesia (IBEI) yang komprehensif menuntut kelengkapan data di seluruh
+indikator dan wilayah cakupan. Dalam siklus pengumpulan data, dapat terjadi tantangan yang menyebabkan
+ketersediaan data tidak merata. Untuk mengatasi kekosongan data tersebut secara objektif, ilmiah, dan dapat
+dipertanggungjawabkan, sebuah metodologi imputasi berbasis pembelajaran mesin (machine learning) diterapkan.
+
+
+     Tujuan dari pendekatan ini adalah untuk mengestimasi nilai-nilai yang tidak tersedia dengan memanfaatkan
+hubungan statistik antara indikator IBEI dan serangkaian variabel proksi sosio-ekonomi yang relevan. Lampiran ini
+menyajikan dokumentasi teknis yang transparan mengenai kerangka kerja, tahapan proses, dan protokol validasi
+yang digunakan untuk memastikan integritas data yang menjadi pondasi perhitungan IBEI.
+
+
+1.2. KERANGKA KONSEPTUAL IMPUTASI
+     Pendekatan imputasi didasarkan pada hipotesis bahwa indikator-indikator makro IBEI memiliki korelasi yang dapat
+diukur dengan variabel-variabel mikro yang dikumpulkan secara rutin melalui survei berskala nasional, seperti Survei
+Sosial Ekonomi Nasional (SUSENAS). Dengan memanfaatkan kekayaan informasi dari data proksi tersebut, model
+prediktif yang andal dapat dibangun untuk setiap indikator IBEI yang memerlukan estimasi.
+
+
+     Strategi imputasi dirancang secara adaptif berdasarkan pola ketersediaan data, yang terbagi menjadi dua skenario
+utama:
+
+
+
+     Skenario 1: Indikator Tidak Tersedia di Seluruh Wilayah
+     Untuk indikator yang datanya tidak tersedia di semua provinsi pada tahun referensi, model dilatih
+     menggunakan data historis yang lengkap dari siklus IBEI sebelumnya sebagai variabel target. Model
+     yang telah terlatih ini kemudian digunakan untuk menghasilkan prediksi untuk seluruh provinsi pada tahun
+     referensi saat ini, dengan menggunakan data proksi dari tahun yang bersesuaian.
+
+
+
+     Skenario 2: Indikator Tidak Tersedia di Sebagian Wilayah
+     Untuk indikator yang datanya tersedia di sebagian provinsi, model dilatih menggunakan gabungan data
+     (hybrid dataset) yang terdiri dari data historis yang lengkap dan data aktual yang tersedia pada tahun
+     referensi. Pendekatan ini bertujuan untuk meningkatkan robustness dan daya generalisasi model. Prediksi
+     kemudian hanya diterapkan pada provinsi-provinsi di mana data tidak tersedia.
+
+
+
+     Kerangka kerja bertingkat ini memastikan bahwa setiap proses estimasi memanfaatkan informasi yang paling
+relevan dan kaya, baik dari tren historis maupun kondisi aktual.
+
+
+
+Kementerian Perencanaan Pembangunan Nasional/Bappenas
+                                                                         Indeks Ekonomi Biru Indonesia 2024
+                                                                           Indonesia Blue Economy Index (IBEI)          65
+
+
+
+1.3 METODOLOGI DAN TAHAPAN PROSES
+    Proses imputasi data dilaksanakan melalui serangkaian tahapan yang terstruktur dan sistematis untuk menjamin
+konsistensi dan keandalan hasil.
+
+
+
+    Persiapan dan Analisis Awal
+    Proses diawali dengan identifikasi sistematis terhadap indikator yang memerlukan imputasi dan
+1
+    pengkategoriannya berdasarkan skenario ketersediaan data. Data target (IBEI) dan data fitur (proksi sosio-
+    ekonomi) kemudian disiapkan dan diselaraskan untuk pemodelan.
+
+
+    Rekayasa Fitur dan Pra-pemrosesan
+    Variabel-variabel proksi yang digunakan sebagai fitur prediktor melalui tahap pra-pemrosesan. Ini mencakup
+2   penanganan nilai yang hilang pada data fitur dan penerapan beberapa strategi standardisasi (penskalaan)
+    untuk mengoptimalkan kinerja model. Pengujian beberapa teknik penskalaan memastikan bahwa kombinasi
+    terbaik dipilih untuk setiap model.
+
+
+    Pemodelan dan Validasi Silang
+    Spektrum luas model statistik dan pembelajaran mesin diuji untuk setiap indikator. Ini mencakup model
+    linear, model berbasis pohon keputusan (tree-based), jaringan saraf tiruan, dan lainnya. Untuk memastikan
+3   objektivitas dan mencegah overfitting (ketika model terlalu sesuai dengan data latih dan tidak dapat
+    digeneralisasi), setiap model divalidasi menggunakan teknik validasi silang (k-fold cross-validation).
+    Teknik ini secara berulang membagi data menjadi set pelatihan dan set validasi, sehingga memberikan
+    estimasi kinerja model yang lebih andal.
+
+
+    Evaluasi dan Seleksi Model
+    Kinerja dari setiap model dievaluasi berdasarkan serangkaian metrik statistik standar, seperti Root Mean
+4
+    Squared Error (RMSE), Mean Absolute Error (MAE), dan R-squared (R). Model-model dengan kinerja terbaik
+    berdasarkan kriteria evaluasi tersebut kemudian diseleksi untuk tahap selanjutnya.
+
+
+    Generasi Prediksi dan Penerapan Batasan
+    Model-model terpilih digunakan untuk menghasilkan nilai prediksi. Untuk meningkatkan stabilitas, teknik
+    prediksi ensemble—yang menggabungkan hasil dari beberapa model terbaik—diterapkan. Langkah krusial
+5
+    berikutnya adalah penerapan batasan domain (domain constraints), di mana hasil prediksi disesuaikan
+    untuk memastikan nilainya tetap logis dan sesuai dengan sifat indikator (misalnya, nilai persentase harus
+    berada di antara 0 dan 100).
+
+
+    Pasca-pemrosesan dan Integrasi
+    Tahap akhir meliputi penggabungan data hasil imputasi dengan data asli yang telah tersedia. Pada tahap
+6   ini pula, variabel-variabel turunan (misalnya, indikator yang memiliki hubungan terbalik) dihitung secara
+    matematis. Hasilnya adalah sebuah set data yang lengkap dan telah diformat sesuai standar untuk
+    diintegrasikan ke dalam kalkulator IBEI.
+
+
+
+
+                                                                       Kementerian Perencanaan Pembangunan Nasional/Bappenas
+          Indeks Ekonomi Biru Indonesia 2024
+66        Indonesia Blue Economy Index (IBEI)
+
+
+
+
+1.4. PROTOKOL VALIDASI DAN JAMINAN KUALITAS
+     Integritas metodologi ini dijaga melalui beberapa protokol jaminan kualitas yang ketat:
+
+
+
+     Reproduktibilitas
+     Seluruh alur kerja dirancang untuk dapat direproduksi sepenuhnya. Penggunaan parameter acak yang
+1
+     terkontrol (fixed seeds) dan lingkungan komputasi yang terdefinisi memastikan bahwa hasil yang sama
+     dapat diperoleh kembali jika proses dijalankan ulang.
+
+
+
+
+     Perlakuan Variabel Turunan
+     Indikator dengan korelasi negatif terhadap tujuan indeks (misalnya, tingkat polusi) diperlakukan secara
+2
+     terpisah. Nilai-nilai ini tidak diprediksi secara langsung oleh model, melainkan dihitung melalui transformasi
+     matematis pada tahap pasca-pemrosesan untuk menjaga konsistensi logis.
+
+
+
+
+     Manajemen Konfigurasi
+3    Seluruh parameter pemodelan dan spesifikasi dikelola secara eksternal, memungkinkan audit dan peninjauan
+     yang transparan tanpa mengubah logika inti dari proses.
+
+
+
+
+     Validasi Objektif
+4    Penggunaan teknik validasi silang dan evaluasi multi-metrik menjadi dasar dari proses seleksi model,
+     memastikan bahwa model yang dipilih terbukti andal secara statistik.
+
+
+
+
+1.5. IMPLIKASI METODOLOGIS
+     Penerapan metodologi imputasi yang terstruktur ini memastikan bahwa setiap kekosongan data ditangani dengan
+pendekatan yang berbasis bukti, objektif, dan transparan. Dengan demikian, metodologi ini tidak hanya berfungsi
+sebagai solusi teknis untuk melengkapi data, tetapi juga sebagai pilar yang memperkuat kredibilitas dan keandalan
+Indeks Ekonomi Biru Indonesia sebagai instrumen kebijakan yang valid dan dapat diandalkan.
+
+
+
+
+Kementerian Perencanaan Pembangunan Nasional/Bappenas
+                                                                                       Indeks Ekonomi Biru Indonesia 2024
+                                                                                         Indonesia Blue Economy Index (IBEI)            67
+
+
+
+LAMPIRAN 2:
+IBEI 2024 BERDASARKAN PROVINSI
+
+A       Sumatera - Normalized
+
+                                        Sumatera Sumatera                   Sumatera                  Kep. Bangka Kepulauan
+    Indeks                     Aceh                         Riau    Jambi            Bengkulu Lampung
+                                          Utara    Barat                     Selatan                    Belitung    Riau
+
+    Indeks subpilar
+    perikanan tangkap dan       3,75      5,20     4,30     2,36    1,28      4,58        3,88       4,15         2,87          1,45
+    budidaya
+
+    Indeks subpilar industri
+                               10,79     24,34     8,08     6,25    1,50      1,49        2,02       5,63         0,00          16,14
+    berbasis kelautan
+
+    Indeks subpilar
+    perdagangan,                8,65     12,25     1,40     11,07   0,03      0,50        0,10       2,69         4,71         111,50
+    transport dan logistik
+
+    Indeks subpilar
+    pariwisata berbasis        28,89     23,16    10,67     15,62   1,30      1,82       11,45       26,55       11,97          20,04
+    kelautan
+
+    Indeks subpilar
+                               190,37    86,76     4,38     3,46    1,38      2,54        1,15       0,46         1,85          64,15
+    teknologi
+
+    Indeks subpilar
+                               84,59     14,67     9,49     1,73    0,00      0,87       21,58       6,04         8,63          0,87
+    tatakelola
+
+    Indeks subpilar
+    kualitas sumber daya       22,27     17,55     4,97     8,31    1,49      6,03       11,11       10,06       10,82          14,69
+    dan konservasi laut
+
+    Indeks subpilar energi
+                                0,00     31,15     8,82     4,23    0,00      2,00        7,17       4,76         0,20          2,13
+    terbarukan
+
+    Indeks subpilar
+                               32,94     29,74    40,01     19,82   8,46     17,67        9,89       15,23       25,35          36,49
+    kesejahteraan
+
+    Indeks subpilar
+                               61,81     42,83    32,04     31,33   24,43    30,50       32,56       46,68       40,83          36,26
+    pendidikan
+
+    Indeks subpilar
+                               69,24     60,35    41,92     50,49   40,41    42,21       51,39       39,07       66,87          59,67
+    kesehatan
+
+    Indeks pilar
+                               37,46     23,05     7,97     9,09    1,04      2,07        8,20       10,81        6,30          38,00
+    ekonomi
+
+    Indeks pilar
+                               17,24     37,69    10,67     9,71    1,15      6,22       14,15       11,48        8,53          13,02
+    lingkungan
+
+    Indeks pilar sosial        64,83     55,11    42,32     44,48   34,10    38,02       43,41       37,64       58,66          54,97
+
+    Indeks Ekonomi Biru
+                               50,37     50,22    25,54     26,43   14,67    19,14       27,77       25,28       30,34          44,60
+    Level Provinsi
+
+
+Notes: normalized factor sebesar 0,6819
+
+
+
+                                                                                     Kementerian Perencanaan Pembangunan Nasional/Bappenas
+
