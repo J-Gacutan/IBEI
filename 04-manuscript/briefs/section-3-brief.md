@@ -105,7 +105,7 @@ index. The only tier-1 material used is process metadata, not weights.
 - **Min–max normalisation.** The IBEI standardises by Z-score at every stage. If §3 contrasts an
   account's absolute physical quantities with the index's relative score, the contrast is with a
   Z-score standardised, PCA-weighted, *province-relative* score, cited to the Juknis and SIRUSA — not
-  to Rinaldi et al. 2024, which builds a different index.
+  to Rinaldi et al. 2025, which builds a different index.
 - **The Z = 0 / mean-substitution collapse.** Absent. The published rule is ML prediction from
   socio-economic proxies (Report pp. 64–66 [pdf 76–78]).
 

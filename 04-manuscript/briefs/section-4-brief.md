@@ -200,7 +200,7 @@ classification of that gap.
 
 ## 8. Withdrawn claims that must not reappear
 
-Mean-substitution / Z = 0 imputation collapse · Rinaldi et al. 2024 as evidence about IBEI aggregation
+Mean-substitution / Z = 0 imputation collapse · Rinaldi et al. 2025 as evidence about IBEI aggregation
 · finding 05's arithmetic-mean characterisation and 5%/95% split · any "36 of 44" language · the v1
 five-class loss typology and sign-inversion headline · any derivability percentage (61 → 39 → 2.8).
 

@@ -194,7 +194,7 @@ matter:
 - **The mean-substitution / Z = 0 imputation collapse.** Absolutely must not appear. The published
   rule is ML prediction from socio-economic proxies (Report pp. 64–66 [pdf 76–78]). Section 6's
   imputation condition is about the **absence of a per-indicator record**, not about the mechanism.
-- **Rinaldi et al. 2024 as evidence about IBEI aggregation.** It builds its own index.
+- **Rinaldi et al. 2025 as evidence about IBEI aggregation.** It builds its own index.
 - **Finding 05's arithmetic-mean characterisation and its 5%/95% split.**
 - **Any "36 of 44" register language.** The register is complete at 44.
 - **The v1 five-class loss typology as a thesis, and the sign-inversion headline.** Section 6 inherits

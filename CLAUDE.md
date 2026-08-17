@@ -46,7 +46,7 @@ re-checked against the primary document before its conclusion is carried into th
 
 **[05-rag/](05-rag/) outranks every deep-research finding.** It is a 199-chunk, folio-located
 extraction over the IBEI's *own published documentation* — the BAPPENAS Juknis (2025), the IBEI
-Report 2024 (Dec 2025 revision), Rinaldi et al. 2024, SIRUSA metadata — plus a complete 44-row
+Report 2024 (Dec 2025 revision), Rinaldi et al. 2025, SIRUSA metadata — plus a complete 44-row
 indicator join table giving each indicator's verbatim `Data Pembentuk Indikator`. Work from the
 per-slice files in [05-rag/rag-parts/](05-rag/rag-parts/), not the 473 KB assembled schema. Cite the
 printed folio with the PDF page in brackets: `p. 94 [pdf 104]`. Quote the Indonesian `content` field;
@@ -60,7 +60,7 @@ Four findings-based claims the corpus **refutes** — do not repeat them:
 2. Imputation is *not* mean substitution. The Report publishes an ML framework predicting missing
    values from socio-economic proxies (pp. 64–66 [pdf 76–78]). Any "Z = 0 variance collapse"
    argument is void.
-3. Rinaldi et al. 2024 is *not* evidence about IBEI aggregation. It builds its own index with
+3. Rinaldi et al. 2025 is *not* evidence about IBEI aggregation. It builds its own index with
    HDI-style min–max/arithmetic/geometric aggregation and uses PCA only against multicollinearity.
 4. The register is complete at **44** indicators. Drop all "36 of 44" language.
 
@@ -79,7 +79,7 @@ argumentative weight.** Any published re-scoring must be recomputed over all 44 
 **Treat 03-outputs as prior work to be corrected, never as a source to cite.** Round 1 of finding 03
 is likewise superseded on mapping and normalisation: its min–max normalisation argument is void,
 because the IBEI applies Z-score standardisation at every stage of a three-stage PCA. Attribute that
-to the Juknis (pp. 63–66 and 93–96 [pdf 73–76, 103–106]), **not** to Rinaldi et al. 2024, which
+to the Juknis (pp. 63–66 and 93–96 [pdf 73–76, 103–106]), **not** to Rinaldi et al. 2025, which
 builds its own separate index and is not evidence about IBEI aggregation.
 
 **What is now verified against the primary source.** The register was extracted directly from Juknis

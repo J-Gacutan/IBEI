@@ -187,7 +187,7 @@ TG circulars, badge and status quoted (read at source, `oa-technical-guidance/sr
   indicator (19–21, 24, 27) sits in Environment under both the four-pillar Tabel 1 and the three-pillar
   Tabel 4/5 loci, so §9's arithmetic is unaffected — say so rather than leaving it implicit.
 - **Withdrawn claims that must appear nowhere in §9:** the mean-substitution / Z = 0 imputation
-  collapse; Rinaldi et al. 2024 as evidence about IBEI aggregation; finding 05's arithmetic-mean
+  collapse; Rinaldi et al. 2025 as evidence about IBEI aggregation; finding 05's arithmetic-mean
   characterisation and its unsourced 5%/95% split, and its verdict framing; any "36 of 44" language;
   the v1 five-class loss typology and sign-inversion headline.
 - **Do not re-litigate §8.** §9 concedes §8's limits in one sentence each and moves on.

@@ -488,7 +488,7 @@ all `citation.type: self`; 44-row `indicator_join_table`; 1 recorded conflict; 3
 Work from the **per-slice files** in [rag-parts/](../05-rag/rag-parts/), not the 473 KB assembled file.
 Page ranges and offsets in [read-plan.json](../05-rag/read-plan.json); raw text in
 [slices/](../05-rag/slices/). Sources: `doc_1` Juknis Pedoman IBEI (BAPPENAS 2025, offset +10) ·
-`doc_2` IBEI Report 2024, December 2025 revision (offset +12) · `doc_3` Rinaldi et al. 2024 (printed =
+`doc_2` IBEI Report 2024, December 2025 revision (offset +12) · `doc_3` Rinaldi et al. 2025 (printed =
 pdf + 1470) · `doc_4` SIRUSA metadata.
 
 | Article § | Part file | Locator | What it supplies |
@@ -502,7 +502,7 @@ pdf + 1470) · `doc_4` SIRUSA metadata.
 | §3, §8 | [juknis-method.json](../05-rag/rag-parts/juknis-method.json) (15) | Juknis pp. 63–66 [pdf 73–76] | Published three-stage PCA; PC1 loading factors as weights; Z-score standardisation before each stage; §2.5.2 on the score as an unbounded principal component with mean ≈ 0 |
 | §8 | [report-method.json](../05-rag/rag-parts/report-method.json) (22) | Report pp. 28–35 [pdf 40–47] | Gambar 3.1.1's full computation flow, including *"reverse indicator values (or drop the indicator) if a negative relation is found"*; the `index / Max(index) × 100` rescale and its conflict with the unbounded-score statement; **§3.1.1, the index's own limitations** — linearity, outliers, cross-sectional weights that "may become irrelevant", regional heterogeneity, and the recommendation to use sensitivity analysis |
 | §5, §7, Table 2 | `indicator_join_table` (44 rows) + [juknis-register.json](../05-rag/rag-parts/juknis-register.json) (49) | Juknis pp. 11–13 [pdf 21–23] | **The join key.** All 44 indicators with verbatim `Data Pembentuk Indikator`. Every mapping row is scored against a constituent data item, never against an indicator name |
-| §7, §8 | [rinaldi-methods.json](../05-rag/rag-parts/rinaldi-methods.json) (15) | Rinaldi et al. 2024, pp. 1477–1487 | An independent Indonesian blue economy index: HDI-style min–max + arithmetic + geometric aggregation; PCA only against multicollinearity before a Bayesian GRDP regression; environmental dimension holds no ecosystem variable. **Not** evidence about IBEI aggregation |
+| §7, §8 | [rinaldi-methods.json](../05-rag/rag-parts/rinaldi-methods.json) (15) | Rinaldi et al. 2025, pp. 1477–1487 | An independent Indonesian blue economy index: HDI-style min–max + arithmetic + geometric aggregation; PCA only against multicollinearity before a Bayesian GRDP regression; environmental dimension holds no ecosystem variable. **Not** evidence about IBEI aggregation |
 | §2, §6 | [cross-slice-conflict.json](../05-rag/rag-parts/cross-slice-conflict.json) (1) | Juknis pp. 11–13 and 93–94 | The four-pillar vs three-pillar conflict, unresolved |
 
 **Five internal conflicts, all preserved, never silently resolved.** (1) Four pillars (Tabel 1, with an

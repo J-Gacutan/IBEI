@@ -187,7 +187,7 @@ does not argue the inversion, which is §7's.
 - No derivability percentage carried forward as argumentative weight (61 → 39 → 2.8 are all artefacts).
 - No mean-substitution / Z = 0 imputation collapse; the published rule is ML prediction from
   socio-economic proxies (Report pp. 64–66 [pdf 76–78]).
-- Rinaldi et al. 2024 is never evidence about IBEI aggregation, and never a normalisation argument.
+- Rinaldi et al. 2025 is never evidence about IBEI aggregation, and never a normalisation argument.
 - No min–max normalisation argument. The IBEI applies Z-score standardisation at every stage.
 - No proposal to replace the index or to subordinate either framework. BAPPENAS plans; MMAF and BPS
   produce statistics.

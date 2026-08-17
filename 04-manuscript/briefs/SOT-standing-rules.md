@@ -140,7 +140,7 @@ labels a 50.0/50.0 tie as High and Low.
 
 - The mean-substitution / Z = 0 imputation collapse. The published rule is ML prediction from
   socio-economic proxies (Report pp. 64–66 [pdf 76–78]).
-- Rinaldi et al. 2024 as evidence about IBEI aggregation. It builds its own index (min–max, arithmetic,
+- Rinaldi et al. 2025 as evidence about IBEI aggregation. It builds its own index (min–max, arithmetic,
   then geometric) and uses PCA only against multicollinearity before a Bayesian regression.
 - Finding 05's arithmetic-mean characterisation of the IBEI, and its unsourced 5%/95% split.
 - Any "36 of 44" register language. The register is complete at 44. A 36 refers only to finding 03

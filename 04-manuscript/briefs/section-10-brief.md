@@ -164,7 +164,7 @@ conclusion to quietly settle the four-versus-three-pillar locus.
 - No derivability percentage (61 → 39 → 2.8) as a headline or a parting figure.
 - No "36 of 44" language; the register is complete at 44.
 - No mean-substitution / Z = 0 imputation collapse.
-- No Rinaldi et al. 2024 as evidence about IBEI aggregation.
+- No Rinaldi et al. 2025 as evidence about IBEI aggregation.
 - No v1 loss typology and no sign-inversion headline.
 
 **Framing boundary (standing rules §7):** statistical infrastructure feeding a policy instrument.

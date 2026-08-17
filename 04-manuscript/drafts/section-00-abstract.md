@@ -3,12 +3,12 @@
 ## Abstract
 
 Indonesia is statutorily obliged to score every province annually on a 44-indicator blue economy
-composite compiled, on its own registration, as sectoral statistics with no primary collection
-(BAPPENAS 2025). Indonesia's ocean accounts (United Nations et al. 2024) are assessed here as
-compilation infrastructure for that index rather than as an alternative indicator source.
+composite compiled, on its own registration, as sectoral statistics with no primary collection.
+Indonesia's ocean accounts are assessed here as compilation infrastructure for that index rather
+than as an alternative indicator source.
 Here, the analysis demonstrates that what accounting offers such an index is a production
 process, being a standing classification, a balancing identity, a re-aggregable spatial basis
-(Rahayu et al. 2024) and a documented revision rule, rather than a stock of substitutable values.
+and a documented revision rule, rather than a stock of substitutable values.
 Reading the register's verbatim constituent data items rather than its indicator names corrects
 prior assessments: three condition indicators ask for the share of provincial area within a stated
 cover band, a tabulation of extent by class rather than the index against reference condition they

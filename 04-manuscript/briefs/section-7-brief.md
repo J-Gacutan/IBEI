@@ -238,7 +238,7 @@ yield)`.
 
 - Mean substitution / "Z = 0 variance collapse". The published rule is ML prediction from
   socio-economic proxies (Report pp. 64–66 [pdf 76–78]).
-- Rinaldi et al. 2024 as evidence about IBEI aggregation.
+- Rinaldi et al. 2025 as evidence about IBEI aggregation.
 - Finding 05's arithmetic-mean characterisation and its 5%/95% split.
 - Any "36 of 44" language. The register is complete at 44.
 - The v1 five-class loss typology and the sign-inversion headline.

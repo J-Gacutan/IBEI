@@ -41,7 +41,7 @@
 > **Minor.** BAPPENAS, Perpres, KKP/MMAF (two names, apparently one ministry), SIRUSA and Juknis are
 > unglossed at first use. Eight paragraphs against a 3–5 norm. The seven-item enumerated contributions
 > list is a computer-science convention; convert to 2–3 prose sentences. Possible citation-year
-> discrepancy: "Rinaldi et al. (2025)" here against "Rinaldi et al. 2024" in the project evidence base
+> discrepancy: "Rinaldi et al. (2025)" here against "Rinaldi et al. 2025" in the project evidence base
 > — resolve against the reference list, which does not yet exist.
 
 > **REVISION 2 ADDENDUM — 2026-08-14. Read this before the body below; where they disagree, this governs.**
@@ -121,7 +121,7 @@ share of the index whose *production* these account types bear on, never as achi
 
 - Mean-substitution / Z = 0 imputation collapse. The published rule is ML prediction from
   socio-economic proxies (Report pp. 64–66 [pdf 76–78]).
-- Rinaldi et al. 2024 as evidence about IBEI aggregation.
+- Rinaldi et al. 2025 as evidence about IBEI aggregation.
 - Finding 05's arithmetic-mean characterisation and its 5%/95% split.
 - Any "36 of 44" register language; the register is complete at 44.
 - The v1 five-class loss typology as a thesis, and the sign-inversion headline.

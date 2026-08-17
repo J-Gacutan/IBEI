@@ -182,7 +182,7 @@ alongside each percentage and record that the tertile is BAPPENAS's simplificati
   prediction from socio-economic proxies. 8.3's argument is about *variance-driven weighting of a
   signed low-variance variable*, which is a different mechanism and must be worded so no reader can
   mistake it for the withdrawn one.
-- **Rinaldi et al. 2024 as evidence about IBEI aggregation.** Forbidden. It builds its own index and
+- **Rinaldi et al. 2025 as evidence about IBEI aggregation.** Forbidden. It builds its own index and
   runs PCA only against multicollinearity, after the index is formed.
 - **Finding 05's arithmetic-mean characterisation and its 5%/95% split.** Forbidden.
 - **The v1 five-class loss typology as a thesis, and the sign-inversion headline.** §8 inherits v1

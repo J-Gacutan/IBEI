@@ -45,10 +45,10 @@ three account types carry the same maturity tag (b), and what separates them is 
 account form rather than the standing of the compilation producing it.
 
 Extent is the only account type with a verified opening, change and closing series. The pilot
-publishes a complete asset account (MMAF, 2022, Table 5, p. 52 [pdf 66]) in which coral falls from
+publishes a complete asset account (MMAF, 2022, tab. 5, p. 52 [pdf 66]) in which coral falls from
 259.50 ha to 247.50 ha, seagrass rises from 76.75 ha to 102.50 ha and mangrove falls from 21.50 ha to
 10.69 ha, with additions and reductions itemised as natural expansion, natural regression and managed
-regression, and with an ecosystem-conversion matrix at Table 6 (p. 53 [pdf 67]). This is the stock and
+regression, and with an ecosystem-conversion matrix at tab. 6 (p. 53 [pdf 67]). This is the stock and
 flow identity in Indonesian practice rather than asserted from the SEEA Ecosystem Accounting standard.
 
 Extent is also where two official series diverge. A BPS presentation reports the same pilot,

@@ -229,7 +229,7 @@ provincial targets above the national 100.00). Conflicts 4 and 5 belong to §4 a
 - **The mean-substitution / Z = 0 imputation collapse.** Absolutely must not appear. The published
   rule is ML prediction from socio-economic proxies. Section 2.2 is the single most likely place in
   the manuscript for this error to re-enter.
-- **Rinaldi et al. 2024 as evidence about IBEI aggregation.** Not cited in this section at all.
+- **Rinaldi et al. 2025 as evidence about IBEI aggregation.** Not cited in this section at all.
 - **Any "36 of 44" language.** The register is complete at 44.
 - Any derivability percentage (61 / 39 / 2.8). None appears in this section.
 
