@@ -8,9 +8,9 @@
     --text-muted:     #6f6d68;
     --grid:           #e1e0d9;
     --axis:           #c3c2b7;
-    --mature:         #2a78d6;  /* (b) demonstrated at pilot scale */
-    --immature:       #eb6834;  /* (c) aspirational, Emerging method only */
-    --flag:           #8a5a00;  /* [EVIDENCE GAP] / [CONTESTED] markers */
+    --mature:         #2a78d6;  /* (b) compiled at pilot scale in Indonesia */
+    --immature:       #eb6834;  /* (c) no compilation at any maturity */
+    --flag:           #8a5a00;  /* verified / caveat markers */
     --flag-bg:        #fbf3e0;
   }
   @media (prefers-color-scheme: dark) {
@@ -63,10 +63,11 @@
     color: var(--text-primary);
   }
   .table-scroll { overflow-x: auto; }
-  table { border-collapse: collapse; width: 100%; min-width: 36rem; font-size: 0.8rem; }
+  table { border-collapse: collapse; width: 100%; min-width: 40rem; font-size: 0.8rem; }
   th, td { text-align: left; padding: 0.4rem 0.6rem; border-bottom: 1px solid var(--grid); vertical-align: top; }
   th { color: var(--text-secondary); font-weight: 600; }
   td.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  td.loc { font-size: 0.94em; color: var(--text-secondary); }
   tr.subtotal td { font-weight: 650; color: var(--text-primary); border-bottom: 2px solid var(--axis); }
   tr.aside td { color: var(--text-muted); }
   .flag {
@@ -78,6 +79,7 @@
     border-radius: 0.2rem;
     white-space: nowrap;
   }
+  .tablenote { margin-top: 0.6rem; font-size: 0.78rem; color: var(--text-muted); }
 
   figcaption {
     margin: 1.4rem 0 0;
@@ -87,287 +89,306 @@
     color: var(--text-secondary);
   }
   figcaption b { color: var(--text-primary); }
+  figcaption p { margin: 0 0 0.7rem; }
   .source { margin-top: 0.6rem; font-size: 0.78rem; color: var(--text-muted); }
 </style>
 
 <figure class="figure">
   <div class="plot-scroll">
-    <svg viewBox="0 0 880 616" role="img" aria-labelledby="figTitle figDesc" preserveAspectRatio="xMidYMid meet">
-      <title id="figTitle">The leverage inversion: share of the IBEI composite borne on, by ocean-account route and compilation maturity</title>
+    <svg viewBox="0 0 880 636" role="img" aria-labelledby="figTitle figDesc" preserveAspectRatio="xMidYMid meet">
+      <title id="figTitle">Share of the IBEI composite borne on, by ocean-account route and compilation maturity in Indonesia, after a primary re-check of the MMAF 2022 reports</title>
       <desc id="figDesc">
-        A grouped horizontal bar chart on a continuous percentage axis. The upper group is the mature
-        route, tag (b), demonstrated at pilot scale: conservation area 4.06 per cent, ecosystem
-        condition 2.32 per cent, rehabilitation 1.25 per cent, ecosystem services in physical units
-        0.00 per cent, and benefit-transferred monetary valuation 0.00 per cent — 7.64 per cent of the
-        composite combined. The two service rows are zero because no variable in the published weight
-        table Tabel 6 is a services measure of either kind; they are shown split because the two are
-        never interchangeable. The route's method warrant is the Applied badge carried by circulars
-        TG-3.1, TG-3.2, TG-1.3, TG-4.8, TG-4.9, TG-6.1, TG-6.2 and TG-6.3, each verified in its own
-        file; that badge describes the method, not any Indonesian compilation, and every account-side
-        maturity statement in this figure is flagged as an evidence gap pending a primary re-check.
-        The lower group is the aspirational route, tag (c), Emerging method only with nothing compiled
-        in Indonesia: the classification-dependent social share 13.70 per cent and the governance
-        sub-pillar 5.15 per cent — 18.9 per cent combined, warranted by TG-3.5 and TG-3.7, both
-        verified as Emerging. The bars in the lower group are the longer ones. The inversion is 18.9
-        per cent against 7.64 per cent, roughly 2.5 times.
+        A grouped horizontal bar chart on a continuous percentage axis. The upper group holds the
+        routes for which an Indonesian account compilation exists at pilot scale, tag (b), verified
+        against the Gili Matra pilot study: conservation area 4.06 per cent, the governance
+        sub-pillar 5.15 per cent, ecosystem condition 2.32 per cent, rehabilitation 1.25 per cent,
+        ecosystem services in physical units 0.00 per cent and benefit-transferred monetary
+        valuation 0.00 per cent — 12.79 per cent of the composite combined. The lower group holds the
+        one route with no Indonesian compilation at any maturity, tag (c): the
+        classification-dependent social share, 13.70 per cent. Governance sits in the upper group
+        because the pilot compiled a governance account, Tables 18 and 19 on printed page 79; the
+        earlier version of this figure placed it in the lower group on a finding that has been
+        withdrawn. The maturity gap is therefore 13.70 per cent against 12.79 per cent, roughly
+        1.1 times, not the 2.5 times previously reported. What separates the routes is not maturity
+        but content: no compiled account produces the constituent data item the register asks for on
+        any of these rows, and the outputs the pilot does produce — monetary supply and use, zone
+        areas, protection expenditure — carry no weight in the index.
       </desc>
 
-      <!-- ================= group (b): mature route ================= -->
+      <!-- ================= group (b): compiled at pilot scale ================= -->
       <g font-family="system-ui, -apple-system, sans-serif">
         <circle cx="26" cy="35" r="7" fill="var(--mature)"/>
-        <text x="42" y="40" font-size="13.5" font-weight="650" fill="var(--text-primary)">(b) demonstrated at pilot scale</text>
-        <text x="272" y="40" font-size="13" fill="var(--text-secondary)">— an account compilation exists in Indonesia</text>
-        <text x="596" y="40" font-size="11.5" font-weight="650" fill="var(--flag)">[EVIDENCE GAP]</text>
-        <text x="860" y="40" font-size="13.5" font-weight="650" text-anchor="end" fill="var(--text-primary)" style="font-variant-numeric: tabular-nums">7.64% combined</text>
+        <text x="42" y="40" font-size="13.5" font-weight="650" fill="var(--text-primary)">(b) compiled at pilot scale</text>
+        <text x="248" y="40" font-size="13" fill="var(--text-secondary)">— an account compilation exists in Indonesia</text>
+        <text x="572" y="40" font-size="11.5" font-weight="650" fill="var(--flag)">[VERIFIED]</text>
+        <text x="860" y="40" font-size="13.5" font-weight="650" text-anchor="end" fill="var(--text-primary)" style="font-variant-numeric: tabular-nums">12.79% combined</text>
       </g>
 
       <g stroke="var(--grid)" stroke-width="1">
-        <line x1="406" y1="52" x2="406" y2="266"/>
-        <line x1="496" y1="52" x2="496" y2="266"/>
-        <line x1="586" y1="52" x2="586" y2="266"/>
-        <line x1="676" y1="52" x2="676" y2="266"/>
-        <line x1="766" y1="52" x2="766" y2="266"/>
+        <line x1="406" y1="52" x2="406" y2="314"/>
+        <line x1="496" y1="52" x2="496" y2="314"/>
+        <line x1="586" y1="52" x2="586" y2="314"/>
+        <line x1="676" y1="52" x2="676" y2="314"/>
+        <line x1="766" y1="52" x2="766" y2="314"/>
       </g>
-      <line x1="316" y1="52" x2="316" y2="266" stroke="var(--axis)" stroke-width="2"/>
+      <line x1="316" y1="52" x2="316" y2="314" stroke="var(--axis)" stroke-width="2"/>
 
       <g font-family="system-ui, -apple-system, sans-serif">
-        <!-- conservation area, 4.06% -->
-        <text x="300" y="71" font-size="13" text-anchor="end" fill="var(--text-primary)">Conservation area</text>
-        <text x="300" y="87" font-size="11.5" text-anchor="end" fill="var(--text-muted)">indicator 27 — TG-1.3, Applied</text>
-        <path d="M316 58 H433.8 Q437.8 58 437.8 62 V80 Q437.8 84 433.8 84 H316 Z" fill="var(--mature)">
-          <title>Conservation area, indicator 27: 4.06% of the composite. Article's own arithmetic, 22.0% of the resource-quality sub-pillar × 18.45%. Method warrant TG-1.3 (badge Applied, status Draft). Indonesian compilation maturity (b) — [EVIDENCE GAP], pending primary re-check.</title>
+        <!-- governance, 5.15% -->
+        <text x="300" y="71" font-size="13" text-anchor="end" fill="var(--text-primary)">Governance sub-pillar</text>
+        <text x="300" y="87" font-size="11.5" text-anchor="end" fill="var(--text-muted)">indicator 18 — TG-3.7, Emerging method</text>
+        <path d="M316 58 H466.5 Q470.5 58 470.5 62 V80 Q470.5 84 466.5 84 H316 Z" fill="var(--mature)">
+          <title>Governance sub-pillar (indicator 18): 5.15% of the composite — sub-pillar 15.8% × economy pillar 32.6%, a single variable, fishing ports with a fish auction place (TPI), at 100.0% of the sub-pillar. Compilation verified at pilot scale: Gili Matra governance account, Table 18 (zone areas with their legal and institutional authority) and Table 19 (protection expenditure IDR 640.5 m; economic value of environmental service), p. 79. Also one of the Roadmap's four priority accounts (§5.5, p. 15). Content mismatch: the account holds zone areas, authorities and expenditure — no count of ports with a TPI. Method warrant TG-3.7, badge Emerging, status Draft: method maturity and compilation maturity now point opposite ways. Follows the three-pillar structure of Tabel 4/5 and Gambar 11; under Tabel 1's four-pillar structure indicator 18 sits in a separate Enabler pillar.</title>
         </path>
-        <text x="447.8" y="76" font-size="13.5" fill="var(--text-primary)" style="font-variant-numeric: tabular-nums">4.06%</text>
+        <text x="480.5" y="76" font-size="13.5" fill="var(--text-primary)" style="font-variant-numeric: tabular-nums">5.15%</text>
+
+        <!-- conservation area, 4.06% -->
+        <text x="300" y="115" font-size="13" text-anchor="end" fill="var(--text-primary)">Conservation area</text>
+        <text x="300" y="131" font-size="11.5" text-anchor="end" fill="var(--text-muted)">indicator 27 — TG-1.3, Applied</text>
+        <path d="M316 102 H433.8 Q437.8 102 437.8 106 V124 Q437.8 128 433.8 128 H316 Z" fill="var(--mature)">
+          <title>Conservation area, indicator 27: 4.06% of the composite. Article's own arithmetic, 22.0% of the resource-quality sub-pillar × 18.45%. Compilation verified at pilot scale: extent account disaggregated by the zoning plan, Table 7, p. 55, and zone areas in the governance account, Table 18, p. 79. Register variable is the provincial total of designated conservation area, which the pilot does not produce. Method warrant TG-1.3, badge Applied, status Draft.</title>
+        </path>
+        <text x="447.8" y="120" font-size="13.5" fill="var(--text-primary)" style="font-variant-numeric: tabular-nums">4.06%</text>
 
         <!-- ecosystem condition, 2.32% -->
-        <text x="300" y="115" font-size="13" text-anchor="end" fill="var(--text-primary)">Ecosystem condition</text>
-        <text x="300" y="131" font-size="11.5" text-anchor="end" fill="var(--text-muted)">indicators 19–21 — TG-4.8, TG-4.9, Applied</text>
-        <path d="M316 102 H381.9 Q385.9 102 385.9 106 V124 Q385.9 128 381.9 128 H316 Z" fill="var(--mature)">
-          <title>Ecosystem condition, indicators 19–21 (coral, seagrass, mangrove): 2.32% of the composite. Article's own arithmetic, 12.6% of the resource-quality sub-pillar × 18.45%. Method warrant TG-4.8 and TG-4.9 (badge Applied, status Draft), with TG-6.1, TG-6.2, TG-6.3. Indonesian compilation is cover-based Tier 1–2, maturity (b) — [EVIDENCE GAP], pending primary re-check.</title>
+        <text x="300" y="159" font-size="13" text-anchor="end" fill="var(--text-primary)">Ecosystem condition</text>
+        <text x="300" y="175" font-size="11.5" text-anchor="end" fill="var(--text-muted)">indicators 19–21 — TG-4.8, TG-4.9, Applied</text>
+        <path d="M316 146 H381.6 Q385.6 146 385.6 150 V168 Q385.6 172 381.6 172 H316 Z" fill="var(--mature)">
+          <title>Ecosystem condition, indicators 19–21 (coral, seagrass, mangrove): 2.32% of the composite. Article's own arithmetic, 12.6% of the resource-quality sub-pillar × 18.45%. Compilation verified at pilot scale: condition account against documented reference levels for 2015 and 2021, Tables 8 and 9, p. 57, with mean substrate cover by zone, Table 3, p. 40. Content mismatch: the pilot reports mean live cover per zone; the register asks for the share of area in a 50–100% live-cover class, per province. Method warrants TG-4.8 and TG-4.9 with TG-6.1, TG-6.2, TG-6.3, all badge Applied, status Draft.</title>
         </path>
-        <text x="395.9" y="120" font-size="13.5" fill="var(--text-primary)" style="font-variant-numeric: tabular-nums">2.32%</text>
+        <text x="395.6" y="164" font-size="13.5" fill="var(--text-primary)" style="font-variant-numeric: tabular-nums">2.32%</text>
 
         <!-- rehabilitation, 1.25% -->
-        <text x="300" y="159" font-size="13" text-anchor="end" fill="var(--text-primary)">Rehabilitation</text>
-        <text x="300" y="175" font-size="11.5" text-anchor="end" fill="var(--text-muted)">indicator 24 — TG-3.1, Applied</text>
-        <path d="M316 146 H349.5 Q353.5 146 353.5 150 V168 Q353.5 172 349.5 172 H316 Z" fill="var(--mature)">
-          <title>Rehabilitation, indicator 24: 1.25% of the composite. Article's own arithmetic, 6.8% of the resource-quality sub-pillar × 18.45%. Method warrant TG-3.1 (badge Applied, status Draft). Indonesian compilation maturity (b) — [EVIDENCE GAP], pending primary re-check.</title>
+        <text x="300" y="203" font-size="13" text-anchor="end" fill="var(--text-primary)">Rehabilitation</text>
+        <text x="300" y="219" font-size="11.5" text-anchor="end" fill="var(--text-muted)">indicator 24 — TG-3.1, Applied</text>
+        <path d="M316 190 H349.5 Q353.5 190 353.5 194 V212 Q353.5 216 349.5 216 H316 Z" fill="var(--mature)">
+          <title>Rehabilitation, indicator 24: 1.25% of the composite. Article's own arithmetic, 6.8% of the resource-quality sub-pillar × 18.45%. Route compiled at pilot scale (asset accounts, extent change 2015–2021), but the pilot records only the area of the rehabilitation zone, 36.93 ha, Table 18, p. 79 — no restored area for mangrove, swamp or peatland, which is what the register asks for. Weakest (b) tag in the figure. Method warrant TG-3.1, badge Applied, status Draft.</title>
         </path>
-        <text x="363.5" y="164" font-size="13.5" fill="var(--text-primary)" style="font-variant-numeric: tabular-nums">1.25%</text>
+        <text x="363.5" y="208" font-size="13.5" fill="var(--text-primary)" style="font-variant-numeric: tabular-nums">1.25%</text>
 
-        <!-- services, split: physical units, 0.00% -->
-        <text x="300" y="199" font-size="13" text-anchor="end" fill="var(--text-primary)">Services in physical units</text>
-        <text x="300" y="215" font-size="11.5" text-anchor="end" fill="var(--text-muted)">SEEA-EA supply–use — TG-3.2, Applied</text>
+        <!-- services in physical units, 0.00% -->
+        <text x="300" y="247" font-size="13" text-anchor="end" fill="var(--text-primary)">Services in physical units</text>
+        <text x="300" y="263" font-size="11.5" text-anchor="end" fill="var(--text-muted)">SEEA-EA supply–use — TG-3.2, Applied</text>
         <g>
-          <title>Ecosystem services in physical units (SEEA-EA supply and use): 0.00% of the composite, because no variable in Tabel 6 is a services measure. Method warrant TG-3.2 (badge Applied, status Draft). Indonesian compilation: none found in the primary documents — [CONTESTED], standing rules §3.0 item 3; the negative claim is the article's own reading and is unsourced beyond it.</title>
-          <text x="326" y="204" font-size="13.5" fill="var(--text-muted)" style="font-variant-numeric: tabular-nums">0.00%</text>
-          <text x="386" y="204" font-size="11.5" fill="var(--text-muted)">no services variable in Tabel 6 [pdf 105–106]; none compiled in Indonesia</text>
-          <text x="386" y="219" font-size="11.5" font-weight="650" fill="var(--flag)">[CONTESTED] — negative claim, article's own reading, no locator</text>
+          <title>Ecosystem services in physical units (SEEA-EA supply and use): 0.00% of the composite, because no variable in Tabel 6 is a services measure. Account side now sourced: the pilot's flows-to-the-economy table is a supply–use table by service class — provisioning, regulating and maintenance, cultural, supporting — but entirely in Rupiah, Table 13, p. 64. Physical-unit supply and use appear only for solid and liquid waste, Tables 14–17, pp. 65–69. Method warrant TG-3.2, badge Applied, status Draft.</title>
+          <text x="326" y="252" font-size="13.5" fill="var(--text-muted)" style="font-variant-numeric: tabular-nums">0.00%</text>
+          <text x="386" y="252" font-size="11.5" fill="var(--text-muted)">no services variable in Tabel 6 [pdf 105–106]; pilot supply–use is monetary only</text>
+          <text x="386" y="267" font-size="11.5" fill="var(--text-muted)">Table 13, p. 64 — physical units compiled for waste alone, Tables 14–17, pp. 65–69</text>
         </g>
 
-        <!-- services, split: benefit-transferred monetary valuation, 0.00% -->
-        <text x="300" y="243" font-size="13" text-anchor="end" fill="var(--text-primary)">Benefit-transferred valuation</text>
-        <text x="300" y="259" font-size="11.5" text-anchor="end" fill="var(--text-muted)">monetary, pilot scale — not exchange value</text>
+        <!-- benefit-transferred monetary valuation, 0.00% -->
+        <text x="300" y="291" font-size="13" text-anchor="end" fill="var(--text-primary)">Benefit-transferred valuation</text>
+        <text x="300" y="307" font-size="11.5" text-anchor="end" fill="var(--text-muted)">monetary, pilot scale — not exchange value</text>
         <g>
-          <title>Benefit-transferred monetary valuation of ecosystem functions (coral values transferred from Bohol and the Marianas): exists at pilot scale, maturity (b), but is not the exchange-value basis SEEA-EA requires and is not services in physical units. 0.00% of the composite, because no variable in Tabel 6 is a monetary-valuation measure. [EVIDENCE GAP] — account-side maturity pending primary re-check.</title>
-          <text x="326" y="248" font-size="13.5" fill="var(--text-muted)" style="font-variant-numeric: tabular-nums">0.00%</text>
-          <text x="386" y="248" font-size="11.5" fill="var(--text-muted)">exists at pilot scale (b); no monetary-valuation variable in Tabel 6</text>
-          <text x="386" y="263" font-size="11.5" font-weight="650" fill="var(--flag)">[EVIDENCE GAP] — pending primary re-check</text>
+          <title>Benefit-transferred monetary valuation of ecosystem functions: verified at pilot scale, maturity (b) — coral values transferred from Bohol (Samonte-Tan et al. 2007), Tables 10–12, pp. 58–59, method pp. 33–36. It is not the exchange-value basis SEEA-EA requires and is not services in physical units. 0.00% of the composite, because no variable in Tabel 6 is a monetary-valuation measure.</title>
+          <text x="326" y="296" font-size="13.5" fill="var(--text-muted)" style="font-variant-numeric: tabular-nums">0.00%</text>
+          <text x="386" y="296" font-size="11.5" fill="var(--text-muted)">verified at pilot scale, Tables 10–12, pp. 58–59; benefit transfer, not exchange value</text>
+          <text x="386" y="311" font-size="11.5" fill="var(--text-muted)">no monetary-valuation variable in Tabel 6</text>
         </g>
       </g>
 
-      <!-- ================= group (c): aspirational route ================= -->
+      <!-- ================= group (c): nothing compiled ================= -->
       <g font-family="system-ui, -apple-system, sans-serif">
-        <rect x="19" y="340" width="14" height="14" transform="rotate(45 26 347)" fill="var(--immature)"/>
-        <text x="42" y="352" font-size="13.5" font-weight="650" fill="var(--text-primary)">(c) aspirational, Emerging method only</text>
-        <text x="322" y="352" font-size="13" fill="var(--text-secondary)">— nothing compiled in Indonesia</text>
-        <text x="560" y="352" font-size="11.5" font-weight="650" fill="var(--flag)">[EVIDENCE GAP]</text>
-        <text x="860" y="352" font-size="13.5" font-weight="650" text-anchor="end" fill="var(--text-primary)" style="font-variant-numeric: tabular-nums">18.9% combined</text>
+        <rect x="19" y="388" width="14" height="14" transform="rotate(45 26 395)" fill="var(--immature)"/>
+        <text x="42" y="400" font-size="13.5" font-weight="650" fill="var(--text-primary)">(c) no compilation at any maturity</text>
+        <text x="288" y="400" font-size="13" fill="var(--text-secondary)">— absent from the Roadmap's four priority accounts</text>
+        <text x="668" y="400" font-size="11.5" font-weight="650" fill="var(--flag)">[VERIFIED]</text>
+        <text x="860" y="400" font-size="13.5" font-weight="650" text-anchor="end" fill="var(--text-primary)" style="font-variant-numeric: tabular-nums">13.70% combined</text>
       </g>
 
       <g stroke="var(--grid)" stroke-width="1">
-        <line x1="406" y1="364" x2="406" y2="450"/>
-        <line x1="496" y1="364" x2="496" y2="450"/>
-        <line x1="586" y1="364" x2="586" y2="450"/>
-        <line x1="676" y1="364" x2="676" y2="450"/>
-        <line x1="766" y1="364" x2="766" y2="450"/>
+        <line x1="406" y1="412" x2="406" y2="458"/>
+        <line x1="496" y1="412" x2="496" y2="458"/>
+        <line x1="586" y1="412" x2="586" y2="458"/>
+        <line x1="676" y1="412" x2="676" y2="458"/>
+        <line x1="766" y1="412" x2="766" y2="458"/>
       </g>
-      <line x1="316" y1="364" x2="316" y2="450" stroke="var(--axis)" stroke-width="2"/>
+      <line x1="316" y1="412" x2="316" y2="458" stroke="var(--axis)" stroke-width="2"/>
 
       <g font-family="system-ui, -apple-system, sans-serif">
-        <!-- social classification-dependent share, 13.70% -->
-        <text x="300" y="381" font-size="13" text-anchor="end" fill="var(--text-primary)">Social, classification-dependent</text>
-        <text x="300" y="397" font-size="11.5" text-anchor="end" fill="var(--text-muted)">welfare, education cuts, health — TG-3.5, Emerging</text>
-        <path d="M316 368 H723 Q727 368 727 372 V390 Q727 394 723 394 H316 Z" fill="var(--immature)">
-          <title>Social, classification-dependent: 13.70% of the composite — welfare 5.55% + education domain-cuts 1.91% + health insurance 6.23%. Adopted convention D2. This is the classification claim; 30.5% is the wider production-bearing reading of the whole social pillar and is not this number. Method warrant TG-3.5 Social Accounts, badge Emerging, status Draft. Nothing compiled in Indonesia above (c) — [EVIDENCE GAP], pending primary re-check.</title>
+        <!-- social, 13.70% -->
+        <text x="300" y="429" font-size="13" text-anchor="end" fill="var(--text-primary)">Social, classification-dependent</text>
+        <text x="300" y="445" font-size="11.5" text-anchor="end" fill="var(--text-muted)">welfare, education cuts, health — TG-3.5, Emerging</text>
+        <path d="M316 416 H723 Q727 416 727 420 V438 Q727 442 723 442 H316 Z" fill="var(--immature)">
+          <title>Social, classification-dependent: 13.70% of the composite — welfare 5.55% + education domain-cuts 1.91% + health insurance 6.23%. Adopted convention D2. This is the classification claim; 30.5% is the wider production-bearing reading of the whole social pillar and is not this number. (c) tag now sourced, not inferred: the Roadmap's priority list names exactly four accounts — extent with condition and value, flows to the economy, flows to the environment, governance (§2.4, p. 4; §4, p. 13) — and the Gili Matra pilot compiles no social account. Method warrant TG-3.5, badge Emerging, status Draft.</title>
         </path>
-        <text x="737" y="386" font-size="13.5" fill="var(--text-primary)" style="font-variant-numeric: tabular-nums">13.70%</text>
-
-        <!-- governance sub-pillar, 5.15% -->
-        <text x="300" y="425" font-size="13" text-anchor="end" fill="var(--text-primary)">Governance sub-pillar</text>
-        <text x="300" y="441" font-size="11.5" text-anchor="end" fill="var(--text-muted)">one variable, ports with TPI — TG-3.7, Emerging</text>
-        <path d="M316 412 H466.5 Q470.5 412 470.5 416 V434 Q470.5 438 466.5 438 H316 Z" fill="var(--immature)">
-          <title>Governance sub-pillar (indicator 18): 5.15% of the composite — sub-pillar 15.8% × economy pillar 32.6%, a single variable, ports with a fish auction place, at 100.0% of the sub-pillar. Follows the three-pillar structure of Tabel 4/5 and Gambar 11; under Tabel 1's four-pillar structure indicator 18 sits in a separate Enabler pillar. Method warrant TG-3.7 Governance Accounts, badge Emerging, status Draft. Nothing compiled in Indonesia above (c) — [EVIDENCE GAP], pending primary re-check.</title>
-        </path>
-        <text x="480.5" y="430" font-size="13.5" fill="var(--text-primary)" style="font-variant-numeric: tabular-nums">5.15%</text>
+        <text x="737" y="434" font-size="13.5" fill="var(--text-primary)" style="font-variant-numeric: tabular-nums">13.70%</text>
       </g>
 
       <!-- ================= x axis ================= -->
-      <line x1="316" y1="456" x2="790" y2="456" stroke="var(--axis)" stroke-width="1.5"/>
+      <line x1="316" y1="464" x2="790" y2="464" stroke="var(--axis)" stroke-width="1.5"/>
       <g font-size="12.5" fill="var(--text-muted)" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" style="font-variant-numeric: tabular-nums">
-        <text x="316" y="476">0%</text>
-        <text x="406" y="476">3%</text>
-        <text x="496" y="476">6%</text>
-        <text x="586" y="476">9%</text>
-        <text x="676" y="476">12%</text>
-        <text x="766" y="476">15%</text>
+        <text x="316" y="484">0%</text>
+        <text x="406" y="484">3%</text>
+        <text x="496" y="484">6%</text>
+        <text x="586" y="484">9%</text>
+        <text x="676" y="484">12%</text>
+        <text x="766" y="484">15%</text>
       </g>
-      <text x="316" y="502" font-size="12.5" fill="var(--text-secondary)" font-family="system-ui, -apple-system, sans-serif">
+      <text x="316" y="510" font-size="12.5" fill="var(--text-secondary)" font-family="system-ui, -apple-system, sans-serif">
         Share of the IBEI composite whose production the account route bears on — continuous axis, 0% to 15%, all marks within the gridded range
       </text>
-      <text x="860" y="528" font-size="13" font-weight="650" text-anchor="end" fill="var(--text-primary)" font-family="system-ui, -apple-system, sans-serif">
-        18.9% against 7.64% — an inversion of roughly 2.5×
+      <text x="860" y="536" font-size="13" font-weight="650" text-anchor="end" fill="var(--text-primary)" font-family="system-ui, -apple-system, sans-serif">
+        13.70% against 12.79% — a maturity gap of roughly 1.1×, not 2.5×
       </text>
 
-      <!-- ================= visible flag block ================= -->
+      <!-- ================= verified-status block ================= -->
       <g font-family="system-ui, -apple-system, sans-serif">
-        <rect x="316" y="546" width="544" height="58" rx="4" fill="var(--flag-bg)" stroke="var(--grid)" stroke-width="1"/>
-        <text x="328" y="566" font-size="11.5" font-weight="650" fill="var(--flag)">[EVIDENCE GAP] — every account-side maturity statement above</text>
-        <text x="328" y="581" font-size="11.5" fill="var(--text-secondary)">Both (b) and (c) tags trace to finding 02, which reasoned from the non-retrievability of the three MMAF 2022</text>
-        <text x="328" y="596" font-size="11.5" fill="var(--text-secondary)">reports. Those reports are present; the tags are held pending a primary re-check. Index-side shares are unaffected.</text>
+        <rect x="316" y="554" width="544" height="72" rx="4" fill="var(--flag-bg)" stroke="var(--grid)" stroke-width="1"/>
+        <text x="328" y="574" font-size="11.5" font-weight="650" fill="var(--flag)">[VERIFIED] — the evidence gap on account-side maturity is closed</text>
+        <text x="328" y="589" font-size="11.5" fill="var(--text-secondary)">Every maturity tag above was re-checked against the three MMAF 2022 reports in 00-background/. Governance moves</text>
+        <text x="328" y="604" font-size="11.5" fill="var(--text-secondary)">from (c) to (b): the Gili Matra pilot compiled a governance account. The services negative claim now carries a locator.</text>
+        <text x="328" y="619" font-size="11.5" fill="var(--text-secondary)">No compiled account on any row produces the register's own constituent data item. Index-side shares unchanged.</text>
       </g>
     </svg>
   </div>
 
   <div class="table-block">
-    <h2>Table 3a. Every value in Figure 2, its locator, and its method warrant.</h2>
+    <h2>Table 3a. Every value in Figure 2, with its locator and its status after the primary re-check.</h2>
     <div class="table-scroll">
       <table>
         <thead>
-          <tr><th>Account route and component</th><th class="num">Share of composite</th><th>Provenance, method warrant, and flags</th></tr>
+          <tr>
+            <th>Account route and component</th>
+            <th class="num">Share</th>
+            <th>Index-side locator</th>
+            <th>Compilation in Indonesia, and what the account actually holds</th>
+          </tr>
         </thead>
         <tbody>
           <tr>
-            <td>Conservation area (indicator 27) — 22.0% of the resource-quality sub-pillar</td>
+            <td>Governance sub-pillar (ind. 18) — one variable, ports with a TPI, at 100.0% of the sub-pillar</td>
+            <td class="num">5.15%</td>
+            <td class="loc">15.8% × 32.6%, own arithmetic. Gambar 11 legend F, p. 93 [pdf 103]; Tabel 4–5, p. 94 [pdf 104]; Tabel 6, p. 95 [pdf 105]</td>
+            <td><b>(b), reclassified from (c).</b> Governance account compiled at Gili Matra: zone areas with legal and institutional authority (Table 18) and protection expenditure IDR 640.5 m with economic value of environmental service (Table 19), p. 79; a Roadmap priority account, §5.5, p. 15. Holds zone areas, authorities, expenditure — <b>no count of ports with a TPI.</b> TG-3.7, badge Emerging: method and compilation maturity now point opposite ways</td>
+          </tr>
+          <tr>
+            <td>Conservation area (ind. 27) — 22.0% of the resource-quality sub-pillar</td>
             <td class="num">4.06%</td>
-            <td>Article's own arithmetic: 22.0% × 18.45%. Variable weight Tabel 6, pp. 95–96 [pdf 105–106]. Method warrant TG-1.3 <i>OA and Marine Spatial Management (including MPAs)</i>, <b>badge Applied, status Draft</b>, verified in the circular's own front matter. <span class="flag">[EVIDENCE GAP]</span> on the Indonesian (b) tag</td>
+            <td class="loc">22.0% × 18.45%, own arithmetic. Tabel 6, pp. 95–96 [pdf 105–106]</td>
+            <td><b>(b), confirmed.</b> Extent account by zoning plan, Table 7, p. 55; zone areas, Table 18, p. 79. Register asks for the provincial total of designated conservation area, which the pilot does not produce. TG-1.3, badge Applied</td>
           </tr>
           <tr>
-            <td>Ecosystem condition (indicators 19–21) — coral 3.7% + seagrass 8.6% + mangrove 0.3% of the resource-quality sub-pillar</td>
+            <td>Ecosystem condition (ind. 19–21) — coral 3.7% + seagrass 8.6% + mangrove 0.3%</td>
             <td class="num">2.32%</td>
-            <td>Article's own arithmetic: 12.6% × 18.45%. Variable weights Tabel 6, pp. 95–96 [pdf 105–106]. Method warrant TG-4.8 <i>Physical Condition Measurement</i> and TG-4.9 <i>Biological Condition Measurement</i>, with TG-6.1 <i>Coral Reef</i>, TG-6.2 <i>Coastal Wetland and Seagrass</i>, TG-6.3 <i>Seagrass</i> — all <b>badge Applied, status Draft</b>, each verified in its own front matter. Indonesian compilation is cover-based Tier 1–2 against documented reference levels, not a multi-indicator composite. <span class="flag">[EVIDENCE GAP]</span> on the (b) tag</td>
+            <td class="loc">12.6% × 18.45%, own arithmetic. Tabel 6, pp. 95–96 [pdf 105–106]</td>
+            <td><b>(b), confirmed and upgraded in description.</b> Multi-variable condition account against documented reference levels, 2015 and 2021, Tables 8–9, p. 57, with mean substrate cover by zone, Table 3, p. 40 — <i>not</i> the cover-only Tier 1–2 compilation previously described. Register asks for the share of area in a 50–100% cover class, per province; the pilot reports mean cover per zone. TG-4.8, TG-4.9 with TG-6.1–6.3, badge Applied</td>
           </tr>
           <tr>
-            <td>Rehabilitation (indicator 24) — 6.8% of the resource-quality sub-pillar</td>
+            <td>Rehabilitation (ind. 24) — 6.8% of the resource-quality sub-pillar</td>
             <td class="num">1.25%</td>
-            <td>Article's own arithmetic: 6.8% × 18.45%. Variable weight Tabel 6, pp. 95–96 [pdf 105–106]. Method warrant TG-3.1 <i>Asset Accounts</i>, <b>badge Applied, status Draft</b>, verified. <span class="flag">[EVIDENCE GAP]</span> on the (b) tag</td>
+            <td class="loc">6.8% × 18.45%, own arithmetic. Tabel 6, pp. 95–96 [pdf 105–106]</td>
+            <td><b>(b) on the route only — weakest tag here.</b> Asset accounts and extent change are compiled, but the pilot records only rehabilitation-<i>zone</i> area, 36.93 ha, Table 18, p. 79. No restored area for mangrove, swamp or peatland, which is the register's variable. TG-3.1, badge Applied</td>
           </tr>
           <tr>
             <td>Ecosystem <b>services in physical units</b> — SEEA-EA supply and use</td>
             <td class="num">0.00%</td>
-            <td>Index side: article's own reading of the published weight table — no variable in Tabel 6 is a services measure, pp. 95–96 [pdf 105–106]. Account side: <b>none compiled in Indonesia.</b> That is a negative claim with <b>no locator</b> — it rests on the §4 agent's read of the primary MMAF and BPS documents in 00-background/ and is <span class="flag">[CONTESTED]</span> per standing rules §3.0 item 3, not settled fact. Method warrant TG-3.2 <i>Flows from Environment to Economy</i>, <b>badge Applied, status Draft</b>, verified</td>
+            <td class="loc">No services variable in Tabel 6, pp. 95–96 [pdf 105–106]</td>
+            <td><b>Not compiled — negative claim now sourced,</b> and no longer contested. The pilot's flows-to-the-economy table is a supply–use table by service class but entirely in Rupiah, Table 13, p. 64; physical units appear only for solid and liquid waste, Tables 14–17, pp. 65–69. TG-3.2, badge Applied</td>
           </tr>
           <tr>
             <td><b>Benefit-transferred monetary valuation</b> of ecosystem functions — the thing that does exist</td>
             <td class="num">0.00%</td>
-            <td>Index side: no monetary-valuation variable in Tabel 6, pp. 95–96 [pdf 105–106], so it carries no weight either. Account side: pilot-scale valuation exists, maturity <b>(b)</b> — coral values transferred from Bohol and the Marianas — but benefit transfer is <b>not the exchange-value basis SEEA-EA requires</b> and is <b>not</b> services in physical units. The two rows are never interchangeable and the bare word "services" is not used for both. <span class="flag">[EVIDENCE GAP]</span> pending primary re-check</td>
+            <td class="loc">No monetary-valuation variable in Tabel 6, pp. 95–96 [pdf 105–106]</td>
+            <td><b>(b), confirmed with locators.</b> Coral, seagrass and mangrove values transferred from Bohol (Samonte-Tan et al. 2007) and comparators, Tables 10–12, pp. 58–59; method pp. 33–36. Benefit transfer is <b>not</b> the exchange-value basis SEEA-EA requires and is <b>not</b> services in physical units; the two rows are never interchangeable</td>
           </tr>
           <tr class="subtotal">
-            <td>(b) mature route — the Tier A five (indicators 19, 20, 21, 24, 27), demonstrated at pilot scale</td>
-            <td class="num">7.64%</td>
-            <td>Sum of the rows above; the two service rows contribute 0.00%. Adopted convention D1</td>
+            <td>(b) compiled at pilot scale</td>
+            <td class="num">12.79%</td>
+            <td class="loc">Sum of the six rows above</td>
+            <td>Was 7.64% before governance was reclassified. Adopted convention D1</td>
           </tr>
           <tr>
-            <td>Social, classification-dependent (welfare 5.55% + education domain-cuts 1.91% + health insurance 6.23%)</td>
+            <td>Social, classification-dependent (welfare 5.55% + education cuts 1.91% + health 6.23%)</td>
             <td class="num">13.70%</td>
-            <td>Article's own arithmetic over the verbatim constituent data items. Adopted convention D2. Social pillar weight 30.5%, Tabel 4, p. 94 [pdf 104]; register rows Tabel 1, pp. 11–13 [pdf 21–23]. <b>30.5% is the wider production-bearing reading of the whole pillar, not this classification claim.</b> Method warrant TG-3.5 <i>Social Accounts</i>, <b>badge Emerging, status Draft</b>, verified. <span class="flag">[EVIDENCE GAP]</span> on the (c) tag</td>
-          </tr>
-          <tr>
-            <td>Governance sub-pillar (indicator 18) — one variable, ports with a fish auction place, at 100.0% of the sub-pillar</td>
-            <td class="num">5.15%</td>
-            <td>Article's own arithmetic: sub-pillar 15.8% × economy pillar 32.6%. Gambar 11 legend item F, p. 93 [pdf 103]; Tabel 4 and Tabel 5, p. 94 [pdf 104]; single variable at 100.0%, Tabel 6, p. 95 [pdf 105]. Method warrant TG-3.7 <i>Governance Accounts</i>, <b>badge Emerging, status Draft</b>, verified. <span class="flag">[EVIDENCE GAP]</span> on the (c) tag</td>
+            <td class="loc">Own arithmetic over verbatim constituent data. Social pillar 30.5%, Tabel 4, p. 94 [pdf 104]; register Tabel 1, pp. 11–13 [pdf 21–23]</td>
+            <td><b>(c), confirmed with a locator.</b> The Roadmap names exactly four priority accounts — extent with condition and value, flows to the economy, flows to the environment, governance (§2.4, p. 4; §4, p. 13); no social account there or in the pilot. TG-3.5, badge Emerging. Adopted convention D2; <b>30.5% is the wider whole-pillar reading, not this claim</b></td>
           </tr>
           <tr class="subtotal">
-            <td>(c) aspirational route — Emerging method only</td>
-            <td class="num">18.85%</td>
-            <td>Sum of the two rows above; ≈18.9%. Adopted convention D2 plus governance</td>
+            <td>(c) no compilation at any maturity</td>
+            <td class="num">13.70%</td>
+            <td class="loc">Single row</td>
+            <td>Was 18.85% before governance was reclassified</td>
           </tr>
           <tr class="aside">
-            <td>Waste flows (indicators 25–26) — reported separately, <b>not</b> folded into the 7.64%</td>
+            <td>Waste flows (ind. 25–26) — reported separately, <b>not</b> folded into the subtotal</td>
             <td class="num">≈3.5%</td>
-            <td>Article's own arithmetic over Tabel 6 variable weights, pp. 95–96 [pdf 105–106]. Held out of the headline per adopted convention D1; the wider "account-addressable ≈11.2%" reading is named once in the text as the wider reading and is never the headline</td>
+            <td class="loc">Own arithmetic over Tabel 6, pp. 95–96 [pdf 105–106]</td>
+            <td>Held out per convention D1. The pilot's waste accounts <i>are</i> in physical units, Tables 14–17, pp. 65–69 — the one route where account output and register unit agree</td>
           </tr>
           <tr class="aside">
-            <td>Resource-quality sub-pillar (the parent of the first five rows)</td>
+            <td>Resource-quality sub-pillar (parent of four rows above)</td>
             <td class="num">18.45%</td>
-            <td>Article's own arithmetic: environment pillar 36.9% (Tabel 4, p. 94 [pdf 104]) × si_enviro_s1 50.0% (Tabel 5, p. 94 [pdf 104])</td>
+            <td class="loc">36.9% × 50.0%, own arithmetic. Tabel 4 and Tabel 5, p. 94 [pdf 104]</td>
+            <td>—</td>
           </tr>
           <tr class="aside">
-            <td>Independent corroboration — 10% sensitivity shock, resource quality against coral condition</td>
+            <td>Independent corroboration — 10% shock, resource quality against coral condition</td>
             <td class="num">+4.50 / +0.41</td>
-            <td>Published. Tabel 7, pp. 101–104 [pdf 111–114]</td>
+            <td class="loc">Published. Tabel 7, pp. 101–104 [pdf 111–114]</td>
+            <td>—</td>
           </tr>
         </tbody>
       </table>
     </div>
+    <p class="tablenote">
+      Printed pages in the fourth column are Gili Matra pilot-study pages unless another document is
+      named. Figures marked <i>own arithmetic</i> are products of published percentages; whether the
+      Tabel 4–6 percentages are raw PC1 loadings or normalised contributions is not stated in the
+      source, and that caveat travels with every derived figure. Maturity tags: (a) published official
+      statistics · (b) experimental or pilot compilation · (c) methodology under development ·
+      (d) announced but not started.
+    </p>
   </div>
 
   <figcaption>
-    <b>Figure 2. The leverage inversion.</b> Ocean-account routes plotted by the share of
-    the Indonesia Blue Economy Index composite whose production they would bear on, grouped by
-    compilation maturity in Indonesia. The <b>mature route</b> — the Tier A five, indicators 19, 20, 21,
-    24 and 27 — bears on <b>7.64%</b> of the composite: conservation area 4.06%, ecosystem condition
-    2.32%, rehabilitation 1.25%, ecosystem services in physical units 0.00% and benefit-transferred
-    monetary valuation 0.00%, since no variable in Tabel 6 is a services measure of either kind. Its
-    method warrant is not asserted but named: <b>TG-3.1</b> <i>Asset Accounts</i>, <b>TG-3.2</b>
-    <i>Flows from Environment to Economy</i>, <b>TG-1.3</b> <i>OA and Marine Spatial Management
-    (including MPAs)</i>, <b>TG-4.8</b> <i>Physical Condition Measurement</i>, <b>TG-4.9</b>
-    <i>Biological Condition Measurement</i>, <b>TG-6.1</b> <i>Coral Reef</i>, <b>TG-6.2</b>
-    <i>Coastal Wetland and Seagrass</i> and <b>TG-6.3</b> <i>Seagrass</i> — each carrying
-    <b>badge: Applied, status: Draft</b> in its own front matter, verified circular by circular. That
-    badge describes <b>the maturity of the method, not of any Indonesian compilation</b>; the two are
-    distinct claims and only the first is sourced here. The <b>aspirational route</b> — where nothing is
-    compiled in Indonesia at any maturity above (c) — bears on <b>≈18.9%</b>: the
-    classification-dependent social share 13.70%, whose computation requires a fisheries-sector domain
-    cut, and the governance sub-pillar 5.15%, a single variable. Their circulars, <b>TG-3.5</b>
-    <i>Social Accounts</i> and <b>TG-3.7</b> <i>Governance Accounts</i>, both carry
-    <b>badge: Emerging, status: Draft</b> and say so themselves. The inversion is <b>18.9% against
-    7.64%, roughly 2.5×</b>.
-    <b>Read these shares as production coverage, not as attainable score gain.</b> They are the share of
-    the composite whose <i>production</i> these routes would bear on, not an improvement of 18.9% or
-    7.64% in the index. The social indicators are and stay BPS outputs; the account contribution there is
-    a classification standard and a compilation architecture, not a substitute data source. The 13.70%
-    is the classification-dependent share; <b>30.5%</b> appears nowhere as that claim and is used only
-    where the whole social pillar is named as the wider production-bearing reading.
-    <b>Two flags carried in the plot itself.</b> First, <span class="flag">[EVIDENCE GAP]</span> on every
-    account-side maturity statement, both the (b) and the (c) tags: they trace to finding 02, which
-    reasoned from the non-retrievability of the three MMAF 2022 reports, and those reports are present in
-    00-background/. The tags stand pending a primary re-check; the index-side shares, which come from the
-    Juknis directly, are unaffected. Second, <span class="flag">[CONTESTED]</span> on the services split.
-    Standing rules §3.0 item 3 marks the bare word <i>services</i> as overstating what exists, so the row
-    is split: <b>services in physical units</b> (SEEA-EA supply and use) are <b>not compiled in
-    Indonesia</b>, a negative claim carrying <b>no locator</b> and resting only on a read of the primary
-    documents, while <b>benefit-transferred monetary valuation</b> does exist at pilot scale, maturity
-    <b>(b)</b>, with coral values transferred from Bohol and the Marianas — and benefit transfer is not
-    the exchange-value basis SEEA-EA requires. Neither is given weight by the index.
-    Maturity tags: <b>(a)</b> published official statistics · <b>(b)</b> experimental or pilot
-    compilation · <b>(c)</b> methodology under development · <b>(d)</b> announced but not started.
-    Values marked as the article's own arithmetic are products of published percentages; whether the
-    Tabel 4–6 percentages are raw PC1 loadings or normalised contributions is <b>not stated in the
-    source</b>, and that caveat travels with every derived figure here. The governance row follows the
-    <b>three-pillar</b> structure of Tabel 4/5 and Gambar 11; under Tabel 1's four-pillar structure
-    indicator 18 sits in a separate <i>Enabler</i> pillar instead, so this one row moves with the choice
-    of table. Both structures are printed in the same handbook and are not reconciled here. Every Tier A
-    indicator (19–21, 24, 27) sits in Environment under both loci, so the mature-route arithmetic is
-    unaffected.
+    <p>
+      <b>Figure 2. The leverage inversion, after a primary re-check.</b> Ocean-account routes plotted by
+      the share of the IBEI composite whose production they would bear on, grouped by whether an account
+      compilation exists in Indonesia. <b>12.79%</b> sits on routes compiled at pilot scale — governance
+      5.15%, conservation area 4.06%, ecosystem condition 2.32%, rehabilitation 1.25%, and the two
+      zero-weight service rows — against <b>13.70%</b> on the one route with no compilation at any
+      maturity, the classification-dependent social share.
+    </p>
+    <p>
+      <b>The maturity gap is now 1.1×, not the 2.5× previously reported.</b> The earlier version placed
+      the governance sub-pillar in group (c) on finding 02, which reasoned from the non-retrievability of
+      the three MMAF 2022 reports. Those reports are present, and the Gili Matra pilot compiles a
+      governance account: zone areas with their legal and institutional authority, and environmental
+      protection expenditure against the economic value of environmental service (Tables 18–19, p. 79).
+      Governance is also one of the Roadmap's four priority accounts (§5.5, p. 15). Compilation maturity
+      therefore no longer separates the routes.
+    </p>
+    <p>
+      <b>What does separate them is content.</b> On every row in group (b), the compiled account fails to
+      produce the constituent data item the register asks for: the pilot reports mean live coral cover by
+      zone, not the share of area in a 50–100% cover class; rehabilitation-<i>zone</i> area, not restored
+      area; zone areas and authorities, not a count of fishing ports with a fish auction place. Conversely,
+      what the pilot does produce — a monetary supply–use table, benefit-transferred valuations, protection
+      expenditure — carries <b>0.00%</b> weight, because no variable in Tabel 6 is a services or valuation
+      measure. Method warrants are named, not asserted: TG-3.1, TG-3.2, TG-1.3, TG-4.8, TG-4.9 and
+      TG-6.1–6.3 carry <b>badge Applied, status Draft</b>; TG-3.5 and TG-3.7 carry <b>badge Emerging</b>.
+      Governance now shows those two axes diverging — an Emerging method with a pilot compilation behind it.
+    </p>
+    <p>
+      <b>Read these shares as production coverage, not attainable score gain,</b> and note two carried
+      caveats. The social indicators are and stay BPS outputs; the account contribution there is a
+      classification standard and a compilation architecture, not a substitute data source, and 13.70% is
+      the classification-dependent share, never 30.5%. The governance row follows the <b>three-pillar</b>
+      structure of Tabel 4/5 and Gambar 11; under Tabel 1's four-pillar structure indicator 18 sits in a
+      separate <i>Enabler</i> pillar, so this row — now the largest in group (b) — moves with the choice of
+      table. Both structures are printed in the same handbook and are not reconciled here. Every other
+      group (b) indicator (19–21, 24, 27) sits in Environment under both loci.
+    </p>
     <div class="source">
-      Sources: Juknis Pedoman IBEI (BAPPENAS 2025) — Tabel 1, pp. 11–13 [pdf 21–23]; Gambar 11 and its
-      sub-pillar legend, p. 93 [pdf 103]; Tabel 4 and Tabel 5, p. 94 [pdf 104]; Tabel 6, pp. 95–96
-      [pdf 105–106]; Tabel 7, pp. 101–104 [pdf 111–114]. Circular badges and statuses read from the YAML
-      front matter of each named file in the GOAP technical-guidance corpus,
-      <code>src/circulars/</code>. Maturity statements for Indonesian ocean-account outputs are the
-      article's own, per its maturity-tagging rule, and are flagged accordingly. Shares follow adopted
-      conventions D1 and D2, SOT standing rules &sect;4.1.
+      Sources, index side: Juknis Pedoman IBEI (BAPPENAS 2025) — Tabel 1, pp. 11–13 [pdf 21–23]; Gambar 11,
+      p. 93 [pdf 103]; Tabel 4–5, p. 94 [pdf 104]; Tabel 6, pp. 95–96 [pdf 105–106]; Tabel 7, pp. 101–104
+      [pdf 111–114]. Account side: MMAF (2022) <i>Ocean Accounts of Indonesia: Gili Matra Pilot Study</i>,
+      Tables 3, 7–19, pp. 40–79; MMAF (2022) <i>Roadmap for the Preparation of Indonesia Ocean Accounts</i>,
+      §2.4 p. 4, §4 p. 13, §5.5 p. 15; corroborated by BPS (2023) SEEA Manila presentations. Circular badges
+      and statuses read from the YAML front matter of each named file in the GOAP technical-guidance corpus,
+      <code>src/circulars/</code>. Shares follow adopted conventions D1 and D2, SOT standing rules
+      &sect;4.1.
     </div>
   </figcaption>
 </figure>
