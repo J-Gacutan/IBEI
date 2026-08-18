@@ -496,12 +496,17 @@ rather than exact. Every account-side entry is maturity tag (b), demonstrated at
 ## 4.3 Extension routes, and what separates them
 
 What separates the account routes into and out of reach is content, not compilation maturity. The
-routes with a pilot-scale Indonesian compilation bear on 12.79% of the composite. The one route with
-no Indonesian compilation at any maturity, the classification-dependent social share, bears on 13.70%.
-That is a difference of 1.07 times, and it is not the finding. The finding is that no compiled
-account produces the constituent data item the register asks for at any of these rows, and that the
-outputs the pilot does produce — monetary supply and use, zone areas, protection expenditure — carry no
-weight in the index at all (Figure 4). The arithmetic below follows the three-pillar locus declared at
+routes with a pilot-scale Indonesian compilation bear on 12.79% of the composite. That total is not
+independent of Section 4.2: it is the Tier A five at 7.64% plus the governance sub-pillar at 5.15%,
+the latter being 15.8% of the economy pillar on Tabel 5 and confirmed by Gambar 11 at 5% (pp. 93–94
+[pdf 103–104]). It wholly contains the earlier figure, and only 2.33 of its 12.79 points are rows at
+which an account is the prospective supply route. The remaining 10.46 are rows the mapping has itself
+disqualified — 1.25 at indicator 24, 4.06 at indicator 27, and the whole 5.15 at governance. The one
+route with no Indonesian compilation at any maturity, the classification-dependent social share, bears
+on 13.70%. The two are of comparable size, and the comparison is not the finding. The finding is that
+no compiled account produces the constituent data item the register asks for at any of these rows, and
+that the outputs the pilot does produce — monetary supply and use, zone areas, protection expenditure —
+carry no weight in the index at all (Figure 4). The arithmetic below follows the three-pillar locus declared at
 Section 2.3, so every tourism, technology and governance figure carries that locus with it.
 
 **Tier B adds no quantity the register lacks.** Four economy sub-pillars carry about 26.1% of the
@@ -534,25 +539,18 @@ available immediately, a presentation choice rather than a data gap.
 **The social pillar carries the largest account-relevant share, and nothing above methodology under
 development has been compiled anywhere.** Seven of the thirteen social indicators require a
 reproducible definition of the population working in the fisheries sector as a survey domain. Five are
-ratios of a fisheries-sector population to a provincial total: indicator 32 divides *Jumlah penduduk
-bekerja di sektor perikanan yang menerima PKH per provinsi* by the provincial total receiving that
-transfer, and indicators 37, 42, 43 and 44 repeat the construction for health insurance,
-upper-secondary schooling, certification and the Program Indonesia Pintar (Juknis, Tabel 1, p. 13 [pdf
-23]). Two more presuppose the same identification: indicator 34 is a headcount of *nelayan dan
-pembudidaya ikan*, and indicator 33 counts *pekerja perempuan di sektor perikanan*, which requires that
-population sex-disaggregated. None is computable without the domain joined to SUSENAS, SAKERNAS and
+ratios of a fisheries-sector population to a provincial total, of which indicator 32 is typical: it
+divides *Jumlah penduduk bekerja di sektor perikanan yang menerima PKH per provinsi* by the provincial
+total receiving that transfer (Juknis, Tabel 1, p. 13 [pdf 23]). Two more presuppose the same
+identification as headcounts. None is computable without the domain joined to SUSENAS, SAKERNAS and
 poverty statistics. That is a classification deliverable, not a survey deliverable.
 
 The share is about 13.7% of the composite, decomposed row by row in Supplementary S4 so that a reader
-may reject a row rather than the total. Coastal poverty at about 0.33% is the one row where the
-handbook disagrees with itself, Tabel 1 building indicator 38 from a spatial domain and Tabel 6 from a
-sectoral one (p. 96 [pdf 106]); the figure is held outside the 13.7% on the Tabel 1 wording, and the
-Tabel 6 wording would take the total to about 14.0%. The 13.7% is the classification-standard claim,
-whilst the pillar's published 30.5% is the wider claim that an ocean social account's structure
-corresponds to the production of the whole pillar. The two are not interchangeable. Which indicators
-require an ocean-sector domain is this study's reading of the verbatim constituent data items and is
-stated in no source `[ASSUMPTION]`, and no Indonesian ocean-sector employment classification, ISIC or
-KBLI concordance, or ocean-economy satellite boundary has been located `[EVIDENCE GAP]`.
+may reject a row rather than the total, where the 0.33% coastal-poverty row is also shown to turn on
+which of two conflicting handbook wordings is followed. Which indicators require an ocean-sector domain
+is this study's reading of the verbatim constituent data items and is stated in no source
+`[ASSUMPTION]`, and no Indonesian ocean-sector employment classification, ISIC or KBLI concordance, or
+ocean-economy satellite boundary has been located `[EVIDENCE GAP]`.
 
 The maturity qualification belongs in the same breath as the share. Ocean employment and human capital
 appear in the specified sequence of national ocean accounts as a component to be built (IDEEA Group,
@@ -1372,6 +1370,14 @@ reading of the verbatim constituent data items and is stated in no source.
 | Coastal poverty | 38 | ~0.33% | No on the Tabel 1 wording, yes on the Tabel 6 wording |
 | Pillar total | | 30.5% | ~13.7% domain-dependent, or ~14.0% on the Tabel 6 wording of indicator 38 |
 
+Indicators 37, 42, 43 and 44 repeat indicator 32's construction for health insurance,
+upper-secondary schooling, certification and the Program Indonesia Pintar; indicator 34 is a headcount
+of *nelayan dan pembudidaya ikan* and indicator 33 counts *pekerja perempuan di sektor perikanan*,
+which requires that population sex-disaggregated (Juknis, Tabel 1, p. 13 [pdf 23]). Coastal poverty at
+about 0.33% is the one row where the handbook disagrees with itself, Tabel 1 building indicator 38
+from a spatial domain and Tabel 6 from a sectoral one (p. 96 [pdf 106]); the figure is held outside the
+13.7% on the Tabel 1 wording, and the Tabel 6 wording would take the total to about 14.0%.
+
 The components sum, to rounding, to the pillar's published 30.5%. The 13.7% is the
 classification-standard claim; the 30.5% is the wider claim that an ocean social account's structure
 corresponds to the production of the whole pillar. The two are not interchangeable, and the wider
@@ -1382,8 +1388,10 @@ reading may be used only where it is named as the wider reading.
 Four economy sub-pillars carry (15.2 + 23.6 + 19.3 + 22.1)% of the economy pillar, or 80.2% of it. At
 32.6% for the pillar this gives about 26.1% of the composite, which Gambar 11's integers confirm at
 5 + 8 + 6 + 7 = 26 (Juknis, Tabel 5 and Gambar 11, pp. 93–94 [pdf 103–104]). The pillar's remaining
-weight is the governance sub-pillar at 15.8% and the technology sub-pillar at about 4.11%, so the six
-sub-pillars close the pillar to 100.11% on the printed one-decimal weights.
+weight is the governance sub-pillar at 15.8% and the technology sub-pillar at 4.1%, both printed at
+Tabel 5, so the six printed sub-pillars close the pillar to 100.1% on the one-decimal weights. Note
+that 4.1% here is a share of the economy pillar, worth about 1.34% of the composite; the 4.11% below
+is a share of the composite and denotes a different quantity.
 
 Sub-pillar A carries 15.2% of the economy pillar and therefore about 4.96% of the composite. It is
 83.0% aquaculture by published weight — 27.3% aquaculture production, 26.3% brackish-water pond area

@@ -17,6 +17,14 @@ reading of the verbatim constituent data items and is stated in no source.
 | Coastal poverty | 38 | ~0.33% | No on the Tabel 1 wording, yes on the Tabel 6 wording |
 | Pillar total | | 30.5% | ~13.7% domain-dependent, or ~14.0% on the Tabel 6 wording of indicator 38 |
 
+Indicators 37, 42, 43 and 44 repeat indicator 32's construction for health insurance,
+upper-secondary schooling, certification and the Program Indonesia Pintar; indicator 34 is a headcount
+of *nelayan dan pembudidaya ikan* and indicator 33 counts *pekerja perempuan di sektor perikanan*,
+which requires that population sex-disaggregated (Juknis, Tabel 1, p. 13 [pdf 23]). Coastal poverty at
+about 0.33% is the one row where the handbook disagrees with itself, Tabel 1 building indicator 38
+from a spatial domain and Tabel 6 from a sectoral one (p. 96 [pdf 106]); the figure is held outside the
+13.7% on the Tabel 1 wording, and the Tabel 6 wording would take the total to about 14.0%.
+
 The components sum, to rounding, to the pillar's published 30.5%. The 13.7% is the
 classification-standard claim; the 30.5% is the wider claim that an ocean social account's structure
 corresponds to the production of the whole pillar. The two are not interchangeable, and the wider
@@ -27,8 +35,10 @@ reading may be used only where it is named as the wider reading.
 Four economy sub-pillars carry (15.2 + 23.6 + 19.3 + 22.1)% of the economy pillar, or 80.2% of it. At
 32.6% for the pillar this gives about 26.1% of the composite, which Gambar 11's integers confirm at
 5 + 8 + 6 + 7 = 26 (Juknis, Tabel 5 and Gambar 11, pp. 93–94 [pdf 103–104]). The pillar's remaining
-weight is the governance sub-pillar at 15.8% and the technology sub-pillar at about 4.11%, so the six
-sub-pillars close the pillar to 100.11% on the printed one-decimal weights.
+weight is the governance sub-pillar at 15.8% and the technology sub-pillar at 4.1%, both printed at
+Tabel 5, so the six printed sub-pillars close the pillar to 100.1% on the one-decimal weights. Note
+that 4.1% here is a share of the economy pillar, worth about 1.34% of the composite; the 4.11% below
+is a share of the composite and denotes a different quantity.
 
 Sub-pillar A carries 15.2% of the economy pillar and therefore about 4.96% of the composite. It is
 83.0% aquaculture by published weight — 27.3% aquaculture production, 26.3% brackish-water pond area
