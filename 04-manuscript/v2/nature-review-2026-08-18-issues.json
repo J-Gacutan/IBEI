@@ -251,8 +251,8 @@
       "summary": "assemble.sh's MAIN array omits drafts/references.md, so the assembled manuscript contains no reference list.",
       "fix_step": 9,
       "bead": "ibei-8d4.14",
-      "status": "untouched",
-      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
+      "status": "fixed",
+      "verification": "Fixed by commit 6111f9a. assemble.sh now emits drafts/references.md as a '# References' section between section 6 and the supplementary material, and excludes it from the word gate. Verified independently: 28 entries, every entry cited at least once, every in-text author-date resolving. Also closed P0 ibei-lbe and duplicate ibei-x5r."
     },
     {
       "id": "M8",
@@ -490,7 +490,7 @@
       "fix_step": 9,
       "bead": "ibei-8d4.29",
       "status": "untouched",
-      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit. NOTE: the abstract has since grown to 305 words (282 -> 295 -> 305), so this is worsening; see N3 / ibei-8d4.44."
     },
     {
       "id": "m6",
