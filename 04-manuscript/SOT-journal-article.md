@@ -991,8 +991,8 @@ provenance, not coverage, is the binding property.
 | Benefit-transfer basis with source studies named (Bohol; Marianas; Mexico; Gazi Bay; Bintuni Bay); pilot totals IDR 45.24 bn/yr (2015) → IDR 64.17 bn/yr (2021) | MMAF 2022, pp. 33, 36, 58, 60 [pdf 47, 50, 72, 74]; BPS Manila deck slide 14 | external |
 | BPS's own stated challenges — "standard valuation methods not yet implemented by relevant stakeholder"; "scale up" | Tasriah et al., Manila deck, slide 9 | external |
 | MBSU grid indeterminacy: 10 m vs 25 m; hierarchy vs dominance; no standardised grid established | Rahayu et al. 2024, One Ecosystem 9: e125578, pp. 4–6 | external |
-| Kepmen KP 44/2023: five working groups, BPS chairing environmental-accounts implementation, five named accounts, BAPPENAS as member; term expired 31 Dec 2023 (diktum KEEMPAT), no renewal located | 00-background/-2023kepmenkp044_1677210577.pdf; 00-background/SOURCES.md | external |
-| Draft status of the 2022 outputs; July 2025 national dashboard launch, quoted as GOAP's own labelling | 00-background/GOAP-Ocean-Accounts-of-Indonesia-page.md (retrieved 2026-08-13) | external |
+| Kepmen KP 44/2023: five working groups, BPS chairing environmental-accounts implementation, five named accounts, BAPPENAS as member; term expired 31 Dec 2023 (diktum KEEMPAT), no renewal located | 00-background/01-ocean-accounts-indonesia/-2023kepmenkp044_1677210577.pdf; 00-background/SOURCES.md | external |
+| Draft status of the 2022 outputs; July 2025 national dashboard launch, quoted as GOAP's own labelling | 00-background/01-ocean-accounts-indonesia/GOAP-Ocean-Accounts-of-Indonesia-page.md (retrieved 2026-08-13) | external |
 | Indicators 19–21 as percentage-of-area-in-a-cover-class, per province, T-1 | Juknis Tabel 1, p. 12 [pdf 22] — `doc_1_juknis-register_chunk_024/_025/_026`; `doc_4_sirusa-metadata_chunk_012` | tier-1 |
 | Published weights carried by those variables (coral 3.7% Rendah, seagrass 8.6% Sedang, mangrove 0.3% Rendah), cited once to size the inventory, tertile named as BAPPENAS's simplification | `doc_1_juknis-weights_chunk_113`, Tabel 6, pp. 95–96 [pdf 105–106] | tier-1 |
 
@@ -1255,7 +1255,7 @@ vintage while for 24 and 27 they are definitional.
 | Published extent series and stock-flow structure (2015/2021 by ecosystem; managed expansion, natural expansion, reclassification, reductions as separate rows) | MMAF 2022, p. 40 [pdf 54], Table 5 p. 52 [pdf 66], Table 6 p. 53 [pdf 67] | external |
 | What the pilot actually publishes for condition: zone-mean 18.11% (2016), 16.99% LHC (2021) on Giyanto bands; seagrass mean 32.28%, station max 82.01%; mangrove canopy cover m²/ha, station max 38.35 | MMAF 2022, pp. 40, 45, 47 [pdf 54, 59, 61] | external |
 | Extent estimate as a function of the grid rule: mangrove error 19.61% (25 m hierarchy) vs 1.57% (10 m dominance); source overall accuracy 92.568%, KHAT 0.888 | Rahayu et al. 2024, Tables 3–4 | external |
-| Maturity anchors at every point of use: 2022 MMAF outputs as preliminary consultation drafts; July 2025 dashboard launch | 00-background/GOAP-Ocean-Accounts-of-Indonesia-page.md | external |
+| Maturity anchors at every point of use: 2022 MMAF outputs as preliminary consultation drafts; July 2025 dashboard launch | 00-background/01-ocean-accounts-indonesia/GOAP-Ocean-Accounts-of-Indonesia-page.md | external |
 | Share-of-composite arithmetic shown as an open multiplication: 36.9% × 50.0% = 18.45%, then × 3.7 / 8.6 / 0.3 / 6.8 / 22.0 = ~0.68% / ~1.59% / ~0.06% / ~1.25% / ~4.06%; condition subtotal ~2.3%; tier total ~7.6% | own arithmetic over Tabel 4, 5, 6 | own-arithmetic |
 
 > **[EVIDENCE GAP]** No Indonesian ocean account has been found that publishes any of the five Tier A

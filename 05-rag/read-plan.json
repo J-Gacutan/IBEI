@@ -6,7 +6,7 @@
     {
       "slice_id": "juknis-register",
       "document_id": "doc_1",
-      "source": "00-background/Juknis Pedoman IBEI_5 Agustus (DIGITAL).pdf",
+      "source": "00-background/02-ibei-specification/Juknis Pedoman IBEI_5 Agustus (DIGITAL).pdf",
       "pdf_from": 21,
       "pdf_to": 23,
       "printed": "pp. 11-13",
@@ -18,7 +18,7 @@
     {
       "slice_id": "juknis-weights",
       "document_id": "doc_1",
-      "source": "00-background/Juknis Pedoman IBEI_5 Agustus (DIGITAL).pdf",
+      "source": "00-background/02-ibei-specification/Juknis Pedoman IBEI_5 Agustus (DIGITAL).pdf",
       "pdf_from": 103,
       "pdf_to": 106,
       "printed": "pp. 93-96",
@@ -29,7 +29,7 @@
     {
       "slice_id": "juknis-method",
       "document_id": "doc_1",
-      "source": "00-background/Juknis Pedoman IBEI_5 Agustus (DIGITAL).pdf",
+      "source": "00-background/02-ibei-specification/Juknis Pedoman IBEI_5 Agustus (DIGITAL).pdf",
       "pdf_from": 73,
       "pdf_to": 76,
       "printed": "pp. 63-66",
@@ -40,7 +40,7 @@
     {
       "slice_id": "juknis-sensitivity",
       "document_id": "doc_1",
-      "source": "00-background/Juknis Pedoman IBEI_5 Agustus (DIGITAL).pdf",
+      "source": "00-background/02-ibei-specification/Juknis Pedoman IBEI_5 Agustus (DIGITAL).pdf",
       "pdf_from": 111,
       "pdf_to": 114,
       "printed": "pp. 101-104",
@@ -51,7 +51,7 @@
     {
       "slice_id": "juknis-cascading",
       "document_id": "doc_1",
-      "source": "00-background/Juknis Pedoman IBEI_5 Agustus (DIGITAL).pdf",
+      "source": "00-background/02-ibei-specification/Juknis Pedoman IBEI_5 Agustus (DIGITAL).pdf",
       "pdf_from": 77,
       "pdf_to": 81,
       "printed": "pp. 67-71",
@@ -62,7 +62,7 @@
     {
       "slice_id": "report-method",
       "document_id": "doc_2",
-      "source": "00-background/Report_20IBEI_20REVISI_20(DESEMBER_202025).pdf.pdf",
+      "source": "00-background/02-ibei-specification/Report_20IBEI_20REVISI_20(DESEMBER_202025).pdf.pdf",
       "pdf_from": 40,
       "pdf_to": 47,
       "printed": "pp. 28-35",
@@ -73,7 +73,7 @@
     {
       "slice_id": "report-imputation",
       "document_id": "doc_2",
-      "source": "00-background/Report_20IBEI_20REVISI_20(DESEMBER_202025).pdf.pdf",
+      "source": "00-background/02-ibei-specification/Report_20IBEI_20REVISI_20(DESEMBER_202025).pdf.pdf",
       "pdf_from": 76,
       "pdf_to": 79,
       "printed": "pp. 64-66",
@@ -84,7 +84,7 @@
     {
       "slice_id": "report-provincial",
       "document_id": "doc_2",
-      "source": "00-background/Report_20IBEI_20REVISI_20(DESEMBER_202025).pdf.pdf",
+      "source": "00-background/02-ibei-specification/Report_20IBEI_20REVISI_20(DESEMBER_202025).pdf.pdf",
       "pdf_from": 79,
       "pdf_to": 83,
       "printed": "pp. 67-70",
@@ -97,7 +97,7 @@
     {
       "slice_id": "rinaldi-methods",
       "document_id": "doc_3",
-      "source": "00-background/Rinaldi-2024-IBEI-indicators.md",
+      "source": "00-background/02-ibei-specification/Rinaldi-2024-IBEI-indicators.md",
       "note": "Read the markdown, never the PDF. Target the Methods and PCA sections only (PDF pp. 7-10 and 14-17). CORRECTED: this paper is NOT evidence about IBEI aggregation. It builds its own separate index using HDI-style min-max, arithmetic and geometric aggregation, and applies PCA only against multicollinearity. The IBEI's own three-stage PCA with Z-score standardisation is documented in the Juknis (printed pp. 63-66 and 93-96), and that is what voids the min-max argument in finding 03 round 1. Do not cite Rinaldi for the IBEI's aggregation function.",
       "priority": 1,
       "document_type": "scientific_paper"
@@ -105,7 +105,7 @@
     {
       "slice_id": "sirusa-metadata",
       "document_id": "doc_4",
-      "source": "00-background/sirusa-ibei-metadata/",
+      "source": "00-background/02-ibei-specification/sirusa-ibei-metadata/",
       "note": "Read all 12 markdown files (11 indikator-*.md plus kegiatan-94936.md), roughly 28KB total. Official BPS metadata, already extracted, zero extraction cost. Highest value per token in the workspace.",
       "priority": 1,
       "document_type": "dataset_documentation"

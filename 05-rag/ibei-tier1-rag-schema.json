@@ -5,7 +5,7 @@
  "source_files": [
   {
    "document_id": "doc_1",
-   "source": "00-background/Juknis Pedoman IBEI_5 Agustus (DIGITAL).pdf",
+   "source": "00-background/02-ibei-specification/Juknis Pedoman IBEI_5 Agustus (DIGITAL).pdf",
    "slices": [
     "juknis-register",
     "juknis-weights",
@@ -25,7 +25,7 @@
   },
   {
    "document_id": "doc_2",
-   "source": "00-background/Report_20IBEI_20REVISI_20(DESEMBER_202025).pdf.pdf",
+   "source": "00-background/02-ibei-specification/Report_20IBEI_20REVISI_20(DESEMBER_202025).pdf.pdf",
    "slices": [
     "report-method",
     "report-imputation",
@@ -40,7 +40,7 @@
   },
   {
    "document_id": "doc_3",
-   "source": "00-background/Rinaldi-2024-IBEI-indicators.md",
+   "source": "00-background/02-ibei-specification/Rinaldi-2024-IBEI-indicators.md",
    "slices": [
     "rinaldi-methods"
    ],
@@ -50,7 +50,7 @@
   },
   {
    "document_id": "doc_4",
-   "source": "00-background/sirusa-ibei-metadata/",
+   "source": "00-background/02-ibei-specification/sirusa-ibei-metadata/",
    "slices": [
     "sirusa-metadata"
    ],

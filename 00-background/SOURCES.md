@@ -4,7 +4,25 @@ Primary literature recurring across [02-research-findings/](../02-research-findi
 2026-08-13. Maturity tags follow the CLAUDE.md convention: (a) published official statistics,
 (b) experimental/pilot compilation, (c) methodology under development, (d) announced only.
 
+## Folder layout
+
+Files are sorted into four subfolders, one per section below, in this manifest's own priority
+order. Filenames in the tables are relative to their section's folder.
+
+| Folder | Section | Contents |
+|---|---|---|
+| [01-ocean-accounts-indonesia/](01-ocean-accounts-indonesia/) | Ocean accounts — Indonesia | Primary MMAF/BPS ocean-account reports, the GOAP country page, Kepmen KP 44/2023 |
+| [02-ibei-specification/](02-ibei-specification/) | IBEI — specification | The 2025 juknis and IBEI 2024 results report, SIRUSA metadata, Rinaldi et al. (2025) and figures, the roadmap, the 2021 framework, ADB (secondary) |
+| [03-method-and-scale/](03-method-and-scale/) | Peer-reviewed method and scale reconciliation | Rahayu 2024 (MBSU), Gacutan 2022, Wuwung 2024 |
+| [04-standards-and-context/](04-standards-and-context/) | Standards and institutional context | SEEA-EA, Ocean Panel, IDEEA, Renstra KKP, MFAT, ASEAN Blue Wealth, Bogor Action Plan |
+
+`SOURCES.md` stays at the folder root. The two priority tiers that matter for citation are not the
+folders but CLAUDE.md's evidence precedence: [05-rag/](../05-rag/) over any deep-research finding,
+and primary published documents over the (a)/(b)/(c)/(d) maturity tags recorded per row below.
+
 ## Ocean accounts — Indonesia (primary, MMAF/BPS)
+
+Folder: `01-ocean-accounts-indonesia/`
 
 | File | Source | Cited in | Note |
 |---|---|---|---|
@@ -17,6 +35,8 @@ Primary literature recurring across [02-research-findings/](../02-research-findi
 | `-2023kepmenkp044_1677210577.pdf` | Kepmen KP No. 44/2023, *Tim Penyusun Neraca Sumber Daya Laut*; set 16 Feb 2023, signed Sakti Wahyu Trenggono; JDIH KKP | 02 | Supplied by the user; previously unobtained. The formal mandate: five working groups chaired outside MMAF as often as inside — IGT/mapping (BIG), SDA-KP valuation (Kemenkeu DJKN), environmental-accounts implementation (**BPS**, Direktur Neraca Produksi), governance and policy adoption (Setditjen PRL, KKP), data management (Pusdatin KKP); expert group chaired by Akhmad Fauzi (IPB). Account structure named in the decree: Neraca 1 ekosystem extent/condition + monetary value, 2 flows of goods and services to the economy, 3 waste flows to ecosystems, 4 ocean economy, 5 governance. **Term expired 31 December 2023** (diktum KEEMPAT) — no renewal instrument located, so post-2023 institutional standing is unevidenced. BAPPENAS appears as a single member (Roby Fadillah) in the governance pokja, not as a co-lead. |
 
 ## IBEI — specification (primary, BAPPENAS/BPS)
+
+Folder: `02-ibei-specification/`
 
 | File | Source | Cited in | Note |
 |---|---|---|---|
@@ -123,6 +143,8 @@ three.
 
 ## Peer-reviewed method and scale reconciliation
 
+Folder: `03-method-and-scale/`
+
 | File | Source | Cited in | Note |
 |---|---|---|---|
 | `Rahayu-2024-e125578.pdf` | Rahayu, Arhatin, Gacutan, Agung, Pingkan, Rosdiana & Yulianto (2024), *One Ecosystem* 9: e125578 — MBSU optimisation, Saleh Bay | 02, 03, 05 | The MBSU grid-resolution evidence behind finding 03 §4.2. |
@@ -130,6 +152,8 @@ three.
 | `Wuwung-2024-sustainable-ocean-development-policies-Indonesia.pdf` | Wuwung, McIlgorm & Voyer (2024), *Front. Mar. Sci.* 11: 1401332 | 03, 05 | |
 
 ## Standards and institutional context
+
+Folder: `04-standards-and-context/`
 
 | File | Source | Cited in |
 |---|---|---|

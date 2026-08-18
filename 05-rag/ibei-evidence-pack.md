@@ -16,10 +16,10 @@ value is altered, filled or rounded.
 
 | doc | source | slices | printed ranges | chunks |
 |---|---|---|---|---|
-| `doc_1` | 00-background/Juknis Pedoman IBEI_5 Agustus (DIGITAL).pdf | juknis-register; juknis-weights; juknis-method; juknis-sensitivity; juknis-cascading | pp. 11-13; pp. 93-96; pp. 63-66; pp. 101-104; pp. 67-71 | 105 |
-| `doc_2` | 00-background/Report_20IBEI_20REVISI_20(DESEMBER_202025).pdf.pdf | report-method; report-imputation; report-provincial | pp. 28-35; pp. 64-66; pp. 67-70 | 49 |
-| `doc_3` | 00-background/Rinaldi-2024-IBEI-indicators.md | rinaldi-methods | n/a (markdown source) | 15 |
-| `doc_4` | 00-background/sirusa-ibei-metadata/ | sirusa-metadata | n/a (markdown source) | 29 |
+| `doc_1` | 00-background/02-ibei-specification/Juknis Pedoman IBEI_5 Agustus (DIGITAL).pdf | juknis-register; juknis-weights; juknis-method; juknis-sensitivity; juknis-cascading | pp. 11-13; pp. 93-96; pp. 63-66; pp. 101-104; pp. 67-71 | 105 |
+| `doc_2` | 00-background/02-ibei-specification/Report_20IBEI_20REVISI_20(DESEMBER_202025).pdf.pdf | report-method; report-imputation; report-provincial | pp. 28-35; pp. 64-66; pp. 67-70 | 49 |
+| `doc_3` | 00-background/02-ibei-specification/Rinaldi-2024-IBEI-indicators.md | rinaldi-methods | n/a (markdown source) | 15 |
+| `doc_4` | 00-background/02-ibei-specification/sirusa-ibei-metadata/ | sirusa-metadata | n/a (markdown source) | 29 |
 
 Locators are printed folio with the PDF page in brackets — `p. 11 [pdf 21]`. Offsets already
 applied: Juknis +10, Report +12. Indonesian decimal commas are preserved inside verbatim text
