@@ -27,7 +27,7 @@
       "fix_step": 1,
       "bead": "ibei-8d4.1",
       "status": "fixed",
-      "verification": "Fixed by commit 5c2a6b7: technology weight is printed in Tabel 5 as 4,1%, never a residual; residual treatment withdrawn."
+      "verification": "Technology weight is printed in Juknis Tabel 5 as 4,1%, so it was never a residual. S2:40 now reads \"Tabel 5 | 4.1 of economy | 32.6 x 4.1% | 1.34\" and S2:93-95 explicitly withdraws the residual treatment and the 96.0 sum. 32.6 x 4.1% = 1.34 verifies."
     },
     {
       "id": "C2",
@@ -46,8 +46,8 @@
       "summary": "12.79% has no in-text derivation, no generating method, and wholly contains the 7.64% presented beside it as an independent quantity.",
       "fix_step": 2,
       "bead": "ibei-8d4.2",
-      "status": "stands",
-      "verification": "Re-verified against the current tree on 2026-08-18."
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "C3",
@@ -63,8 +63,8 @@
       "summary": "Corpus and supplements are repeatedly claimed as deposited, but no Data or Code Availability statement, repository, accession, DOI or licence exists anywhere.",
       "fix_step": 3,
       "bead": "ibei-8d4.3",
-      "status": "stands",
-      "verification": "Re-verified against the current tree on 2026-08-18."
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "C4",
@@ -82,8 +82,8 @@
       "summary": "The central result is a single-coder grading deposited at row level though the tested population is 62 items, with boilerplate grounds on rows 33-44 and no reliability threat named in Limitations.",
       "fix_step": 3,
       "bead": "ibei-8d4.4",
-      "status": "stands",
-      "verification": "Re-verified against the current tree on 2026-08-18."
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "C5",
@@ -102,8 +102,8 @@
       "summary": "No figure legend, caption, embed or filename reference exists for any of the five cited figures, leaving four load-bearing figure claims uncheckable.",
       "fix_step": 4,
       "bead": "ibei-8d4.5",
-      "status": "stands",
-      "verification": "Re-verified against the current tree on 2026-08-18."
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "C6",
@@ -121,8 +121,8 @@
       "summary": "The nominal-versus-effective weight objection is conceded in 5.5 but absent from abstract and conclusion, and the escape sentence names what survives without naming what does not.",
       "fix_step": 5,
       "bead": "ibei-8d4.6",
-      "status": "stands",
-      "verification": "Re-verified against the current tree on 2026-08-18."
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "C7",
@@ -137,8 +137,8 @@
       "summary": "The only compiled Indonesian instance is reclassified out of the evidence base at the point where it disconfirms the provenance claim.",
       "fix_step": 6,
       "bead": "ibei-8d4.7",
-      "status": "stands",
-      "verification": "Re-verified against the current tree on 2026-08-18."
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "M1",
@@ -153,7 +153,8 @@
       "summary": "Corpus extraction is 'purposive' with no inclusion, boundary or stopping rule, and the reconstruction flag carried by 17 records is never defined.",
       "fix_step": 3,
       "bead": "ibei-8d4.8",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "M2",
@@ -170,8 +171,8 @@
       "summary": "The renormalisation test bounds closure, not the loadings-versus-contributions ambiguity it is offered against, and 3.5 calls the ambiguity singular when S4.1 supplies a second.",
       "fix_step": 3,
       "bead": "ibei-8d4.9",
-      "status": "stands",
-      "verification": "Re-verified against the current tree on 2026-08-18."
+      "status": "partial",
+      "verification": "Substantive limb FIXED and improved: 3.5 no longer offers renormalisation as a bound. It reports a 15-group census (max effect 0.03 pp, 26.15%->26.12%) and infers the percentages are normalised contributions, flagged [ASSUMPTION], with the consequence stated at 5.5:163-167 (\"the derived shares would lose their denominator rather than move\"). REMAINING: the subsection is still titled \"Weight arithmetic and its one ambiguity\" (methods:95), and the second ambiguity (13.7% vs 14.0% on the indicator-38 wording) still sits only in supp-S4, not in the Methods statement of contingency."
     },
     {
       "id": "M3",
@@ -186,7 +187,7 @@
       "fix_step": 3,
       "bead": "ibei-8d4.10",
       "status": "fixed",
-      "verification": "Fixed by commit 5c2a6b7: S2 social rows now carry printed inputs and full multiplication chains."
+      "verification": "supp-S2-weight-workbook.md:41-44 now carry full printed inputs and chains, e.g. \"welfare 18.2 of social; social_s1_var10 82.6 of welfare | 30.5 x 18.2% x 82.6% | 4.59\". Verified 30.5 x 0.182 x 0.826 = 4.585. 13.70% is recomputable."
     },
     {
       "id": "M4",
@@ -202,7 +203,8 @@
       "summary": "CONTESTED DENOMINATOR is flagged once in Section 4 though Methods scopes it to all derived figures, and structure-dependence is flagged at some dependent figures and not others.",
       "fix_step": 5,
       "bead": "ibei-8d4.11",
-      "status": "not_reverified"
+      "status": "partial",
+      "verification": "Structure-dependence limb largely addressed: 4.3 now opens with a blanket declaration that \"The arithmetic below follows the three-pillar locus declared at\" 2.3, which covers the derived economy figures. REMAINING: 3.6 still scopes [CONTESTED DENOMINATOR] to \"the Tier A share of 7.64% and figures derived from it\", but results carries it only once (results:121, on 7.64%) and not on 2.33%, 1.25% or 4.06%."
     },
     {
       "id": "M5",
@@ -219,7 +221,8 @@
       "summary": "The 1.07 ratio between two indicative figures differing by 0.91 percentage points cannot bear the comparability argument the abstract and introduction rest on it.",
       "fix_step": 2,
       "bead": "ibei-8d4.12",
-      "status": "not_reverified"
+      "status": "partial",
+      "verification": "Largely addressed: \"roughly 1.1 times\" is now the exact \"1.07 times\" (results:154, introduction:73) and is removed from the abstract and conclusion entirely. The force of the original objection is much reduced because the new 15-group census bounds movement at 0.03 pp rather than ~1 pp. REMAINING: the ratio is still carried in the Introduction findings statement."
     },
     {
       "id": "M6",
@@ -233,7 +236,8 @@
       "summary": "No keywords, Highlights, funding statement, competing-interests declaration, CRediT statement or acknowledgements; submission-blocking at Marine Policy.",
       "fix_step": 9,
       "bead": "ibei-8d4.13",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "M7",
@@ -247,8 +251,8 @@
       "summary": "assemble.sh's MAIN array omits drafts/references.md, so the assembled manuscript contains no reference list.",
       "fix_step": 9,
       "bead": "ibei-8d4.14",
-      "status": "stands",
-      "verification": "Re-verified against the current tree on 2026-08-18."
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "M8",
@@ -265,7 +269,8 @@
       "summary": "The authors' own superseded mapping is corrected in prose but has no reference-list entry, and the abstract does not disclose the correction as self-correction.",
       "fix_step": 8,
       "bead": "ibei-8d4.15",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "M9",
@@ -281,7 +286,8 @@
       "summary": "The Discussion answers a character-of-contribution question rather than the Introduction's production-capacity question, and restates none of the four load quantities.",
       "fix_step": 7,
       "bead": "ibei-8d4.16",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "M10",
@@ -298,7 +304,8 @@
       "summary": "Original computation and the pillar-locus decision sit inside the background section, the findings preview lands before 1,070 further words of gap-building, and four contributions are previewed as three.",
       "fix_step": 7,
       "bead": "ibei-8d4.17",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "M11",
@@ -313,7 +320,8 @@
       "summary": "A bolded design recommendation and several evaluative or mechanism claims leak into Results from the Discussion.",
       "fix_step": 7,
       "bead": "ibei-8d4.18",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "M12",
@@ -327,7 +335,8 @@
       "summary": "The Wuwung institutional-constraint concession is not permitted to alter the loose-coupling recommendation, and an absence of contrary sources is converted into support without restating the search bound.",
       "fix_step": 6,
       "bead": "ibei-8d4.19",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "M13",
@@ -341,7 +350,8 @@
       "summary": "The competing position that secondary compilation plus uncertainty analysis suffices for a policy composite is never engaged, leaving the paper's central premise under-tested.",
       "fix_step": 8,
       "bead": "ibei-8d4.20",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "M14",
@@ -356,7 +366,8 @@
       "summary": "The falsification condition's cost arm is unfalsifiable because the paper declines to estimate the cost it names as the binding constraint.",
       "fix_step": 6,
       "bead": "ibei-8d4.21",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "M15",
@@ -370,7 +381,8 @@
       "summary": "Two of four conclusion paragraphs restate the abstract and introduction in near-identical clause order rather than synthesising.",
       "fix_step": 7,
       "bead": "ibei-8d4.22",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "M16",
@@ -386,7 +398,8 @@
       "summary": "The abstract's central contribution is phrased as a method rather than a result, and its closing generalisation exceeds the Discussion's own disclaimer, inverting the proportionality chain.",
       "fix_step": 9,
       "bead": "ibei-8d4.23",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "M17",
@@ -400,7 +413,8 @@
       "summary": "The closing claim generalises one 2,980.84 ha pilot to a 38-province annual obligation despite naming that pilot's own method limits two paragraphs earlier.",
       "fix_step": 7,
       "bead": "ibei-8d4.24",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "m1",
@@ -414,7 +428,8 @@
       "summary": "13.70% is rendered 13.7% at five points in Results; same value, but two-decimal precision is unwarranted given a documented 0.33 pp branch.",
       "fix_step": 10,
       "bead": "ibei-8d4.25",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "m2",
@@ -428,7 +443,8 @@
       "summary": "2,980.84 ha is carried at 0.01-ha precision in the paragraph showing it fails to reconcile by 32.35 ha, and the district-size comparison is unsourced.",
       "fix_step": 10,
       "bead": "ibei-8d4.26",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "m3",
@@ -442,7 +458,8 @@
       "summary": "Forty-eight inline bracketed evidential flags sit in finished main-text prose; most journals will require footnotes or a caveat table.",
       "fix_step": 9,
       "bead": "ibei-8d4.27",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "m4",
@@ -457,7 +474,8 @@
       "summary": "CONTESTED DENOMINATOR is given two different definitions in the same section.",
       "fix_step": 5,
       "bead": "ibei-8d4.28",
-      "status": "not_reverified"
+      "status": "fixed",
+      "verification": "section-03-methods.md:127-129 now states the flag \"carries one meaning throughout and not two: it records that the share measures what these account types bear on rather than what an account would supply. It is not a flag about the weights, which are printed.\" One definition, explicitly."
     },
     {
       "id": "m5",
@@ -471,7 +489,8 @@
       "summary": "Abstract is 282 words, about 13% over Marine Policy's conventional 250-word guidance.",
       "fix_step": 9,
       "bead": "ibei-8d4.29",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "m6",
@@ -485,7 +504,8 @@
       "summary": "The abstract opens at subfield breadth with five unglossed specialist terms; major under Nature's accessibility standard, minor for Marine Policy's readership.",
       "fix_step": 9,
       "bead": "ibei-8d4.30",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "m7",
@@ -499,7 +519,8 @@
       "summary": "Six subheadings exceed 40 characters; Nature-only, no Marine Policy limit.",
       "fix_step": 10,
       "bead": "ibei-8d4.31",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "m8",
@@ -514,7 +535,8 @@
       "summary": "S1 cites 'Section 7' and 'Section 8.5' from the dead v1 numbering; the only two stale cross-references in the manuscript.",
       "fix_step": 9,
       "bead": "ibei-8d4.32",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "m9",
@@ -528,7 +550,8 @@
       "summary": "The English gloss's provenance is unstated and no software, script or spreadsheet is named anywhere.",
       "fix_step": 3,
       "bead": "ibei-8d4.33",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "m10",
@@ -542,7 +565,8 @@
       "summary": "The 6.26 ha figure makes its first main-text appearance in the Discussion; its derivation is in S5.2 but not in Section 4.",
       "fix_step": 10,
       "bead": "ibei-8d4.34",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "m11",
@@ -556,7 +580,8 @@
       "summary": "Indicator 27 is returned to at L569 after being settled at L449-467.",
       "fix_step": 10,
       "bead": "ibei-8d4.35",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "m12",
@@ -570,7 +595,8 @@
       "summary": "The tables 18-19 citation omits the [pdf N] locator used at every other citation.",
       "fix_step": 10,
       "bead": "ibei-8d4.36",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "m13",
@@ -584,7 +610,8 @@
       "summary": "The loose-coupling failure-isolation property is asserted of an arrangement never instantiated and is not ASSUMPTION-flagged.",
       "fix_step": 10,
       "bead": "ibei-8d4.37",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "m14",
@@ -598,7 +625,8 @@
       "summary": "The objection vitiating the headline quantities sits after the policy recommendation it undercuts.",
       "fix_step": 7,
       "bead": "ibei-8d4.38",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "m15",
@@ -613,7 +641,8 @@
       "summary": "The second follow-on study is close to a generic call for guidance, and the cost trade-off is justified but not owned as a limitation.",
       "fix_step": 10,
       "bead": "ibei-8d4.39",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "m16",
@@ -627,7 +656,8 @@
       "summary": "The novelty claim would be strengthened by naming the adjacent class of national statistical quality-assurance production audits.",
       "fix_step": 8,
       "bead": "ibei-8d4.40",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     },
     {
       "id": "m17",
@@ -641,7 +671,8 @@
       "summary": "The three quantitative findings are listed without signalling which is central, and the caveat sentence interrupts the widening close.",
       "fix_step": 9,
       "bead": "ibei-8d4.41",
-      "status": "not_reverified"
+      "status": "untouched",
+      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
     }
   ],
   "retracted_reviewer_findings": [
@@ -660,5 +691,57 @@
   ],
   "beads_epic": "ibei-8d4",
   "reviewed_draft_state": "2026-08-18T12:01 (pre-commit 5c2a6b7)",
-  "staleness_warning": "Line references resolve against the pre-13:19 assembled copy only. Commit 5c2a6b7 rewrote section-02-problem, section-03-methods, section-05-discussion and supp-S2-weight-workbook. Re-verify with /nature-review verify-fixes mode before acting on line refs."
+  "staleness_warning": "Line references resolve against the pre-13:19 assembled copy only. Commit 5c2a6b7 rewrote section-02-problem, section-03-methods, section-05-discussion and supp-S2-weight-workbook. Re-verify with /nature-review verify-fixes mode before acting on line refs.",
+  "new_issues": [
+    {
+      "id": "N1",
+      "severity": "critical",
+      "sections": [
+        "abstract",
+        "conclusion",
+        "methods"
+      ],
+      "source_refs": [
+        "drafts/section-00-abstract.md:19",
+        "drafts/section-06-conclusion.md:6",
+        "drafts/section-03-methods.md:105-107",
+        "drafts/section-03-methods.md:127-129"
+      ],
+      "summary": "The revision resolved the denominator ambiguity in Methods but did not update the abstract or conclusion, which still assert the opposite.",
+      "detail": "3.5 now reads the weights as normalised contributions and states the derived shares 'are carried without a denominator caveat'; 3.6 states the flag 'is not a flag about the weights, which are printed'. But the abstract still asserts 'All shares are contingent on an undocumented ambiguity in how the published weights are expressed' and the conclusion still says the 2.33% 'rests in part on a denominator the source documents do not settle'. Methods and Discussion were updated; the abstract and conclusion were not.",
+      "introduced_by": "commit 5c2a6b7",
+      "fix_step": "new-1",
+      "bead": "ibei-8d4.42"
+    },
+    {
+      "id": "N2",
+      "severity": "major",
+      "sections": [
+        "build"
+      ],
+      "source_refs": [
+        "v2/assemble.sh"
+      ],
+      "summary": "Body prose is 9,995 words against the hard 10,000 ceiling assemble.sh enforces: 5 words of headroom, while every outstanding critical fix adds prose.",
+      "detail": "Rebuild reports 'body prose, ss 1-6: 9995 words [GATE 9,000-10,000]' and GATES PASS. C2 (decompose 12.79), C6 (carry the nominal-vs-effective concession into abstract and conclusion), M1 (state corpus rules) and M13 (engage the counter-position) all require added prose. The gate will hard-fail on the first substantive fix, so the revision needs a compensating cut planned before, not after.",
+      "introduced_by": "commit 5c2a6b7",
+      "fix_step": "new-2",
+      "bead": "ibei-8d4.43"
+    },
+    {
+      "id": "N3",
+      "severity": "minor",
+      "sections": [
+        "abstract"
+      ],
+      "source_refs": [
+        "drafts/section-00-abstract.md"
+      ],
+      "summary": "The abstract grew from 282 to 295 words, further over Marine Policy's ~250-word convention (supersedes m5).",
+      "introduced_by": "commit 5c2a6b7",
+      "fix_step": "new-2",
+      "bead": "ibei-8d4.44"
+    }
+  ],
+  "verification_run": "2026-08-18, verify-fixes mode, against rebuilt output/manuscript-v2.md"
 }
