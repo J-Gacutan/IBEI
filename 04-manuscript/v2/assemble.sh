@@ -33,13 +33,17 @@ SUPP=(
   drafts/supp-S5-compiled-record.md
 )
 
-for f in "${MAIN[@]}" "${SUPP[@]}"; do
+REFS=drafts/references.md
+
+for f in "${MAIN[@]}" "${SUPP[@]}" "$REFS"; do
   [[ -f "$f" ]] || { echo "missing: $f" >&2; exit 1; }
 done
 
 mkdir -p output
 : > output/manuscript-v2.md
 for f in "${MAIN[@]}"; do cat "$f" >> output/manuscript-v2.md; printf '\n\n' >> output/manuscript-v2.md; done
+printf '\n---\n\n' >> output/manuscript-v2.md
+cat "$REFS" >> output/manuscript-v2.md
 printf '\n---\n\n# Supplementary material\n\n' >> output/manuscript-v2.md
 for f in "${SUPP[@]}"; do cat "$f" >> output/manuscript-v2.md; printf '\n\n' >> output/manuscript-v2.md; done
 
@@ -64,8 +68,8 @@ python3 - "$main_all" "$main_prose" "$supp" "$abstract" <<'PY'
 import re,sys
 main_all,main_prose,supp,abstract=(int(x) for x in sys.argv[1:5])
 raw=open('output/manuscript-v2.md').read().split('# 1. Introduction')[1]
+raw=raw.split('# References')[0].split('# Supplementary material')[0]
 body="\n".join(l for l in raw.split("\n") if not l.startswith(('#','|','>','---')))
-body=body.split('# Supplementary material')[0]
 s=[x for x in re.split(r'(?<=[.!?])\s+',body) if len(x.split())>3]
 L=sorted(len(x.split()) for x in s)
 mean=sum(L)/len(L); over=100*sum(1 for x in L if x>40)/len(L)

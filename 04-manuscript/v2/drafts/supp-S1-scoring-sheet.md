@@ -2,7 +2,7 @@
 
 Every row of the Indonesia Blue Economy Index register, with its grade under the membership rule of
 Section 5.1 and the ground on which it was graded. The register, its indicator titles and its
-*Data Pembentuk Indikator* constituent data items are transcribed from Juknis (BAPPENAS 2025) Tabel 1,
+*Data Pembentuk Indikator* constituent data items are transcribed from Juknis (BAPPENAS 2025a) Tabel 1,
 pp. 11–13 [pdf 21–23]. Pillar labels are Tabel 1's, which prints four pillars including *Enabler*; all
 weight arithmetic in the article follows the three-pillar structure of Tabel 4, Tabel 5 and Gambar 11,
 and rows 15 to 18 move between pillars depending on which table is followed (Section 2.3).

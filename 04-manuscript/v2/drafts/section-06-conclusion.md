@@ -2,8 +2,8 @@
 
 Ocean accounts are worth building for this index because of how the handful of indicators they touch
 would be produced, and not because of how many indicators they could fill. The share an account would
-itself supply is about 2.33% of the composite on the published weights, and it rests in part on a
-denominator the source documents do not settle. What separates the account routes into and out of reach
+itself supply is about 2.33% of the composite on the published weights, which the handbook prints at
+every level. What separates the account routes into and out of reach
 is content rather than compilation maturity: the routes compiled at pilot scale and the route compiled
 nowhere bear on comparable shares of the index, 12.79% against 13.70%, yet no compiled account produces
 the constituent data item the register asks for at any of those rows.

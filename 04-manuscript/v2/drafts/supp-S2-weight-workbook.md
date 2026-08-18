@@ -57,8 +57,8 @@ and route (b) (12.79) agree on both routes. The maturity gap ratio is 1.07 on th
 An earlier version of this workbook carried an "aspirational route" of 18.85% (13.70% social plus
 5.15% governance) against a "mature route" of 7.64%, giving an inversion ratio of 2.47. That grouping
 placed the governance sub-pillar with the routes compiled nowhere. A re-check against the MMAF 2022
-primary reports establishes that the Gili Matra pilot does compile a governance account (tables 18–19,
-p. 79), so governance carries maturity tag (b). Regrouped by compilation maturity, the routes with a
+primary reports establishes that the Gili Matra pilot does compile a governance account (MMAF, 2022a,
+tables 18–19, p. 79), so governance carries maturity tag (b). Regrouped by compilation maturity, the routes with a
 pilot-scale Indonesian compilation total 12.79% against 13.70% for the one route with none, a ratio of
 1.07. The rows above are the corrected grouping. The 7.64% Tier A figure is unaffected, because it is a
 tier total and not a maturity grouping.

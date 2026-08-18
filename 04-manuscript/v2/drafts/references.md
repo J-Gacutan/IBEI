@@ -2,8 +2,8 @@
 
 Harvard author–date, alphabetical. Every entry was transcribed from the document itself, not from a
 filename or a secondary listing. Entries marked **[secondary]** are works this study has not read at
-source: they are cited in the manuscript only for what MMAF (2022) attributes to them, and their
-bibliographic details are reproduced as MMAF (2022) prints them. Anything the manuscript rests on
+source: they are cited in the manuscript only for what MMAF (2022a) attributes to them, and their
+bibliographic details are reproduced as MMAF (2022a) prints them. Anything the manuscript rests on
 directly is a primary entry.
 
 ## Published and peer-reviewed works

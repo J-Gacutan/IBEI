@@ -4,7 +4,7 @@ Long form of Section 4.1. Every entry is maturity tag (b), experimental or pilot
 
 ## S5.1 The asset account
 
-The Gili Matra pilot publishes a complete asset account (MMAF, 2022, tab. 5, p. 52 [pdf 66]).
+The Gili Matra pilot publishes a complete asset account (MMAF, 2022a, tab. 5, p. 52 [pdf 66]).
 
 | Ecosystem | Opening 2015 (ha) | Closing 2021 (ha) | Change (ha) |
 |---|---|---|---|
@@ -46,7 +46,8 @@ ha against a BPS loss of 18.26 ha, a 6.26 ha disagreement.
 ## S5.3 Condition measurement
 
 Coral was measured by underwater photo transect with CPCe analysis following Muttaqin et al. (2020),
-seagrass by the Seagrass Watch protocol and mangrove by plot sampling (MMAF, 2022, pp. 31–33 [pdf
+seagrass by the Seagrass Watch protocol, which MMAF attributes to Yulianto et al. (2012),
+and mangrove by plot sampling (MMAF, 2022a, pp. 31–33 [pdf
 45–47]). Values are classified against published reference levels: 16.99% live hard coral cover in 2021
 against the bands of Giyanto et al. (2017), and mangrove classified as good at a density of at least
 1,500 individuals per hectare under Ministry of Environment Decree 201/2004 (pp. 40, 47 [pdf 54, 61]).

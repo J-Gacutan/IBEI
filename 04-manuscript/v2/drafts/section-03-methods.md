@@ -36,8 +36,8 @@ concedes the other two.
 ## 3.3 Corpus
 
 A citation-anchored corpus of 199 chunks was built over the index's own published documentation and
-is released with this article, so that every quotation and figure resolves to a numbered record
-rather than to a page range. Extraction was purposive. The build, dated 2026-08-14, comprises 106
+is released with this article, so every quotation resolves to a numbered record rather than a page
+range. Extraction was purposive. The build, dated 2026-08-14, comprises 106
 chunks from the Juknis (BAPPENAS 2025a), 49 from the IBEI Report 2024 in its December 2025 revision
 (BAPPENAS 2025b), 15 from Rinaldi et al. (2025) and 29 from the SIRUSA metadata (kegiatan 94936
 together with indikator 105371 and 105709–105718, all retrieved 2026-08-13), at the printed-page
@@ -47,10 +47,11 @@ brackets, a maturity tag, and a reconstruction flag, which 17 records carry. Chu
 recorded as conflicts rather than reconciled, and the four-against-three pillar contradiction is
 held as one such record.
 
-Account-side evidence sits outside that corpus and was read directly: the three MMAF 2022 reports
-including the Gili Matra pilot study, the BPS materials prepared for the SEEA workshops, Rahayu et
-al. (2024), Kepmen KP 44/2023, and the GOAP country page (retrieved 2026-08-13). All source
-documents carry clean text layers and no optical character recognition was applied. Retrieval and
+Account-side evidence sits outside that corpus and was read directly: the three MMAF 2022 reports,
+of which Gili Matra is the compilation (MMAF, 2022a, 2022b, 2022c); BPS SEEA-workshop decks
+(Tasriah et al., 2022; Wulandari and Jannah, 2023); Rahayu et al. (2024); Kepmen KP 44/2023; and the
+GOAP country page (retrieved 2026-08-13). All carry clean text layers; no optical character recognition
+was applied. Retrieval and
 assembly ran from 11 to 16 August 2026. A join table reproduces all 44 register rows with each row's
 *Data Pembentuk Indikator* constituent data items verbatim, transcribed from Juknis Tabel 1, pp.
 11–13 [pdf 21–23], totalling 62 items. That join table, not the running text of the handbook, is the

@@ -15,7 +15,7 @@ beyond the pilot record.
 
 The pilot's footprint belongs in its own units, because the smallness is part of the finding: 2,980.84
 ha on a 25 m by 25 m marine basic spatial unit (MBSU) grid of 48,211 cells, opening in 2015 and
-closing in 2021, those years chosen on data availability (MMAF, 2022, pp. 30, 39 [pdf 44, 53]). The two
+closing in 2021, those years chosen on data availability (MMAF, 2022a, pp. 30, 39 [pdf 44, 53]). The two
 figures do not reconcile. At 625 m² each, 48,211 cells give 3,013.19 ha against the 2,980.84 ha
 printed, a shortfall of 32.35 ha or 1.1%. That would be consistent with cells clipped at the park
 boundary, but is nowhere explained, and is recorded as observed rather than resolved `[EVIDENCE GAP]`.
@@ -32,7 +32,7 @@ seagrass and coral reef.
 The three account types differ in completeness of the account form, not in the standing of the
 compilation producing them. Extent is the only type with a verified opening, change and closing series:
 the pilot publishes a complete asset account, with additions and reductions itemised and an
-ecosystem-conversion matrix alongside (MMAF, 2022, tab. 5–6, pp. 52–53 [pdf 66–67]). Condition is
+ecosystem-conversion matrix alongside (MMAF, 2022a, tab. 5–6, pp. 52–53 [pdf 66–67]). Condition is
 compiled in a limited form, as cover-based measurement at Tier 1 to Tier 2 read against documented
 reference bands rather than as a normalised multi-indicator composite (pp. 31–33 [pdf 45–47]). Valuation
 is the least developed and may not be described as an ecosystem services account in physical units.
@@ -76,7 +76,7 @@ What the pilot sets beside that specification is the input layer, not the tabula
 surface exists, and cover is measured at survey stations: live coral cover of 18.11% in 2016 and live
 hard coral cover of 16.99% in 2021, which the report does not state to be the same measure and which
 are therefore not read here as a series, and seagrass cover averaging 32.28% with a station maximum of
-82.01% (MMAF, 2022, pp. 40, 45 [pdf 54, 59]). The 2021 coral figure is unreconciled in the source,
+82.01% (MMAF, 2022a, pp. 40, 45 [pdf 54, 59]). The 2021 coral figure is unreconciled in the source,
 where the narrative reports 16.99% whilst the report's own tab. 3 on the same page prints 18.36%. The
 cross-tabulation of extent by cover class is not published. The step from the input layer to indicator
 19 is one tabulation that has not been performed.

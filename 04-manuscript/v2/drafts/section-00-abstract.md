@@ -16,8 +16,8 @@ are the whole of what an account touches, carrying 7.64% of the composite's publ
 about 2.33% is the share an account would itself supply. What separates the account routes into and out
 of reach is content rather than compilation maturity: routes compiled at pilot scale bear on 12.79% and
 the one route compiled nowhere on 13.70%, yet no compiled account produces the data item the register
-asks for at any of them. All shares are contingent on an undocumented ambiguity in how the published
-weights are expressed. What accounting offers such an index is a production process — a standing
+asks for at any of them. Every share measures what these account types bear on rather than what an
+account would supply, a distinction the article keeps open at each use. What accounting offers such an index is a production process — a standing
 classification, a balancing identity, a re-aggregable spatial basis and a documented revision rule —
 rather than a stock of substitutable values. What an accounting
 system can carry for a statutory composite is now a general question.
