@@ -49,10 +49,12 @@ This study assesses Indonesia's ocean accounts as compilation infrastructure for
 already obliged to produce, rather than as an alternative source of indicator values. The assessment
 is built on the IBEI's own published documentation, on the primary reports of the Indonesian account
 pilots, and on the international accounting standard, with every claim tagged for maturity. It
-contributes four things: a documented account of what makes provincial compilation hard, a three-tier
-indicator mapping scored against the register's verbatim constituent data items rather than its
-indicator names, a quantification of where in the index the account-relevant weight sits, and a
-register of the conditions precedent for continued supply.
+contributes four things: a documented account of what makes provincial compilation hard (Section 2), a
+three-tier indicator mapping scored against the register's verbatim constituent data items rather than
+its indicator names (Section 4.2), a quantification of where in the index the account-relevant weight
+sits (Section 4.3), and a register of the conditions precedent for continued supply (Section 4.4). The
+findings previewed below arise from the second and third; the first and fourth are descriptive
+contributions rather than findings.
 
 Two boundaries hold throughout. Account compilation has its own statutory and analytical purposes
 under MMAF's mandate, and supplying an index is one downstream use among several. Nothing here
@@ -61,16 +63,3 @@ is statistical infrastructure feeding a policy instrument. The object of study i
 44-indicator edition of the index, and every Indonesian ocean account output discussed carries maturity
 tag (b), experimental or pilot compilation, with no statistical work-programme entry and no revision
 policy.
-
-Three findings follow. First, read against verbatim constituent data items rather than indicator
-names, the three ecosystem condition indicators are definitionally matched to account output rather
-than category-mismatched. That corrects a judgement in earlier work, including a provisional mapping by
-the present authors (Gacutan and Vandenbergh, 2025) that scored account-derivable shares at figures
-moving from 61% to 39% to 2.8% as the assumed indicator set changed, the last over a 36-indicator
-denominator the register does not have (Section 4.2). Second, what separates the account routes into and out of reach is not compilation
-maturity but content. The routes Indonesia has compiled at pilot scale bear on 12.79% of the
-composite's published weight and the one route compiled nowhere on a comparable 13.70%, the first
-wholly containing the Tier A share above it; yet no compiled account produces the constituent data
-item the register asks for at any of these rows (Section 4.3). Third, the share an account would itself supply is about 2.33%, and
-what the mature account types offer at those rows is a production process rather than a stock of
-substitutable values (Section 5).

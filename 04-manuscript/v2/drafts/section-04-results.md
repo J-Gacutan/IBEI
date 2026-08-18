@@ -280,7 +280,10 @@ have produced: the gap between the 2021 closing year and the reference year the 
 three reference years. The second is a revision policy, for which the standard supplies the substance
 (paras 4.17–4.18, p. 88) and Indonesia supplies no instrument `[EVIDENCE GAP]`. An account silently
 improved between vintages would move a province's index value with no ecosystem change behind it, and
-nothing in the published record would flag it.
+nothing in the published record would flag it. The target series shows why that matters: counting the
+printed rows of Juknis Tabel 2 gives twelve provinces whose 2045 target exceeds the national 100,00
+(p. 69 [pdf 79], authors' own count), so a restatement rule has to govern provincial and national
+figures that are already inconsistent with each other.
 
 The institutional condition is unmet against an instrument whose own term has run. Kepmen KP 44/2023
 constituted the Tim Penyusun Neraca Sumber Daya Laut in February 2023 with a term expiring that

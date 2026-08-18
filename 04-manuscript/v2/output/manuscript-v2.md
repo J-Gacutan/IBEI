@@ -74,10 +74,12 @@ This study assesses Indonesia's ocean accounts as compilation infrastructure for
 already obliged to produce, rather than as an alternative source of indicator values. The assessment
 is built on the IBEI's own published documentation, on the primary reports of the Indonesian account
 pilots, and on the international accounting standard, with every claim tagged for maturity. It
-contributes four things: a documented account of what makes provincial compilation hard, a three-tier
-indicator mapping scored against the register's verbatim constituent data items rather than its
-indicator names, a quantification of where in the index the account-relevant weight sits, and a
-register of the conditions precedent for continued supply.
+contributes four things: a documented account of what makes provincial compilation hard (Section 2), a
+three-tier indicator mapping scored against the register's verbatim constituent data items rather than
+its indicator names (Section 4.2), a quantification of where in the index the account-relevant weight
+sits (Section 4.3), and a register of the conditions precedent for continued supply (Section 4.4). The
+findings previewed below arise from the second and third; the first and fourth are descriptive
+contributions rather than findings.
 
 Two boundaries hold throughout. Account compilation has its own statutory and analytical purposes
 under MMAF's mandate, and supplying an index is one downstream use among several. Nothing here
@@ -87,31 +89,16 @@ is statistical infrastructure feeding a policy instrument. The object of study i
 tag (b), experimental or pilot compilation, with no statistical work-programme entry and no revision
 policy.
 
-Three findings follow. First, read against verbatim constituent data items rather than indicator
-names, the three ecosystem condition indicators are definitionally matched to account output rather
-than category-mismatched. That corrects a judgement in earlier work, including a provisional mapping by
-the present authors (Gacutan and Vandenbergh, 2025) that scored account-derivable shares at figures
-moving from 61% to 39% to 2.8% as the assumed indicator set changed, the last over a 36-indicator
-denominator the register does not have (Section 4.2). Second, what separates the account routes into and out of reach is not compilation
-maturity but content. The routes Indonesia has compiled at pilot scale bear on 12.79% of the
-composite's published weight and the one route compiled nowhere on a comparable 13.70%, the first
-wholly containing the Tier A share above it; yet no compiled account produces the constituent data
-item the register asks for at any of these rows (Section 4.3). Third, the share an account would itself supply is about 2.33%, and
-what the mature account types offer at those rows is a production process rather than a stock of
-substitutable values (Section 5).
-
 
 # 2. The compilation problem
 
-A recurring statutory obligation to score every province annually sits on top of a compilation
-activity that conducts no primary collection of its own. The obligation is assigned rather than
-volunteered. Perpres 12/2025 carries the IBEI as an official national development indicator, and
-joint circular SEB Mendagri/Bappenas No. 2/2024 distributes a 2045 target to each province for
-carriage in its long-term development plan (Juknis, Tabel 2, p. 69 [pdf 79]). That the compilation
-beneath it collects nothing directly is a design decision recorded in Indonesia's own statistical
-metadata system, and its consequences are legible as specific strains in the published output. This
-section establishes both from the IBEI's own documentation, and closes by declaring the pillar
-structure the rest of the article computes on, since the handbook prints two.
+The obligation set out above is assigned rather than volunteered, and the instrument that distributes it
+names the figure each province must reach: joint circular SEB Mendagri/Bappenas No. 2/2024 carries a
+2045 target per province into its long-term development plan (Juknis, Tabel 2, p. 69 [pdf 79]). That
+the compilation beneath it collects nothing directly is a design decision recorded in Indonesia's own
+statistical metadata system, and its consequences are legible as specific strains in the published
+output. This section establishes both from the IBEI's own documentation, and closes on two
+contradictions the handbook does not resolve.
 
 ## 2.1 Compilation without collection
 
@@ -201,8 +188,22 @@ Section 4 maps.
 | New provinces unscored | 0,00 across three sub-pillars for Papua Barat Daya, Papua Selatan and Papua Tengah, with a headline of 8,51 | Report p. 70 [pdf 82] | A spatial basis re-aggregable to new administrative boundaries |
 | Underived rescaling | *Notes: normalized factor sebesar 0,6819*, printed identically beneath all four regional tables with no formula, derivation or stated point of application | Report pp. 67–70 [pdf 79–82] | A balancing identity in which an unexplained adjustment fails to balance |
 | Values beyond the nominal scale | Technology sub-pillar 483,43 for Jakarta and 147,45 for Bali, on tables headed *Normalized* | Report p. 68 [pdf 80] | Physical units against a stated reference, rather than a province-relative score |
-| Targets above the national target | Twelve provinces carry 2045 targets above the national 100,00, the highest Sulawesi Selatan at 275,29 | Juknis p. 69 [pdf 79], authors' own count of printed rows | A documented revision and restatement rule |
+| Targets above the national target | Provincial 2045 targets run above the national 100,00, the highest Sulawesi Selatan at 275,29 | Juknis p. 69 [pdf 79] | A documented revision and restatement rule |
 | Reference period inconsistent | T-2 for variables 12 to 14 against T-1 elsewhere, and the same periods rendered T-1 in the numbered variable table and 2024 in the summary table | SIRUSA variable tables | Documented vintage, held constant across a compilation |
+
+Three findings follow from the mapping this compilation problem sets up, and they are previewed here
+because the Methods that produce them are best read knowing what they produce. First, read against verbatim constituent data items rather than indicator
+names, the three ecosystem condition indicators are definitionally matched to account output rather
+than category-mismatched. That corrects a judgement in earlier work, including a provisional mapping by
+the present authors (Gacutan and Vandenbergh, 2025) that scored account-derivable shares at figures
+moving from 61% to 39% to 2.8% as the assumed indicator set changed, the last over a 36-indicator
+denominator the register does not have (Section 4.2). Second, what separates the account routes into and out of reach is not compilation
+maturity but content. The routes Indonesia has compiled at pilot scale bear on 12.79% of the
+composite's published weight and the one route compiled nowhere on a comparable 13.70%, the first
+wholly containing the Tier A share above it; yet no compiled account produces the constituent data
+item the register asks for at any of these rows (Section 4.3). Third, the share an account would itself supply is about 2.33%, and
+what the mature account types offer at those rows is a production process rather than a stock of
+substitutable values (Section 5).
 
 
 # 3. Materials and methods
@@ -637,7 +638,10 @@ have produced: the gap between the 2021 closing year and the reference year the 
 three reference years. The second is a revision policy, for which the standard supplies the substance
 (paras 4.17–4.18, p. 88) and Indonesia supplies no instrument `[EVIDENCE GAP]`. An account silently
 improved between vintages would move a province's index value with no ecosystem change behind it, and
-nothing in the published record would flag it.
+nothing in the published record would flag it. The target series shows why that matters: counting the
+printed rows of Juknis Tabel 2 gives twelve provinces whose 2045 target exceeds the national 100,00
+(p. 69 [pdf 79], authors' own count), so a restatement rule has to govern provincial and national
+figures that are already inconsistent with each other.
 
 The institutional condition is unmet against an instrument whose own term has run. Kepmen KP 44/2023
 constituted the Tim Penyusun Neraca Sumber Daya Laut in February 2023 with a term expiring that
