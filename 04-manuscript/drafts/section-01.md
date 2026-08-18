@@ -6,6 +6,13 @@ credibility rests less on indicator design than on the production system beneath
 can only be as traceable as the statistics it consumes. That dependency is rarely examined, in part
 because indices are usually assessed on what they measure rather than on how their inputs are made.
 
+Composite indices of ocean condition are themselves an established form, the Ocean Health Index scoring
+every coastal country against ten goals for a coupled human–ocean system (Halpern et al., 2012), and the
+methodological difficulties they meet are documented rather than novel, the standard reference treating
+imputation, weighting and aggregation as the three choices that most move a published ranking
+(Nardo et al., 2008). The Indonesian case therefore belongs to a recognised class of measurement problem
+and not to an idiosyncratic one.
+
 Ocean accounting has developed as the candidate infrastructure for that problem. The System of
 Environmental-Economic Accounting Ecosystem Accounting framework, adopted by the UN Statistical
 Commission in 2021 as an international statistical standard, supplies the extent, condition, service

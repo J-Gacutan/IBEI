@@ -31,6 +31,12 @@ and mid-sentence, and carry information about where a fact is established: `(Tab
 - A closing rhetorical question that hands the reader onward.
 - "Figure 1 shows that X." Write the claim, then cite: "X (Figure 1)."
 
+**Capitalised `Table N` and `Figure N` are reserved for this article's own display items.** A table or
+figure inside a cited source document is cited in lower case and abbreviated, alongside its folio:
+`(MMAF, 2022, tab. 5, p. 52 [pdf 66])`, `fig. 3`. Juknis display items keep their Indonesian labels,
+`Tabel 4`, `Gambar 11`, which disambiguate them already. Without this rule a source table reads as a
+figure-citation-order violation on first inspection.
+
 ## Structural tells to hunt on revision (style guide Section 8)
 
 Balanced antithesis and the "not merely X but Y" mould · anthropomorphised methods (an account does

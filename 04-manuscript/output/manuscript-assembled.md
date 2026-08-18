@@ -3,12 +3,12 @@
 ## Abstract
 
 Indonesia is statutorily obliged to score every province annually on a 44-indicator blue economy
-composite compiled, on its own registration, as sectoral statistics with no primary collection
-(BAPPENAS 2025). Indonesia's ocean accounts (United Nations et al. 2024) are assessed here as
-compilation infrastructure for that index rather than as an alternative indicator source.
+composite compiled, on its own registration, as sectoral statistics with no primary collection.
+Indonesia's ocean accounts are assessed here as compilation infrastructure for that index rather
+than as an alternative indicator source.
 Here, the analysis demonstrates that what accounting offers such an index is a production
 process, being a standing classification, a balancing identity, a re-aggregable spatial basis
-(Rahayu et al. 2024) and a documented revision rule, rather than a stock of substitutable values.
+and a documented revision rule, rather than a stock of substitutable values.
 Reading the register's verbatim constituent data items rather than its indicator names corrects
 prior assessments: three condition indicators ask for the share of provincial area within a stated
 cover band, a tabulation of extent by class rather than the index against reference condition they
@@ -26,6 +26,13 @@ marine statistics into a single number that ministries can target, budget agains
 credibility rests less on indicator design than on the production system beneath them, since an index
 can only be as traceable as the statistics it consumes. That dependency is rarely examined, in part
 because indices are usually assessed on what they measure rather than on how their inputs are made.
+
+Composite indices of ocean condition are themselves an established form, the Ocean Health Index scoring
+every coastal country against ten goals for a coupled human–ocean system (Halpern et al., 2012), and the
+methodological difficulties they meet are documented rather than novel, the standard reference treating
+imputation, weighting and aggregation as the three choices that most move a published ranking
+(Nardo et al., 2008). The Indonesian case therefore belongs to a recognised class of measurement problem
+and not to an idiosyncratic one.
 
 Ocean accounting has developed as the candidate infrastructure for that problem. The System of
 Environmental-Economic Accounting Ecosystem Accounting framework, adopted by the UN Statistical
@@ -344,10 +351,10 @@ three account types carry the same maturity tag (b), and what separates them is 
 account form rather than the standing of the compilation producing it.
 
 Extent is the only account type with a verified opening, change and closing series. The pilot
-publishes a complete asset account (MMAF, 2022, Table 5, p. 52 [pdf 66]) in which coral falls from
+publishes a complete asset account (MMAF, 2022, tab. 5, p. 52 [pdf 66]) in which coral falls from
 259.50 ha to 247.50 ha, seagrass rises from 76.75 ha to 102.50 ha and mangrove falls from 21.50 ha to
 10.69 ha, with additions and reductions itemised as natural expansion, natural regression and managed
-regression, and with an ecosystem-conversion matrix at Table 6 (p. 53 [pdf 67]). This is the stock and
+regression, and with an ecosystem-conversion matrix at tab. 6 (p. 53 [pdf 67]). This is the stock and
 flow identity in Indonesian practice rather than asserted from the SEEA Ecosystem Accounting standard.
 
 Extent is also where two official series diverge. A BPS presentation reports the same pilot,
@@ -497,7 +504,7 @@ extent surface exists (Section 4.1), and cover is measured at survey stations, g
 of 18.11% in 2016 and live hard coral cover of 16.99% in 2021, which the report does not state to be
 the same measure and which are therefore not read here as a series, and seagrass cover averaging
 32.28% with a station maximum of 82.01% (MMAF, 2022, pp. 40, 45 [pdf 54, 59]). The 2021 coral figure is
-unreconciled in the source, where the narrative reports 16.99% whilst the report's own Table 3 on the same page prints
+unreconciled in the source, where the narrative reports 16.99% whilst the report's own tab. 3 on the same page prints
 an average of 18.36%. The cross-tabulation of extent by cover class is not published, and the step
 from the input layer to indicator 19 is one tabulation that has not been performed.
 
@@ -538,7 +545,7 @@ Indicator 24 asks for the *Total luas kawasan mangrove, rawa, dan lahan gambut y
 provinsi*, glossed in SIRUSA as degraded area subsequently replanted, which is an activity input
 measured in hectares planted. The pilot's asset account carries a managed-expansion line in its
 structure that is unpopulated at Gili Matra, where every addition is natural expansion and the only
-managed entry is 11.19 ha of managed mangrove regression (MMAF, 2022, Table 5, p. 52 [pdf 66]). The
+managed entry is 11.19 ha of managed mangrove regression (MMAF, 2022, tab. 5, p. 52 [pdf 66]). The
 correspondence at this row is therefore structural rather than demonstrated: an account of this form
 would record realised managed change, whilst the indicator counts hectares planted. The scope
 mismatch compounds it, as the indicator's three land covers are mangrove, swamp and peatland against
@@ -1041,7 +1048,12 @@ change sign between cycles, so it would attract a small and unstable weight and 
 printed in the sub-pillar analysis loop as *Reversi nilai indikator (atau drop indikator) jika
 ditemukan relasi negatif* (p. 30 [pdf 42]), where the negative relation is to the other indicators in
 the same sub-pillar. Whether a sign-changing series would trigger it is not specified in the Report and
-is read here as an inference. Net extent change belongs
+is read here as an inference. The mechanism is not peculiar to this index, as the standard reference on
+composite construction holds that under principal components weighting corrects for overlapping
+information rather than measuring importance, and that where indicators are not correlated weights
+cannot be estimated by the method at all (Nardo et al., 2008, §6.1) — a variable that is both
+low-variance and liable to correlate negatively with its neighbours is therefore poorly served by
+loading-derived weights on the method's own terms. Net extent change belongs
 beside the composite as a reported companion series in a combined presentation, not inside it as a
 forty-fifth indicator (Table 5).
 
@@ -1177,7 +1189,15 @@ imputation is stated conditionally rather than claimed, as no baseline exists ag
 one (Section 2), so what can be claimed is that measured values for the three consolidated items would
 be distinguishable from predicted ones.
 Introducing an account-derived indicator would in any case relocate imputation rather than remove it,
-which is why insertion should follow coverage (Section 6.5).
+which is why insertion should follow coverage (Section 6.5). That the distinction is worth publishing
+is established outside Indonesia. The Ocean Health Index, a composite of comparable construction in the
+same domain (Halpern et al., 2012), reports that 18.5% of its global score rests on gapfilled rather
+than observed data, ranging from 1% to 43% across its ten goals and exceeding 60% for ten regions that
+are predominantly small island territories, and its authors recommend that gapfilling be tracked from
+the outset and presented in the same framework as the scores themselves (Frazier et al., 2016). The
+IBEI publishes an imputation framework and no per-indicator record, so the comparison identifies a
+reporting reform rather than a data programme, and one the index could adopt without any account being
+compiled.
 
 Everything downstream of the input is untouched. Account supply changes the value entering a slot, not
 the slot, its weight or the aggregation rule, so the three-stage principal component procedure, the
@@ -1193,6 +1213,25 @@ in either direction. The renormalisation test bounds the difference between the 
 a percentage point wherever it can be run (Section 8.5), and the conditional is stated rather than
 collapsed because the test cannot be run on the pillar weights themselves. The
 design findings this study reports are likewise unaffected by accounts and not repaired by them.
+
+Two literatures bear on that conditional, and neither favours reading the printed percentages as
+importance. The handbook that defines the method holds that under principal components weighting
+"intervenes only to correct for overlapping information between two or more correlated indicators and
+is not a measure of the theoretical importance of the associated indicator", and that under linear
+aggregation weights are trade-offs rather than importance coefficients (Nardo et al., 2008, §6.1 and
+p. 31 n. 4). Paruolo et al. (2013) then measure what each variable actually contributes to five
+composites, the human development index among them, and find that because socio-economic variables are
+heteroscedastic and correlated, relative nominal weights hardly ever match relative effective
+importance. The IBEI is a composite over correlated provincial socio-economic variables with weights
+taken from first-component loadings, which is the configuration in which that divergence was found. The
+consequence here is specific and is not evaded, as every share this article reports, the 7.64%, the
+18.9% and the 26.1% alike, is a nominal share of printed weight rather than a measure of effective
+influence, and the inversion is a comparison of nominal shares. Becker et al. (2017) supply the test
+that would settle it, being a correlation-ratio measure of each variable's importance with confidence
+intervals, and it cannot be run here because it requires the provincial variable matrix beneath the
+index, which is unpublished `[EVIDENCE GAP]`. What survives the objection is the production-process
+case, which never rested on the shares, and what does not survive unqualified is any reading of the
+inversion as a statement about influence on a provincial score.
 
 ## 9.2 Loose coupling as architecture
 
@@ -1231,10 +1270,20 @@ development index template, which treats the problem as one of index design rath
 production system beneath it, and on that reading the effort recommended here would be misdirected.
 Wuwung et al. (2024) locate the constraint on Indonesian ocean policy in institutional fragmentation
 across mandates, which would make an inter-agency supply arrangement the hardest rather than the
-cheapest of the conditions precedent, against the ordering proposed here. No source located by this
-study argues the contrary position directly, that accounts cannot serve as statistical infrastructure
-for a composite index, and the position advanced here should be read as adjacent to those two rather
-than as contested by a settled literature.
+cheapest of the conditions precedent, against the ordering proposed here. A third reading questions the
+target rather than the method. Ravallion (2012) defines a mashup index as a composite for which
+existing theory and practice provides little or no guidance for its design, so that the producer is
+essentially free to set an unusually large number of moving parts, and concludes that doubts remain
+about the value added of such indices and their policy relevance relative to the dashboard alternative
+of monitoring the components separately. On that reading the effort specified here is aimed at the
+wrong object, and an account should be published alongside the components rather than routed into an
+aggregate. The answer this record supports is statutory rather than methodological, as the IBEI is
+scored for every province annually under Perpres 12/2025 (Section 1), so the dashboard alternative is
+not in BAPPENAS's gift and the question of what supplies the composite is live whether or not an
+aggregate is the instrument a statistician would have chosen. That is a reason to attend to the inputs
+of this index, not a defence of aggregation in general. No source located by this study argues that
+accounts cannot serve as statistical infrastructure for a composite index, which is the narrower
+proposition advanced here.
 
 
 # 10. Conclusion and follow-on
@@ -1533,3 +1582,5 @@ Tabel 4, Tabel 5 and Gambar 11.
 | Social classification-dependent share | derived | 4.59+0.97+1.91+6.23 |  | 13.70 |
 | Aspirational route | derived | 13.70 + 5.15 |  | 18.85 |
 | Inversion ratio | derived | 18.85 / 7.64 |  | 2.47 |
+
+

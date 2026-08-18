@@ -22,6 +22,9 @@ BAPPENAS, 2025b. *Indeks Ekonomi Biru Indonesia 2024 / Indonesia Blue Economy In
 Kementerian Perencanaan Pembangunan Nasional/Badan Perencanaan Pembangunan Nasional. Revised December
 2025. [Cited in text as the Report.]
 
+Becker, W., Saisana, M., Paruolo, P. and Vandecasteele, I., 2017. Weights and importance in composite
+indicators: closing the gap. *Ecological Indicators* 80: 12–22. doi:10.1016/j.ecolind.2017.03.056.
+
 Beukering, P.V., Haider, W., Wolfs, E., Liu, Y., Leeuw, K.V.D., Longland, M., Sablan, J., Beardmore,
 B., Prima, S.D., Massey, E. and Cesar, H.S., 2006. *The Economic Value of the Coral Reefs of Saipan,
 Commonwealth of the Northern Mariana Islands*. **[secondary]** Author string reproduced exactly as
@@ -31,12 +34,19 @@ Fenichel, E.P., Milligan, B., Porras, I. et al., 2020. *National Accounting for 
 Economy*. Washington DC: World Resources Institute. Blue Paper for the High Level Panel
 for a Sustainable Ocean Economy.
 
+Frazier, M., Longo, C. and Halpern, B.S., 2016. Mapping uncertainty due to missing data in the global
+Ocean Health Index. *PLOS ONE* 11(8): e0160377. doi:10.1371/journal.pone.0160377.
+
 Gacutan, J., Lal, K.K., Herath, S., Lantz, C., Taylor, M.D. and Milligan, B.M., 2022. Using ocean
 accounting towards an integrated assessment of ecosystem services and benefits within a coastal lake.
 *One Ecosystem* 7: e81855. doi:10.3897/oneeco.7.e81855.
 
 Giyanto, P.M., Dhewani, N., Abrar, M. and Iswari, M.Y., 2017. *Indeks Kesehatan Terumbu Karang
 Indonesia*. Jakarta: Pusat Penelitian Oseanografi, LIPI. **[secondary]**
+
+Halpern, B.S., Longo, C., Hardy, D., McLeod, K.L., Samhouri, J.F., Katona, S.K. et al., 2012. An index
+to assess the health and benefits of the global ocean. *Nature* 488(7413): 615–620.
+doi:10.1038/nature11397.
 
 Hoberg, J., 2011. *Economic Analysis of Mangrove Forests: A Case Study in Gazi Bay, Kenya*. Nairobi:
 United Nations Environment Programme. **[secondary]**
@@ -58,9 +68,21 @@ Muttaqin, A., Yudha, K. and Lestari, P.G., 2020. *Standar Operasional Prosedur M
 Terumbu Karang Kawasan Konservasi Perairan Nasional Taman Wisata Perairan Gili Matra*. Jakarta:
 Kementerian Kelautan dan Perikanan. **[secondary]**
 
+Nardo, M., Saisana, M., Saltelli, A., Tarantola, S., Hoffman, A. and Giovannini, E., 2008. *Handbook on
+Constructing Composite Indicators: Methodology and User Guide*. Paris: OECD Publishing, jointly with
+the European Commission Joint Research Centre. ISBN 978-92-64-04345-9.
+doi:10.1787/9789264043466-en.
+
+Paruolo, P., Saisana, M. and Saltelli, A., 2013. Ratings and rankings: voodoo or science? *Journal of
+the Royal Statistical Society: Series A (Statistics in Society)* 176(3): 609–634.
+doi:10.1111/j.1467-985X.2012.01059.x.
+
 Rahayu, A.K., Arhatin, R.E., Gacutan, J., Agung, F., Pingkan, J., Rosdiana, A. and Yulianto, I., 2024.
 Optimising Marine Basic Spatial Units (MBSU) for ocean accounting using empirical data from Saleh Bay,
 Indonesia. *One Ecosystem* 9: e125578. doi:10.3897/oneeco.9.e125578.
+
+Ravallion, M., 2012. Mashup indices of development. *The World Bank Research Observer* 27(1): 1–32.
+doi:10.1093/wbro/lkr009.
 
 Rinaldi, A., Christina, A., Rachmawati, R.N. and Muslim, A., 2025. Bayesian spatio-temporal modeling:
 application to development of blue economy index and its influence to GRDP in Sumatera Island.

@@ -49,7 +49,12 @@ change sign between cycles, so it would attract a small and unstable weight and 
 printed in the sub-pillar analysis loop as *Reversi nilai indikator (atau drop indikator) jika
 ditemukan relasi negatif* (p. 30 [pdf 42]), where the negative relation is to the other indicators in
 the same sub-pillar. Whether a sign-changing series would trigger it is not specified in the Report and
-is read here as an inference. Net extent change belongs
+is read here as an inference. The mechanism is not peculiar to this index, as the standard reference on
+composite construction holds that under principal components weighting corrects for overlapping
+information rather than measuring importance, and that where indicators are not correlated weights
+cannot be estimated by the method at all (Nardo et al., 2008, §6.1) — a variable that is both
+low-variance and liable to correlate negatively with its neighbours is therefore poorly served by
+loading-derived weights on the method's own terms. Net extent change belongs
 beside the composite as a reported companion series in a combined presentation, not inside it as a
 forty-fifth indicator (Table 5).
 

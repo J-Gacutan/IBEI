@@ -96,7 +96,7 @@ Indicator 24 asks for the *Total luas kawasan mangrove, rawa, dan lahan gambut y
 provinsi*, glossed in SIRUSA as degraded area subsequently replanted, which is an activity input
 measured in hectares planted. The pilot's asset account carries a managed-expansion line in its
 structure that is unpopulated at Gili Matra, where every addition is natural expansion and the only
-managed entry is 11.19 ha of managed mangrove regression (MMAF, 2022, Table 5, p. 52 [pdf 66]). The
+managed entry is 11.19 ha of managed mangrove regression (MMAF, 2022, tab. 5, p. 52 [pdf 66]). The
 correspondence at this row is therefore structural rather than demonstrated: an account of this form
 would record realised managed change, whilst the indicator counts hectares planted. The scope
 mismatch compounds it, as the indicator's three land covers are mangrove, swamp and peatland against
