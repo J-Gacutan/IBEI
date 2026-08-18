@@ -36,7 +36,8 @@ concedes the other two.
 ## 3.3 Corpus
 
 A citation-anchored corpus of 199 chunks was built over the index's own published documentation and
-is released with this article, so every quotation resolves to a numbered record rather than a page
+is released with this article under the Data availability statement, so every quotation resolves to a
+numbered record rather than a page
 range. Extraction was purposive. The build, dated 2026-08-14, comprises 106
 chunks from the Juknis (BAPPENAS 2025a), 49 from the IBEI Report 2024 in its December 2025 revision
 (BAPPENAS 2025b), 15 from Rinaldi et al. (2025) and 29 from the SIRUSA metadata (kegiatan 94936
@@ -125,8 +126,7 @@ the source `[ASSUMPTION]`. The census is deposited as Supplementary Data S2.
 Indonesian decimal commas are preserved inside quotation and rendered as points in prose. Quotations
 are from the Indonesian source text. Three inline flags mark evidential status: `[EVIDENCE GAP]`
 where a required source was not found, `[ASSUMPTION]` where the argument depends on something
-unconfirmed, and `[CONTESTED DENOMINATOR]` on the Tier A share of 7.64% and figures derived from it.
-That third flag carries one meaning throughout and not two: it records that the share measures what
-these account types bear on rather than what an account would supply. It is not a flag about the
-weights, which are printed. Conflicting sources are reported as conflicts and are not averaged or
+unconfirmed, and `[CONTESTED DENOMINATOR]` on every share of the composite, carrying one meaning
+throughout and defined at the head of Section 4.2. It is not a flag about the weights, which are
+printed. Conflicting sources are reported as conflicts and are not averaged or
 adjudicated.

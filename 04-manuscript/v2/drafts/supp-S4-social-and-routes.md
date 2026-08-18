@@ -55,7 +55,16 @@ All figures in this subsection are computed under the three-pillar structure of 
 Gambar 11. Under Tabel 1's four-pillar structure, indicators 15 to 18 leave the economy pillar for the
 *Enabler* pillar, whose sub-pillar shares are not published, so no equivalent figure can be given.
 
-## S4.3 Sub-pillar H
+## S4.3 What an ocean governance account would contain
+
+The register measures governance by a single count of landing sites. The alternatives — an
+institutional inventory, an account of legal and policy instruments, a spatial classification of
+designated marine uses, and ocean expenditure classified consistently — are this study's own reading of
+what an ocean governance account would contain, stated in no source `[ASSUMPTION]`. The institutional
+inventory is the realistic provincial entry point, being the only one of the four that needs no new
+spatial or fiscal compilation.
+
+## S4.4 Sub-pillar H
 
 Sub-pillar H is 50.0% of the environment pillar and contains only solar and hydropower variables, at
 24.5% and 24.2% for photovoltaic capacity and generation and 26.5% and 24.8% for hydropower (Tabel 6,

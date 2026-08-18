@@ -181,4 +181,4 @@ citations have been replaced by the accounting standard and by IDEEA Group (2021
 edition does exist, *Technical Guidance on Ocean Accounting for Sustainable Development* (Global Ocean
 Accounts Partnership, 2019), which MMAF (2022a) cites in its own bibliography. It is not held in this
 workspace, and nothing in the manuscript currently rests on it. Obtaining it is the way to restore a
-guidance-side citation to the forward register in Section 7 if that is wanted.
+guidance-side citation to the forward register in Section 4.3 if that is wanted.

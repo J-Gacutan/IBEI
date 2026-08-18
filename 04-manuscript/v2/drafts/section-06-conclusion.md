@@ -3,10 +3,11 @@
 Ocean accounts are worth building for this index because of how the handful of indicators they touch
 would be produced, and not because of how many indicators they could fill. The share an account would
 itself supply is about 2.33% of the composite on the published weights, which the handbook prints at
-every level. What separates the account routes into and out of reach
-is content rather than compilation maturity: the routes compiled at pilot scale and the route compiled
-nowhere bear on comparable shares of the index, 12.79% against 13.70%, yet no compiled account produces
-the constituent data item the register asks for at any of those rows.
+every level but which are nominal, and nominal weight need not track effective importance under this
+estimator. What separates the account routes into and out of reach is content rather than compilation
+maturity: the routes compiled at pilot scale and the route compiled nowhere bear on comparable shares
+of the index, 12.79% against 13.70% — one containing the other — yet no compiled account produces the
+constituent data item the register asks for at any of those rows.
 
 The binding constraint on acting on this is not methodological. No compilation cost appears anywhere in
 the record obtained for this study — no staff-day figure, no budget line, no imagery cost and no

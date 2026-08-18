@@ -8,10 +8,9 @@ province, on one vintage. Every output carries maturity tag (b).
 The compiled record comprises the Gili Matra Marine Recreational Park pilot off north Lombok, together
 with one peer-reviewed grid-optimisation study at Saleh Bay, Sumbawa (Rahayu et al., 2024). Both sit in
 West Nusa Tenggara, so NTB is the single province carrying a documented published compilation located
-by this study. A national Ocean Accounts Dashboard was launched in July 2025 and is described by GOAP
-as publicly available and interactive on a harmonised spatial frame (GOAP country page, retrieved
-2026-08-13). That is a programme self-statement about a platform, and it evidences no compilation
-beyond the pilot record.
+by this study. A national Ocean Accounts Dashboard launched in July 2025 is described by GOAP as publicly available
+and interactive on a harmonised spatial frame (GOAP country page, retrieved 2026-08-13) — a programme
+self-statement about a platform, evidencing no compilation beyond the pilot record.
 
 The pilot's footprint belongs in its own units, because the smallness is part of the finding: 2,980.84
 ha on a 25 m by 25 m marine basic spatial unit (MBSU) grid of 48,211 cells, opening in 2015 and
@@ -57,6 +56,14 @@ Five of the register's 44 rows are the whole of what an ocean account touches. I
 name quantities an account's output structure already contains; indicators 24 and 27 sit adjacent to
 account output and are disposed of rather than claimed (Table 2). Figure 2 gives the assignment for all
 44 rows with the constituent data items in full.
+
+Four qualifications govern every share in this section and the two that follow. Each carries `[CONTESTED DENOMINATOR]`: it measures what these account types bear on, never
+what an account would supply and never an achievable score improvement. Each is a share of nominal
+published weight, which under this estimator need not track effective importance (Section 5.5). Every economy and
+social figure — 26.1%, 5.15%, 4.11%, 1.34%, 0.31%, 7.20%, 6.29%, 13.7% — is structure-dependent on the
+three-pillar locus of Section 2.3, with no four-pillar equivalent in the published weights. And the social pillar's indicators remain BPS outputs throughout, the
+account contribution being a classification standard rather than a substitute source, so the wider
+30.5% reading may be used only where it is named as the wider reading.
 
 On the compilation axis the concession is complete. None of the five indicator values has been
 published by any Indonesian account, for any province or any site `[EVIDENCE GAP]`. Every capability
@@ -117,11 +124,9 @@ supply.
 
 The weight chain is shown openly as a multiplication. The environment pillar carries 36.9% of the
 composite and the resource-quality sub-pillar 50.0% of the pillar (Juknis, Tabel 4 and Tabel 5, p. 94
-[pdf 104]), giving 18.45%, of which the five Tier A variables sum to about 7.64%
-`[CONTESTED DENOMINATOR]`. Figure 3 places that band inside the published weight structure. The tag
-names one specific objection: 7.64% is a defensible measure of the share these account types bear on,
-and an indefensible measure of the share an account would supply, because most of it sits at rows the
-mapping has itself disqualified. The decomposition is therefore reported in three parts: about 2.33% at
+[pdf 104]), giving 18.45%, of which the five Tier A variables sum to about 7.64%. Figure 3 places that
+band inside the published weight structure. Most of the 7.64% sits at rows the mapping has itself
+disqualified, so the decomposition is reported in three parts: about 2.33% at
 the three matched condition rows, about 1.25% at indicator 24 as a partial, and about 4.06% at
 indicator 27, which the account does not supply. **The share at which an account is the prospective
 supply route is about 2.33%**, rising to about 3.58% only if indicator 24's structural correspondence
@@ -149,18 +154,17 @@ rather than exact. Every account-side entry is maturity tag (b), demonstrated at
 ## 4.3 Extension routes, and what separates them
 
 What separates the account routes into and out of reach is content, not compilation maturity. The
-routes with a pilot-scale Indonesian compilation bear on 12.79% of the composite. That total is not
-independent of Section 4.2: it is the Tier A five at 7.64% plus the governance sub-pillar at 5.15%,
-the latter being 15.8% of the economy pillar on Tabel 5 and confirmed by Gambar 11 at 5% (pp. 93–94
-[pdf 103–104]). It wholly contains the earlier figure, and only 2.33 of its 12.79 points are rows at
-which an account is the prospective supply route. The remaining 10.46 are rows the mapping has itself
-disqualified — 1.25 at indicator 24, 4.06 at indicator 27, and the whole 5.15 at governance. The one
+routes with a pilot-scale Indonesian compilation bear on 12.79% of the composite. That total is not independent of
+Section 4.2: it is the Tier A five at 7.64% plus governance at 5.15%, the latter 15.8% of the economy
+pillar on Tabel 5 and confirmed by Gambar 11 at 5% (pp. 93–94 [pdf 103–104]). It wholly contains the
+earlier figure, and only 2.33 of its 12.79 points are rows at which an account is the prospective
+supply route; the other 10.46 are rows the mapping has disqualified — 1.25 at indicator 24, 4.06 at 27,
+5.15 at governance. The one
 route with no Indonesian compilation at any maturity, the classification-dependent social share, bears
 on 13.70%. The two are of comparable size, and the comparison is not the finding. The finding is that
 no compiled account produces the constituent data item the register asks for at any of these rows, and
 that the outputs the pilot does produce — monetary supply and use, zone areas, protection expenditure —
-carry no weight in the index at all (Figure 4). The arithmetic below follows the three-pillar locus declared at
-Section 2.3, so every tourism, technology and governance figure carries that locus with it.
+carry no weight in the index at all (Figure 4).
 
 **Tier B adds no quantity the register lacks.** Four economy sub-pillars carry about 26.1% of the
 composite, which Gambar 11's integers confirm at 5 + 8 + 6 + 7 = 26 (Juknis, Tabel 5 and Gambar 11,
@@ -179,15 +183,12 @@ boundary bears on about 4.11% (S4.2). The intellectually interesting route is th
 one.
 
 **Tier C is what the register has no term for.** None of the 44 constituent data items names an
-ecosystem service flow, an asset value or a depletion term. The sharpest instance is an identity rather
-than an aspiration: indicators 2 to 5 are unsigned production volumes, so a province raises its score
-by producing more, and no term records whether the stock producing it is being drawn down. The missing
-term is depletion (United Nations et al., 2024, para. A1.25), and the obstacle is that sustainable
-yield by province and stock is not published, which makes stock assessment a prerequisite rather than
-an alternative. Ecosystem services in physical units are specified in full (ch. 7) and compiled nowhere
-in Indonesia; the nearest candidate is coastal protection from mangrove and reef, measurable against
-the layers the pilot already produces. Combined presentations (paras 14.56–14.57) are the one row
-available immediately, a presentation choice rather than a data gap.
+ecosystem service flow, an asset value or a depletion term; Table 3 sets out each missing term against
+where the standard specifies it. The sharpest instance is an identity rather than an aspiration:
+indicators 2 to 5 are unsigned production volumes, so a province raises its score by producing more,
+and no term records whether the stock producing it is being drawn down. The missing term is depletion
+(United Nations et al., 2024, para. A1.25), and the obstacle is that sustainable yield by province and
+stock is not published, which makes stock assessment a prerequisite rather than an alternative.
 
 **The social pillar carries the largest account-relevant share, and nothing above methodology under
 development has been compiled anywhere.** Seven of the thirteen social indicators require a
@@ -217,14 +218,11 @@ Ikan (TPI) (unit)*, at 100.0% (p. 95 [pdf 105]). At 15.8% of the economy pillar 
 5.15% of the composite, matching Gambar 11's F at 5%. The Gili Matra pilot does compile a governance
 account, at tables 18–19 (p. 79), which places that share at maturity (b) rather than (c). What the
 pilot's governance account produces — zone areas and protection expenditure — appears nowhere in the
-register, so the compilation and the indicator do not meet. The alternatives to a single count of landing sites — an institutional inventory, an account of legal
-and policy instruments, a spatial classification of designated marine uses, and ocean expenditure
-classified consistently — are set out here as this study's own reading of what such an account would
-contain `[ASSUMPTION]`, the institutional inventory being the realistic provincial entry point.
-Technology has the identical one-variable shape, vessels over 30 GT at 100.0% of a sub-pillar carrying
-about 1.34% of the composite. Both figures
-are structure-dependent: under Tabel 1's four-pillar structure these variables sit in the *Enabler*
-pillar, whose sub-pillar shares are not published (Section 2.3).
+register, so the compilation and the indicator do not meet. What such an account would instead contain,
+and which part of it is the realistic provincial entry point, is set out in S4.3 as this study's own
+reading `[ASSUMPTION]`. Technology has the identical one-variable shape, vessels over 30 GT at 100.0%
+of a sub-pillar carrying about 1.34% of the composite. Under Tabel 1's four-pillar structure both
+variables sit in the *Enabler* pillar, whose sub-pillar shares are not published.
 
 Indicator 27 belongs here as well as in Table 2. Its roughly 4.06% exceeds all three
 ecosystem-condition variables combined at about 2.33%, and Tabel 7's shock analysis makes it the
@@ -234,12 +232,6 @@ reef, in units the handbook prints and does not define, so the two are read as o
 designated. Qualifying designated area by management effectiveness would be a governance-account
 contribution to the environment pillar, which is a clear reason account types cannot be mapped pillar by
 pillar.
-
-Three guard rails travel with every share in this subsection. None is a claim about achievable score
-improvement; all describe the share of the index whose production these account types bear on. The
-social pillar's indicators are and remain BPS outputs, the account contribution being a classification
-standard rather than a substitute data source. And the wider 30.5% reading may be used only where it is
-named as the wider reading.
 
 One item in the register is cheap. An ocean-sector classification standard would require no new survey
 if SUSENAS and SAKERNAS microdata already carry sufficient occupation and industry detail to construct
@@ -303,10 +295,9 @@ The institutional condition is unmet against an instrument whose own term has ru
 constituted the Tim Penyusun Neraca Sumber Daya Laut in February 2023 and set its term to expire on
 31 December 2023, and no renewal instrument was located `[EVIDENCE GAP]`. The July 2025 dashboard launch
 indicates continued activity under some instrument not obtained, so the defensible statement is that no
-renewal was located rather than that the mandate lapsed. Two sectoral products feeding one another does
-not by itself constitute an accredited statistical input. The gap runs in both directions: no microdata
-are released, so even a compliant supplier could not verify that its value survived into the published
-provincial score.
+renewal was located rather than that the mandate lapsed. Two sectoral products feeding one another do
+not by themselves constitute an accredited statistical input, and no microdata are released, so even a
+compliant supplier could not verify that its value survived into the published provincial score.
 
 One design recommendation follows. Where a province has no account, an account-derived indicator would
 itself be predicted from socio-economic proxies under the framework the Report publishes (pp. 64–66

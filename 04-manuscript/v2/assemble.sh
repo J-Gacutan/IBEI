@@ -34,14 +34,17 @@ SUPP=(
 )
 
 REFS=drafts/references.md
+BACK=drafts/back-matter.md
 
-for f in "${MAIN[@]}" "${SUPP[@]}" "$REFS"; do
+for f in "${MAIN[@]}" "${SUPP[@]}" "$REFS" "$BACK"; do
   [[ -f "$f" ]] || { echo "missing: $f" >&2; exit 1; }
 done
 
 mkdir -p output
 : > output/manuscript-v2.md
 for f in "${MAIN[@]}"; do cat "$f" >> output/manuscript-v2.md; printf '\n\n' >> output/manuscript-v2.md; done
+printf '\n---\n\n' >> output/manuscript-v2.md
+cat "$BACK" >> output/manuscript-v2.md
 printf '\n---\n\n' >> output/manuscript-v2.md
 cat "$REFS" >> output/manuscript-v2.md
 printf '\n---\n\n# Supplementary material\n\n' >> output/manuscript-v2.md
@@ -68,7 +71,7 @@ python3 - "$main_all" "$main_prose" "$supp" "$abstract" <<'PY'
 import re,sys
 main_all,main_prose,supp,abstract=(int(x) for x in sys.argv[1:5])
 raw=open('output/manuscript-v2.md').read().split('# 1. Introduction')[1]
-raw=raw.split('# References')[0].split('# Supplementary material')[0]
+raw=raw.split('# Declarations')[0].split('# References')[0].split('# Supplementary material')[0]
 body="\n".join(l for l in raw.split("\n") if not l.startswith(('#','|','>','---')))
 s=[x for x in re.split(r'(?<=[.!?])\s+',body) if len(x.split())>3]
 L=sorted(len(x.split()) for x in s)

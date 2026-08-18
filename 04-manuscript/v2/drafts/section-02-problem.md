@@ -78,9 +78,8 @@ published only there, whilst register rows keep their Tabel 1 labels.
 The choice is material in one place and immaterial in another. Every indicator in the Tier A mapping
 sits in the environment pillar under both structures, so Section 4.2's arithmetic is unaffected
 `[ASSUMPTION]`. Section 4.3's figures are computed over precisely the pillars across which indicators
-15 to 18 move: the economy pillar's account-relevant share of about 26.1% and the governance share of
-about 5.15% are structure-dependent, and no four-pillar equivalent can be given from the published
-weights. Both are identified as structure-dependent at each use.
+15 to 18 move, and are therefore structure-dependent; Section 4.2 lists which, and states that no
+four-pillar equivalent can be given from the published weights.
 
 A second contradiction bears on how any published value should be read. One printed page asserts
 both a rescaling into a 1 to 100 range and an unbounded principal component score that may be

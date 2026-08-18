@@ -42,32 +42,31 @@ reporting compounds it, the narrative giving 16.99% live hard coral cover for 20
 the report's table on the same page. Change is the quantity a balancing identity exists to report,
 and provenance is what this article claims accounts buy.
 
-Read one way, this refutes the provenance claim outright. Read against what the two documents
-actually are, it qualifies it in a specific place. The two series are parallel releases of the same
-underlying mapping layer, published in a presentation and a report, and neither is an account of the
-other. Publishing account-shaped tables is not the same as running an account. The property claimed
-here is not that compilation prevents divergence, which nothing in the standard promises. It is that
-a balancing identity gives divergence somewhere to appear: opening stock, additions, reductions and
-closing stock are four entries that must reconcile, and that a second compilation must restate
-rather than replace. The Gili Matra case is evidence for that reading in negative form. Precisely
-because neither document was compiled under such an identity, and because no revision rule required
-either to restate the other, a 6.26 ha disagreement about coral change could be published twice and
-reconciled nowhere. That is an argument from the account form rather than a demonstration, since no
-Indonesian compilation has yet been revised under such a rule `[ASSUMPTION]`.
+This is a disconfirming instance and is retained as one. It is not disposed of by observing that the two
+series are parallel releases of one mapping layer and that neither is an account of the other: that
+observation is true, and it is also unfalsifiable in the direction this article needs, since the only
+compiled Indonesian instance would be reclassified out of the evidence base at the point where it tests
+the claim. The narrower property claimed
+here is not that compilation prevents divergence, which nothing in the standard promises, but that a
+balancing identity gives divergence somewhere to appear — opening stock, additions, reductions and
+closing stock are four entries that must reconcile, and a second compilation must restate rather than
+replace. Gili Matra cannot confirm that property, because neither document was compiled under such an
+identity. It cannot refute it either, for the same reason. What it does establish is the cost of the
+absence: a 6.26 ha disagreement about coral change was published twice and reconciled nowhere. The
+provenance property is therefore asserted from account form and is untested on the Indonesian record,
+and it will remain untested until a compilation is revised under such a rule `[ASSUMPTION]`.
 
-A second objection bears on the same argument. A well-documented statistical register could supply
-several of the four properties without any account being compiled, and on two of the four it holds
-outright. A standing unit and classification definition is an act of codification, requiring a
-published definition of the mapping unit, the ecosystem classes and the landward and seaward limits;
-nothing about compiling an account is needed to write one down. Documented vintage and provenance is
-likewise a metadata requirement any well-run register discharges. The spatial property is
-intermediate: a register can mandate a grid and a minimum mapping unit but cannot itself produce the
-re-aggregable cell-level tabulation the mandate presupposes. What does not reduce to codification is
-the residual — the balancing identity, and the revision rule that alters the opening and closing
-entries themselves. Both are properties of double-entry over a stock. The residual is thin, and
-saying so is more useful than defending a wider claim. A reader who concludes that Indonesia should
-codify definitions before compiling anything has read the evidence correctly, and that ordering is
-what Section 4.4 recommends.
+A second objection bears on the same argument, and holds outright on two of the four properties. A
+standing unit and classification definition is an act of codification — a published definition of the
+mapping unit, the ecosystem classes and the landward and seaward limits — and nothing about compiling
+an account is needed to write one down. Documented vintage and provenance is likewise a metadata
+requirement any well-run register discharges. The spatial property is intermediate: a register can
+mandate a grid and a minimum mapping unit but cannot produce the re-aggregable cell-level tabulation
+the mandate presupposes. What does not reduce to codification is the residual — the balancing identity,
+and the revision rule that alters the opening and closing entries themselves — both properties of
+double-entry over a stock. The residual is thin, and saying so is more useful than defending a wider
+claim. A reader who concludes that Indonesia should codify definitions before compiling anything has
+read the evidence correctly, and that ordering is what Section 4.4 recommends.
 
 ## 5.3 What account supply does not fix
 
@@ -94,15 +93,13 @@ division explicit and auditable; they do not make it ecologically meaningful.
 Net extent change cannot simply be inserted. The index states its own weighting rule: an indicator
 with greater variability and strong correlation to others in its domain *akan secara alami
 mendapatkan bobot yang lebih tinggi* (p. 29 [pdf 41]). A signed annual difference of a large, slowly
-changing stock is low-variance by construction and can change sign between cycles, so it would
-attract a small and unstable weight, and might meet the rule printed in the sub-pillar loop as
-*Reversi nilai indikator (atau drop indikator) jika ditemukan relasi negatif* (p. 30 [pdf 42]).
-Whether a sign-changing series would trigger it is not specified and is read here as an inference.
-The mechanism is not peculiar to this index: under principal components, weighting corrects for
-overlapping information rather than measuring importance, and where indicators are not correlated
-weights cannot be estimated by the method at all (Nardo et al., 2008, §6.1). Net extent change
-belongs beside the composite as a reported companion series, not inside it as a forty-fifth
-indicator.
+changing stock is low-variance by construction and can change sign between cycles, so it would attract
+a small and unstable weight, and might meet the printed rule *Reversi nilai indikator (atau drop
+indikator) jika ditemukan relasi negatif* (p. 30 [pdf 42]) — whether a sign-changing series triggers it
+is not specified and is read here as an inference. The mechanism is general: under principal
+components, weighting corrects for overlapping information rather than measuring importance (Nardo et
+al., 2008, §6.1). Net extent change belongs beside the composite as a companion series, not inside it
+as a forty-fifth indicator.
 
 Half the environment pillar measures something no ocean account should be built to measure. The
 renewable-energy sub-pillar carries 50.0% of the pillar and contains no marine variable, being solar
@@ -157,8 +154,12 @@ provincial socio-economic variables with weights taken from first-component load
 configuration in which that divergence was found. Becker et al. (2017) supply the test that would
 settle it, a correlation-ratio measure of each variable's importance with confidence intervals. It
 cannot be run here, because it requires the provincial variable matrix beneath the index, which is
-unpublished `[EVIDENCE GAP]`. What survives the objection is the production-process case, which
-never rested on the shares.
+unpublished `[EVIDENCE GAP]`. What does not survive should be named as plainly as what does.
+What does not survive is the reading of 7.64%, 2.33%, 12.79% and 13.70% as measures of consequence:
+they are shares of nominal published weight, and nominal weight is not importance under this estimator.
+They remain exact statements of what the handbook prints and of what an account bears on, which is the
+use made of them here. What survives is the production-process case, which never rested on the
+shares.
 
 Six further limitations bear on specific figures. Whether Tabel 4 to Tabel 6's percentages are raw
 loadings or normalised contributions is not stated anywhere, and the reading adopted here — that
@@ -168,8 +169,13 @@ derived shares would lose their denominator rather than move. The printed aggreg
 illegible in the PDF text layer at Juknis pp. 64–65 and Report pp. 31–32, so what is reconstructed
 is the notation, at medium-high confidence, rather than the method. The per-indicator imputation
 record is unpublished, which is the largest single unknown, because it determines how much of any
-published provincial value is measurement and how much is prediction. The mapping is an assessment
-against stated criteria rather than an independently verifiable quantity, which is why every row's
+published provincial value is measurement and how much is prediction. The mapping is a single-coder assessment against
+stated criteria, graded by the authors and not blind, with no second coder and no adjudication
+protocol. Deposit secures auditability, not reliability, and the two are not substitutes: the same
+team's earlier mapping moved from 61% to 39% to 2.8% as the assumed indicator set changed, which is
+direct evidence that a grading of this kind is unstable under a change of premise. An
+author-independent re-grade of all five Tier A rows and a random fifteen of the thirty-nine, reporting
+raw disagreements, is the check this study has not run. It is why every row's
 score and exclusion ground is deposited. Compilation cost is absent from the public record at every
 site. And this study engaged no Indonesian agency, by project constraint, so the absence claims
 above are conditions to live with rather than future work.

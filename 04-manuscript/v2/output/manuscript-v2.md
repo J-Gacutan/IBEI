@@ -16,8 +16,10 @@ are the whole of what an account touches, carrying 7.64% of the composite's publ
 about 2.33% is the share an account would itself supply. What separates the account routes into and out
 of reach is content rather than compilation maturity: routes compiled at pilot scale bear on 12.79% and
 the one route compiled nowhere on 13.70%, yet no compiled account produces the data item the register
-asks for at any of them. Every share measures what these account types bear on rather than what an
-account would supply, a distinction the article keeps open at each use. What accounting offers such an index is a production process — a standing
+asks for at any of them. The figure 12.79% is not independent of 7.64% but wholly contains it. Every
+share measures what these account types bear on rather than what an account would supply, and every
+share is nominal published weight, which under principal-component weighting need not track effective
+importance — a test that cannot be run because the provincial variable matrix is unpublished. What accounting offers such an index is a production process — a standing
 classification, a balancing identity, a re-aggregable spatial basis and a documented revision rule —
 rather than a stock of substitutable values. What an accounting
 system can carry for a statutory composite is now a general question.
@@ -181,9 +183,8 @@ published only there, whilst register rows keep their Tabel 1 labels.
 The choice is material in one place and immaterial in another. Every indicator in the Tier A mapping
 sits in the environment pillar under both structures, so Section 4.2's arithmetic is unaffected
 `[ASSUMPTION]`. Section 4.3's figures are computed over precisely the pillars across which indicators
-15 to 18 move: the economy pillar's account-relevant share of about 26.1% and the governance share of
-about 5.15% are structure-dependent, and no four-pillar equivalent can be given from the published
-weights. Both are identified as structure-dependent at each use.
+15 to 18 move, and are therefore structure-dependent; Section 4.2 lists which, and states that no
+four-pillar equivalent can be given from the published weights.
 
 A second contradiction bears on how any published value should be read. One printed page asserts
 both a rescaling into a 1 to 100 range and an unbounded principal component score that may be
@@ -250,7 +251,8 @@ concedes the other two.
 ## 3.3 Corpus
 
 A citation-anchored corpus of 199 chunks was built over the index's own published documentation and
-is released with this article, so every quotation resolves to a numbered record rather than a page
+is released with this article under the Data availability statement, so every quotation resolves to a
+numbered record rather than a page
 range. Extraction was purposive. The build, dated 2026-08-14, comprises 106
 chunks from the Juknis (BAPPENAS 2025a), 49 from the IBEI Report 2024 in its December 2025 revision
 (BAPPENAS 2025b), 15 from Rinaldi et al. (2025) and 29 from the SIRUSA metadata (kegiatan 94936
@@ -339,10 +341,9 @@ the source `[ASSUMPTION]`. The census is deposited as Supplementary Data S2.
 Indonesian decimal commas are preserved inside quotation and rendered as points in prose. Quotations
 are from the Indonesian source text. Three inline flags mark evidential status: `[EVIDENCE GAP]`
 where a required source was not found, `[ASSUMPTION]` where the argument depends on something
-unconfirmed, and `[CONTESTED DENOMINATOR]` on the Tier A share of 7.64% and figures derived from it.
-That third flag carries one meaning throughout and not two: it records that the share measures what
-these account types bear on rather than what an account would supply. It is not a flag about the
-weights, which are printed. Conflicting sources are reported as conflicts and are not averaged or
+unconfirmed, and `[CONTESTED DENOMINATOR]` on every share of the composite, carrying one meaning
+throughout and defined at the head of Section 4.2. It is not a flag about the weights, which are
+printed. Conflicting sources are reported as conflicts and are not averaged or
 adjudicated.
 
 # 4. Results
@@ -355,10 +356,9 @@ province, on one vintage. Every output carries maturity tag (b).
 The compiled record comprises the Gili Matra Marine Recreational Park pilot off north Lombok, together
 with one peer-reviewed grid-optimisation study at Saleh Bay, Sumbawa (Rahayu et al., 2024). Both sit in
 West Nusa Tenggara, so NTB is the single province carrying a documented published compilation located
-by this study. A national Ocean Accounts Dashboard was launched in July 2025 and is described by GOAP
-as publicly available and interactive on a harmonised spatial frame (GOAP country page, retrieved
-2026-08-13). That is a programme self-statement about a platform, and it evidences no compilation
-beyond the pilot record.
+by this study. A national Ocean Accounts Dashboard launched in July 2025 is described by GOAP as publicly available
+and interactive on a harmonised spatial frame (GOAP country page, retrieved 2026-08-13) — a programme
+self-statement about a platform, evidencing no compilation beyond the pilot record.
 
 The pilot's footprint belongs in its own units, because the smallness is part of the finding: 2,980.84
 ha on a 25 m by 25 m marine basic spatial unit (MBSU) grid of 48,211 cells, opening in 2015 and
@@ -404,6 +404,14 @@ Five of the register's 44 rows are the whole of what an ocean account touches. I
 name quantities an account's output structure already contains; indicators 24 and 27 sit adjacent to
 account output and are disposed of rather than claimed (Table 2). Figure 2 gives the assignment for all
 44 rows with the constituent data items in full.
+
+Four qualifications govern every share in this section and the two that follow. Each carries `[CONTESTED DENOMINATOR]`: it measures what these account types bear on, never
+what an account would supply and never an achievable score improvement. Each is a share of nominal
+published weight, which under this estimator need not track effective importance (Section 5.5). Every economy and
+social figure — 26.1%, 5.15%, 4.11%, 1.34%, 0.31%, 7.20%, 6.29%, 13.7% — is structure-dependent on the
+three-pillar locus of Section 2.3, with no four-pillar equivalent in the published weights. And the social pillar's indicators remain BPS outputs throughout, the
+account contribution being a classification standard rather than a substitute source, so the wider
+30.5% reading may be used only where it is named as the wider reading.
 
 On the compilation axis the concession is complete. None of the five indicator values has been
 published by any Indonesian account, for any province or any site `[EVIDENCE GAP]`. Every capability
@@ -464,11 +472,9 @@ supply.
 
 The weight chain is shown openly as a multiplication. The environment pillar carries 36.9% of the
 composite and the resource-quality sub-pillar 50.0% of the pillar (Juknis, Tabel 4 and Tabel 5, p. 94
-[pdf 104]), giving 18.45%, of which the five Tier A variables sum to about 7.64%
-`[CONTESTED DENOMINATOR]`. Figure 3 places that band inside the published weight structure. The tag
-names one specific objection: 7.64% is a defensible measure of the share these account types bear on,
-and an indefensible measure of the share an account would supply, because most of it sits at rows the
-mapping has itself disqualified. The decomposition is therefore reported in three parts: about 2.33% at
+[pdf 104]), giving 18.45%, of which the five Tier A variables sum to about 7.64%. Figure 3 places that
+band inside the published weight structure. Most of the 7.64% sits at rows the mapping has itself
+disqualified, so the decomposition is reported in three parts: about 2.33% at
 the three matched condition rows, about 1.25% at indicator 24 as a partial, and about 4.06% at
 indicator 27, which the account does not supply. **The share at which an account is the prospective
 supply route is about 2.33%**, rising to about 3.58% only if indicator 24's structural correspondence
@@ -496,18 +502,17 @@ rather than exact. Every account-side entry is maturity tag (b), demonstrated at
 ## 4.3 Extension routes, and what separates them
 
 What separates the account routes into and out of reach is content, not compilation maturity. The
-routes with a pilot-scale Indonesian compilation bear on 12.79% of the composite. That total is not
-independent of Section 4.2: it is the Tier A five at 7.64% plus the governance sub-pillar at 5.15%,
-the latter being 15.8% of the economy pillar on Tabel 5 and confirmed by Gambar 11 at 5% (pp. 93–94
-[pdf 103–104]). It wholly contains the earlier figure, and only 2.33 of its 12.79 points are rows at
-which an account is the prospective supply route. The remaining 10.46 are rows the mapping has itself
-disqualified — 1.25 at indicator 24, 4.06 at indicator 27, and the whole 5.15 at governance. The one
+routes with a pilot-scale Indonesian compilation bear on 12.79% of the composite. That total is not independent of
+Section 4.2: it is the Tier A five at 7.64% plus governance at 5.15%, the latter 15.8% of the economy
+pillar on Tabel 5 and confirmed by Gambar 11 at 5% (pp. 93–94 [pdf 103–104]). It wholly contains the
+earlier figure, and only 2.33 of its 12.79 points are rows at which an account is the prospective
+supply route; the other 10.46 are rows the mapping has disqualified — 1.25 at indicator 24, 4.06 at 27,
+5.15 at governance. The one
 route with no Indonesian compilation at any maturity, the classification-dependent social share, bears
 on 13.70%. The two are of comparable size, and the comparison is not the finding. The finding is that
 no compiled account produces the constituent data item the register asks for at any of these rows, and
 that the outputs the pilot does produce — monetary supply and use, zone areas, protection expenditure —
-carry no weight in the index at all (Figure 4). The arithmetic below follows the three-pillar locus declared at
-Section 2.3, so every tourism, technology and governance figure carries that locus with it.
+carry no weight in the index at all (Figure 4).
 
 **Tier B adds no quantity the register lacks.** Four economy sub-pillars carry about 26.1% of the
 composite, which Gambar 11's integers confirm at 5 + 8 + 6 + 7 = 26 (Juknis, Tabel 5 and Gambar 11,
@@ -526,15 +531,12 @@ boundary bears on about 4.11% (S4.2). The intellectually interesting route is th
 one.
 
 **Tier C is what the register has no term for.** None of the 44 constituent data items names an
-ecosystem service flow, an asset value or a depletion term. The sharpest instance is an identity rather
-than an aspiration: indicators 2 to 5 are unsigned production volumes, so a province raises its score
-by producing more, and no term records whether the stock producing it is being drawn down. The missing
-term is depletion (United Nations et al., 2024, para. A1.25), and the obstacle is that sustainable
-yield by province and stock is not published, which makes stock assessment a prerequisite rather than
-an alternative. Ecosystem services in physical units are specified in full (ch. 7) and compiled nowhere
-in Indonesia; the nearest candidate is coastal protection from mangrove and reef, measurable against
-the layers the pilot already produces. Combined presentations (paras 14.56–14.57) are the one row
-available immediately, a presentation choice rather than a data gap.
+ecosystem service flow, an asset value or a depletion term; Table 3 sets out each missing term against
+where the standard specifies it. The sharpest instance is an identity rather than an aspiration:
+indicators 2 to 5 are unsigned production volumes, so a province raises its score by producing more,
+and no term records whether the stock producing it is being drawn down. The missing term is depletion
+(United Nations et al., 2024, para. A1.25), and the obstacle is that sustainable yield by province and
+stock is not published, which makes stock assessment a prerequisite rather than an alternative.
 
 **The social pillar carries the largest account-relevant share, and nothing above methodology under
 development has been compiled anywhere.** Seven of the thirteen social indicators require a
@@ -564,14 +566,11 @@ Ikan (TPI) (unit)*, at 100.0% (p. 95 [pdf 105]). At 15.8% of the economy pillar 
 5.15% of the composite, matching Gambar 11's F at 5%. The Gili Matra pilot does compile a governance
 account, at tables 18–19 (p. 79), which places that share at maturity (b) rather than (c). What the
 pilot's governance account produces — zone areas and protection expenditure — appears nowhere in the
-register, so the compilation and the indicator do not meet. The alternatives to a single count of landing sites — an institutional inventory, an account of legal
-and policy instruments, a spatial classification of designated marine uses, and ocean expenditure
-classified consistently — are set out here as this study's own reading of what such an account would
-contain `[ASSUMPTION]`, the institutional inventory being the realistic provincial entry point.
-Technology has the identical one-variable shape, vessels over 30 GT at 100.0% of a sub-pillar carrying
-about 1.34% of the composite. Both figures
-are structure-dependent: under Tabel 1's four-pillar structure these variables sit in the *Enabler*
-pillar, whose sub-pillar shares are not published (Section 2.3).
+register, so the compilation and the indicator do not meet. What such an account would instead contain,
+and which part of it is the realistic provincial entry point, is set out in S4.3 as this study's own
+reading `[ASSUMPTION]`. Technology has the identical one-variable shape, vessels over 30 GT at 100.0%
+of a sub-pillar carrying about 1.34% of the composite. Under Tabel 1's four-pillar structure both
+variables sit in the *Enabler* pillar, whose sub-pillar shares are not published.
 
 Indicator 27 belongs here as well as in Table 2. Its roughly 4.06% exceeds all three
 ecosystem-condition variables combined at about 2.33%, and Tabel 7's shock analysis makes it the
@@ -581,12 +580,6 @@ reef, in units the handbook prints and does not define, so the two are read as o
 designated. Qualifying designated area by management effectiveness would be a governance-account
 contribution to the environment pillar, which is a clear reason account types cannot be mapped pillar by
 pillar.
-
-Three guard rails travel with every share in this subsection. None is a claim about achievable score
-improvement; all describe the share of the index whose production these account types bear on. The
-social pillar's indicators are and remain BPS outputs, the account contribution being a classification
-standard rather than a substitute data source. And the wider 30.5% reading may be used only where it is
-named as the wider reading.
 
 One item in the register is cheap. An ocean-sector classification standard would require no new survey
 if SUSENAS and SAKERNAS microdata already carry sufficient occupation and industry detail to construct
@@ -650,10 +643,9 @@ The institutional condition is unmet against an instrument whose own term has ru
 constituted the Tim Penyusun Neraca Sumber Daya Laut in February 2023 and set its term to expire on
 31 December 2023, and no renewal instrument was located `[EVIDENCE GAP]`. The July 2025 dashboard launch
 indicates continued activity under some instrument not obtained, so the defensible statement is that no
-renewal was located rather than that the mandate lapsed. Two sectoral products feeding one another does
-not by itself constitute an accredited statistical input. The gap runs in both directions: no microdata
-are released, so even a compliant supplier could not verify that its value survived into the published
-provincial score.
+renewal was located rather than that the mandate lapsed. Two sectoral products feeding one another do
+not by themselves constitute an accredited statistical input, and no microdata are released, so even a
+compliant supplier could not verify that its value survived into the published provincial score.
 
 One design recommendation follows. Where a province has no account, an account-derived indicator would
 itself be predicted from socio-economic proxies under the framework the Report publishes (pp. 64–66
@@ -723,32 +715,31 @@ reporting compounds it, the narrative giving 16.99% live hard coral cover for 20
 the report's table on the same page. Change is the quantity a balancing identity exists to report,
 and provenance is what this article claims accounts buy.
 
-Read one way, this refutes the provenance claim outright. Read against what the two documents
-actually are, it qualifies it in a specific place. The two series are parallel releases of the same
-underlying mapping layer, published in a presentation and a report, and neither is an account of the
-other. Publishing account-shaped tables is not the same as running an account. The property claimed
-here is not that compilation prevents divergence, which nothing in the standard promises. It is that
-a balancing identity gives divergence somewhere to appear: opening stock, additions, reductions and
-closing stock are four entries that must reconcile, and that a second compilation must restate
-rather than replace. The Gili Matra case is evidence for that reading in negative form. Precisely
-because neither document was compiled under such an identity, and because no revision rule required
-either to restate the other, a 6.26 ha disagreement about coral change could be published twice and
-reconciled nowhere. That is an argument from the account form rather than a demonstration, since no
-Indonesian compilation has yet been revised under such a rule `[ASSUMPTION]`.
+This is a disconfirming instance and is retained as one. It is not disposed of by observing that the two
+series are parallel releases of one mapping layer and that neither is an account of the other: that
+observation is true, and it is also unfalsifiable in the direction this article needs, since the only
+compiled Indonesian instance would be reclassified out of the evidence base at the point where it tests
+the claim. The narrower property claimed
+here is not that compilation prevents divergence, which nothing in the standard promises, but that a
+balancing identity gives divergence somewhere to appear — opening stock, additions, reductions and
+closing stock are four entries that must reconcile, and a second compilation must restate rather than
+replace. Gili Matra cannot confirm that property, because neither document was compiled under such an
+identity. It cannot refute it either, for the same reason. What it does establish is the cost of the
+absence: a 6.26 ha disagreement about coral change was published twice and reconciled nowhere. The
+provenance property is therefore asserted from account form and is untested on the Indonesian record,
+and it will remain untested until a compilation is revised under such a rule `[ASSUMPTION]`.
 
-A second objection bears on the same argument. A well-documented statistical register could supply
-several of the four properties without any account being compiled, and on two of the four it holds
-outright. A standing unit and classification definition is an act of codification, requiring a
-published definition of the mapping unit, the ecosystem classes and the landward and seaward limits;
-nothing about compiling an account is needed to write one down. Documented vintage and provenance is
-likewise a metadata requirement any well-run register discharges. The spatial property is
-intermediate: a register can mandate a grid and a minimum mapping unit but cannot itself produce the
-re-aggregable cell-level tabulation the mandate presupposes. What does not reduce to codification is
-the residual — the balancing identity, and the revision rule that alters the opening and closing
-entries themselves. Both are properties of double-entry over a stock. The residual is thin, and
-saying so is more useful than defending a wider claim. A reader who concludes that Indonesia should
-codify definitions before compiling anything has read the evidence correctly, and that ordering is
-what Section 4.4 recommends.
+A second objection bears on the same argument, and holds outright on two of the four properties. A
+standing unit and classification definition is an act of codification — a published definition of the
+mapping unit, the ecosystem classes and the landward and seaward limits — and nothing about compiling
+an account is needed to write one down. Documented vintage and provenance is likewise a metadata
+requirement any well-run register discharges. The spatial property is intermediate: a register can
+mandate a grid and a minimum mapping unit but cannot produce the re-aggregable cell-level tabulation
+the mandate presupposes. What does not reduce to codification is the residual — the balancing identity,
+and the revision rule that alters the opening and closing entries themselves — both properties of
+double-entry over a stock. The residual is thin, and saying so is more useful than defending a wider
+claim. A reader who concludes that Indonesia should codify definitions before compiling anything has
+read the evidence correctly, and that ordering is what Section 4.4 recommends.
 
 ## 5.3 What account supply does not fix
 
@@ -775,15 +766,13 @@ division explicit and auditable; they do not make it ecologically meaningful.
 Net extent change cannot simply be inserted. The index states its own weighting rule: an indicator
 with greater variability and strong correlation to others in its domain *akan secara alami
 mendapatkan bobot yang lebih tinggi* (p. 29 [pdf 41]). A signed annual difference of a large, slowly
-changing stock is low-variance by construction and can change sign between cycles, so it would
-attract a small and unstable weight, and might meet the rule printed in the sub-pillar loop as
-*Reversi nilai indikator (atau drop indikator) jika ditemukan relasi negatif* (p. 30 [pdf 42]).
-Whether a sign-changing series would trigger it is not specified and is read here as an inference.
-The mechanism is not peculiar to this index: under principal components, weighting corrects for
-overlapping information rather than measuring importance, and where indicators are not correlated
-weights cannot be estimated by the method at all (Nardo et al., 2008, §6.1). Net extent change
-belongs beside the composite as a reported companion series, not inside it as a forty-fifth
-indicator.
+changing stock is low-variance by construction and can change sign between cycles, so it would attract
+a small and unstable weight, and might meet the printed rule *Reversi nilai indikator (atau drop
+indikator) jika ditemukan relasi negatif* (p. 30 [pdf 42]) — whether a sign-changing series triggers it
+is not specified and is read here as an inference. The mechanism is general: under principal
+components, weighting corrects for overlapping information rather than measuring importance (Nardo et
+al., 2008, §6.1). Net extent change belongs beside the composite as a companion series, not inside it
+as a forty-fifth indicator.
 
 Half the environment pillar measures something no ocean account should be built to measure. The
 renewable-energy sub-pillar carries 50.0% of the pillar and contains no marine variable, being solar
@@ -838,8 +827,12 @@ provincial socio-economic variables with weights taken from first-component load
 configuration in which that divergence was found. Becker et al. (2017) supply the test that would
 settle it, a correlation-ratio measure of each variable's importance with confidence intervals. It
 cannot be run here, because it requires the provincial variable matrix beneath the index, which is
-unpublished `[EVIDENCE GAP]`. What survives the objection is the production-process case, which
-never rested on the shares.
+unpublished `[EVIDENCE GAP]`. What does not survive should be named as plainly as what does.
+What does not survive is the reading of 7.64%, 2.33%, 12.79% and 13.70% as measures of consequence:
+they are shares of nominal published weight, and nominal weight is not importance under this estimator.
+They remain exact statements of what the handbook prints and of what an account bears on, which is the
+use made of them here. What survives is the production-process case, which never rested on the
+shares.
 
 Six further limitations bear on specific figures. Whether Tabel 4 to Tabel 6's percentages are raw
 loadings or normalised contributions is not stated anywhere, and the reading adopted here — that
@@ -849,8 +842,13 @@ derived shares would lose their denominator rather than move. The printed aggreg
 illegible in the PDF text layer at Juknis pp. 64–65 and Report pp. 31–32, so what is reconstructed
 is the notation, at medium-high confidence, rather than the method. The per-indicator imputation
 record is unpublished, which is the largest single unknown, because it determines how much of any
-published provincial value is measurement and how much is prediction. The mapping is an assessment
-against stated criteria rather than an independently verifiable quantity, which is why every row's
+published provincial value is measurement and how much is prediction. The mapping is a single-coder assessment against
+stated criteria, graded by the authors and not blind, with no second coder and no adjudication
+protocol. Deposit secures auditability, not reliability, and the two are not substitutes: the same
+team's earlier mapping moved from 61% to 39% to 2.8% as the assumed indicator set changed, which is
+direct evidence that a grading of this kind is unstable under a change of premise. An
+author-independent re-grade of all five Tier A rows and a random fifteen of the thirty-nine, reporting
+raw disagreements, is the check this study has not run. It is why every row's
 score and exclusion ground is deposited. Compilation cost is absent from the public record at every
 site. And this study engaged no Indonesian agency, by project constraint, so the absence claims
 above are conditions to live with rather than future work.
@@ -860,10 +858,11 @@ above are conditions to live with rather than future work.
 Ocean accounts are worth building for this index because of how the handful of indicators they touch
 would be produced, and not because of how many indicators they could fill. The share an account would
 itself supply is about 2.33% of the composite on the published weights, which the handbook prints at
-every level. What separates the account routes into and out of reach
-is content rather than compilation maturity: the routes compiled at pilot scale and the route compiled
-nowhere bear on comparable shares of the index, 12.79% against 13.70%, yet no compiled account produces
-the constituent data item the register asks for at any of those rows.
+every level but which are nominal, and nominal weight need not track effective importance under this
+estimator. What separates the account routes into and out of reach is content rather than compilation
+maturity: the routes compiled at pilot scale and the route compiled nowhere bear on comparable shares
+of the index, 12.79% against 13.70% — one containing the other — yet no compiled account produces the
+constituent data item the register asks for at any of those rows.
 
 The binding constraint on acting on this is not methodological. No compilation cost appears anywhere in
 the record obtained for this study — no staff-day figure, no budget line, no imagery cost and no
@@ -895,6 +894,148 @@ statutory obligation, in a country that has demonstrated, at one experimental pi
 of the production process the obligation would require at scale.
 
 
+
+---
+
+# Declarations
+
+## Highlights
+
+- Indonesia's blue economy index scores 44 indicators with no primary collection
+- Five register rows are all an ocean account touches: 7.64% of published weight
+- An account would itself supply about 2.33% of the composite
+- Content, not compilation maturity, separates the account routes in and out of reach
+- Accounting offers such an index a production process, not indicator values
+
+## Keywords
+
+Ocean accounts; SEEA Ecosystem Accounting; composite indicator; blue economy; official statistics;
+Indonesia
+
+*Highlights and keywords are reproduced here so the assembled manuscript carries them; at submission
+they are entered in the publisher's dedicated fields rather than in the article file.*
+
+
+## Figure legends
+
+Figures are supplied as five self-contained HTML files in `figures/`, named below. Shares of the
+composite in Figures 3 and 4 are this study's arithmetic over the percentages the Juknis prints, and
+are indicative rather than exact; the workings are deposited as Supplementary Data S2.
+
+**Figure 1. The IBEI compilation chain has one point at which account-derived data could enter, and it
+is upstream of everything the index controls.**
+`figure-1-compilation-chain.html`. Panel (a) sets the Juknis monitoring cycle, phase 1 running October
+to December of year *n* (p. 71 [pdf 81]), against the BPS SIRUSA activity schedule for *kegiatan*
+94936, in which collection runs 1 April to 1 May 2025 and dissemination 1 August to 1 September 2025.
+The two are separately published calendars and the sources do not state that they are the same cycle.
+Panel (b) draws the thirteen-step production chain those calendars feed and marks the single step at
+which account output could enter, at maturity (b). The entry point carries 7.64% of the composite,
+of which about 2.33% is the share an account would itself supply. Numbered pins mark the callouts
+annotated in the caption.
+
+**Figure 2. Read against verbatim constituent data items rather than indicator titles, five of the
+register's 44 rows are all an ocean account touches.**
+`figure-2-mapping-matrix.html`. One cell per register row, 44 in all, each carrying its
+*Data Pembentuk Indikator* items transcribed from Juknis Tabel 1, pp. 11–13 [pdf 21–23], with the
+grade under the membership rule of Section 3.4 — matched, partial, provenance question, or none — and
+the maturity tag of any account-side claim. Rows 15 to 18 carry Tabel 1's *Enabler* pillar label; the
+weight arithmetic elsewhere follows the three-pillar structure (Section 2.3). The item-level scoring
+sheet behind the grades is Supplementary Table S1.
+
+**Figure 3. The weight the account-addressable rows carry is small, and it sits beside two
+coastal-sanitation variables that outweigh all ecosystem condition by more than three to one.**
+`figure-3-weight-cascade.html`. Panel (a) cascades the published weight structure from the three
+pillars of Tabel 4 (p. 94 [pdf 104]) through the eleven sub-pillars of Tabel 5 (p. 94 [pdf 104]),
+shading each sub-pillar by whether an ocean account bears on it. Panel (b) resolves the three
+account-relevant sub-pillars to variable level from Tabel 6 (pp. 95–96 [pdf 105–106]), on one shared
+scale of per cent of the composite. Hatching marks the Tier A five at 7.64%; orange dots the social
+pillar, where no Indonesian account exists at any maturity; blue dots governance at 5.15%, the one
+extension route with a pilot-scale Indonesian compilation behind it. Gambar 11's printed integers
+(p. 93 [pdf 103]) are the independent cross-check.
+
+**Figure 4. What separates the account routes into and out of reach is content, not compilation
+maturity.**
+`figure-4-route-comparison.html`. Horizontal bars on a continuous 0–15% axis giving the share of the
+composite each ocean-account route bears on, grouped by whether an Indonesian compilation of that route
+exists. Routes compiled at pilot scale total 12.79% — conservation area 4.06%, governance 5.15%,
+ecosystem condition 2.33%, rehabilitation 1.25% — against 13.70% for the social classification route,
+compiled nowhere at any maturity: a ratio of 1.07. The 12.79% wholly contains the 7.64% of Figure 3
+(Section 4.3). The accompanying table gives every value with its folio and its status after the
+re-check of the MMAF 2022 reports. The comparison is not the finding; the finding is that no compiled
+account produces the constituent data item the register asks for at any of these rows.
+
+**Figure 5. The one compiled Indonesian account closes three reference years before the reporting
+window can accept it.**
+`figure-5-reporting-calendar.html`. A timeline from 2015 to 2027 setting the IBEI reporting window and
+its T-1 reference-period requirement (SIRUSA *kegiatan* 94936) against the vintages Indonesian ocean
+accounts have produced: the Gili Matra pilot opening in 2015 and closing in 2021, drafted 2022 and
+presented June 2023 (MMAF, 2022a, p. 39 [pdf 53]). Account-side elements are hatched with a dashed
+outline and carry maturity tag (b), experimental or pilot compilation. No repeat compilation of the
+pilot sites was located, so no second vintage is drawn.
+
+## Data availability
+
+All data underlying this article are documentary and are derived from published sources. Four
+deposited items are released with the article:
+
+1. **The Tier-1 citation-anchored corpus.** 199 chunks extracted from four published documents — the
+   BAPPENAS *Juknis Pedoman IBEI* (2025), the IBEI Report 2024 in its December 2025 revision, Rinaldi
+   et al. (2025), and the BPS SIRUSA metadata for *kegiatan* 94936 and *indikator* 105371 and
+   105709–105718. Each record carries its source document, slice, verbatim Indonesian text, an English
+   gloss, the printed page with the PDF page in brackets, a maturity tag and a reconstruction flag.
+   Released as JSON with a per-slice breakdown. Build dated 2026-08-14.
+2. **The indicator join table.** All 44 register rows with each row's *Data Pembentuk Indikator*
+   constituent data items transcribed verbatim from Juknis Tabel 1, pp. 11–13 [pdf 21–23], totalling
+   62 items. Released as JSON and reproduced as Supplementary Table S1.
+3. **Supplementary Table S1**, the item-level scoring sheet: one row per constituent data item, 62 in
+   all across the 44 register rows, each carrying its row's grade, the ground on which that grade was
+   reached, the tier assignment and the source folio. Where a row carries several items the deciding
+   item is marked, so the per-item decisions behind each row's grade are visible (Section 3.4).
+4. **Supplementary Data S2**, the weight workbook: every share of the composite reported here, with
+   its printed input, its source folio and the multiplication that produces it, together with the
+   fifteen-group renormalisation census.
+
+The four source documents are third-party publications and are not redistributed. The Juknis and the
+IBEI Report are published by BAPPENAS, the SIRUSA metadata is a public web record retrieved
+2026-08-13, and Rinaldi et al. (2025) is available from its publisher. The three MMAF 2022 reports and
+the BPS workshop materials read for the account-side evidence are likewise third-party documents,
+circulated as preliminary consultation drafts and conference presentations respectively; they are cited
+but not redeposited.
+
+## Code availability
+
+One script is released: the extraction and assembly workflow that builds the corpus and the join table
+from the source PDFs (`workflow-ibei-tier1.mjs`, Node.js, no external services). It is deterministic
+given the same inputs. No statistical software was used, because no estimation was performed; all
+arithmetic reported here is the multiplication of published percentages and is reproducible by hand
+from Supplementary Data S2.
+
+## Deposit
+
+Archive, persistent identifier, licence and version are to be assigned on acceptance, and the
+statement above will be completed with them. Until then the deposited items are held in the authors'
+working repository. Every locator-based claim in this article resolves to a numbered record in the
+corpus, so a reader who obtains the four source documents can verify each claim independently of the
+deposit.
+
+## Author contributions
+
+To be completed by the authors in CRediT taxonomy terms before submission.
+
+## Funding
+
+To be completed by the authors before submission.
+
+## Competing interests
+
+The authors declare one interest material to the reading of this article. An earlier mapping by the
+present authors, cited here as prior work, reported account-derivable shares of the IBEI register that
+this study corrects. Sections 1 and 4.2 identify that work as the authors' own and state the
+correction. No financial or non-financial competing interests are declared.
+
+## Acknowledgements
+
+To be completed by the authors before submission.
 
 ---
 
@@ -1081,77 +1222,102 @@ citations have been replaced by the accounting standard and by IDEEA Group (2021
 edition does exist, *Technical Guidance on Ocean Accounting for Sustainable Development* (Global Ocean
 Accounts Partnership, 2019), which MMAF (2022a) cites in its own bibliography. It is not held in this
 workspace, and nothing in the manuscript currently rests on it. Obtaining it is the way to restore a
-guidance-side citation to the forward register in Section 7 if that is wanted.
+guidance-side citation to the forward register in Section 4.3 if that is wanted.
 
 ---
 
 # Supplementary material
 
-# Supplementary Table S1. The 44-row scoring sheet
+# Supplementary Table S1. The item-level scoring sheet
 
-Every row of the Indonesia Blue Economy Index register, with its grade under the membership rule of
-Section 5.1 and the ground on which it was graded. The register, its indicator titles and its
-*Data Pembentuk Indikator* constituent data items are transcribed from Juknis (BAPPENAS 2025a) Tabel 1,
-pp. 11–13 [pdf 21–23]. Pillar labels are Tabel 1's, which prints four pillars including *Enabler*; all
-weight arithmetic in the article follows the three-pillar structure of Tabel 4, Tabel 5 and Gambar 11,
-and rows 15 to 18 move between pillars depending on which table is followed (Section 2.3).
+Every constituent data item of the Indonesia Blue Economy Index register — 62 items across 44 rows —
+with the grade of the row it belongs to and the ground on which that grade was reached. The register,
+its indicator titles and its *Data Pembentuk Indikator* items are transcribed from Juknis
+(BAPPENAS 2025a) Tabel 1, pp. 11–13 [pdf 21–23]. Pillar labels are Tabel 1's, which prints four
+pillars including *Enabler*; all weight arithmetic in the article follows the three-pillar structure of
+Tabel 4, Tabel 5 and Gambar 11, and rows 15 to 18 move between pillars depending on which table is
+followed (Section 2.3).
 
-Grades: **matched** (a constituent data item names a quantity a defined SEEA-EA account output
-contains), **partial** (account output supplies a component but not the quantity), **provenance
-question** (account output bears on the row without supplying it), **none**. Tier A is the union of the
-first three and has five members. The tier column records the extension route discussed in Section 7
-for rows graded none. Grading is this study's assessment against the stated criteria and is not an
-independently verifiable quantity (Section 8.5); the constituent data items are reproduced so that a
-reader may reject a row and recompute.
+The item, not the row, is the unit the membership rule was applied to (Section 3.4). A row takes the
+highest grade any one of its items attains, so where a row carries several items the **deciding item**
+column marks the one that set the grade; rows graded *none* have no deciding item, the grade holding
+for every item.
 
-Total constituent data items across the 44 rows: 62.
+Grades: **matched** (an item names a quantity a defined SEEA-EA account output contains), **partial**
+(account output supplies a component but not the quantity), **provenance question** (account output
+bears on the item without supplying it), **none**. Tier A is the union of the first three and has five
+members. The tier column records the extension route discussed in Section 4.3 for rows graded none.
 
-| # | Pillar (Tabel 1) | Sub-pillar | Indicator | Items | Grade | Tier | Ground | Locator |
-|---|---|---|---|---|---|---|---|---|
-| 1 | Ekonomi | Perikanan tangkap dan budidaya | Peran sektor perikanan dalam PDB (%) | 2 | none | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
-| 2 | Ekonomi | Perikanan tangkap dan budidaya | Volume produksi perikanan (ton) | 2 | none | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
-| 3 | Ekonomi | Perikanan tangkap dan budidaya | Volume produksi budidaya tambak (ton) | 1 | none | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
-| 4 | Ekonomi | Perikanan tangkap dan budidaya | Volume produksi akuakultur (ton) | 1 | none | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
-| 5 | Ekonomi | Perikanan tangkap dan budidaya | Volume produksi budidaya rumput laut (ton) | 1 | none | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
-| 6 | Ekonomi | Perdagangan, transportasi, dan logistik | Volume angkutan laut (ton) | 2 | none | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
-| 7 | Ekonomi | Perdagangan, transportasi, dan logistik | Jumlah penumpang angkutan laut (orang) | 2 | none | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
-| 8 | Ekonomi | Perdagangan, transportasi, dan logistik | Jumlah penumpang angkutan laut di 25 pelabuhan strategis (orang) | 1 | none | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
-| 9 | Ekonomi | Perdagangan, transportasi, dan logistik | Volume ekspor perikanan (ton) | 1 | none | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
-| 10 | Ekonomi | Perdagangan, transportasi, dan logistik | Kontribusi ekspor produk perikanan terhadap total ekspor (%) | 2 | none | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
-| 11 | Ekonomi | Perdagangan, transportasi, dan logistik | Volume ekspor perikanan hidup dan segar (ton) | 2 | none | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
-| 12 | Ekonomi | Perdagangan, transportasi, dan logistik | Volume ekspor ikan olahan (ton) | 1 | none | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
-| 13 | Ekonomi | Industri berbasis kelautan | Volume produksi garam (ton) | 2 | none | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
-| 14 | Ekonomi | Industri berbasis kelautan | Jumlah perahu/kapal penangkap ikan (unit) | 3 | none | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
-| 15 | Enabler (teknologi & tata kelola) | Pariwisata berbasis bahari | Jumlah wisata bahari (desa) | 1 | none | B | Counts of tourism villages and enterprises. No account output contains them; ocean economy boundary route only. Pillar locus contested between Tabel 1 and Tabel 4/5. | p. 12 [pdf 22] |
-| 16 | Enabler (teknologi & tata kelola) | Pariwisata berbasis bahari | Jumlah usaha/perusahaan wisata tirta komersial (unit usaha) | 1 | none | B | Counts of tourism villages and enterprises. No account output contains them; ocean economy boundary route only. Pillar locus contested between Tabel 1 and Tabel 4/5. | p. 12 [pdf 22] |
-| 17 | Enabler (teknologi & tata kelola) | - | Jumlah kapal perikanan tangkap laut - kapal motor > 30 GT (unit) | 1 | none | B | A vessel count. No account output contains it; ocean economy boundary route only. Pillar locus contested. | p. 12 [pdf 22] |
-| 18 | Enabler (teknologi & tata kelola) | - | Jumlah pelabuhan perikanan dengan tempat pelelangan ikan (unit) | 1 | none | C | A count of landing sites standing as the whole governance sub-pillar. Ocean governance accounts are named in the specified national sequence but specified in no accounting standard. Pillar locus contested. | p. 12 [pdf 22] |
-| 19 | Lingkungan | Kualitas sumber daya dan konservasi laut | Kawasan terumbu karang berkualitas baik (%) | 1 | matched | A | A constituent data item names a share of provincial area within a stated cover or density band, which an extent account tabulated by condition class contains. | p. 12 [pdf 22] |
-| 20 | Lingkungan | Kualitas sumber daya dan konservasi laut | Kawasan lamun berkualitas baik (%) | 1 | matched | A | A constituent data item names a share of provincial area within a stated cover or density band, which an extent account tabulated by condition class contains. | p. 12 [pdf 22] |
-| 21 | Lingkungan | Kualitas sumber daya dan konservasi laut | Kawasan hutan mangrove berkualitas baik (%) | 1 | matched | A | A constituent data item names a share of provincial area within a stated cover or density band, which an extent account tabulated by condition class contains. | p. 12 [pdf 22] |
-| 22 | Lingkungan | Kualitas sumber daya dan konservasi laut | Jumlah desa pesisir dengan tempat pembuangan sampah (desa) | 1 | none | B | Counts of coastal villages carrying a waste or sanitation facility. An administrative facility count, contained in no ecosystem account output. | p. 12 [pdf 22] |
-| 23 | Lingkungan | Kualitas sumber daya dan konservasi laut | Jumlah desa pesisir dengan tempat buang air besar (desa) | 1 | none | B | Counts of coastal villages carrying a waste or sanitation facility. An administrative facility count, contained in no ecosystem account output. | p. 12 [pdf 22] |
-| 24 | Lingkungan | Kualitas sumber daya dan konservasi laut | Penanaman/rehabilitasi hutan mangrove, rawa, dan lahan gambut (hektar) | 1 | partial | A | An extent account's managed-expansion entry supplies a component of the quantity, whilst the indicator counts hectares planted and its scope includes swamp and peatland, outside marine account scope. | p. 12 [pdf 22] |
-| 25 | Lingkungan | Kualitas sumber daya dan konservasi laut | Jumlah Kebocoran Sampah Laut (Ton) | 1 | none | B | Waste tonnages. Physical flow accounting is the route, and it is not specified for the marine case in any source obtained; reported separately at about 2.75% and 0.77% and never folded into the Tier A total. | p. 12 [pdf 22] |
-| 26 | Lingkungan | Kualitas sumber daya dan konservasi laut | Jumlah sampah yang dibuang di darat (ton/tahun) | 1 | none | B | Waste tonnages. Physical flow accounting is the route, and it is not specified for the marine case in any source obtained; reported separately at about 2.75% and 0.77% and never folded into the Tier A total. | p. 12 [pdf 22] |
-| 27 | Lingkungan | Kualitas sumber daya dan konservasi laut | Luas kawasan konservasi perairan (ha) | 1 | provenance question | A | Designated area is an administrative record already held by its custodians; account output reconciles designated polygons to mapped extent without supplying the quantity. | p. 12 [pdf 22] |
-| 28 | Lingkungan | Energi terbarukan | Kapasitas terpasang Pembangkit Listrik Tenaga Surya (PLTS) (megawatt) | 1 | none | C | Solar and hydropower capacity and generation. Non-marine energy variables that no ocean account should be built to supply. | p. 12 [pdf 22] |
-| 29 | Lingkungan | Energi terbarukan | Listrik yang dihasilkan oleh Pembangkit Listrik Tenaga Surya (PLTS) (gigawatt/hour - GWh) | 1 | none | C | Solar and hydropower capacity and generation. Non-marine energy variables that no ocean account should be built to supply. | p. 12 [pdf 22] |
-| 30 | Lingkungan | Energi terbarukan | Kapasitas terpasang Pembangkit Listrik Tenaga Air (PLTA) (megawatt) | 1 | none | C | Solar and hydropower capacity and generation. Non-marine energy variables that no ocean account should be built to supply. | p. 12 [pdf 22] |
-| 31 | Lingkungan | Energi terbarukan | Listrik yang dihasilkan oleh Pembangkit Listrik Tenaga Air (PLTA) (gigawatt/hour - GWh) | 1 | none | C | Solar and hydropower capacity and generation. Non-marine energy variables that no ocean account should be built to supply. | p. 12 [pdf 22] |
-| 32 | Sosial | Kesejahteraan | Persentase penduduk bekerja di sektor perikanan penerima Program Keluarga Harapan (PKH) (%) | 2 | none | C | A social indicator whose computation requires, or does not require, a fisheries-sector survey domain; see Table 6. No social or human-capital ocean account is specified in the accounting standard, and none is compiled in Indonesia above tag (c). | p. 13 [pdf 23] |
-| 33 | Sosial | Kesejahteraan | Jumlah pekerja perempuan di sektor perikanan (orang) | 3 | none | C | A social indicator whose computation requires, or does not require, a fisheries-sector survey domain; see Table 6. No social or human-capital ocean account is specified in the accounting standard, and none is compiled in Indonesia above tag (c). | p. 13 [pdf 23] |
-| 34 | Sosial | Kesejahteraan | Jumlah nelayan dan pembudidaya ikan (orang) | 2 | none | C | A social indicator whose computation requires, or does not require, a fisheries-sector survey domain; see Table 6. No social or human-capital ocean account is specified in the accounting standard, and none is compiled in Indonesia above tag (c). | p. 13 [pdf 23] |
-| 35 | Sosial | Kesejahteraan | Rata-rata konsumsi kalori ikan per kapita (kkal) | 1 | none | C | A social indicator whose computation requires, or does not require, a fisheries-sector survey domain; see Table 6. No social or human-capital ocean account is specified in the accounting standard, and none is compiled in Indonesia above tag (c). | p. 13 [pdf 23] |
-| 36 | Sosial | Kesejahteraan | Rata-rata konsumsi protein dari ikan per kapita (kkal) | 1 | none | C | A social indicator whose computation requires, or does not require, a fisheries-sector survey domain; see Table 6. No social or human-capital ocean account is specified in the accounting standard, and none is compiled in Indonesia above tag (c). | p. 13 [pdf 23] |
-| 37 | Sosial | Kesehatan | Persentase penduduk bekerja di sektor perikanan yang memiliki jaminan kesehatan (%) | 2 | none | C | A social indicator whose computation requires, or does not require, a fisheries-sector survey domain; see Table 6. No social or human-capital ocean account is specified in the accounting standard, and none is compiled in Indonesia above tag (c). | p. 13 [pdf 23] |
-| 38 | Sosial | Kesehatan | Persentase penduduk pesisir yang hidup di bawah garis kemiskinan (%) | 2 | none | C | A social indicator whose computation requires, or does not require, a fisheries-sector survey domain; see Table 6. No social or human-capital ocean account is specified in the accounting standard, and none is compiled in Indonesia above tag (c). | p. 13 [pdf 23] |
-| 39 | Sosial | Pendidikan | Jumlah SMK kemaritiman (unit sekolah) | 1 | none | C | A social indicator whose computation requires, or does not require, a fisheries-sector survey domain; see Table 6. No social or human-capital ocean account is specified in the accounting standard, and none is compiled in Indonesia above tag (c). | p. 13 [pdf 23] |
-| 40 | Sosial | Pendidikan | Jumlah lulusan sekolah perikanan (orang) | 1 | none | C | A social indicator whose computation requires, or does not require, a fisheries-sector survey domain; see Table 6. No social or human-capital ocean account is specified in the accounting standard, and none is compiled in Indonesia above tag (c). | p. 13 [pdf 23] |
-| 41 | Sosial | Pendidikan | Jumlah peserta pelatihan perikanan (orang) | 1 | none | C | A social indicator whose computation requires, or does not require, a fisheries-sector survey domain; see Table 6. No social or human-capital ocean account is specified in the accounting standard, and none is compiled in Indonesia above tag (c). | p. 13 [pdf 23] |
-| 42 | Sosial | Pendidikan | Persentase penduduk sektor perikanan dengan pendidikan terakhir SMA atau sederajat (%) | 2 | none | C | A social indicator whose computation requires, or does not require, a fisheries-sector survey domain; see Table 6. No social or human-capital ocean account is specified in the accounting standard, and none is compiled in Indonesia above tag (c). | p. 13 [pdf 23] |
-| 43 | Sosial | Pendidikan | Persentase penduduk di sektor perikanan dengan ijazah minimal SMA atau sederajat (%) | 2 | none | C | A social indicator whose computation requires, or does not require, a fisheries-sector survey domain; see Table 6. No social or human-capital ocean account is specified in the accounting standard, and none is compiled in Indonesia above tag (c). | p. 13 [pdf 23] |
-| 44 | Sosial | Pendidikan | Persentase penduduk bekerja di sektor perikanan penerima Program Indonesia Pintar (PIP) (%) | 2 | none | C | A social indicator whose computation requires, or does not require, a fisheries-sector survey domain; see Table 6. No social or human-capital ocean account is specified in the accounting standard, and none is compiled in Indonesia above tag (c). | p. 13 [pdf 23] |
+Grading was by the authors against the stated criteria, not blind, with no second coder and no
+adjudication protocol, and is an assessment rather than an independently verifiable quantity
+(Section 5.5). The items are reproduced verbatim so that a reader may reject a grade and recompute.
+
+| Row | Item | Constituent data item (verbatim) | Grade | Deciding item | Tier | Ground | Locator |
+|---|---|---|---|---|---|---|---|
+| 1 | 1 | *Nilai Produk Domestik Regional Bruto (PDRB) dari sektor perikanan suatu provinsi, dihitung Atas Dasar Harga Berlaku (ADHB)* | none | — | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
+| 1 | 2 | *Nilai PDRB total dari provinsi yang sama, juga dihitung Atas Dasar Harga Berlaku (ADHB)* | none | — | B | as row | p. 11 [pdf 21] |
+| 2 | 1 | *Volume produksi perikanan tangkap (mencakup laut dan perairan umum daratan) per provinsi* | none | — | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
+| 2 | 2 | *Volume produksi perikanan budidaya pembesaran (mencakup tambak dan non-tambak) per provinsi* | none | — | B | as row | p. 11 [pdf 21] |
+| 3 | 1 | *Total volume produksi dari budidaya tambak (tambak intensif, tambak sederhana, dan tambak semi intensif) per provinsi* | none | — | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
+| 4 | 1 | *Volume produksi dari setiap komoditas budidaya pembesaran per provinsi* | none | — | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
+| 5 | 1 | *Total volume produksi dari budidaya rumput laut per provinsi* | none | — | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
+| 6 | 1 | *Total volume (berat bersih) kegiatan ekspor yang dimuat melalui moda transportasi laut per provinsi* | none | — | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
+| 6 | 2 | *Total volume (berat bersih) kegiatan impor yang dibongkar melalui moda transportasi laut per provinsi* | none | — | B | as row | p. 11 [pdf 21] |
+| 7 | 1 | *Jumlah penumpang kapal antar pulau (datang dan berangkat) per provinsi* | none | — | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
+| 7 | 2 | *Jumlah penumpang kapal luar negeri (datang dan berangkat) per provinsi* | none | — | B | as row | p. 11 [pdf 21] |
+| 8 | 1 | *Jumlah penumpang (datang dan berangkat) di setiap pelabuhan yang termasuk dalam daftar 25 pelabuhan strategis nasional, per provinsi* | none | — | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
+| 9 | 1 | *Total volume ekspor hasil perikanan per provinsi* | none | — | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
+| 10 | 1 | *Nilai ekspor hasil perikanan per provinsi* | none | — | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
+| 10 | 2 | *Total nilai ekspor seluruh komoditas per provinsi* | none | — | B | as row | p. 11 [pdf 21] |
+| 11 | 1 | *Volume ekspor perikanan tangkap (kode ISIC 031) per provinsi* | none | — | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
+| 11 | 2 | *Volume ekspor akuakultur (kode ISIC 032) per provinsi* | none | — | B | as row | p. 11 [pdf 21] |
+| 12 | 1 | *Total volume ekspor produk ikan, krustasea, dan moluska yang telah diproses dan/atau diawetkan, sesuai dengan kode ISIC 102* | none | — | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
+| 13 | 1 | *Volume produksi garam dari tambak per provinsi* | none | — | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
+| 13 | 2 | *Volume produksi garam non-tambak per provinsi* | none | — | B | as row | p. 11 [pdf 21] |
+| 14 | 1 | *Jumlah perahu tanpa motor per provinsi* | none | — | B | Production, trade, transport or asset counts. No SEEA-EA ecosystem account output contains them; the extension route is an ocean economy account boundary, which is classification rather than supply. | p. 11 [pdf 21] |
+| 14 | 2 | *Jumlah perahu motor tempel per provinsi* | none | — | B | as row | p. 11 [pdf 21] |
+| 14 | 3 | *Jumlah kapal motor per provinsi* | none | — | B | as row | p. 11 [pdf 21] |
+| 15 | 1 | *Jumlah desa di tepi laut yang teridentifikasi memiliki wisata bahari per provinsi* | none | — | B | Counts of tourism villages and enterprises. No account output contains them; ocean economy boundary route only. Pillar locus contested between Tabel 1 and Tabel 4/5. | p. 12 [pdf 22] |
+| 16 | 1 | *Jumlah usaha/perusahaan komersial yang bergerak di bidang wisata tirta per provinsi* | none | — | B | Counts of tourism villages and enterprises. No account output contains them; ocean economy boundary route only. Pillar locus contested between Tabel 1 and Tabel 4/5. | p. 12 [pdf 22] |
+| 17 | 1 | *Jumlah kapal motor untuk perikanan tangkap laut dengan ukuran lebih dari 30 GT per provinsi* | none | — | B | A vessel count. No account output contains it; ocean economy boundary route only. Pillar locus contested. | p. 12 [pdf 22] |
+| 18 | 1 | *Jumlah pelabuhan perikanan yang dilengkapi dengan fasilitas Tempat Pelelangan Ikan (TPI) per provinsi* | none | — | C | A count of landing sites standing as the whole governance sub-pillar. Ocean governance accounts are named in the specified national sequence but specified in no accounting standard. Pillar locus contested. | p. 12 [pdf 22] |
+| 19 | 1 | *Persentase kawasan terumbu karang dengan tutupan karang hidup antara 50-100% per provinsi* | matched | yes | A | A constituent data item names a share of provincial area within a stated cover or density band, which an extent account tabulated by condition class contains. | p. 12 [pdf 22] |
+| 20 | 1 | *Persentase kawasan lamun dengan tutupan lamun hidup antara 50-100% per provinsi* | matched | yes | A | A constituent data item names a share of provincial area within a stated cover or density band, which an extent account tabulated by condition class contains. | p. 12 [pdf 22] |
+| 21 | 1 | *Persentase kawasan mangrove dengan kerapatan tutupan antara 50-100% per provinsi* | matched | yes | A | A constituent data item names a share of provincial area within a stated cover or density band, which an extent account tabulated by condition class contains. | p. 12 [pdf 22] |
+| 22 | 1 | *Jumlah desa di tepi laut yang memiliki Tempat Penampungan Sampah Sementara (TPS) per provinsi* | none | — | B | Counts of coastal villages carrying a waste or sanitation facility. An administrative facility count, contained in no ecosystem account output. | p. 12 [pdf 22] |
+| 23 | 1 | *Jumlah desa di tepi laut di mana sebagian besar keluarga memiliki jamban sendiri* | none | — | B | Counts of coastal villages carrying a waste or sanitation facility. An administrative facility count, contained in no ecosystem account output. | p. 12 [pdf 22] |
+| 24 | 1 | *Total luas kawasan mangrove, rawa, dan lahan gambut yang direstorasi per provinsi* | partial | yes | A | An extent account's managed-expansion entry supplies a component of the quantity, whilst the indicator counts hectares planted and its scope includes swamp and peatland, outside marine account scope. | p. 12 [pdf 22] |
+| 25 | 1 | *Volume kebocoran sampah laut per provinsi* | none | — | B | Waste tonnages. Physical flow accounting is the route, and it is not specified for the marine case in any source obtained; reported separately at about 2.75% and 0.77% and never folded into the Tier A total. | p. 12 [pdf 22] |
+| 26 | 1 | *Total timbunan sampah tahunan per provinsi, yang merupakan agregat dari data kabupaten/kota* | none | — | B | Waste tonnages. Physical flow accounting is the route, and it is not specified for the marine case in any source obtained; reported separately at about 2.75% and 0.77% and never folded into the Tier A total. | p. 12 [pdf 22] |
+| 27 | 1 | *Total luas kawasan konservasi perairan yang ditetapkan oleh KKP, KLHK, dan Pemerintah Daerah per provinsi* | provenance question | yes | A | Designated area is an administrative record already held by its custodians; account output reconciles designated polygons to mapped extent without supplying the quantity. | p. 12 [pdf 22] |
+| 28 | 1 | *Kapasitas terpasang PLTS per provinsi* | none | — | C | Solar and hydropower capacity and generation. Non-marine energy variables that no ocean account should be built to supply. | p. 12 [pdf 22] |
+| 29 | 1 | *Total tenaga listrik yang dibangkitkan oleh PLTS per provinsi* | none | — | C | Solar and hydropower capacity and generation. Non-marine energy variables that no ocean account should be built to supply. | p. 12 [pdf 22] |
+| 30 | 1 | *Kapasitas terpasang PLTA per provinsi* | none | — | C | Solar and hydropower capacity and generation. Non-marine energy variables that no ocean account should be built to supply. | p. 12 [pdf 22] |
+| 31 | 1 | *Total tenaga listrik yang dibangkitkan oleh PLTA per provinsi* | none | — | C | Solar and hydropower capacity and generation. Non-marine energy variables that no ocean account should be built to supply. | p. 12 [pdf 22] |
+| 32 | 1 | *Jumlah penduduk bekerja di sektor perikanan yang menerima PKH per provinsi* | none | — | C | Numerator names *penduduk bekerja di sektor perikanan* over a provincial total of the same transfer, so the row is computable only against a defined fisheries-sector survey domain. | p. 13 [pdf 23] |
+| 32 | 2 | *Total jumlah penduduk di provinsi yang sama yang menerima PKH* | none | — | C | as row | p. 13 [pdf 23] |
+| 33 | 1 | *Total jumlah nelayan perikanan tangkap per provinsi* | none | — | C | Requires the fisher and fish-farmer population sex-disaggregated: item 3 is a *proporsi ... perempuan* of the population items 1 and 2 define. | p. 13 [pdf 23] |
+| 33 | 2 | *Total jumlah pembudidaya ikan per provinsi* | none | — | C | as row | p. 13 [pdf 23] |
+| 33 | 3 | *Proporsi nelayan dan pembudidaya ikan perempuan per provinsi* | none | — | C | as row | p. 13 [pdf 23] |
+| 34 | 1 | *Jumlah penduduk yang berprofesi sebagai nelayan per provinsi* | none | — | C | An occupational headcount. Domain-dependent if the count is survey-derived, not if it is a KKP administrative register; the register does not say which `[ASSUMPTION]`. | p. 13 [pdf 23] |
+| 34 | 2 | *Jumlah penduduk yang berprofesi sebagai pembudidaya ikan per provinsi* | none | — | C | as row | p. 13 [pdf 23] |
+| 35 | 1 | *Rata-rata konsumsi kalori dari ikan per kapita per hari di tingkat provinsi* | none | — | C | A per-capita consumption item over the whole provincial population. No sector domain is needed. | p. 13 [pdf 23] |
+| 36 | 1 | *Rata-rata konsumsi protein dari ikan per kapita per hari di tingkat provinsi* | none | — | C | A per-capita consumption item over the whole provincial population. No sector domain is needed. | p. 13 [pdf 23] |
+| 37 | 1 | *Jumlah penduduk bekerja di sektor perikanan yang memiliki jaminan kesehatan per provinsi* | none | — | C | Numerator names *penduduk bekerja di sektor perikanan* over a provincial total of the insured, so the row is computable only against a defined fisheries-sector survey domain. | p. 13 [pdf 23] |
+| 37 | 2 | *Total penduduk yang memiliki jaminan kesehatan di provinsi yang sama* | none | — | C | as row | p. 13 [pdf 23] |
+| 38 | 1 | *Jumlah penduduk miskin di setiap kabupaten/kota pesisir dalam satu provinsi* | none | — | C | The domain is spatial, not sectoral: items name poor population in *kabupaten/kota pesisir* over the provincial total. This is the row where Tabel 1 and Tabel 6 disagree (S4.1). | p. 13 [pdf 23] |
+| 38 | 2 | *Total penduduk miskin di provinsi tersebut* | none | — | C | as row | p. 13 [pdf 23] |
+| 39 | 1 | *Jumlah Sekolah Menengah Kejuruan (SMK) bidang kemaritiman per provinsi* | none | — | C | An administrative count of schools. No population domain of any kind is required. | p. 13 [pdf 23] |
+| 40 | 1 | *Jumlah lulusan dari satuan pendidikan di bawah KKP per provinsi* | none | — | C | An administrative count of graduates of KKP institutions. No population domain is required. | p. 13 [pdf 23] |
+| 41 | 1 | *Total jumlah peserta pelatihan dan penyuluhan kelautan dan perikanan per provinsi* | none | — | C | An administrative count of training participants. No population domain is required. | p. 13 [pdf 23] |
+| 42 | 1 | *Jumlah penduduk bekerja di sektor perikanan dengan pendidikan terakhir SMA/sederajat per provinsi* | none | — | C | Numerator names *penduduk bekerja di sektor perikanan* over a provincial total at the same attainment level, so the row is computable only against a fisheries-sector survey domain. | p. 13 [pdf 23] |
+| 42 | 2 | *Total penduduk dengan pendidikan terakhir SMA/sederajat di provinsi yang sama* | none | — | C | as row | p. 13 [pdf 23] |
+| 43 | 1 | *Jumlah penduduk bekerja di sektor perikanan dengan ijazah minimal SMA/sederajat per provinsi* | none | — | C | Numerator names *penduduk bekerja di sektor perikanan* over a provincial total holding the same certificate, so the row is computable only against a fisheries-sector survey domain. | p. 13 [pdf 23] |
+| 43 | 2 | *Total penduduk dengan ijazah minimal SMA/sederajat di provinsi yang sama* | none | — | C | as row | p. 13 [pdf 23] |
+| 44 | 1 | *Jumlah penduduk bekerja di sektor perikanan yang keluarganya menerima PIP per provinsi* | none | — | C | Numerator names *penduduk bekerja di sektor perikanan* over a provincial total of PIP-recipient families, so the row is computable only against a fisheries-sector survey domain. | p. 13 [pdf 23] |
+| 44 | 2 | *Total penduduk yang keluarganya menerima PIP di provinsi yang sama* | none | — | C | as row | p. 13 [pdf 23] |
+
+Total constituent data items: **62** across 44 rows.
 
 
 # Supplementary Data S2. Weight workbook
@@ -1408,7 +1574,16 @@ All figures in this subsection are computed under the three-pillar structure of 
 Gambar 11. Under Tabel 1's four-pillar structure, indicators 15 to 18 leave the economy pillar for the
 *Enabler* pillar, whose sub-pillar shares are not published, so no equivalent figure can be given.
 
-## S4.3 Sub-pillar H
+## S4.3 What an ocean governance account would contain
+
+The register measures governance by a single count of landing sites. The alternatives — an
+institutional inventory, an account of legal and policy instruments, a spatial classification of
+designated marine uses, and ocean expenditure classified consistently — are this study's own reading of
+what an ocean governance account would contain, stated in no source `[ASSUMPTION]`. The institutional
+inventory is the realistic provincial entry point, being the only one of the four that needs no new
+spatial or fiscal compilation.
+
+## S4.4 Sub-pillar H
 
 Sub-pillar H is 50.0% of the environment pillar and contains only solar and hydropower variables, at
 24.5% and 24.2% for photovoltaic capacity and generation and 26.5% and 24.8% for hydropower (Tabel 6,
