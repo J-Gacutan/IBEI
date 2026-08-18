@@ -6,7 +6,7 @@ its indicator titles and its *Data Pembentuk Indikator* items are transcribed fr
 (BAPPENAS 2025a) Tabel 1, pp. 11–13 [pdf 21–23]. Pillar labels are Tabel 1's, which prints four
 pillars including *Enabler*; all weight arithmetic in the article follows the three-pillar structure of
 Tabel 4, Tabel 5 and Gambar 11, and rows 15 to 18 move between pillars depending on which table is
-followed (Section 2.3).
+followed (Section 3.5).
 
 The item, not the row, is the unit the membership rule was applied to (Section 3.4). A row takes the
 highest grade any one of its items attains, so where a row carries several items the **deciding item**

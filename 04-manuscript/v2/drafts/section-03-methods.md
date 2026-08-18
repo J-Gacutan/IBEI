@@ -42,9 +42,17 @@ range. Extraction was purposive. The build, dated 2026-08-14, comprises 106
 chunks from the Juknis (BAPPENAS 2025a), 49 from the IBEI Report 2024 in its December 2025 revision
 (BAPPENAS 2025b), 15 from Rinaldi et al. (2025) and 29 from the SIRUSA metadata (kegiatan 94936
 together with indikator 105371 and 105709–105718, all retrieved 2026-08-13), at the printed-page
-ranges listed in the deposit. Each record carries its document and slice, the verbatim Indonesian
-text, an English gloss used nowhere as a quotation source, the printed page with the PDF page in
-brackets, a maturity tag, and a reconstruction flag, which 17 records carry. Chunks in conflict are
+ranges listed in the deposit. Three rules governed it. A passage was included where it stated a
+register row, a weight, a method step, a published provincial value or a metadata field of the
+compilation; excluded where it was narrative framing, policy justification, or repetition of a passage
+already captured; and extraction of a slice stopped when a further page yielded nothing meeting the
+inclusion rule. The boundary is the four documents named, so the corpus is a census of what they state
+on those five topics rather than a sample of a literature. Each record carries its document and slice,
+the verbatim Indonesian text, an English gloss used nowhere as a quotation source, the printed page
+with the PDF page in brackets, a maturity tag, and a reconstruction flag. That flag, on 17 records,
+marks content assembled from a table the PDF text layer renders incompletely: the values are read from
+the document but their layout is reconstructed, and no flagged record is the sole support for any claim
+made here. Chunks in conflict are
 recorded as conflicts rather than reconciled, and the four-against-three pillar contradiction is
 held as one such record.
 
@@ -94,7 +102,7 @@ Maturity is tagged on every claim that something exists, as (a) published offici
 experimental or pilot compilation, (c) methodology under development, or (d) announced but not
 started. The tag describes the datum rather than the document reporting it.
 
-## 3.5 Weight arithmetic and its one ambiguity
+## 3.5 Weight arithmetic and its two ambiguities
 
 Weights are taken from the Juknis as printed: pillar weights from Tabel 4, p. 94 [pdf 104];
 sub-pillar splits from Tabel 5, p. 94 [pdf 104]; variable weights from Tabel 6, pp. 95–96 [pdf
@@ -104,7 +112,13 @@ decimal places from one-decimal inputs and reported in prose to one decimal with
 weight used here is printed; none is reconstructed. Where a total is built from component shares it
 is the sum of the rounded components rather than the product of the unrounded inputs, which moves
 three totals by 0.01 and is stated so either route is reproducible. All weight arithmetic follows
-the three-pillar structure (Section 2.3).
+the three-pillar structure of Tabel 4, Tabel 5 and Gambar 11, for the stated reason that weights are
+published only there, whilst register rows keep their Tabel 1 labels (Section 2.3). The choice is
+material in one place and immaterial in another. Every indicator in the Tier A mapping sits in the
+environment pillar under both structures, so Section 4.2's arithmetic is unaffected `[ASSUMPTION]`,
+whilst Section 4.3's figures are computed over precisely the pillars across which indicators 15 to 18
+move and are therefore structure-dependent, with no four-pillar equivalent available from the published
+weights.
 
 The handbook does not state whether the percentages in Tabel 4 to Tabel 6 are raw
 first-principal-component loadings or normalised contributions, noting only that *besaran pembobot
@@ -119,7 +133,10 @@ percentage points, moving the four Tier B sub-pillars from 26.15% to 26.12%; 18.
 both. Fifteen independent groups of raw loadings would not sum to 100 by accident, so the
 percentages are read here as normalised contributions and the derived shares are carried without a
 denominator caveat. That inference is this study's reading of the tables and is stated nowhere in
-the source `[ASSUMPTION]`. The census is deposited as Supplementary Data S2.
+the source `[ASSUMPTION]`. A second ambiguity is local rather than global and the census does not
+reach it: indicator 38 is built from a spatial domain in Tabel 1 and a sectoral one in Tabel 6, which
+moves the social share between 13.7% and about 14.0% (S4.1). The census is deposited as Supplementary
+Data S2.
 
 ## 3.6 Reporting conventions
 

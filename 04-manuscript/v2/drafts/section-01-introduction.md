@@ -65,12 +65,12 @@ policy.
 Three findings follow. First, read against verbatim constituent data items rather than indicator
 names, the three ecosystem condition indicators are definitionally matched to account output rather
 than category-mismatched. That corrects a judgement in earlier work, including a provisional mapping by
-the present authors that scored account-derivable shares at figures moving from 61% to 39% to 2.8% as
-the assumed indicator set changed, the last over a 36-indicator denominator the register does not have
-(Section 4.2). Second, what separates the account routes into and out of reach is not compilation
+the present authors (Gacutan and Vandenbergh, 2025) that scored account-derivable shares at figures
+moving from 61% to 39% to 2.8% as the assumed indicator set changed, the last over a 36-indicator
+denominator the register does not have (Section 4.2). Second, what separates the account routes into and out of reach is not compilation
 maturity but content. The routes Indonesia has compiled at pilot scale bear on 12.79% of the
-composite's published weight and the one route compiled nowhere bears on 13.70%, a difference of
-1.07 times; yet no compiled account produces the constituent data item the register asks for at
-any of these rows (Section 4.3). Third, the share an account would itself supply is about 2.33%, and
+composite's published weight and the one route compiled nowhere on a comparable 13.70%, the first
+wholly containing the Tier A share above it; yet no compiled account produces the constituent data
+item the register asks for at any of these rows (Section 4.3). Third, the share an account would itself supply is about 2.33%, and
 what the mature account types offer at those rows is a production process rather than a stock of
 substitutable values (Section 5).

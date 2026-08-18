@@ -4,6 +4,11 @@ Long form of Section 4.1. Every entry is maturity tag (b), experimental or pilot
 
 ## S5.1 The asset account
 
+The footprint and the cell count do not reconcile. At 625 m² each, 48,211 MBSU cells give 3,013.19 ha
+against the 2,980.84 ha printed, a shortfall of 32.35 ha or 1.1%. That would be consistent with cells
+clipped at the park boundary, but no clipping rule is stated and the discrepancy is nowhere explained
+`[EVIDENCE GAP]`.
+
 The Gili Matra pilot publishes a complete asset account (MMAF, 2022a, tab. 5, p. 52 [pdf 66]).
 
 | Ecosystem | Opening 2015 (ha) | Closing 2021 (ha) | Change (ha) |

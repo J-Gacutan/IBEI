@@ -2,9 +2,12 @@
 
 ## 5.1 What compilation changes, and what it does not
 
-What an account offers this index at the rows it touches is a production process, not a stock of
-substitutable values. That is a narrower claim than an efficiency claim, and the evidence assembled
-here would not support the wider one.
+The question was whether an account compiled to SEEA specifications can carry the reporting load of a
+statutory index. The load is now quantified and it is small: five of 44 rows at 7.64% of
+published weight, of which about 2.33% is what an account would itself supply. On that measure an
+account cannot carry the load — and the measure is the wrong one. What an account offers at the rows
+it touches is a production process, not a stock of substitutable values — a narrower claim than an
+efficiency claim, and the evidence assembled here would not support the wider one.
 
 The register decomposes into 62 constituent data items across its 44 rows. Three of them —
 indicators 19, 20 and 21 — are cross-classifications of one extent-and-condition compilation, so the
@@ -66,7 +69,10 @@ the mandate presupposes. What does not reduce to codification is the residual �
 and the revision rule that alters the opening and closing entries themselves — both properties of
 double-entry over a stock. The residual is thin, and saying so is more useful than defending a wider
 claim. A reader who concludes that Indonesia should codify definitions before compiling anything has
-read the evidence correctly, and that ordering is what Section 4.4 recommends.
+read the evidence correctly, and the ordering follows from Section 4.4's own result: an indicator
+inserted ahead of coverage would be imputed from socio-economic proxies in every province lacking an
+account, so insertion should be phased behind compilation. That is a sequencing recommendation, not a
+change to the index's method.
 
 ## 5.3 What account supply does not fix
 
@@ -127,20 +133,33 @@ nothing here asks either institution to take on the other's mandate. The arrange
 settled by whichever body now holds the coordinating function, the team constituted under Kepmen KP
 44/2023 having had its term expire with no renewal instrument located.
 
-Three readings of the same record would lead elsewhere. Rinaldi et al. (2025) construct an
-alternative index on a human development index template, treating the problem as one of index design
+Four readings of the same record would lead elsewhere. The first is the position this article's whole
+premise contests: that secondary compilation is adequate for a policy composite provided the
+uncertainty it introduces is quantified and published. It is the cheaper answer and on three of this
+article's four properties a good one, and Frazier et al. (2016) show the Ocean Health Index doing it,
+publishing gapfilled shares goal by goal. What it cannot supply is the quantity to be uncertain about:
+the register asks for a share of provincial area within a cover band, which no Indonesian source
+publishes at any uncertainty (Section 4.2), and an uncertainty statement over an imputed value
+describes the imputation rather than the reef. The position is right about most of the index and silent
+about the rows at issue here — and adopting it would cost nothing to try, since the per-indicator
+imputation record it needs is the reform recommended at Section 5.1 and depends on no account being
+compiled. Second, Rinaldi et al. (2025) construct an alternative index on a
+human development index template, treating the problem as one of index design
 rather than of the production system beneath it; on that reading the effort recommended here is
-misdirected. Wuwung et al. (2024) locate the constraint on Indonesian ocean policy in institutional
-fragmentation across mandates, which would make an inter-agency supply arrangement the hardest
-rather than the cheapest of the conditions precedent. Ravallion (2012) defines a mashup index as a
+misdirected. Third, Wuwung et al. (2024) locate the constraint on Indonesian ocean policy in
+institutional fragmentation across mandates. That concession is accepted here and it reorders Section
+4.4: an inter-agency supply arrangement is the hardest of the conditions precedent, not the cheapest,
+and the three acts of codification should be read as the tractable ones precisely because each sits
+inside a single mandate. Fourth, Ravallion (2012) defines a mashup index as a
 composite for which theory and practice provide little guidance on design, leaving the producer free
 to set an unusually large number of moving parts, and doubts the value added of such indices
 relative to monitoring the components separately. The answer this record supports is statutory
 rather than methodological: the IBEI is scored for every province annually under Perpres 12/2025, so
 the dashboard alternative is not in BAPPENAS's gift, and what supplies the composite is a live
-question whether or not an aggregate is the instrument a statistician would have chosen. No source
-located by this study argues that accounts cannot serve as statistical infrastructure for a
-composite index.
+question whether or not an aggregate is the instrument a statistician would have chosen. No source in
+the set searched argues that accounts cannot serve as statistical infrastructure for a composite index,
+which is a statement about a bilingual search over a named document set rather than about the
+literature (Section 3.3).
 
 ## 5.5 Limitations
 

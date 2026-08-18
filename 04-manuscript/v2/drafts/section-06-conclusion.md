@@ -1,13 +1,13 @@
 # 6. Conclusion
 
-Ocean accounts are worth building for this index because of how the handful of indicators they touch
-would be produced, and not because of how many indicators they could fill. The share an account would
-itself supply is about 2.33% of the composite on the published weights, which the handbook prints at
-every level but which are nominal, and nominal weight need not track effective importance under this
-estimator. What separates the account routes into and out of reach is content rather than compilation
-maturity: the routes compiled at pilot scale and the route compiled nowhere bear on comparable shares
-of the index, 12.79% against 13.70% — one containing the other — yet no compiled account produces the
-constituent data item the register asks for at any of those rows.
+Both findings point the same way, and it is not the way the question is usually put. Asking how much of
+a composite an ocean account could fill invites an answer in shares, and shares are what this evidence
+supports least: they are nominal weight, which need not track effective importance under this
+estimator, and the largest of them sit at rows an account does not supply. Asking how the indicators it
+touches would be produced gives an answer the evidence does support, because that question is settled
+by documents rather than weights. On it the record is unambiguous: every route runs through content the
+register specifies and no compiled account produces, so compilation maturity turns out not to be what
+separates them.
 
 The binding constraint on acting on this is not methodological. No compilation cost appears anywhere in
 the record obtained for this study — no staff-day figure, no budget line, no imagery cost and no
@@ -30,10 +30,17 @@ technical assistance to the Indonesian programme, which is an assumption rather 
 condition `[EVIDENCE GAP]`.
 
 What would falsify the argument is worth stating, because a paper of this shape is otherwise
-structurally unfalsifiable. If a single-province compilation reproduces the published provincial value
-no better than the current secondary-publication route, or does so at a cost per province that an annual
-national cycle cannot bear, then the production-process case fails on its own terms.
+structurally unfalsifiable. The first arm is testable now: if a single-province compilation reproduces
+the published provincial value no better than the current secondary-publication route, the
+production-process case fails on its own terms. The second arm is cost, which cannot be a threshold whilst no
+compilation cost has ever been published; naming one would be the invented figure this study declines
+to supply. It becomes testable once the first observation exists, which is why the re-tabulation above
+is worth running for its cost record as much as its result. The test is then whether cost per province
+exceeds what the index's existing secondary-compilation cycle spends per province, a quantity BAPPENAS
+holds and has not released `[EVIDENCE GAP]`.
 
 Within the statutory boundary held throughout, what this study describes is a capacity gap under a
-statutory obligation, in a country that has demonstrated, at one experimental pilot site, one instance
-of the production process the obligation would require at scale.
+statutory obligation, in a country that has demonstrated the production process the obligation would
+require at exactly one experimental site of 2,980.84 ha, on one vintage now three reference years
+stale, and with the method limits recorded above. Whether that process scales to 38 provinces annually
+is not shown here and cannot be shown from one site.

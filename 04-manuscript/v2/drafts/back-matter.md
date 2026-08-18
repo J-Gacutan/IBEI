@@ -40,7 +40,7 @@ register's 44 rows are all an ocean account touches.**
 *Data Pembentuk Indikator* items transcribed from Juknis Tabel 1, pp. 11–13 [pdf 21–23], with the
 grade under the membership rule of Section 3.4 — matched, partial, provenance question, or none — and
 the maturity tag of any account-side claim. Rows 15 to 18 carry Tabel 1's *Enabler* pillar label; the
-weight arithmetic elsewhere follows the three-pillar structure (Section 2.3). The item-level scoring
+weight arithmetic elsewhere follows the three-pillar structure (Section 3.5). The item-level scoring
 sheet behind the grades is Supplementary Table S1.
 
 **Figure 3. The weight the account-addressable rows carry is small, and it sits beside two

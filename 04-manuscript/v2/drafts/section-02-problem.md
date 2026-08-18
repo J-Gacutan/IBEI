@@ -67,19 +67,13 @@ comparability over *37 provinsi* (p. 71 [pdf 81]), and the sensitivity chapter t
 recomputes the index *untuk 38 provinsi* across 59 scenarios (p. 101 [pdf 111]). Two of the four are
 in the same handbook. The number used in any sentence here is the number that sentence is about.
 
-## 2.3 The pillar conflict, and the locus this article adopts
+## 2.3 Two contradictions inside the handbook
 
 The handbook prints two pillar structures. Tabel 1 prints four, with an *Enabler (teknologi & tata
 kelola)* pillar holding indicators 15 to 18. Tabel 4, Tabel 5 and Gambar 11 print three, placing
-tourism, technology and governance as economy sub-pillars. This article does not resolve the conflict.
-All weight arithmetic here follows the three-pillar structure, for the stated reason that weights are
-published only there, whilst register rows keep their Tabel 1 labels.
-
-The choice is material in one place and immaterial in another. Every indicator in the Tier A mapping
-sits in the environment pillar under both structures, so Section 4.2's arithmetic is unaffected
-`[ASSUMPTION]`. Section 4.3's figures are computed over precisely the pillars across which indicators
-15 to 18 move, and are therefore structure-dependent; Section 4.2 lists which, and states that no
-four-pillar equivalent can be given from the published weights.
+tourism, technology and governance as economy sub-pillars. Both are in the same document and this
+article does not resolve the conflict; which structure the weight arithmetic follows, and where the
+choice is material, is settled in Methods (Section 3.5).
 
 A second contradiction bears on how any published value should be read. One printed page asserts
 both a rescaling into a 1 to 100 range and an unbounded principal component score that may be

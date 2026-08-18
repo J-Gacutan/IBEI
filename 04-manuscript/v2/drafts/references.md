@@ -37,6 +37,8 @@ for a Sustainable Ocean Economy.
 Frazier, M., Longo, C. and Halpern, B.S., 2016. Mapping uncertainty due to missing data in the global
 Ocean Health Index. *PLOS ONE* 11(8): e0160377. doi:10.1371/journal.pone.0160377.
 
+Gacutan, J. and Vandenbergh, R., 2025. *Indonesia Blue Economy Index and Ocean Accounts: provisional indicator mapping*. Concept note and Annex A, unpublished working paper. **[superseded]** The provisional mapping this article corrects; its account-derivable shares rest on assumed indicator definitions rather than on the register's printed constituent data items, and no figure in it is carried forward here. Authors to confirm the byline and whether a public version should be deposited.
+
 Gacutan, J., Lal, K.K., Herath, S., Lantz, C., Taylor, M.D. and Milligan, B.M., 2022. Using ocean
 accounting towards an integrated assessment of ecosystem services and benefits within a coastal lake.
 *One Ecosystem* 7: e81855. doi:10.3897/oneeco.7.e81855.

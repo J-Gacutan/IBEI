@@ -13,13 +13,11 @@ and interactive on a harmonised spatial frame (GOAP country page, retrieved 2026
 self-statement about a platform, evidencing no compilation beyond the pilot record.
 
 The pilot's footprint belongs in its own units, because the smallness is part of the finding: 2,980.84
-ha on a 25 m by 25 m marine basic spatial unit (MBSU) grid of 48,211 cells, opening in 2015 and
-closing in 2021, those years chosen on data availability (MMAF, 2022a, pp. 30, 39 [pdf 44, 53]). The two
-figures do not reconcile. At 625 m² each, 48,211 cells give 3,013.19 ha against the 2,980.84 ha
-printed, a shortfall of 32.35 ha or 1.1%. That would be consistent with cells clipped at the park
-boundary, but is nowhere explained, and is recorded as observed rather than resolved `[EVIDENCE GAP]`.
-Against a statutory obligation to score every province annually, this is an area smaller than many
-single districts, compiled once.
+ha on a 25 m by 25 m marine basic spatial unit (MBSU) grid of 48,211 cells, opening in 2015 and closing
+in 2021, those years chosen on data availability (MMAF, 2022a, pp. 30, 39 [pdf 44, 53]). The two figures
+do not reconcile, the cell count implying 32.35 ha more than the footprint printed; S5.1 gives the
+arithmetic, and the discrepancy is recorded as observed rather than resolved `[EVIDENCE GAP]`. Against
+a statutory obligation to score every province annually, this is roughly 30 km², compiled once.
 
 Maturity is the programme's own self-description rather than an external verdict. GOAP labels the three
 2022 MMAF outputs 'preliminary consultation drafts', and BPS lists scaling up to the total Indonesian
@@ -60,8 +58,8 @@ account output and are disposed of rather than claimed (Table 2). Figure 2 gives
 Four qualifications govern every share in this section and the two that follow. Each carries `[CONTESTED DENOMINATOR]`: it measures what these account types bear on, never
 what an account would supply and never an achievable score improvement. Each is a share of nominal
 published weight, which under this estimator need not track effective importance (Section 5.5). Every economy and
-social figure — 26.1%, 5.15%, 4.11%, 1.34%, 0.31%, 7.20%, 6.29%, 13.7% — is structure-dependent on the
-three-pillar locus of Section 2.3, with no four-pillar equivalent in the published weights. And the social pillar's indicators remain BPS outputs throughout, the
+social figure — 26.1%, 5.15%, 4.11%, 1.34%, 0.31%, 7.20%, 6.29%, 13.70% — is structure-dependent on the
+three-pillar locus of Section 3.5, with no four-pillar equivalent in the published weights. And the social pillar's indicators remain BPS outputs throughout, the
 account contribution being a classification standard rather than a substitute source, so the wider
 30.5% reading may be used only where it is named as the wider reading.
 
@@ -88,16 +86,14 @@ where the narrative reports 16.99% whilst the report's own tab. 3 on the same pa
 cross-tabulation of extent by cover class is not published. The step from the input layer to indicator
 19 is one tabulation that has not been performed.
 
-The match frays at four edges. Two are definitional. The 50% threshold is the index's own and matches
-no Indonesian condition class boundary in use, the pilot classifying reef condition on the bands of
-Giyanto et al. (2017), where moderate runs from 19% to below 35%. Reclassifying a continuous per-cell
-cover surface at 50% would be trivial, but only where condition is mapped wall to wall rather than
-surveyed at stations, and no obtained document evidences a wall-to-wall condition surface
-`[EVIDENCE GAP]`. Where national data exist only as classes pre-binned on the Giyanto boundaries, the
-50% cut cannot be recovered, and the coral row becomes a definition gap rather than a coverage gap
-`[ASSUMPTION]`. The mangrove unit differs outright: indicator 21 asks for canopy density as a
+The match frays at four edges. Two are definitional. The index's 50% threshold matches no Indonesian
+condition class in use, the pilot classifying reef on the bands of Giyanto et al. (2017); reclassifying
+at 50% is trivial on a continuous per-cell surface but impossible where national data exist only as
+classes pre-binned on those boundaries, which makes the coral row a definition gap rather than a
+coverage gap `[ASSUMPTION]`. No obtained document evidences a wall-to-wall condition surface
+`[EVIDENCE GAP]`. The mangrove unit differs outright: indicator 21 asks for canopy density as a
 percentage, whilst the pilot reports m² per ha and individuals per ha, with no documented conversion
-(p. 47 [pdf 61]) `[EVIDENCE GAP]`.
+(p. 47 [pdf 61]) `[EVIDENCE GAP]`. S5.3 gives the measurement protocols and the reference bands.
 
 The other two edges are unfixed choices. Neither the minimum mapping unit nor the denominator is fixed
 by the register or by the SIRUSA definitions `[ASSUMPTION]`. And the extent estimate is itself a
@@ -169,12 +165,12 @@ carry no weight in the index at all (Figure 4).
 **Tier B adds no quantity the register lacks.** Four economy sub-pillars carry about 26.1% of the
 composite, which Gambar 11's integers confirm at 5 + 8 + 6 + 7 = 26 (Juknis, Tabel 5 and Gambar 11,
 pp. 93–94 [pdf 103–104]). Every constituent data item in them is an administrative quantity KKP and BPS
-routinely compile: production and export tonnages, passenger and vessel counts, site counts. No route
-in Table 3 supplies a quantity of a kind the register does not already specify. What an account adds is
-an industry boundary consistent with international and Indonesian industrial classification, under
-which such quantities become comparable across provinces and cycles (IDEEA Group, 2021; Fenichel et
-al., 2020). Whether recompiling on that boundary would change the values cannot be determined here, and
-under weights re-estimated by principal components it cannot be assumed not to.
+routinely compile — production and export tonnages, passenger and vessel counts, site counts — and no
+route in Table 3 supplies a quantity of a kind the register does not already specify. What an account
+adds is an industry boundary consistent with international and Indonesian industrial classification,
+under which such quantities become comparable across provinces and cycles (IDEEA Group, 2021; Fenichel
+et al., 2020). Whether recompiling on that boundary would change the values cannot be determined here,
+and under weights re-estimated by principal components it cannot be assumed not to.
 
 One correction inverts the intuitive fisheries mapping. Sub-pillar A is 83.0% aquaculture by published
 weight against 6.3% for capture-fisheries volume (Tabel 6, p. 95 [pdf 105]), so reading production
@@ -199,7 +195,7 @@ total receiving that transfer (Juknis, Tabel 1, p. 13 [pdf 23]). Two more presup
 identification as headcounts. None is computable without the domain joined to SUSENAS, SAKERNAS and
 poverty statistics. That is a classification deliverable, not a survey deliverable.
 
-The share is about 13.7% of the composite, decomposed row by row in Supplementary S4 so that a reader
+The share is about 13.70% of the composite, decomposed row by row in Supplementary S4 so that a reader
 may reject a row rather than the total, where the 0.33% coastal-poverty row is also shown to turn on
 which of two conflicting handbook wordings is followed. Which indicators require an ocean-sector domain
 is this study's reading of the verbatim constituent data items and is stated in no source
@@ -236,7 +232,7 @@ pillar.
 One item in the register is cheap. An ocean-sector classification standard would require no new survey
 if SUSENAS and SAKERNAS microdata already carry sufficient occupation and industry detail to construct
 the domain retrospectively, which is not verified against BPS survey documentation `[EVIDENCE GAP]`,
-and it bears on about 13.7% of the composite. Everything else in Table 3 is conditional on evidence
+and it bears on about 13.70% of the composite. Everything else in Table 3 is conditional on evidence
 Indonesia does not yet have.
 
 ---
@@ -261,7 +257,7 @@ Indonesia in the form the register asks for.
 | C | Net extent change | Register has no term | SEEA EA, ch. 4, with the thematic ocean accounts of ch. 13 | A signed stock-and-flow companion series | Insertion as a forty-fifth indicator raises a weighting problem (Section 5.3) |
 | C | Marine renewable energy, sub-pillar H | ~18.45% measures non-marine energy | Not specified in any source obtained | A marine variable in a sub-pillar that has none | Installed Indonesian marine capacity, on which no figure was located |
 | C | Combined presentations | Presentation only | SEEA EA, paras 14.56–14.57 | Environment and economy tables read together | None on either side |
-| C | Social classification | ~13.7% | Ocean employment and human capital, named but not specified (IDEEA Group, 2021) | An ocean-sector survey domain making seven indicators computable | No Indonesian standard located; no social account above tag (c) |
+| C | Social classification | ~13.70% | Ocean employment and human capital, named but not specified (IDEEA Group, 2021) | An ocean-sector survey domain making seven indicators computable | No Indonesian standard located; no social account above tag (c) |
 | C | Governance beyond one count | ~5.15% | Ocean governance accounts, named but not specified (IDEEA Group, 2021) | Institutional, legal, expenditure and coverage accounts | The pilot's governance account, tag (b), produces nothing the register asks for |
 
 ## 4.4 Conditions precedent for supply
@@ -286,26 +282,19 @@ three reference years. The second is a revision policy, for which the standard s
 improved between vintages would move a province's index value with no ecosystem change behind it, and
 nothing in the published record would flag it.
 
-One condition follows from the standard rather than from Indonesian practice. Condition is not additive
-across areas, its variable account being an area-weighted arithmetic mean over the assets of an
-ecosystem type (para. 5.54, p. 105), so a provincial ratio cannot be recovered by averaging district
-values and a supplier would need to publish the denominator alongside the percentage.
-
 The institutional condition is unmet against an instrument whose own term has run. Kepmen KP 44/2023
-constituted the Tim Penyusun Neraca Sumber Daya Laut in February 2023 and set its term to expire on
-31 December 2023, and no renewal instrument was located `[EVIDENCE GAP]`. The July 2025 dashboard launch
-indicates continued activity under some instrument not obtained, so the defensible statement is that no
-renewal was located rather than that the mandate lapsed. Two sectoral products feeding one another do
-not by themselves constitute an accredited statistical input, and no microdata are released, so even a
-compliant supplier could not verify that its value survived into the published provincial score.
+constituted the Tim Penyusun Neraca Sumber Daya Laut in February 2023 with a term expiring that
+December, and no renewal was located `[EVIDENCE GAP]` — the defensible statement being that none was
+found rather than that the mandate lapsed, since the July 2025 dashboard indicates activity under some
+instrument not obtained. Two sectoral products feeding one another do not by themselves constitute an
+accredited statistical input, and no microdata are released, so even a compliant supplier could not
+verify that its value survived into the published score.
 
-One design recommendation follows. Where a province has no account, an account-derived indicator would
+One result bears on sequencing. Where a province has no account, an account-derived indicator would
 itself be predicted from socio-economic proxies under the framework the Report publishes (pp. 64–66
 [pdf 76–78]), so an environmental value would become partly a function of economic and social
-covariates. The framework's first scenario trains on the previous cycle's historical data, which a newly
-introduced indicator does not have. **Insertion should be phased behind coverage: compile first, insert
-second.** That is a sequencing recommendation, not a change to the index's method. Supplementary S3
-carries the derivation for each condition.
+covariates; and the framework's first scenario trains on the previous cycle's historical data, which a
+newly introduced indicator does not have. Supplementary S3 carries the derivation for each condition.
 
 ---
 
