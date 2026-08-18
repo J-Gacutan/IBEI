@@ -27,7 +27,7 @@
       "fix_step": 1,
       "bead": "ibei-8d4.1",
       "status": "fixed",
-      "verification": "Technology weight is printed in Juknis Tabel 5 as 4,1%, so it was never a residual. S2:40 now reads \"Tabel 5 | 4.1 of economy | 32.6 x 4.1% | 1.34\" and S2:93-95 explicitly withdraws the residual treatment and the 96.0 sum. 32.6 x 4.1% = 1.34 verifies."
+      "verification": "Technology weight printed in Tabel 5 as 4,1%; residual treatment withdrawn."
     },
     {
       "id": "C2",
@@ -46,8 +46,8 @@
       "summary": "12.79% has no in-text derivation, no generating method, and wholly contains the 7.64% presented beside it as an independent quantity.",
       "fix_step": 2,
       "bead": "ibei-8d4.2",
-      "status": "untouched",
-      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
+      "status": "fixed",
+      "verification": "Results decomposes 12.79% as 7.64% + 5.15%; arithmetic verified."
     },
     {
       "id": "C3",
@@ -63,8 +63,8 @@
       "summary": "Corpus and supplements are repeatedly claimed as deposited, but no Data or Code Availability statement, repository, accession, DOI or licence exists anywhere.",
       "fix_step": 3,
       "bead": "ibei-8d4.3",
-      "status": "untouched",
-      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
+      "status": "fixed",
+      "verification": "back-matter.md carries Data availability, Code availability and Deposit; script 05-rag/workflow-ibei-tier1.mjs verified to exist."
     },
     {
       "id": "C4",
@@ -82,8 +82,8 @@
       "summary": "The central result is a single-coder grading deposited at row level though the tested population is 62 items, with boilerplate grounds on rows 33-44 and no reliability threat named in Limitations.",
       "fix_step": 3,
       "bead": "ibei-8d4.4",
-      "status": "untouched",
-      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
+      "status": "partial",
+      "verification": "Item-level S1 done (62 rows, verified against join-table.json). Author-independent re-grade outstanding."
     },
     {
       "id": "C5",
@@ -102,8 +102,8 @@
       "summary": "No figure legend, caption, embed or filename reference exists for any of the five cited figures, leaving four load-bearing figure claims uncheckable.",
       "fix_step": 4,
       "bead": "ibei-8d4.5",
-      "status": "untouched",
-      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
+      "status": "fixed",
+      "verification": "Five figure legends in back-matter.md, each stating the figure conclusion in its title."
     },
     {
       "id": "C6",
@@ -121,8 +121,8 @@
       "summary": "The nominal-versus-effective weight objection is conceded in 5.5 but absent from abstract and conclusion, and the escape sentence names what survives without naming what does not.",
       "fix_step": 5,
       "bead": "ibei-8d4.6",
-      "status": "untouched",
-      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
+      "status": "partial",
+      "verification": "Abstract limb done and 5.5 escape sentence fixed. Conclusion still restates the shares unqualified."
     },
     {
       "id": "C7",
@@ -172,7 +172,7 @@
       "fix_step": 3,
       "bead": "ibei-8d4.9",
       "status": "partial",
-      "verification": "Substantive limb FIXED and improved: 3.5 no longer offers renormalisation as a bound. It reports a 15-group census (max effect 0.03 pp, 26.15%->26.12%) and infers the percentages are normalised contributions, flagged [ASSUMPTION], with the consequence stated at 5.5:163-167 (\"the derived shares would lose their denominator rather than move\"). REMAINING: the subsection is still titled \"Weight arithmetic and its one ambiguity\" (methods:95), and the second ambiguity (13.7% vs 14.0% on the indicator-38 wording) still sits only in supp-S4, not in the Methods statement of contingency."
+      "verification": "Sensitivity test replaced by a fifteen-group census supporting a flagged inference. Subsection still titled \"one ambiguity\"."
     },
     {
       "id": "M3",
@@ -187,7 +187,7 @@
       "fix_step": 3,
       "bead": "ibei-8d4.10",
       "status": "fixed",
-      "verification": "supp-S2-weight-workbook.md:41-44 now carry full printed inputs and chains, e.g. \"welfare 18.2 of social; social_s1_var10 82.6 of welfare | 30.5 x 18.2% x 82.6% | 4.59\". Verified 30.5 x 0.182 x 0.826 = 4.585. 13.70% is recomputable."
+      "verification": "S2 social rows carry printed inputs and full chains."
     },
     {
       "id": "M4",
@@ -204,7 +204,7 @@
       "fix_step": 5,
       "bead": "ibei-8d4.11",
       "status": "partial",
-      "verification": "Structure-dependence limb largely addressed: 4.3 now opens with a blanket declaration that \"The arithmetic below follows the three-pillar locus declared at\" 2.3, which covers the derived economy figures. REMAINING: 3.6 still scopes [CONTESTED DENOMINATOR] to \"the Tier A share of 7.64% and figures derived from it\", but results carries it only once (results:121, on 7.64%) and not on 2.33%, 1.25% or 4.06%."
+      "verification": "Structure-dependence covered by a blanket declaration at 4.3. CONTESTED still carried once only."
     },
     {
       "id": "M5",
@@ -222,7 +222,7 @@
       "fix_step": 2,
       "bead": "ibei-8d4.12",
       "status": "partial",
-      "verification": "Largely addressed: \"roughly 1.1 times\" is now the exact \"1.07 times\" (results:154, introduction:73) and is removed from the abstract and conclusion entirely. The force of the original objection is much reduced because the new 15-group census bounds movement at 0.03 pp rather than ~1 pp. REMAINING: the ratio is still carried in the Introduction findings statement."
+      "verification": "Gone from abstract and conclusion; one occurrence remains in the Introduction."
     },
     {
       "id": "M6",
@@ -236,8 +236,8 @@
       "summary": "No keywords, Highlights, funding statement, competing-interests declaration, CRediT statement or acknowledgements; submission-blocking at Marine Policy.",
       "fix_step": 9,
       "bead": "ibei-8d4.13",
-      "status": "untouched",
-      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
+      "status": "partial",
+      "verification": "Highlights and Keywords added; Funding, CRediT and Acknowledgements are author-input."
     },
     {
       "id": "M7",
@@ -252,7 +252,7 @@
       "fix_step": 9,
       "bead": "ibei-8d4.14",
       "status": "fixed",
-      "verification": "Fixed by commit 6111f9a. assemble.sh now emits drafts/references.md as a '# References' section between section 6 and the supplementary material, and excludes it from the word gate. Verified independently: 28 entries, every entry cited at least once, every in-text author-date resolving. Also closed P0 ibei-lbe and duplicate ibei-x5r."
+      "verification": "assemble.sh emits references.md; verified 28 entries reconciling both ways."
     },
     {
       "id": "M8",
@@ -475,7 +475,7 @@
       "fix_step": 5,
       "bead": "ibei-8d4.28",
       "status": "fixed",
-      "verification": "section-03-methods.md:127-129 now states the flag \"carries one meaning throughout and not two: it records that the share measures what these account types bear on rather than what an account would supply. It is not a flag about the weights, which are printed.\" One definition, explicitly."
+      "verification": "3.6 states the flag carries one meaning and is not about the weights."
     },
     {
       "id": "m5",
@@ -535,8 +535,8 @@
       "summary": "S1 cites 'Section 7' and 'Section 8.5' from the dead v1 numbering; the only two stale cross-references in the manuscript.",
       "fix_step": 9,
       "bead": "ibei-8d4.32",
-      "status": "untouched",
-      "verification": "Re-verified 2026-08-18 against the rebuilt working copy: no locatable edit."
+      "status": "fixed",
+      "verification": "Stale Section 7 / 8.5 refs gone with the S1 item-level rebuild."
     },
     {
       "id": "m9",
