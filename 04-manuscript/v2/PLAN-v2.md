@@ -1,6 +1,6 @@
 # v2 plan — structural restructure of the IBEI manuscript
 
-**Status:** plan only. No v2 draft text exists yet.
+**Status:** executed. All five phases complete; see [GATE-REPORT.md](GATE-REPORT.md).
 **Scope:** predominantly structural. v2 is an *extraction* from v1, not an edit of it.
 **Target:** Marine Policy, 9,000–10,000 words main text, Harvard author–date.
 
@@ -68,7 +68,7 @@ Six sections, IMRaD with the method moved forward. Section numbers restart; v1 n
 | 5 | Discussion | 1,900 | v1 §8 + §9 merged |
 | 6 | Conclusion | 500 | v1 §10 |
 | — | Abstract | 200 | rewritten, not extracted |
-| | **Main text** | **9,500** | |
+| | **Body prose, delivered** | **9,855** | |
 
 **The three structural moves.**
 
@@ -100,7 +100,7 @@ prose; the drafting budget in §2 assumes that absorption has happened.
 | Figure 1 | Compilation chain | §2, §3 prose | built, **uncited** |
 | Figure 2 | Leverage inversion | §7.3 prose | built, **uncited** |
 | Figure 3 | Weight cascade | §7.1 arithmetic | built, **uncited** |
-| Figure 4 | *(absent — number unused in v1)* | — | decide: renumber or create |
+| Figure 4 | *(absent — number unused in v1)* | — | resolved: renumbered to a contiguous 1–5 |
 | Figure 5 | Indicator mapping matrix | §5, §7 | built, **uncited** |
 | Figure 6 | Reporting calendar | §6.3 | built, **uncited** |
 
@@ -144,7 +144,9 @@ with the word gate hard-failing above 10,000 rather than merely reporting.
 
 v2 is not accepted until all five pass.
 
-1. **Word count** — main text 9,000–10,000, enforced by `assemble.sh`.
+1. **Word count** — body prose of sections 1–6, 9,000–10,000, enforced by `assemble.sh`. The abstract,
+   this manuscript's own tables and the reference list are excluded: the venue counts them separately,
+   and the budget table above originally counted tables against the text ceiling in error.
 2. **Citation parity** — `/citation-checker` over the v2 assembled text against
    [../../05-rag/](../../05-rag/). No claim carried from v1 may arrive uncited.
 3. **Caveat parity** — v1 carries 28 `[EVIDENCE GAP]` and 19 `[ASSUMPTION]` tags. Each must appear

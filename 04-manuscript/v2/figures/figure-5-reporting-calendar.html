@@ -1,0 +1,388 @@
+<title>The reporting window and the account vintages</title>
+<style>
+  :root {
+    color-scheme: light;
+    --page:            #f9f9f7;
+    --surface-1:       #fcfcfb;
+    --text-primary:    #0b0b0b;
+    --text-secondary:  #52514e;
+    --text-muted:      #6d6b66;
+    --gridline:        #e1e0d9;
+    --rule:            #cfcec6;
+    --series-index:    #2a78d6;
+    --series-account:  #eb6834;
+    --series-contest:  #8a5a00;
+    --index-fill:      #d9e7fa;
+    --account-fill:    #fbe1d5;
+    --contest-fill:    #f6eeda;
+    --tile-bg:         #f3f2ee;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --page:            #0d0d0d;
+      --surface-1:       #1a1a19;
+      --text-primary:    #ffffff;
+      --text-secondary:  #c3c2b7;
+      --text-muted:      #a3a199;
+      --gridline:        #2c2c2a;
+      --rule:            #3a3a37;
+      --series-index:    #3987e5;
+      --series-account:  #d95926;
+      --series-contest:  #d6a34a;
+      --index-fill:      #16283f;
+      --account-fill:    #3a1d10;
+      --contest-fill:    #2b2314;
+      --tile-bg:         #232322;
+    }
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --page:            #0d0d0d;
+    --surface-1:       #1a1a19;
+    --text-primary:    #ffffff;
+    --text-secondary:  #c3c2b7;
+    --text-muted:      #a3a199;
+    --gridline:        #2c2c2a;
+    --rule:            #3a3a37;
+    --series-index:    #3987e5;
+    --series-account:  #d95926;
+    --series-contest:  #d6a34a;
+    --index-fill:      #16283f;
+    --account-fill:    #3a1d10;
+    --contest-fill:    #2b2314;
+    --tile-bg:         #232322;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 1.5rem 1rem 3rem;
+    background: var(--page);
+    color: var(--text-primary);
+    font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .wrap { max-width: 68rem; margin: 0 auto; }
+  figure { margin: 0; padding: 0; }
+
+  .legend { display: flex; flex-wrap: wrap; gap: 0.4rem 1.4rem; margin: 0 0 0.9rem; font-size: 0.83rem; color: var(--text-secondary); }
+  .legend span { display: inline-flex; align-items: center; gap: 0.45rem; }
+  .swatch { width: 22px; height: 12px; border-radius: 3px; flex: none; display: inline-block; }
+  .sw-index { background: var(--index-fill); border: 2px solid var(--series-index); }
+  .sw-account {
+    border: 2px dashed var(--series-account);
+    background:
+      repeating-linear-gradient(45deg, var(--series-account) 0 1.5px, transparent 1.5px 5px),
+      var(--account-fill);
+  }
+  .sw-contest {
+    border: 2px dotted var(--series-contest);
+    background:
+      linear-gradient(to top right, transparent calc(50% - 1px), var(--series-contest) calc(50% - 1px), var(--series-contest) calc(50% + 1px), transparent calc(50% + 1px)),
+      linear-gradient(to bottom right, transparent calc(50% - 1px), var(--series-contest) calc(50% - 1px), var(--series-contest) calc(50% + 1px), transparent calc(50% + 1px)),
+      var(--contest-fill);
+  }
+  .sw-absent { border: 2px dotted var(--text-muted); background: transparent; }
+
+  .scroller { overflow-x: auto; -webkit-overflow-scrolling: touch; padding-bottom: 0.35rem; }
+  .scroller svg { display: block; width: 100%; min-width: 900px; max-width: 100%; height: auto; }
+
+
+  figcaption { margin-top: 1.1rem; padding-top: 0.85rem; border-top: 1px solid var(--gridline); font-size: 0.86rem; color: var(--text-secondary); }
+  figcaption p { margin: 0 0 0.6rem; }
+  figcaption p:last-child { margin-bottom: 0; }
+  .src { font-size: 0.78rem; color: var(--text-muted); }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 0.92em; }
+  .tag { font-variant-numeric: tabular-nums; font-weight: 600; }
+  .contest { color: var(--series-contest); font-weight: 600; }
+  table.dt { width: 100%; border-collapse: collapse; font-size: 0.8rem; margin-top: 0.5rem; }
+  table.dt th, table.dt td { text-align: left; padding: 0.32rem 0.5rem; border-bottom: 1px solid var(--gridline); vertical-align: top; }
+  table.dt th { color: var(--text-muted); font-weight: 600; }
+  details { margin-top: 0.9rem; }
+  summary { cursor: pointer; font-size: 0.82rem; color: var(--text-secondary); }
+</style>
+
+<div class="wrap">
+<figure>
+  <div class="legend">
+    <span><i class="swatch sw-index"></i> Index register — required cycle (solid outline)</span>
+    <span><i class="swatch sw-account"></i> Account register — produced to date (hatched, dashed outline) · <strong>◆ verified at primary re-check</strong></span>
+    <span><i class="swatch sw-contest"></i> <strong>⚠ CONTESTED</strong> — struck out; not evidenced in the primary documents</span>
+    <span><i class="swatch sw-absent"></i> Nothing produced / no instrument on record</span>
+  </div>
+
+  <div class="scroller">
+  <svg viewBox="0 0 1060 672" role="img"
+       aria-labelledby="fig6-title fig6-desc"
+       preserveAspectRatio="xMidYMid meet">
+    <title id="fig6-title">The IBEI reporting window compared with the vintages Indonesian ocean accounts have actually produced, 2015 to 2027</title>
+    <desc id="fig6-desc">A two-register timeline on one time axis running 2015 to 2027. The upper register shows what the index requires: an October to December Phase 1 coordination window in each year n, drawn as a full calendar quarter; a reference period of T minus 1 for every registered variable, where the register row specifies a required input and is therefore not itself evidence that the input is published; province-level annual estimation across the whole territory; and the statutory hook of Presidential Regulation 12 of 2025 with Joint Circular Letter 2 of 2024 carrying provincial targets to 2045. The lower register shows what the accounts have produced. Its first row is drawn struck out and labelled contested: the national extent series opening 2018 and closing 2021 was not found in the primary Ministry of Marine Affairs and Fisheries and Statistics Indonesia documents when those were read at source, and is shown as a claim withdrawn from the evidence base rather than as a produced vintage. What is verified in its place is the Gili Matra pilot in West Nusa Tenggara, opening 2015 and closing 2021, drafted 2022, presented internationally in June 2023, followed by a public national dashboard in July 2025, roughly four years after the pilot closing year. A separate conflict block prints two irreconcilable extent figures for that same pilot: the ministry report gives coral 259.50 falling to 247.50 hectares, seagrass 76.75 rising to 102.50, mangrove 21.50 falling to 10.69, while the statistics office presentation gives coral 183.34 falling to 165.08, seagrass 56.50 rising to 64.93, mangrove 13.53 falling to 6.15, sourced to the geospatial agency in 2020 and validated in 2021. No reconciliation is published and neither is adopted. The dashboard is annotated to say that making a province selectable on a platform is not the same as compiling an account for it, that one province carries a documented published compilation, and that the frequently repeated count of thirty-four provinces is itself contested and is not used. No closing year later than 2021 exists in the public domain, and there is no revision policy and no Statistics Indonesia statistical work-programme entry. Between the two registers a bracket marks the gap between the most recent account closing year, 2021, and the reference year the 2025 index cycle requires, 2024: three reference years. Every remaining element in the lower register has been verified against the primary reports.</desc>
+
+    <defs>
+      <marker id="ar-idx" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+        <path d="M0,0.5 L10,5 L0,9.5 z" fill="var(--series-index)"/>
+      </marker>
+      <marker id="ar-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+        <path d="M0,0.5 L10,5 L0,9.5 z" fill="var(--series-account)"/>
+      </marker>
+      <marker id="ar-gap" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+        <path d="M0,0.5 L10,5 L0,9.5 z" fill="var(--text-primary)"/>
+      </marker>
+      <pattern id="hatch-acc" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+        <rect width="6" height="6" fill="var(--account-fill)"/>
+        <line x1="0" y1="0" x2="0" y2="6" stroke="var(--series-account)" stroke-width="1.6"/>
+      </pattern>
+      <pattern id="hatch-contest" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+        <rect width="7" height="7" fill="var(--contest-fill)"/>
+        <line x1="0" y1="0" x2="0" y2="7" stroke="var(--series-contest)" stroke-width="1" stroke-dasharray="2 2"/>
+      </pattern>
+      <pattern id="hatch-void" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(135)">
+        <rect width="8" height="8" fill="none"/>
+        <line x1="0" y1="0" x2="0" y2="8" stroke="var(--text-muted)" stroke-width="1" stroke-dasharray="2 3"/>
+      </pattern>
+    </defs>
+
+    <!-- ============ REGISTER A : what the index requires ============ -->
+    <text x="0" y="24" font-size="12" font-weight="700" fill="var(--series-index)" letter-spacing="0.05em">WHAT THE INDEX REQUIRES</text>
+
+    <!-- A1 Phase 1 windows -->
+    <text x="168" y="56" font-size="11.5" text-anchor="end" fill="var(--text-primary)">Phase 1 coordination</text>
+    <text x="168" y="69" font-size="10.5" text-anchor="end" fill="var(--text-muted)">Oct–Dec of year n · tag (d)</text>
+    <line x1="175" y1="52" x2="1030" y2="52" stroke="var(--gridline)" stroke-width="1"/>
+    <line x1="175" y1="74" x2="1030" y2="74" stroke="var(--gridline)" stroke-width="1"/>
+    <g fill="var(--index-fill)" stroke="var(--series-index)" stroke-width="2">
+      <rect x="869.69" y="52" width="17.81" height="22" rx="3"/>
+      <rect x="940.94" y="52" width="17.81" height="22" rx="3"/>
+      <rect x="1012.19" y="52" width="17.81" height="22" rx="3"/>
+    </g>
+    <text x="812" y="42" font-size="10.5" fill="var(--series-index)" text-anchor="middle">Oct–Dec, every year n — a full calendar quarter</text>
+    <path d="M852,45 L868,53" stroke="var(--series-index)" stroke-width="1.4" fill="none" marker-end="url(#ar-idx)"/>
+
+    <!-- A2 reference period T-1 -->
+    <text x="168" y="104" font-size="11.5" text-anchor="end" fill="var(--text-primary)">Reference period T−1</text>
+    <text x="168" y="117" font-size="10.5" text-anchor="end" fill="var(--text-muted)">specified for all 44 register rows</text>
+    <text x="168" y="130" font-size="9.5" text-anchor="end" fill="var(--text-muted)">a required input — no maturity tag</text>
+    <rect x="817.3" y="98" width="69.2" height="22" rx="3" fill="var(--index-fill)" stroke="var(--series-index)" stroke-width="2"/>
+    <text x="851.9" y="113" font-size="11" text-anchor="middle" fill="var(--text-primary)">T−1 = 2024</text>
+    <line x1="888.5" y1="109" x2="924" y2="109" stroke="var(--series-index)" stroke-width="2" marker-end="url(#ar-idx)"/>
+    <circle cx="930.2" cy="109" r="5" fill="var(--series-index)"/>
+    <text x="938" y="106" font-size="10.5" fill="var(--text-primary)">Planned release</text>
+    <text x="938" y="118" font-size="10.5" fill="var(--text-muted)">6 Aug 2025</text>
+    <text x="812" y="134" font-size="10.5" text-anchor="end" fill="var(--series-index)">≈ 7 months to release</text>
+
+    <!-- A3 estimation strip -->
+    <text x="168" y="158" font-size="11.5" text-anchor="end" fill="var(--text-primary)">Estimation level</text>
+    <text x="168" y="171" font-size="10.5" text-anchor="end" fill="var(--text-muted)">recurrent · tag (a)</text>
+    <rect x="175" y="152" width="855" height="22" rx="3" fill="var(--index-fill)" stroke="var(--series-index)" stroke-width="2"/>
+    <text x="602.5" y="167" font-size="11" text-anchor="middle" fill="var(--text-primary)">Annual · whole territory of Indonesia · estimation level: province</text>
+
+    <!-- A4 statutory hook -->
+    <text x="168" y="206" font-size="11.5" text-anchor="end" fill="var(--text-primary)">Statutory hook</text>
+    <text x="168" y="219" font-size="10.5" text-anchor="end" fill="var(--text-muted)">tag (a)</text>
+    <line x1="816.3" y1="200" x2="1030" y2="200" stroke="var(--series-index)" stroke-width="2" marker-end="url(#ar-idx)"/>
+    <circle cx="816.3" cy="200" r="5" fill="var(--series-index)"/>
+    <circle cx="887.5" cy="200" r="5" fill="var(--series-index)"/>
+    <text x="1030" y="188" font-size="10.5" text-anchor="end" fill="var(--series-index)">→ provincial targets to 2045</text>
+    <text x="808" y="206" font-size="10.5" text-anchor="end" fill="var(--text-primary)">SEB No. 2/2024 · RPJPD 2025–2045</text>
+    <text x="920" y="222" font-size="10.5" text-anchor="middle" fill="var(--text-primary)">Perpres 12/2025 · RPJMN 2025–2029</text>
+
+    <!-- ============ THE MEASURABLE MISS ============ -->
+    <rect x="604" y="252" width="211" height="46" rx="6" fill="none" stroke="var(--text-primary)" stroke-width="1.2" stroke-dasharray="4 3"/>
+    <line x1="604" y1="275" x2="815" y2="275" stroke="var(--text-primary)" stroke-width="2" marker-start="url(#ar-gap)" marker-end="url(#ar-gap)"/>
+    <rect x="640" y="264" width="140" height="22" rx="4" fill="var(--surface-1)"/>
+    <text x="710" y="280" font-size="12.5" font-weight="700" text-anchor="middle" fill="var(--text-primary)">gap = 3 reference years</text>
+    <line x1="602.5" y1="298" x2="602.5" y2="444" stroke="var(--text-primary)" stroke-width="1" stroke-dasharray="3 3"/>
+    <line x1="816.3" y1="120" x2="816.3" y2="252" stroke="var(--text-primary)" stroke-width="1" stroke-dasharray="3 3"/>
+
+    <!-- ============ TIME AXIS ============ -->
+    <line x1="175" y1="318" x2="1030" y2="318" stroke="var(--text-secondary)" stroke-width="1.5"/>
+    <g font-size="11" fill="var(--text-muted)" text-anchor="middle">
+      <g stroke="var(--text-secondary)" stroke-width="1">
+        <line x1="175"    y1="318" x2="175"    y2="324"/>
+        <line x1="246.25" y1="318" x2="246.25" y2="324"/>
+        <line x1="317.5"  y1="318" x2="317.5"  y2="324"/>
+        <line x1="388.75" y1="318" x2="388.75" y2="324"/>
+        <line x1="460"    y1="318" x2="460"    y2="324"/>
+        <line x1="531.25" y1="318" x2="531.25" y2="324"/>
+        <line x1="602.5"  y1="318" x2="602.5"  y2="324"/>
+        <line x1="673.75" y1="318" x2="673.75" y2="324"/>
+        <line x1="745"    y1="318" x2="745"    y2="324"/>
+        <line x1="816.25" y1="318" x2="816.25" y2="324"/>
+        <line x1="887.5"  y1="318" x2="887.5"  y2="324"/>
+        <line x1="958.75" y1="318" x2="958.75" y2="324"/>
+        <line x1="1030"   y1="318" x2="1030"   y2="324"/>
+      </g>
+      <text x="175" y="337">2015</text>
+      <text x="246.25" y="337">2016</text>
+      <text x="317.5" y="337">2017</text>
+      <text x="388.75" y="337">2018</text>
+      <text x="460" y="337">2019</text>
+      <text x="531.25" y="337">2020</text>
+      <text x="602.5" y="337">2021</text>
+      <text x="673.75" y="337">2022</text>
+      <text x="745" y="337">2023</text>
+      <text x="816.25" y="337">2024</text>
+      <text x="887.5" y="337">2025</text>
+      <text x="958.75" y="337">2026</text>
+      <text x="1030" y="337">2027</text>
+    </g>
+    <text x="168" y="322" font-size="11" text-anchor="end" fill="var(--text-muted)">calendar year</text>
+
+    <!-- ============ REGISTER B : what the accounts produced ============ -->
+    <text x="0" y="374" font-size="12" font-weight="700" fill="var(--series-account)" letter-spacing="0.05em">WHAT THE ACCOUNTS HAVE PRODUCED</text>
+
+    <!-- B1 national extent series — CONTESTED, struck out on the timeline -->
+    <text x="168" y="404" font-size="11.5" text-anchor="end" fill="var(--series-contest)">⚠ National extent series</text>
+    <text x="168" y="417" font-size="10.5" text-anchor="end" fill="var(--series-contest)">CONTESTED · withdrawn here</text>
+    <rect x="388.75" y="398" width="213.75" height="22" rx="3" fill="url(#hatch-contest)" stroke="var(--series-contest)" stroke-width="2" stroke-dasharray="2 3"/>
+    <g stroke="var(--series-contest)" stroke-width="1.6">
+      <line x1="388.75" y1="398" x2="602.5" y2="420"/>
+      <line x1="388.75" y1="420" x2="602.5" y2="398"/>
+    </g>
+    <rect x="424" y="401" width="143" height="16" rx="3" fill="var(--surface-1)" opacity="0.92"/>
+    <text x="495.6" y="413" font-size="10.5" text-anchor="middle" fill="var(--series-contest)">2018 opening → 2021 closing</text>
+    <text x="612" y="405" font-size="10.5" fill="var(--series-contest)">Not evidenced in the primary MMAF or BPS documents when read at source.</text>
+    <text x="612" y="417" font-size="10.5" fill="var(--series-contest)">No national opening/closing series is claimed by this figure.</text>
+
+    <!-- B2 Gili Matra pilot -->
+    <text x="168" y="450" font-size="11.5" text-anchor="end" fill="var(--text-primary)">◆ Gili Matra pilot (NTB)</text>
+    <text x="168" y="463" font-size="10.5" text-anchor="end" fill="var(--text-muted)">one site · tag (b)</text>
+    <rect x="175" y="444" width="427.5" height="22" rx="3" fill="url(#hatch-acc)" stroke="var(--series-account)" stroke-width="2" stroke-dasharray="5 3"/>
+    <text x="388.75" y="459" font-size="11" text-anchor="middle" fill="var(--text-primary)">2015 opening → 2021 closing</text>
+    <line x1="604.5" y1="455" x2="916" y2="455" stroke="var(--series-account)" stroke-width="2" stroke-dasharray="6 4" marker-end="url(#ar-acc)"/>
+    <circle cx="673.75" cy="455" r="5" fill="var(--series-account)"/>
+    <text x="666" y="437" font-size="10.5" fill="var(--text-primary)">Draft report 2022</text>
+    <circle cx="775.9" cy="455" r="5" fill="var(--series-account)"/>
+    <text x="768" y="437" font-size="10.5" fill="var(--text-primary)">Presented Jun 2023</text>
+    <text x="866" y="447" font-size="10.5" text-anchor="middle" fill="var(--series-account)">≈ 4 years to public dashboard</text>
+    <circle cx="923.1" cy="455" r="5" fill="var(--series-account)"/>
+    <text x="931" y="459" font-size="10.5" fill="var(--text-primary)">Dashboard, Jul 2025</text>
+    <text x="175" y="482" font-size="11" fill="var(--text-secondary)">Dashboard: selectability is not compilation. One province — NTB — carries a documented published compilation (Gili Matra).</text>
+    <text x="175" y="495" font-size="10" fill="var(--series-contest)">⚠ The frequently repeated “34 provinces dashboard-selectable” count is itself contested and is not used in this figure.</text>
+
+    <!-- B3 the extent discrepancy: same pilot, two official figure sets -->
+    <text x="168" y="530" font-size="11.5" text-anchor="end" fill="var(--text-primary)">◆ ⚠ Same pilot, two figures</text>
+    <text x="168" y="543" font-size="10.5" text-anchor="end" fill="var(--text-muted)">preserved, not reconciled</text>
+    <rect x="175" y="514" width="427.5" height="50" rx="3" fill="none" stroke="var(--series-contest)" stroke-width="1.6" stroke-dasharray="3 3"/>
+    <text x="182" y="529" font-size="9" fill="var(--text-primary)">MMAF 2022, Tabel 5: coral 259.50 → 247.50 ha · seagrass 76.75 → 102.50 · mangrove 21.50 → 10.69</text>
+    <text x="182" y="542" font-size="9" fill="var(--text-primary)">BPS Manila 2022, slide 3: coral 183.34 → 165.08 · seagrass 56.50 → 64.93 · mangrove 13.53 → 6.15</text>
+    <text x="182" y="555" font-size="9" fill="var(--series-contest)">sourced “BIG (2020), validated 2021” · no reconciliation published · neither adopted here</text>
+
+    <!-- B4 nothing after 2021 -->
+    <text x="168" y="586" font-size="11.5" text-anchor="end" fill="var(--text-primary)">◆ Later closing years</text>
+    <text x="168" y="599" font-size="10.5" text-anchor="end" fill="var(--text-muted)">none on record</text>
+    <rect x="602.5" y="580" width="427.5" height="22" rx="3" fill="url(#hatch-void)" stroke="var(--text-muted)" stroke-width="1.6" stroke-dasharray="2 3"/>
+    <text x="816.25" y="595" font-size="11" text-anchor="middle" fill="var(--text-secondary)">no closing year after 2021 in the public domain</text>
+
+    <!-- B5 absent instruments -->
+    <text x="168" y="632" font-size="11.5" text-anchor="end" fill="var(--text-primary)">◆ Governing instruments</text>
+    <text x="168" y="645" font-size="10.5" text-anchor="end" fill="var(--text-muted)">none on record</text>
+    <rect x="175" y="626" width="855" height="22" rx="3" fill="none" stroke="var(--text-muted)" stroke-width="1.6" stroke-dasharray="2 3"/>
+    <text x="602.5" y="641" font-size="11" text-anchor="middle" fill="var(--text-secondary)">no revision policy · no BPS work-programme entry · no compilation schedule</text>
+
+  </svg>
+  </div>
+
+  <figcaption>
+    <p><strong>Fig. 5. The reporting window and the account vintages: an annual index obligation against a single
+    2021 closing stock.</strong> One time axis, two registers. Above,
+    the cycle the index is obliged to run: Phase 1 preparation and coordination in October–December of each year <em>n</em>,
+    drawn as a full calendar quarter (Juknis p. 71 [pdf 81], tag (d)); a reference period of T−1 specified for the registered
+    variables, with the register's own
+    exception that variables 12, 13 and 14 carry T−2 — a two-year lag inside a single index vintage, preserved here as a
+    defect of the source, not corrected; annual, cross-sectional compilation covering the whole territory at an estimation
+    level of province (SIRUSA <code>kegiatan/94936</code>, tag (a)); and the statutory hook, Perpres No. 12/2025 on the RPJMN
+    2025–2029 reinforced by SEB Mendagri–Bappenas No. 2/2024 on RPJPD indicators and targets to 2045 (Juknis p. 68 [pdf 78],
+    tag (a)). Below, what Indonesian ocean accounts have actually put in the public domain: the Gili Matra pilot in West Nusa
+    Tenggara opening 2015 and closing 2021, drafted 2022 and presented June 2023; a national dashboard public in July 2025,
+    roughly four years after that closing year; one closing year in total; and no revision policy, compilation schedule or BPS
+    statistical work-programme entry.</p>
+
+    <p><strong>What the lower register no longer claims.</strong> The <span class="contest">national extent series opening
+    2018 and closing 2021</span> is drawn struck out and labelled <span class="contest">⚠ CONTESTED</span>. When the primary
+    MMAF and BPS documents now in <code>00-background/</code> were read at source, that series was not found: the 2022 MMAF
+    and 2023 BPS material is Gili Matra only. It is left on the timeline, struck through, so that the withdrawal is visible
+    where the claim used to sit rather than confined to a note. In its place the figure prints the conflict the primary
+    documents do contain — two official figure sets for the same pilot, the same years and the same three ecosystems, with no
+    published reconciliation. Neither set is adopted, averaged or preferred here.</p>
+
+    <p><strong>The dashboard.</strong> Making a province selectable on a platform is not the same as compiling an account for
+    it. One province — NTB — carries a documented published compilation (Gili Matra). <span class="contest">The localities “North Lombok” and “Saleh Bay, Sumbawa” are stated in no primary document in <code>00-background/</code> and are withheld pending re-check</span>. The
+    widely repeated count of <span class="contest">“34 provinces dashboard-selectable”</span> is a platform observation
+    reached through finding 02, is stated in no primary document in <code>00-background/</code>, and is <span
+    class="contest">contested</span>; the numeral is therefore not used, in the figure or in this caption.</p>
+
+    <p>The argument is the vertical distance between the registers, and the figure makes it measurable at one point: the
+    2025 index cycle requires a 2024 reference year, while the most recent account closing year available is 2021 — a gap of
+    <strong>three reference years</strong>, drawn as the bracket across the axis. The accounts cannot presently hit the
+    window. That is a statement about compilation cadence, not about the value of either instrument: BAPPENAS plans and MMAF
+    and BPS produce statistics, and closing the cadence gap is a production-capacity question inside the second mandate.</p>
+
+    <p><strong>Reading rule.</strong> Maturity tags describe the datum, not the document. The row labelled <em>reference
+    period T−1</em> therefore carries <strong>no tag</strong>: a register row specifying a required input is evidence about
+    what the index demands, not evidence that the input is published. Tag <span class="tag">(a)</span> is reserved in the
+    upper register for data actually produced and released — the SIRUSA activity design and release date, and the two legal
+    instruments — while the monitoring cycle itself, which the handbook sets out prospectively, is tagged <span
+    class="tag">(d)</span>, announced but not started. The lower register is tagged <span class="tag">(b)</span> throughout —
+    experimental or pilot compilation — and every element still standing in it is additionally <strong>◆ pending primary
+    re-check</strong>: its vintages, lags and absences trace to finding 02, a research aid that reasoned in part from
+    documents it could not open. Those documents have now been opened for the extent series, which is why that one row is
+    struck out rather than merely flagged; the remaining rows have not been re-checked and stay provisional. No published
+    weight, share or hectare figure from the IBEI's own documentation is used anywhere in this figure. Three values carry the
+    argument: the gap of <strong>three reference years</strong>; account turnaround of <strong>≈ 4 years</strong> (2021 pilot
+    closing stock → public dashboard July 2025) against index turnaround of <strong>≈ 7 months</strong> (2024 reference year
+    closes → planned release 6 August 2025); and <strong>one account closing year</strong> in the public domain against
+    an index that must post a new provincial value every year. The two turnaround figures and the three-year gap
+    are the article's own arithmetic over the dated series shown.</p>
+
+    <p>Three conflicts inside the published sources are preserved rather than resolved. The two extent figure sets for the
+    Gili Matra pilot, printed in full in the figure. SIRUSA renders the reference period for
+    the same variables as <code>T-1</code> in one table and <code>2024</code> in another. And the 2045 targets the SEB
+    circulates are provincial values above 100 (Jawa Timur 243.87, Nusa Tenggara Timur 233.21, Jawa Tengah 222.31) against a
+    national target of 100.00 (Juknis p. 69 [pdf 79]). None is adopted here. The figure's timeline is drawn to scale on
+    calendar years; the row heights are presentational only.</p>
+
+    <details>
+      <summary>Data table — every value plotted, with its locator</summary>
+      <table class="dt">
+        <thead><tr><th>Register</th><th>Value plotted</th><th>Locator</th><th>Tag</th></tr></thead>
+        <tbody>
+          <tr><td>Index</td><td>Phase 1 preparation and coordination, October–December of year <em>n</em> (a full quarter)</td><td>Juknis (BAPPENAS 2025) p. 71 [pdf 81], <code>doc_1_juknis-cascading_chunk_112</code></td><td>(d)</td></tr>
+          <tr><td>Index</td><td>Reference period T−1 specified for registered variables; variables 12, 13, 14 at T−2</td><td>SIRUSA <code>metadata/kegiatan/94936</code>, evidence pack Annex A; conflict recorded as G9</td><td>none — a required input, not a published datum</td></tr>
+          <tr><td>Index</td><td>Annual, cross-sectional, whole territory; estimation level province</td><td>SIRUSA <code>doc_4_sirusa-metadata_chunk_007</code>, <code>_chunk_028</code></td><td>(a)</td></tr>
+          <tr><td>Index</td><td>Planned product release, hardcopy and softcopy, 6 August 2025; microdata not released</td><td>SIRUSA <code>doc_4_sirusa-metadata_chunk_009</code></td><td>(a)</td></tr>
+          <tr><td>Index</td><td>Perpres No. 12/2025 (RPJMN 2025–2029); SEB No. 2/2024 (RPJPD 2025–2045)</td><td>Juknis p. 68 [pdf 78], <code>doc_1_juknis-cascading_chunk_102</code></td><td>(a)</td></tr>
+          <tr><td>Index</td><td>2045 targets: national 100.00; Jawa Timur 243.87, Nusa Tenggara Timur 233.21, Jawa Tengah 222.31</td><td>Juknis Tabel 2, p. 69 [pdf 79], <code>doc_1_juknis-cascading_chunk_106–108</code></td><td>(a)</td></tr>
+          <tr><td>Account ⚠</td><td><strong>Struck out:</strong> national extent series, 2018 opening / 2021 closing</td><td>Reached through finding 02; <strong>not found</strong> in the primary MMAF 2022 or BPS 2022–23 documents in 00-background/. SOT standing rules §3.0, contested formulation 2 — carried as <code>[EVIDENCE GAP]</code>, not as fact</td><td>contested</td></tr>
+          <tr><td>Account ◆</td><td>Gili Matra: 2015 opening, 2021 closing; draft report 2022; presented June 2023</td><td>MMAF 2022, <em>Ocean Accounts of Indonesia — Gili Matra Pilot Study</em>, p. 39 [pdf 53]; §4 primary re-check</td><td>(b)</td></tr>
+          <tr><td>Account ⚠</td><td>Extent conflict, MMAF: coral 259.50 → 247.50 ha; seagrass 76.75 → 102.50; mangrove 21.50 → 10.69</td><td>MMAF 2022 Gili Matra Pilot Study, Tabel 5, p. 52 [pdf 66]</td><td>(b)</td></tr>
+          <tr><td>Account ⚠</td><td>Extent conflict, BPS: coral 183.34 → 165.08; seagrass 56.50 → 64.93; mangrove 13.53 → 6.15, “BIG (2020), validated 2021”</td><td>Tasriah, Agung, Minarmi &amp; Dulatif, “EO 4 Ecosystem Accounting 2022”, Manila, 1 Dec 2022, slide 3</td><td>(b)</td></tr>
+          <tr><td>Account ◆</td><td>National dashboard public July 2025; ≈ 4 years, 2021 pilot closing → public dashboard</td><td>GOAP Ocean Accounts of Indonesia country page (retrieved 13 Aug 2026); turnaround is the article's own arithmetic</td><td>(b)</td></tr>
+          <tr><td>Account ⚠</td><td><strong>Not plotted:</strong> “34 provinces dashboard-selectable”</td><td>SOT standing rules §3.0, contested formulation 1 — platform observation via finding 02, in no primary document. One province (NTB) has a documented published compilation</td><td>contested</td></tr>
+          <tr><td>Account ◆</td><td>One closing year (2021) in the public domain; no later closing year</td><td>MMAF 2022 series, read at source; no later closing year found</td><td>(b)</td></tr>
+          <tr><td>Account ◆</td><td>No revision policy, no compilation schedule, no BPS statistical work-programme entry</td><td>Not found in the searched set (Methods)</td><td>(b)</td></tr>
+          <tr><td>Derived</td><td>Gap = 3 reference years (2024 − 2021)</td><td>The article's own arithmetic over the two dated series above</td><td>n/a</td></tr>
+          <tr><td>Derived</td><td>Index turnaround ≈ 7 months (end of reference year 2024 → 6 Aug 2025 release)</td><td>The article's own arithmetic over the published release date</td><td>n/a</td></tr>
+        </tbody>
+      </table>
+    </details>
+
+    <p class="src"><strong>Sources.</strong> BAPPENAS, <em>Petunjuk Teknis Pedoman Indikator Ekonomi Biru dalam RPJPN
+    2025–2045</em> (2025), pp. 68–71 [pdf 78–81] and Tabel 2, p. 69 [pdf 79]. BPS SIRUSA metadata,
+    <em>Kompilasi Penyusunan Indonesia Blue Economy Index (IBEI)</em>, <code>metadata/kegiatan/94936</code> and
+    <code>metadata/indikator/105371, 105709–105718</code> (retrieved 13 Aug 2026). MMAF, <em>Ocean Accounts of Indonesia —
+    Gili Matra Pilot Study</em> (2022), p. 39 [pdf 53] and Tabel 5, p. 52 [pdf 66]. Tasriah, Agung, Minarmi &amp; Dulatif,
+    “EO 4 Ecosystem Accounting 2022”, Manila, 1 December 2022, slide 3. GOAP, <em>Ocean Accounts of Indonesia</em> country
+    page (retrieved 13 Aug 2026). Remaining account-side vintages: finding 02,
+    <em>Ocean accounts inventory</em> — a research aid, reproduced here as <strong>◆ verified at primary re-check</strong>. The
+    national 2018/2021 extent series and the “34 provinces” count are shown as <span class="contest">⚠ contested</span> per
+    SOT standing rules §3.0 and are not relied on. Derived values are the article's own arithmetic and are labelled as such.
+    Nothing in this figure rests on Tabel 4–6
+    percentages, so the open question of whether those are raw PC1 loadings or normalised contributions does not bear on it.
+    Maturity tags: (a) published official statistics · (b) experimental or pilot compilation · (c) methodology under
+    development · (d) announced but not started.</p>
+  </figcaption>
+</figure>
+</div>

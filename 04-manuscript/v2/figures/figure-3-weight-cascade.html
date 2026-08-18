@@ -1,0 +1,496 @@
+<title>Where the Weight Sits</title>
+<style>
+:root {
+  color-scheme: light;
+  --page:        #f9f9f7;
+  --surface:     #fcfcfb;
+  --ink:         #0b0b0b;
+  --ink-2:       #52514e;
+  --muted:       #6f6d67;
+  --hair:        #e1e0d9;
+  --rule:        #c3c2b7;
+  --c-acct:      #2a78d6;
+  --c-acct-soft: #cde2fb;
+  --c-soc:       #eb6834;
+  --c-soc-soft:  #fbdccf;
+  --c-out:       #86847c;
+  --pill-fill:   #efeee9;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --page:        #0d0d0d;
+    --surface:     #1a1a19;
+    --ink:         #ffffff;
+    --ink-2:       #c3c2b7;
+    --muted:       #a3a199;
+    --hair:        #2c2c2a;
+    --rule:        #383835;
+    --c-acct:      #3987e5;
+    --c-acct-soft: #123252;
+    --c-soc:       #d95926;
+    --c-soc-soft:  #4a2313;
+    --c-out:       #5a5952;
+    --pill-fill:   #242422;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page:        #0d0d0d;
+  --surface:     #1a1a19;
+  --ink:         #ffffff;
+  --ink-2:       #c3c2b7;
+  --muted:       #a3a199;
+  --hair:        #2c2c2a;
+  --rule:        #383835;
+  --c-acct:      #3987e5;
+  --c-acct-soft: #123252;
+  --c-soc:       #d95926;
+  --c-soc-soft:  #4a2313;
+  --c-out:       #5a5952;
+  --pill-fill:   #242422;
+}
+* { box-sizing: border-box; }
+html, body { max-width: 100%; overflow-x: hidden; }
+body {
+  margin: 0; padding: 1.5rem 1rem 3rem;
+  background: var(--page); color: var(--ink);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 15px; line-height: 1.5;
+}
+.wrap { max-width: 76rem; margin: 0 auto; }
+figure { margin: 0; padding: 0; }
+.scroll { overflow-x: auto; overflow-y: hidden; -webkit-overflow-scrolling: touch;
+  border-top: 1px solid var(--hair); border-bottom: 1px solid var(--hair); padding: .25rem 0; }
+svg { display: block; max-width: 100%; height: auto; }
+/* min-width keeps the scroll container engaged so 9.5px chart type never shrinks below ~8px */
+.scroll > svg { width: 100%; min-width: 64rem; max-width: 100%; height: auto; }
+.legend { display: grid; gap: .55rem; margin: .85rem 0 .2rem;
+  font-size: .8rem; color: var(--ink-2); }
+.legend span.k { display: grid; grid-template-columns: 15px 1fr; align-items: start;
+  gap: .5rem; }
+code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .92em;
+  background: var(--pill-fill); border-radius: 2px; padding: 0 .2em; }
+.sw { width: 15px; height: 15px; border-radius: 2px; flex: none; margin-top: .15rem; }
+.note { font-size: .78rem; color: var(--muted); margin: .35rem 0 0; }
+.calls { display: grid; gap: .7rem; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  margin: 1.1rem 0 .4rem; }
+.call { border-left: 3px solid var(--c-acct); padding: .1rem 0 .1rem .6rem; font-size: .82rem;
+  color: var(--ink-2); }
+.call.b { border-left-color: var(--c-soc); }
+.call.c { border-left-color: var(--c-out); }
+.call b { color: var(--ink); font-weight: 650; }
+.call .m { font-weight: 700; color: var(--ink); }
+figcaption { font-size: .82rem; color: var(--ink-2); margin-top: 1.1rem;
+  border-top: 1px solid var(--hair); padding-top: .8rem; }
+figcaption b { color: var(--ink); }
+.src { font-size: .76rem; color: var(--muted); margin-top: .55rem; }
+details { margin-top: .9rem; font-size: .82rem; }
+summary { cursor: pointer; color: var(--ink-2); font-weight: 600; }
+.tw { overflow-x: auto; margin-top: .6rem; }
+table { border-collapse: collapse; font-size: .76rem; min-width: 46rem; }
+th, td { text-align: left; padding: .3rem .55rem; border-bottom: 1px solid var(--hair);
+  vertical-align: top; }
+th { color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: .05em;
+  font-size: .68rem; }
+td.n { text-align: right; font-variant-numeric: tabular-nums; }
+.dim { color: var(--muted); }
+/* svg text roles */
+.hd  { fill: var(--ink); font-size: 10.5px; font-weight: 700; letter-spacing: .08em; }
+.pnl { fill: var(--ink); font-size: 13px; font-weight: 700; }
+.hd2 { fill: var(--muted); font-size: 9.5px; }
+.pn  { fill: var(--ink); font-size: 13px; font-weight: 650; }
+.pv  { fill: var(--ink); font-size: 17px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.pt  { fill: var(--ink-2); font-size: 10px; }
+.sn  { fill: var(--ink); font-size: 11.5px; font-weight: 620; }
+.sv  { fill: var(--ink-2); font-size: 10px; font-variant-numeric: tabular-nums; }
+.chip{ fill: var(--ink); font-size: 11.5px; font-weight: 800; }
+.inb { fill: var(--ink); font-size: 9.5px; font-weight: 700; text-anchor: middle;
+        font-variant-numeric: tabular-nums; paint-order: stroke; stroke: var(--surface);
+        stroke-width: 2.5px; }
+.sec { fill: var(--ink); font-size: 11.5px; font-weight: 700; }
+.vn  { fill: var(--ink-2); font-size: 10.5px; }
+.vv  { fill: var(--ink); font-size: 10.5px; font-variant-numeric: tabular-nums; }
+.ax  { fill: var(--muted); font-size: 9.5px; text-anchor: middle; font-variant-numeric: tabular-nums; }
+.mk  { fill: var(--c-acct); font-size: 11px; font-weight: 700; paint-order: stroke;
+        stroke: var(--surface); stroke-width: 2.5px; }
+.pill { fill: var(--pill-fill); stroke: var(--rule); stroke-width: 1; }
+.lead { fill: none; stroke: var(--rule); stroke-width: 1; }
+.grid { stroke: var(--hair); stroke-width: 1; }
+.rule { stroke: var(--rule); stroke-width: 1; }
+@media (max-width: 40rem) { body { padding: 1rem .6rem 2rem; } figure { padding: .9rem; } }
+</style>
+<div class="wrap">
+<figure>
+  <div class="scroll">
+  <svg viewBox="0 0 1180 730" width="1180" role="img" aria-labelledby="a-t a-d">
+    <title id="a-t">Cascade of the published IBEI weight structure, pillar to sub-pillar</title>
+    <desc id="a-d">A two-level icicle chart. The left column divides the composite into three pillars:
+    environment 36.9 per cent, economy 32.6 per cent, social 30.5 per cent. The right column divides
+    each pillar into its sub-pillars, area proportional to share of the whole composite: health 20.77,
+    marine resource quality and conservation 18.45, renewable energy 18.45, marine-based industry 7.69,
+    marine tourism 7.20, trade transport and logistics 6.29, welfare 5.55, governance 5.15, capture
+    fisheries and aquaculture 4.96, education 4.18, technology 1.34. Within marine resource quality,
+    a hatched band marks the 7.64 per cent of the composite that ecosystem extent and condition
+    accounts could supply: the Tier A five, indicators 19, 20 and 21 condition at about 2.32,
+    indicator 24 rehabilitation at 1.25 and indicator 27 conservation area at 4.06. Ecosystem
+    services in physical units are not part of that route and are not compiled in Indonesia; what
+    exists is benefit-transferred monetary valuation at pilot scale. The two waste-flow variables,
+    indicators 25 and 26, are drawn unshaded and reported separately at about 3.5 per cent; they
+    are never folded into the headline. Every account-side claim in this figure is marked pending a
+    primary re-check.</desc>
+    <defs>
+      <pattern id="hatchAcct" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+        <rect width="7" height="7" fill="var(--c-acct-soft)"/>
+        <line x1="0" y1="0" x2="0" y2="7" stroke="var(--c-acct)" stroke-width="3.2"/>
+      </pattern>
+      <pattern id="dotSoc" width="6" height="6" patternUnits="userSpaceOnUse">
+        <rect width="6" height="6" fill="var(--c-soc-soft)"/>
+        <circle cx="3" cy="3" r="1.7" fill="var(--c-soc)"/>
+      </pattern>
+    </defs>
+<text class="pnl" x="4" y="20">a</text>
+<text class="hd" x="24" y="52">PILLAR</text>
+<text class="hd" x="152" y="52">SUB-PILLAR</text>
+<text class="hd" x="312" y="52">SHARE OF THE COMPOSITE</text>
+<rect class="pill" x="24" y="75.00" width="104" height="234.16" rx="3"/>
+<text class="pn" x="34" y="180.1">Environment</text>
+<text class="pv" x="34" y="200.1">36.9%</text>
+<text class="pt" x="34" y="216.1">High tertile</text>
+<rect class="pill" x="24" y="311.16" width="104" height="206.64" rx="3"/>
+<text class="pn" x="34" y="402.5">Economy</text>
+<text class="pv" x="34" y="422.5">32.6%</text>
+<text class="pt" x="34" y="438.5">Medium tertile</text>
+<rect class="pill" x="24" y="519.80" width="104" height="193.20" rx="3"/>
+<text class="pn" x="34" y="604.4">Social</text>
+<text class="pv" x="34" y="624.4">30.5%</text>
+<text class="pt" x="34" y="640.4">Low tertile</text>
+<rect x="152" y="75.00" width="96" height="47.89" fill="url(#hatchAcct)" stroke="var(--c-acct)" stroke-width="1"/>
+<rect x="152" y="123.89" width="96" height="67.19" fill="var(--c-out)"/>
+<text class="inb" x="200.0" y="99.4">7.64%</text>
+<text class="mk" x="200.0" y="113.4" text-anchor="middle">&#9670;</text>
+<path class="lead" d="M248 133.0 H298 V129.0 H306"/>
+<rect x="152" y="193.08" width="96" height="116.08" fill="var(--c-out)"/>
+<path class="lead" d="M248 251.1 H298 V247.1 H306"/>
+<rect x="152" y="311.16" width="96" height="29.68" fill="var(--c-out)"/>
+<path class="lead" d="M248 326.0 H298 V322.0 H306"/>
+<rect x="152" y="342.84" width="96" height="47.19" fill="var(--c-out)"/>
+<path class="lead" d="M248 366.4 H298 V362.4 H306"/>
+<rect x="152" y="392.03" width="96" height="38.23" fill="var(--c-out)"/>
+<path class="lead" d="M248 411.1 H298 V407.1 H306"/>
+<rect x="152" y="432.26" width="96" height="44.06" fill="var(--c-out)"/>
+<path class="lead" d="M248 454.3 H298 V450.3 H306"/>
+<rect x="152" y="478.32" width="96" height="6.55" fill="var(--c-out)"/>
+<path class="lead" d="M248 481.6 H298 V480.3 H306"/>
+<rect x="152" y="486.87" width="96" height="30.93" stroke="var(--c-soc)" stroke-width="1" fill="url(#dotSoc)"/>
+<path class="lead" d="M248 502.3 H298 V510.3 H306"/>
+<rect x="152" y="519.80" width="96" height="33.53" stroke="var(--c-soc)" stroke-width="1" fill="url(#dotSoc)"/>
+<path class="lead" d="M248 536.6 H298 V540.3 H306"/>
+<rect x="152" y="555.33" width="96" height="24.74" stroke="var(--c-soc)" stroke-width="1" fill="url(#dotSoc)"/>
+<path class="lead" d="M248 567.7 H298 V570.3 H306"/>
+<rect x="152" y="582.07" width="96" height="130.93" stroke="var(--c-soc)" stroke-width="1" fill="url(#dotSoc)"/>
+<path class="lead" d="M248 647.5 H298 V643.5 H306"/>
+<rect x="312" y="120.0" width="15" height="15" rx="2" fill="url(#hatchAcct)" stroke="var(--c-acct)" stroke-width="1"/>
+<text class="chip" x="333" y="130.0">G</text>
+<text class="sn" x="346" y="130.0">Marine resource quality &amp; conservation</text>
+<text class="sv" x="333" y="143.0">18.45% of the composite &middot; 50.0% of pillar &middot; High</text>
+<rect x="312" y="238.1" width="15" height="15" rx="2" fill="var(--c-out)" stroke="none" stroke-width="1"/>
+<text class="chip" x="333" y="248.1">H</text>
+<text class="sn" x="346" y="248.1">Renewable energy</text>
+<text class="sv" x="333" y="261.1">18.45% of the composite &middot; 50.0% of pillar &middot; Low</text>
+<rect x="312" y="313.0" width="15" height="15" rx="2" fill="var(--c-out)" stroke="none" stroke-width="1"/>
+<text class="chip" x="333" y="323.0">A</text>
+<text class="sn" x="346" y="323.0">Capture fisheries &amp; aquaculture</text>
+<text class="sv" x="333" y="336.0">4.96% of the composite &middot; 15.2% of pillar &middot; Low</text>
+<rect x="312" y="353.4" width="15" height="15" rx="2" fill="var(--c-out)" stroke="none" stroke-width="1"/>
+<text class="chip" x="333" y="363.4">B</text>
+<text class="sn" x="346" y="363.4">Marine-based industry</text>
+<text class="sv" x="333" y="376.4">7.69% of the composite &middot; 23.6% of pillar &middot; High</text>
+<rect x="312" y="398.1" width="15" height="15" rx="2" fill="var(--c-out)" stroke="none" stroke-width="1"/>
+<text class="chip" x="333" y="408.1">C</text>
+<text class="sn" x="346" y="408.1">Trade, transport &amp; logistics</text>
+<text class="sv" x="333" y="421.1">6.29% of the composite &middot; 19.3% of pillar &middot; Medium</text>
+<rect x="312" y="441.3" width="15" height="15" rx="2" fill="var(--c-out)" stroke="none" stroke-width="1"/>
+<text class="chip" x="333" y="451.3">D</text>
+<text class="sn" x="346" y="451.3">Marine tourism</text>
+<text class="sv" x="333" y="464.3">7.20% of the composite &middot; 22.1% of pillar &middot; High</text>
+<rect x="312" y="471.3" width="15" height="15" rx="2" fill="var(--c-out)" stroke="none" stroke-width="1"/>
+<text class="chip" x="333" y="481.3">E</text>
+<text class="sn" x="346" y="481.3">Technology</text>
+<text class="sv" x="333" y="494.3">1.34% of the composite &middot; 4.1% of pillar &middot; Low</text>
+<rect x="312" y="501.3" width="15" height="15" rx="2" fill="url(#dotSoc)" stroke="var(--c-soc)" stroke-width="1"/>
+<text class="chip" x="333" y="511.3">F</text>
+<text class="sn" x="346" y="511.3">Governance</text>
+<text class="sv" x="333" y="524.3">5.15% of the composite &middot; 15.8% of pillar &middot; Medium</text>
+<rect x="312" y="531.3" width="15" height="15" rx="2" fill="url(#dotSoc)" stroke="var(--c-soc)" stroke-width="1"/>
+<text class="chip" x="333" y="541.3">I</text>
+<text class="sn" x="346" y="541.3">Welfare</text>
+<text class="sv" x="333" y="554.3">5.55% of the composite &middot; 18.2% of pillar &middot; Medium</text>
+<rect x="312" y="561.3" width="15" height="15" rx="2" fill="url(#dotSoc)" stroke="var(--c-soc)" stroke-width="1"/>
+<text class="chip" x="333" y="571.3">J</text>
+<text class="sn" x="346" y="571.3">Education</text>
+<text class="sv" x="333" y="584.3">4.18% of the composite &middot; 13.7% of pillar &middot; Low</text>
+<rect x="312" y="634.5" width="15" height="15" rx="2" fill="url(#dotSoc)" stroke="var(--c-soc)" stroke-width="1"/>
+<text class="chip" x="333" y="644.5">K</text>
+<text class="sn" x="346" y="644.5">Health</text>
+<text class="sv" x="333" y="657.5">20.77% of the composite &middot; 68.1% of pillar &middot; High</text>
+<path class="rule" d="M136 74 v640"/>
+<text class="hd2" x="132" y="394.0" text-anchor="end" transform="rotate(-90 132 394.0)">column height = 100% of the composite</text>
+  </svg>
+  </div>
+
+  <div class="legend" role="list">
+    <span class="k" role="listitem"><svg class="sw" viewBox="0 0 15 15" aria-hidden="true"><defs><pattern id="lh" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" fill="var(--c-acct-soft)"/><line x1="0" y1="0" x2="0" y2="7" stroke="var(--c-acct)" stroke-width="3.2"/></pattern></defs><rect width="15" height="15" rx="2" fill="url(#lh)" stroke="var(--c-acct)"/></svg>
+      Hatched &mdash; ecosystem <b>extent and condition</b> accounts could supply this. <b>7.64%</b>
+      of the composite: the Tier A five &mdash; condition (19, 20, 21) 2.32%, rehabilitation (24)
+      1.25%, conservation area (27) 4.06%. The three printed components sum to 7.63; the 7.64% headline is
+      computed before rounding (2.3247 + 1.2546 + 4.0590 = 7.6383), so the one-hundredth difference is a
+      display artefact, not a discrepancy. Method warrant: TG-6.1 <i>Coral Reef Ecosystem
+      Accounting</i>, TG-6.2 <i>Coastal Wetland and Seagrass Accounting</i>, TG-6.3 <i>Seagrass
+      Ecosystem Accounting</i>, each badge <b>Applied</b>, status Draft; conservation area (27) additionally
+      TG-1.3 <i>OA and Marine Spatial Management (including MPAs)</i> and condition measurement TG-4.9
+      <i>Biological Condition Measurement</i>, both <b>Applied</b>, Draft. Indonesian output maturity
+      <b>(b)</b>, experimental / pilot compilation, verified against the MMAF 2022 primary reports.</span>
+    <span class="k" role="listitem"><svg class="sw" viewBox="0 0 15 15" aria-hidden="true"><defs><pattern id="ld" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="var(--c-soc-soft)"/><circle cx="3" cy="3" r="1.7" fill="var(--c-soc)"/></pattern></defs><rect width="15" height="15" rx="2" fill="url(#ld)" stroke="var(--c-soc)"/></svg>
+      Dotted &mdash; social and governance accounts would be needed, over <b>18.85%</b> of the
+      composite: <b>13.70%</b> social, the classification-dependent share whose computation requires
+      a fisheries-sector domain cut, plus <b>5.15%</b> governance. The dotted
+      area is drawn over the whole social pillar (30.5%) and the governance sub-pillar, which is the
+      <i>wider production-bearing</i> reading, not the classification claim. The two halves differ in
+      maturity: no Indonesian social account exists above (c), whilst the Gili Matra pilot does
+      compile a governance account at (b) (Figure&nbsp;4). Method warrant: TG-3.5
+      <i>Social Accounts</i> and TG-3.7 <i>Governance Accounts</i>, each badge <b>Emerging</b>,
+      status Draft. Maturity <b>(c)</b> for the social share, with no compilation in Indonesia; the governance
+      share is <b>(b)</b>, on the primary re-check.</span>
+    <span class="k" role="listitem"><svg class="sw" viewBox="0 0 15 15" aria-hidden="true"><rect width="15" height="15" rx="2" fill="var(--c-out)"/></svg>
+      Solid &mdash; outside current account coverage. The unshaded remainder, <b>73.51%</b> of the
+      composite &mdash; that is 100 &minus; 7.64 (Tier A) &minus; 18.85 (social-classification 13.70 plus governance 5.15). It includes the two waste-flow variables (indicators 25 and 26, together
+      &asymp;3.5%), which are reported separately and are never folded into the 7.64% headline.</span>
+  </div>
+  <p class="note"><b>Account-side status.</b> The shading classes, the maturity tags and the
+  coverage statement in this figure have been verified against the three MMAF 2022 reports in
+  <code>00-background/</code>. An earlier version asserted them from a finding that reasoned from the
+  non-retrievability of those reports, and printed a maturity inversion of <b>2.5&times;</b> which
+  that re-check refutes; the corrected comparison is <b>12.79%</b> compiled at pilot scale against
+  <b>13.70%</b> not compiled at any maturity, roughly <b>1.1&times;</b> (Figure&nbsp;4). The IBEI-side
+  weights, shares and locators never depended on it. The 13.7% social figure is the
+  article's own arithmetic over the verbatim <i>Data Pembentuk Indikator</i>: welfare 5.55% +
+  education domain-cuts 1.91% + health insurance 6.23%. The rest of the 30.5% pillar is not
+  sector-conditioned &mdash; per-capita fish consumption &asymp;14.21%, KKP education counts
+  &asymp;2.28%, coastal poverty &asymp;0.33% &mdash; and the four components sum to 30.5%.</p>
+
+  <div class="scroll">
+  <svg viewBox="0 0 1170 474" width="1170" role="img" aria-labelledby="b-t b-d">
+    <title id="b-t">Variable-level weights inside three sub-pillars, as share of the whole composite</title>
+    <desc id="b-d">Fourteen horizontal bars on one shared scale of per cent of the composite. Inside
+    marine resource quality and conservation: marine conservation area 4.06, coastal villages with a
+    sanitation place 3.84, coastal villages with a waste-disposal place 3.45, waste leaking to sea
+    2.75, seagrass in good condition 1.59, mangrove rehabilitation 1.25, waste disposed on land 0.77,
+    coral reef in good condition 0.68, mangrove forest in good condition 0.06. Inside renewable
+    energy: hydropower capacity 4.89, hydropower generation 4.58, solar capacity 4.52, solar
+    generation 4.46. Governance is a single variable, fishing ports with a fish auction place, at
+    5.15 per cent of the composite.</desc>
+    <defs>
+      <pattern id="hatchAcctB" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+        <rect width="7" height="7" fill="var(--c-acct-soft)"/>
+        <line x1="0" y1="0" x2="0" y2="7" stroke="var(--c-acct)" stroke-width="3.2"/>
+      </pattern>
+      <pattern id="dotSocB" width="6" height="6" patternUnits="userSpaceOnUse">
+        <rect width="6" height="6" fill="var(--c-soc-soft)"/>
+        <circle cx="3" cy="3" r="1.7" fill="var(--c-soc)"/>
+      </pattern>
+    </defs>
+<text class="pnl" x="4" y="26">b</text>
+<text class="hd" x="24" y="44">VARIABLE &mdash; THREE SUB-PILLARS OPENED UP</text>
+<text class="ax" x="895" y="69" text-anchor="start">&larr; % of the composite</text>
+<path class="grid" d="M455.0 74 V460"/>
+<text class="ax" x="455.0" y="69">0%</text>
+<path class="grid" d="M533.2 74 V460"/>
+<text class="ax" x="533.2" y="69">1%</text>
+<path class="grid" d="M611.4 74 V460"/>
+<text class="ax" x="611.4" y="69">2%</text>
+<path class="grid" d="M689.5 74 V460"/>
+<text class="ax" x="689.5" y="69">3%</text>
+<path class="grid" d="M767.7 74 V460"/>
+<text class="ax" x="767.7" y="69">4%</text>
+<path class="grid" d="M845.9 74 V460"/>
+<text class="ax" x="845.9" y="69">5%</text>
+<text class="sec" x="24" y="88.0">G &middot; Marine resource quality &amp; conservation, 18.45%</text>
+<text class="vn" x="445.0" y="115.0" text-anchor="end">Marine conservation area (Ha)</text>
+<rect x="455" y="106.0" width="317.34" height="15.0" rx="2" fill="url(#hatchAcctB)" stroke="var(--c-acct)" stroke-width="1"/>
+<text class="vv" x="895.0" y="115.0">4.06% &middot; 22.0% within G &middot; High</text>
+<text class="vn" x="445.0" y="136.0" text-anchor="end">Coastal villages with a defecation/sanitation place (villages)</text>
+<rect x="455" y="127.0" width="300.03" height="15.0" rx="2" fill="var(--c-out)"/>
+<text class="vv" x="895.0" y="136.0">3.84% &middot; 20.8% within G &middot; High</text>
+<text class="vn" x="445.0" y="157.0" text-anchor="end">Coastal villages with a waste-disposal place (villages)</text>
+<rect x="455" y="148.0" width="269.74" height="15.0" rx="2" fill="var(--c-out)"/>
+<text class="vv" x="895.0" y="157.0">3.45% &middot; 18.7% within G &middot; High</text>
+<text class="vn" x="445.0" y="178.0" text-anchor="end">Waste leaking to sea (reversed)</text>
+<rect x="455" y="169.0" width="214.93" height="15.0" rx="2" fill="var(--c-out)"/>
+<text class="vv" x="895.0" y="178.0">2.75% &middot; 14.9% within G &middot; Medium</text>
+<text class="vn" x="445.0" y="199.0" text-anchor="end">Seagrass area in good condition (%)</text>
+<rect x="455" y="190.0" width="124.05" height="15.0" rx="2" fill="url(#hatchAcctB)" stroke="var(--c-acct)" stroke-width="1"/>
+<text class="vv" x="895.0" y="199.0">1.59% &middot; 8.6% within G &middot; Medium</text>
+<text class="vn" x="445.0" y="220.0" text-anchor="end">Mangrove, swamp &amp; peatland planting/rehabilitation (Ha)</text>
+<rect x="455" y="211.0" width="98.09" height="15.0" rx="2" fill="url(#hatchAcctB)" stroke="var(--c-acct)" stroke-width="1"/>
+<text class="vv" x="895.0" y="220.0">1.25% &middot; 6.8% within G &middot; Medium</text>
+<text class="vn" x="445.0" y="241.0" text-anchor="end">Waste disposed on land (reversed)</text>
+<rect x="455" y="232.0" width="60.58" height="15.0" rx="2" fill="var(--c-out)"/>
+<text class="vv" x="895.0" y="241.0">0.77% &middot; 4.2% within G &middot; Low</text>
+<text class="vn" x="445.0" y="262.0" text-anchor="end">Coral reef area in good condition (%)</text>
+<rect x="455" y="253.0" width="53.37" height="15.0" rx="2" fill="url(#hatchAcctB)" stroke="var(--c-acct)" stroke-width="1"/>
+<text class="vv" x="895.0" y="262.0">0.68% &middot; 3.7% within G &middot; Low</text>
+<text class="vn" x="445.0" y="283.0" text-anchor="end">Mangrove forest area in good condition (%)</text>
+<rect x="455" y="274.0" width="4.33" height="15.0" rx="2" fill="url(#hatchAcctB)" stroke="var(--c-acct)" stroke-width="1"/>
+<text class="vv" x="895.0" y="283.0">0.06% &middot; 0.3% within G &middot; Low</text>
+<text class="sec" x="24" y="305.0">H &middot; Renewable energy, 18.45%</text>
+<text class="vn" x="445.0" y="332.0" text-anchor="end">Installed hydropower (PLTA) capacity (MW)</text>
+<rect x="455" y="323.0" width="382.25" height="15.0" rx="2" fill="var(--c-out)"/>
+<text class="vv" x="895.0" y="332.0">4.89% &middot; 26.5% within H &middot; High</text>
+<text class="vn" x="445.0" y="353.0" text-anchor="end">Electricity generated by hydropower (PLTA) (GWh)</text>
+<rect x="455" y="344.0" width="357.73" height="15.0" rx="2" fill="var(--c-out)"/>
+<text class="vv" x="895.0" y="353.0">4.58% &middot; 24.8% within H &middot; Medium</text>
+<text class="vn" x="445.0" y="374.0" text-anchor="end">Installed solar (PLTS) capacity (MW)</text>
+<rect x="455" y="365.0" width="353.40" height="15.0" rx="2" fill="var(--c-out)"/>
+<text class="vv" x="895.0" y="374.0">4.52% &middot; 24.5% within H &middot; Medium</text>
+<text class="vn" x="445.0" y="395.0" text-anchor="end">Electricity generated by solar (PLTS) (GWh)</text>
+<rect x="455" y="386.0" width="349.07" height="15.0" rx="2" fill="var(--c-out)"/>
+<text class="vv" x="895.0" y="395.0">4.46% &middot; 24.2% within H &middot; Low</text>
+<text class="sec" x="24" y="417.0">F &middot; Governance, 5.15%</text>
+<text class="vn" x="445.0" y="444.0" text-anchor="end">Fishing ports with a fish auction place (TPI) (units)</text>
+<rect x="455" y="435.0" width="402.70" height="15.0" rx="2" fill="url(#dotSocB)" stroke="var(--c-soc)" stroke-width="1"/>
+<text class="vv" x="895.0" y="444.0">5.15% &middot; 100.0% within F &middot; Medium</text>
+  </svg>
+  </div>
+
+  <figcaption>
+    <b>Fig. 3. Where the weight sits in the IBEI: 44 variables, 11 sub-pillars, 3 pillars.</b> The
+    published IBEI 2025 weight structure, drawn with area proportional to share of the composite.
+    (<b>a</b>) Pillar and sub-pillar levels in full: pillar weights from Tabel 4, p. 94 [pdf 104];
+    sub-pillar shares from Tabel 5 and Gambar 11, pp. 93&ndash;94 [pdf 103&ndash;104]; the third column
+    gives the derived share of the composite, the share of the parent pillar, and the handbook's own
+    tertile. (<b>b</b>) The three sub-pillars the argument turns on, opened to variable level on one
+    shared scale (Tabel 6, pp. 95&ndash;96 [pdf 105&ndash;106]).
+    <b>Four readings.</b> First, the two ecosystem-condition variables an ocean account is built to
+    produce are the two smallest things in their sub-pillar: good-condition coral reef area at 0.68% of
+    the composite and good-condition mangrove forest area at 0.06%, with seagrass the largest of the
+    three at 1.59% &mdash; 2.32% for all three together. Second, two counts of coastal-village
+    facilities outweigh all ecosystem condition by more than three to one: villages with a sanitation
+    place (3.84%) plus villages with a waste-disposal place (3.45%) come to 7.29%, a ratio of 3.1 to 1,
+    and both are village counts, not marine measurements. Third, the governance sub-pillar is one
+    variable at 100.0% of itself &mdash; <i>jumlah pelabuhan perikanan dengan Tempat Pelelangan Ikan</i>,
+    the number of fishing ports with a fish auction place, carrying 5.15% of the composite and standing
+    as the whole of what the index measures as governance; under Tabel 1's four-pillar structure this
+    indicator sits in an Enabler pillar instead, and the handbook prints both. Fourth, half the
+    environment pillar is renewable energy that is not marine: sub-pillar H is 50.0% of the pillar
+    (18.45% of the composite) and consists of installed capacity and generation for solar (PLTS) and
+    hydropower (PLTA), with no offshore wind, tidal or wave; Tabel 5 labels this 50.0% <b>Low</b> and
+    the other 50.0% <b>High</b>, and the tie is in the source.
+    <b>Shading is the article's own classification</b> of account-addressability against Indonesia's
+    actual account coverage &mdash; mangrove, seagrass and coral reef only, <b>extent and
+    condition</b>. <b>&#9670;</b> <i>Ecosystem services</i> is deliberately not used as a single
+    class here: <b>ecosystem services in physical units</b> are not compiled in Indonesia, and what
+    the primary record contains is <b>benefit-transferred monetary valuation</b> of ecosystem
+    functions at pilot scale (coral values transferred from Bohol and the Marianas). The two are
+    never conflated, and neither is folded into the 7.64%. The hatched 7.64% is the Tier A five
+    (indicators 19, 20, 21 condition 2.32%; 24 rehabilitation 1.25%; 27 conservation area 4.06%);
+    the two waste-flow variables (25, 26) are drawn unshaded and reported separately at
+    &asymp;3.5%. Compilation method for the hatched class is covered by GOAP Technical Guidance
+    TG-6.1 <i>Coral Reef Ecosystem Accounting</i> (badge <b>Applied</b>, status Draft, v7.0), TG-6.2
+    <i>Coastal Wetland and Seagrass Accounting</i> (badge <b>Applied</b>, status Draft, v7.0) and
+    TG-6.3 <i>Seagrass Ecosystem Accounting</i> (badge <b>Applied</b>, status Draft, v8.0); for the
+    dotted class by TG-3.5 <i>Social Accounts</i> and TG-3.7 <i>Governance Accounts</i>, both badge
+    <b>Emerging</b>, status Draft. A method badge warrants the method, never an Indonesian output.
+    The classification is not part of the IBEI and appears nowhere in the source; pattern and written
+    label carry the class, colour alone does not. The structure shown is the <b>three-pillar</b> one of
+    Tabel 4/5 and Gambar 11; Tabel 1 of the same handbook prints <b>four</b>, with an Enabler pillar
+    holding indicators 15&ndash;18, which moves the governance sub-pillar (F) shown here. That conflict
+    is unresolved in the source and is not resolved here.
+    <b>Derived values are the article's own arithmetic over
+    published percentages</b> (pillar &times; sub-pillar &times; variable): the source does not state
+    whether the Tabel 4&ndash;6 percentages are raw PC1 loadings or normalised contributions, so the
+    products are read as relative shares, not as a reconstructed formula. Where they can be checked
+    against a published figure they agree &mdash; the derived sub-pillar shares reproduce Gambar 11 to
+    the nearest whole point. Tertile labels (High / Medium / Low) are <b>BAPPENAS's own simplification</b>,
+    assigned by ranking each component within its group; they are reported here beside the percentage
+    and include the 50.0 / 50.0 tie in Tabel 5 labelled High and Low. Tabel 5's economy column sums to
+    100.1 as printed; sub-pillar heights are drawn against their printed column total.
+    <b>Maturity.</b> The IBEI weights are <b>published methodology</b>, and the maturity scale does
+    not apply to them: a tag describes a datum, not a document, and no <b>(a)</b> tag attaches here.
+    The IBEI itself is registered in SIRUSA as <i>Statistik Sektoral</i> &mdash; sectoral, not BPS
+    official basic statistics &mdash; with the <i>Identitas Rekomendasi</i> field empty and the
+    <i>Metode Analisis</i> recorded as <b>DESKRIPTIF</b>, and microdata explicitly not released
+    (SIRUSA <i>kegiatan</i> 94936, <i>Informasi Umum</i> and <i>Pengolahan dan Analisis</i>; web
+    page, no pagination; chunks <code>doc_4_sirusa-metadata_chunk_001</code> and
+    <code>_009</code>). Every juknis-weights chunk in the tier-1 corpus is tagged
+    <code>not_applicable</code> accordingly. <b>&#9670; Pending primary re-check</b> &mdash; every
+    Indonesian ocean-account output is <b>(b)</b> experimental or pilot compilation, covering
+    mangrove, seagrass and coral reef only; social and governance accounts do not exist in Indonesia
+    above <b>(c)</b> methodology under development. That whole account-side statement rests on
+    finding 02, which reasoned from the non-retrievability of the three MMAF 2022 reports now known
+    to be present in <code>00-background/</code>, and it is carried here as an
+    <b>[EVIDENCE GAP]</b> pending re-check against those primary documents (SOT standing rules
+    &sect;3.0). Two formulations inside it are marked <b>CONTESTED</b> as of 2026-08-14 and are
+    <i>not</i> asserted by this figure: <b>&ldquo;34 provinces dashboard-selectable&rdquo;</b> is a
+    platform observation rather than a documented compilation count, so the numeral is withheld and
+    only <b>one province (NTB)</b> is stated to carry a documented published compilation, itself
+    pending re-check; and the <b>national 2018 opening / 2021 closing extent series</b> is not
+    evidenced in the primary documents and is therefore not used as a coverage warrant here. Both
+    remain unadjudicated; neither is resolved in this figure.
+    <p class="src"><b>Source.</b> BAPPENAS, <i>Petunjuk Teknis Pedoman Indikator Ekonomi Biru dalam
+    RPJPN 2025&ndash;2045</i> (2025): Gambar 11, p. 93 [pdf 103]; Tabel 4, p. 94 [pdf 104]; Tabel 5,
+    p. 94 [pdf 104]; Tabel 6, pp. 95&ndash;96 [pdf 105&ndash;106]; Tabel 7, pp. 101&ndash;104
+    [pdf 111&ndash;114]; simplification rule for the tertiles, p. 94 [pdf 104]; four-pillar structure,
+    Tabel 1, pp. 11&ndash;13 [pdf 21&ndash;23]. Weights are stated to be produced automatically by the
+    PCA process (p. 93 [pdf 103]). Registration status: BPS SIRUSA, <i>Detail Metadata Kegiatan
+    Statistik: Kompilasi Penyusunan Indonesia Blue Economy Index (IBEI) 2025</i>,
+    <i>kegiatan</i> 94936 (web page, no pagination). Method badges verified in the circular
+    frontmatter: <code>src/circulars/section-6/6-1-coral-reef.md</code>,
+    <code>6-2-mangrove-wetland.md</code>, <code>6-3-seagrass.md</code>,
+    <code>section-3/3-5-social-accounts.md</code>, <code>3-7-governance.md</code>. Account-side
+    maturity: SOT standing rules &sect;3.0, from finding 02 &mdash; <b>&#9670; pending primary
+    re-check</b>. Account-addressability shading and all products of published percentages are the
+    article's own.</p>
+  </figcaption>
+
+  <details>
+    <summary>Table view &mdash; every value in this figure, with its locator</summary>
+    <div class="tw">
+    <table>
+      <thead><tr><th>Level</th><th>Code</th><th>Component</th><th>% of parent</th>
+      <th>% of composite (derived)</th><th>Tertile</th><th>Locator</th></tr></thead>
+      <tbody>
+<tr><td>Pillar</td><td>si_enviro</td><td>Environment</td><td class='n'>36.9</td><td class='n'>36.9</td><td>High</td><td>Tabel 4, p. 94 [pdf 104]</td></tr>
+<tr><td>Pillar</td><td>si_econ</td><td>Economy</td><td class='n'>32.6</td><td class='n'>32.6</td><td>Medium</td><td>Tabel 4, p. 94 [pdf 104]</td></tr>
+<tr><td>Pillar</td><td>si_social</td><td>Social</td><td class='n'>30.5</td><td class='n'>30.5</td><td>Low</td><td>Tabel 4, p. 94 [pdf 104]</td></tr>
+<tr><td>Sub-pillar</td><td>G</td><td>Marine resource quality &amp; conservation <span class='dim'>(in Environment)</span></td><td class='n'>50.0</td><td class='n'>18.45 <span class='dim'>(18 publ.)</span></td><td>High</td><td>Tabel 5, p. 94 [pdf 104]; Gambar 11, p. 93 [pdf 103]</td></tr>
+<tr><td>Sub-pillar</td><td>H</td><td>Renewable energy <span class='dim'>(in Environment)</span></td><td class='n'>50.0</td><td class='n'>18.45 <span class='dim'>(18 publ.)</span></td><td>Low</td><td>Tabel 5, p. 94 [pdf 104]; Gambar 11, p. 93 [pdf 103]</td></tr>
+<tr><td>Sub-pillar</td><td>A</td><td>Capture fisheries &amp; aquaculture <span class='dim'>(in Economy)</span></td><td class='n'>15.2</td><td class='n'>4.96 <span class='dim'>(5 publ.)</span></td><td>Low</td><td>Tabel 5, p. 94 [pdf 104]; Gambar 11, p. 93 [pdf 103]</td></tr>
+<tr><td>Sub-pillar</td><td>B</td><td>Marine-based industry <span class='dim'>(in Economy)</span></td><td class='n'>23.6</td><td class='n'>7.69 <span class='dim'>(8 publ.)</span></td><td>High</td><td>Tabel 5, p. 94 [pdf 104]; Gambar 11, p. 93 [pdf 103]</td></tr>
+<tr><td>Sub-pillar</td><td>C</td><td>Trade, transport &amp; logistics <span class='dim'>(in Economy)</span></td><td class='n'>19.3</td><td class='n'>6.29 <span class='dim'>(6 publ.)</span></td><td>Medium</td><td>Tabel 5, p. 94 [pdf 104]; Gambar 11, p. 93 [pdf 103]</td></tr>
+<tr><td>Sub-pillar</td><td>D</td><td>Marine tourism <span class='dim'>(in Economy)</span></td><td class='n'>22.1</td><td class='n'>7.20 <span class='dim'>(7 publ.)</span></td><td>High</td><td>Tabel 5, p. 94 [pdf 104]; Gambar 11, p. 93 [pdf 103]</td></tr>
+<tr><td>Sub-pillar</td><td>E</td><td>Technology <span class='dim'>(in Economy)</span></td><td class='n'>4.1</td><td class='n'>1.34 <span class='dim'>(1 publ.)</span></td><td>Low</td><td>Tabel 5, p. 94 [pdf 104]; Gambar 11, p. 93 [pdf 103]</td></tr>
+<tr><td>Sub-pillar</td><td>F</td><td>Governance <span class='dim'>(in Economy)</span></td><td class='n'>15.8</td><td class='n'>5.15 <span class='dim'>(5 publ.)</span></td><td>Medium</td><td>Tabel 5, p. 94 [pdf 104]; Gambar 11, p. 93 [pdf 103]</td></tr>
+<tr><td>Sub-pillar</td><td>I</td><td>Welfare <span class='dim'>(in Social)</span></td><td class='n'>18.2</td><td class='n'>5.55 <span class='dim'>(6 publ.)</span></td><td>Medium</td><td>Tabel 5, p. 94 [pdf 104]; Gambar 11, p. 93 [pdf 103]</td></tr>
+<tr><td>Sub-pillar</td><td>J</td><td>Education <span class='dim'>(in Social)</span></td><td class='n'>13.7</td><td class='n'>4.18 <span class='dim'>(4 publ.)</span></td><td>Low</td><td>Tabel 5, p. 94 [pdf 104]; Gambar 11, p. 93 [pdf 103]</td></tr>
+<tr><td>Sub-pillar</td><td>K</td><td>Health <span class='dim'>(in Social)</span></td><td class='n'>68.1</td><td class='n'>20.77 <span class='dim'>(21 publ.)</span></td><td>High</td><td>Tabel 5, p. 94 [pdf 104]; Gambar 11, p. 93 [pdf 103]</td></tr>
+<tr><td>Variable</td><td>enviro_s1_var10</td><td>Marine conservation area (Ha) <span class='dim'>(in G)</span></td><td class='n'>22.0</td><td class='n'>4.06</td><td>High</td><td>Tabel 6, pp. 95&ndash;96 [pdf 105&ndash;106]</td></tr>
+<tr><td>Variable</td><td>enviro_s1_var5</td><td>Coastal villages with a defecation/sanitation place (villages) <span class='dim'>(in G)</span></td><td class='n'>20.8</td><td class='n'>3.84</td><td>High</td><td>Tabel 6, pp. 95&ndash;96 [pdf 105&ndash;106]</td></tr>
+<tr><td>Variable</td><td>enviro_s1_var4</td><td>Coastal villages with a waste-disposal place (villages) <span class='dim'>(in G)</span></td><td class='n'>18.7</td><td class='n'>3.45</td><td>High</td><td>Tabel 6, pp. 95&ndash;96 [pdf 105&ndash;106]</td></tr>
+<tr><td>Variable</td><td>enviro_s1_var8_r</td><td>Waste leaking to sea (reversed) <span class='dim'>(in G)</span></td><td class='n'>14.9</td><td class='n'>2.75</td><td>Medium</td><td>Tabel 6, pp. 95&ndash;96 [pdf 105&ndash;106]</td></tr>
+<tr><td>Variable</td><td>enviro_s1_var2</td><td>Seagrass area in good condition (%) <span class='dim'>(in G)</span></td><td class='n'>8.6</td><td class='n'>1.59</td><td>Medium</td><td>Tabel 6, pp. 95&ndash;96 [pdf 105&ndash;106]</td></tr>
+<tr><td>Variable</td><td>enviro_s1_var6</td><td>Mangrove, swamp &amp; peatland planting/rehabilitation (Ha) <span class='dim'>(in G)</span></td><td class='n'>6.8</td><td class='n'>1.25</td><td>Medium</td><td>Tabel 6, pp. 95&ndash;96 [pdf 105&ndash;106]</td></tr>
+<tr><td>Variable</td><td>enviro_s1_var9_r</td><td>Waste disposed on land (reversed) <span class='dim'>(in G)</span></td><td class='n'>4.2</td><td class='n'>0.77</td><td>Low</td><td>Tabel 6, pp. 95&ndash;96 [pdf 105&ndash;106]</td></tr>
+<tr><td>Variable</td><td>enviro_s1_var1</td><td>Coral reef area in good condition (%) <span class='dim'>(in G)</span></td><td class='n'>3.7</td><td class='n'>0.68</td><td>Low</td><td>Tabel 6, pp. 95&ndash;96 [pdf 105&ndash;106]</td></tr>
+<tr><td>Variable</td><td>enviro_s1_var3</td><td>Mangrove forest area in good condition (%) <span class='dim'>(in G)</span></td><td class='n'>0.3</td><td class='n'>0.06</td><td>Low</td><td>Tabel 6, pp. 95&ndash;96 [pdf 105&ndash;106]</td></tr>
+<tr><td>Variable</td><td>enviro_s2_var13</td><td>Installed hydropower (PLTA) capacity (MW) <span class='dim'>(in H)</span></td><td class='n'>26.5</td><td class='n'>4.89</td><td>High</td><td>Tabel 6, pp. 95&ndash;96 [pdf 105&ndash;106]</td></tr>
+<tr><td>Variable</td><td>enviro_s2_var14</td><td>Electricity generated by hydropower (PLTA) (GWh) <span class='dim'>(in H)</span></td><td class='n'>24.8</td><td class='n'>4.58</td><td>Medium</td><td>Tabel 6, pp. 95&ndash;96 [pdf 105&ndash;106]</td></tr>
+<tr><td>Variable</td><td>enviro_s2_var11</td><td>Installed solar (PLTS) capacity (MW) <span class='dim'>(in H)</span></td><td class='n'>24.5</td><td class='n'>4.52</td><td>Medium</td><td>Tabel 6, pp. 95&ndash;96 [pdf 105&ndash;106]</td></tr>
+<tr><td>Variable</td><td>enviro_s2_var12</td><td>Electricity generated by solar (PLTS) (GWh) <span class='dim'>(in H)</span></td><td class='n'>24.2</td><td class='n'>4.46</td><td>Low</td><td>Tabel 6, pp. 95&ndash;96 [pdf 105&ndash;106]</td></tr>
+<tr><td>Variable</td><td>econ_gov_var22</td><td>Fishing ports with a fish auction place (TPI) (units) <span class='dim'>(in F)</span></td><td class='n'>100.0</td><td class='n'>5.15</td><td>Medium</td><td>Tabel 6, pp. 95&ndash;96 [pdf 105&ndash;106]</td></tr>
+      </tbody>
+    </table>
+    </div>
+  </details>
+</figure>
+</div>

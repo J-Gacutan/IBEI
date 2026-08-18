@@ -1,0 +1,294 @@
+<title>IBEI Compilation Chain</title>
+<style>
+:root{
+  --page:#f9f9f7; --surface:#fcfcfb;
+  --ink:#0b0b0b; --ink-2:#52514e; --muted:#6f6e69;
+  --rule:#c3c2b7; --grid:#e1e0d9; --fill:#f0efec;
+  --acc:#127f59;            /* account-entry hue, light */
+  --acc-fill:#e6f5ee;
+  --flag:#c04a18;           /* published-fact / conflict hue, light */
+  --flag-ink:#ffffff;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --page:#0d0d0d; --surface:#1a1a19;
+    --ink:#ffffff; --ink-2:#c3c2b7; --muted:#a3a29b;
+    --rule:#383835; --grid:#2c2c2a; --fill:#242422;
+    --acc:#3ec898; --acc-fill:#12261e;
+    --flag:#f08a5d; --flag-ink:#1a1a19;
+  }
+}
+:root[data-theme="dark"]{
+  --page:#0d0d0d; --surface:#1a1a19;
+  --ink:#ffffff; --ink-2:#c3c2b7; --muted:#a3a29b;
+  --rule:#383835; --grid:#2c2c2a; --fill:#242422;
+  --acc:#3ec898; --acc-fill:#12261e;
+  --flag:#f08a5d; --flag-ink:#1a1a19;
+}
+*{box-sizing:border-box}
+body{
+  margin:0; background:var(--page); color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+  font-size:16px; line-height:1.55; padding:1.5rem 1rem 3rem;
+}
+main{max-width:62rem;margin:0 auto}
+figure{margin:0}
+.scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+svg.fig{display:block;width:100%;min-width:46rem;max-width:100%;height:auto;color:var(--ink)}
+figcaption{margin:1rem 0 0;font-size:.86rem;line-height:1.6;color:var(--ink-2)}
+figcaption b{color:var(--ink);font-weight:640}
+.src{margin:.7rem 0 0;font-size:.78rem;line-height:1.6;color:var(--muted)}
+.src b{color:var(--ink-2)}
+.src code{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.94em}
+
+/* ---- SVG type + marks ---- */
+svg .pl{font-size:13px;font-weight:700;fill:var(--ink)}
+svg .lbl{font-size:10.5px;fill:var(--ink-2)}
+svg .micro{font-size:10px;fill:var(--muted)}
+svg .bt{font-size:11.5px;font-weight:640;fill:var(--ink)}
+svg .bs{font-size:10px;fill:var(--ink-2)}
+svg .step{font-size:10px;fill:var(--muted)}
+svg .inbar{font-size:9.5px;fill:var(--ink)}
+svg .accfg{fill:var(--acc);font-size:10.5px}
+svg .pintx{font-size:10px;font-weight:700;fill:var(--flag-ink)}
+svg .pinlb{font-size:10.5px;fill:var(--ink-2)}
+svg text{font-family:inherit}
+svg .grid{stroke:var(--grid);stroke-width:1}
+svg .flow{stroke:currentColor;stroke-width:1.6}
+svg .lead{stroke:var(--rule);stroke-width:1}
+svg .box{fill:var(--fill);stroke:var(--rule);stroke-width:1.2}
+svg .box-src{fill:var(--acc-fill);stroke:var(--acc);stroke-width:1.6}
+svg .box-out{fill:var(--fill);stroke:var(--ink);stroke-width:1.6}
+svg .bar{fill:var(--fill);stroke:var(--rule);stroke-width:1}
+svg .accflow{stroke:var(--acc);stroke-width:2;stroke-dasharray:6 4;fill:none}
+svg .pin{fill:var(--flag)}
+svg .pin-c{fill:none;stroke:var(--flag);stroke-width:1.6}
+svg .pin-c + .pintx{fill:var(--flag)}
+svg .gap{font-size:9.5px;font-weight:700;fill:var(--flag)}
+</style>
+<main>
+<figure>
+  <div class="scroll">
+<svg viewBox="0 0 960 624" role="img" aria-labelledby="figTitle figDesc" class="fig">
+<title id="figTitle">The IBEI compilation chain and where ocean accounts could enter</title>
+<desc id="figDesc">Panel a is an annual monitoring calendar running October of year n to January of year n plus two. It carries the Juknis Phase 1 coordination window in October to December, tagged maturity d, announced but not started, and the BPS SIRUSA 2025 schedule, in which activity planning and design run concurrently through February alone, then collection in April, processing in June, analysis in July, dissemination in August and evaluation from September to the following January. Panel b is a thirteen-step production chain, read down the left column then down the right column: published KKP and BPS publications and the 44 registered variables, machine-learning imputation for gaps, Z-score standardisation, a sub-pillar PCA, an indicator-reversal or drop step, a re-run sub-pillar PCA, re-standardisation, a pillar PCA, re-standardisation, a final IBEI PCA, a rescale by index divided by maximum index times 100, a provincial IBEI score, and the RPJPD 2025 to 2045 target circulated under SEB 2 of 2024. Account-derived data enters only at the source end, bearing on five register rows worth 7.64 per cent of the composite, with the account-side maturity claims verified against the primary reports. A closing strip states what the entry point is worth and what it does not reach: the five rows carry 7.64 per cent of the composite, of which about 4.06 per cent sits at a designation the account does not supply and about 1.25 per cent at an activity count it does not produce, leaving a supply share of about 2.33 per cent. Five numbered callouts are pinned to the steps they concern and annotated in the caption: no field operation, no imputation specifics, a pillar-count conflict, a rescale conflict and provincial targets above the national target.</desc>
+<defs>
+<marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="currentColor"/></marker>
+<marker id="ar-acc" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="var(--acc)"/></marker>
+</defs>
+
+<!-- ============ panel a: annual calendar ============ -->
+<text class="pl" x="16" y="26">a</text>
+<g class="grid">
+  <line x1="200" y1="56" x2="200" y2="108"/>
+  <line x1="327.5" y1="56" x2="327.5" y2="108"/>
+  <line x1="455" y1="56" x2="455" y2="108"/>
+  <line x1="582.5" y1="56" x2="582.5" y2="108"/>
+  <line x1="710" y1="56" x2="710" y2="108"/>
+  <line x1="837.5" y1="56" x2="837.5" y2="108"/>
+  <line x1="880" y1="56" x2="880" y2="108"/>
+</g>
+<g class="micro" text-anchor="middle">
+  <text x="263.75" y="46">year n</text>
+  <text x="582.5" y="46">year n+1</text>
+  <text x="858.75" y="46">n+2</text>
+</g>
+<text class="lbl" x="192" y="70" text-anchor="end">Juknis annual cycle</text>
+<text class="gap" x="192" y="83" text-anchor="end">maturity (d) &#8212; announced, not started</text>
+<rect class="bar" x="200" y="62" width="127.5" height="18" rx="3"/>
+<text class="inbar" x="206" y="75">Phase 1</text>
+<text class="lbl" x="192" y="102" text-anchor="end">SIRUSA 2025 schedule</text>
+<rect class="bar" x="370" y="88" width="42.5" height="16" rx="3"/>
+<text class="inbar" x="372.5" y="100" font-size="7">Plan+Design</text>
+<rect class="bar" x="455" y="88" width="42.5" height="16" rx="3"/>
+<text class="inbar" x="459" y="100">Collect</text>
+<rect class="bar" x="540" y="88" width="42.5" height="16" rx="3"/>
+<text class="inbar" x="544" y="100" font-size="8.5">Proc.</text>
+<rect class="bar" x="582.5" y="88" width="42.5" height="16" rx="3"/>
+<text class="inbar" x="586.5" y="100" font-size="8.5">Anal.</text>
+<rect class="bar" x="625" y="88" width="42.5" height="16" rx="3"/>
+<text class="inbar" x="629" y="100" font-size="8.5">Diss.</text>
+<rect class="bar" x="667.5" y="88" width="212.5" height="16" rx="3"/>
+<text class="inbar" x="671.5" y="100">Evaluation</text>
+<line x1="200" y1="108" x2="880" y2="108" stroke="var(--rule)" stroke-width="1"/>
+<g class="micro" text-anchor="middle">
+  <text x="221.25" y="122">O</text><text x="263.75" y="122">N</text><text x="306.25" y="122">D</text>
+  <text x="348.75" y="122">J</text><text x="391.25" y="122">F</text><text x="433.75" y="122">M</text>
+  <text x="476.25" y="122">A</text><text x="518.75" y="122">M</text><text x="561.25" y="122">J</text>
+  <text x="603.75" y="122">J</text><text x="646.25" y="122">A</text><text x="688.75" y="122">S</text>
+  <text x="731.25" y="122">O</text><text x="773.75" y="122">N</text><text x="816.25" y="122">D</text>
+  <text x="858.75" y="122">J</text>
+</g>
+
+<!-- ============ panel b: compilation chain, two columns ============ -->
+<text class="pl" x="16" y="156">b</text>
+
+<!-- column 1: steps 1-7, x 60-440, centre 250 -->
+<text class="accfg" x="82" y="167">Account-derived data enters here &#8212; maturity (b), 7.64% of the composite</text>
+<text class="gap" x="82" y="155">Account-side maturity verified against the MMAF 2022 primary reports</text>
+<path class="accflow" d="M66 155 L66 172" marker-end="url(#ar-acc)"/>
+
+<!-- step 1 -->
+<rect class="box box-src" x="60" y="176" width="380" height="36" rx="4"/>
+<text class="bt" x="72" y="191">Published sources</text>
+<text class="bs" x="72" y="205">KKP and BPS publications; 44 registered variables; unit = province</text>
+<text class="step" x="52" y="198" text-anchor="end">1</text>
+<line class="flow" x1="250" y1="212" x2="250" y2="224" marker-end="url(#ar)"/>
+<!-- step 2 -->
+<rect class="box" x="60" y="224" width="380" height="36" rx="4"/>
+<text class="bt" x="72" y="239">Machine-learning imputation for gaps</text>
+<text class="bs" x="72" y="253">two availability scenarios</text>
+<text class="step" x="52" y="246" text-anchor="end">2</text>
+<line class="flow" x1="250" y1="260" x2="250" y2="272" marker-end="url(#ar)"/>
+<!-- step 3 -->
+<rect class="box" x="60" y="272" width="380" height="36" rx="4"/>
+<text class="bt" x="72" y="287">Standardise indicator values</text>
+<text class="bs" x="72" y="301">Z-score</text>
+<text class="step" x="52" y="294" text-anchor="end">3</text>
+<line class="flow" x1="250" y1="308" x2="250" y2="320" marker-end="url(#ar)"/>
+<!-- step 4 -->
+<rect class="box" x="60" y="320" width="380" height="36" rx="4"/>
+<text class="bt" x="72" y="335">Sub-pillar PCA</text>
+<text class="bs" x="72" y="349">weights = PC1 loading factors</text>
+<text class="step" x="52" y="342" text-anchor="end">4</text>
+<line class="flow" x1="250" y1="356" x2="250" y2="368" marker-end="url(#ar)"/>
+<!-- step 5 -->
+<rect class="box" x="60" y="368" width="380" height="36" rx="4"/>
+<text class="bt" x="72" y="383">Reverse the indicator, or drop it</text>
+<text class="bs" x="72" y="397">where a negative relation is found</text>
+<text class="step" x="52" y="390" text-anchor="end">5</text>
+<line class="flow" x1="250" y1="404" x2="250" y2="416" marker-end="url(#ar)"/>
+<!-- step 6 -->
+<rect class="box" x="60" y="416" width="380" height="36" rx="4"/>
+<text class="bt" x="72" y="438">Re-run the sub-pillar PCA</text>
+<text class="step" x="52" y="438" text-anchor="end">6</text>
+<line class="flow" x1="250" y1="452" x2="250" y2="464" marker-end="url(#ar)"/>
+<!-- step 7 -->
+<rect class="box" x="60" y="464" width="380" height="36" rx="4"/>
+<text class="bt" x="72" y="486">Standardise the sub-pillar index</text>
+<text class="step" x="52" y="486" text-anchor="end">7</text>
+
+<!-- column 1 to column 2 return path -->
+<path class="flow" fill="none" d="M250 500 L250 516 L480 516 L480 160 L710 160 L710 172" marker-end="url(#ar)"/>
+
+<!-- column 2: steps 8-13, x 520-900, centre 710 -->
+<!-- step 8 -->
+<rect class="box" x="520" y="176" width="380" height="36" rx="4"/>
+<text class="bt" x="532" y="191">Pillar PCA</text>
+<text class="bs" x="532" y="205">environment 36.9% &#183; economy 32.6% &#183; social 30.5%</text>
+<text class="step" x="512" y="198" text-anchor="end">8</text>
+<line class="flow" x1="710" y1="212" x2="710" y2="224" marker-end="url(#ar)"/>
+<!-- step 9 -->
+<rect class="box" x="520" y="224" width="380" height="36" rx="4"/>
+<text class="bt" x="532" y="246">Standardise the pillar index</text>
+<text class="step" x="512" y="246" text-anchor="end">9</text>
+<line class="flow" x1="710" y1="260" x2="710" y2="272" marker-end="url(#ar)"/>
+<!-- step 10 -->
+<rect class="box" x="520" y="272" width="380" height="36" rx="4"/>
+<text class="bt" x="532" y="287">IBEI PCA</text>
+<text class="bs" x="532" y="301">three standardised pillar scores</text>
+<text class="step" x="512" y="294" text-anchor="end">10</text>
+<line class="flow" x1="710" y1="308" x2="710" y2="320" marker-end="url(#ar)"/>
+<!-- step 11 -->
+<rect class="box" x="520" y="320" width="380" height="36" rx="4"/>
+<text class="bt" x="532" y="335">Standardise the IBEI index</text>
+<text class="bs" x="532" y="349">(index / Max(index)) &#215; 100</text>
+<text class="step" x="512" y="342" text-anchor="end">11</text>
+<line class="flow" x1="710" y1="356" x2="710" y2="368" marker-end="url(#ar)"/>
+<!-- step 12 -->
+<rect class="box box-out" x="520" y="368" width="380" height="36" rx="4"/>
+<text class="bt" x="532" y="383">Provincial IBEI score</text>
+<text class="bs" x="532" y="397">national 34.25 (2023) &#8594; 35.59 (2025)</text>
+<text class="step" x="512" y="390" text-anchor="end">12</text>
+<line class="flow" x1="710" y1="404" x2="710" y2="416" marker-end="url(#ar)"/>
+<!-- step 13 -->
+<rect class="box box-out" x="520" y="416" width="380" height="36" rx="4"/>
+<text class="bt" x="532" y="431">RPJPD 2025&#8211;2045 target, SEB 2/2024</text>
+<text class="bs" x="532" y="445">national 2045 target 100.00</text>
+<text class="step" x="512" y="438" text-anchor="end">13</text>
+
+<!-- ============ pinned callouts, annotated in the caption ============ -->
+<circle class="pin" cx="424" cy="192" r="9"/><text class="pintx" x="424" y="196" text-anchor="middle">1</text>
+<circle class="pin" cx="424" cy="240" r="9"/><text class="pintx" x="424" y="244" text-anchor="middle">2</text>
+<circle class="pin-c" cx="884" cy="192" r="9"/><text class="pintx" x="884" y="196" text-anchor="middle">C1</text>
+<circle class="pin" cx="884" cy="336" r="9"/><text class="pintx" x="884" y="340" text-anchor="middle">3</text>
+<circle class="pin-c" cx="884" cy="432" r="9"/><text class="pintx" x="884" y="436" text-anchor="middle">C2</text>
+<!-- inversion strip: what the entry point is worth -->
+<rect class="box" x="60" y="534" width="840" height="60" rx="4"/>
+<text class="bt" x="72" y="551">What the entry point is worth, and what it does not reach</text>
+<text class="bs" x="72" y="566">Mature account route, step 1 only &#8212; register nos. 19&#8211;21, 24 and 27: <tspan fill="var(--acc)" font-weight="700">7.64%</tspan> of the composite. Waste flows (nos. 25, 26) &#8776;3.5%, reported separately and never folded in.</text>
+<text class="bs" x="72" y="582">No compiled account produces the register&#8217;s constituent data item at any of these rows; the supply share is &#8776;2.33%. Article&#8217;s own arithmetic over published weights.</text>
+<text class="micro" x="60" y="612">Numbered pins mark the callouts annotated in the caption.</text>
+</svg>
+  </div>
+
+  <figcaption>
+    <b>Fig. 1. The IBEI compilation chain, and the single point at which ocean-account data can enter it.</b>
+    (<b>a</b>) The annual monitoring calendar: the Juknis Phase 1 preparation-and-coordination window,
+    October&#8211;December of year <i>n</i>, against the BPS SIRUSA 2025 activity schedule. The Juknis cycle is
+    tagged <b>(d) announced but not started</b> &#8212; it is prescribed in the handbook (p. 71 [pdf 81]) and is drawn
+    here as a prospective cycle, not as one observed running. In the SIRUSA schedule <i>Perencanaan Kegiatan</i>
+    and <i>Desain</i> are both dated 2025-02-01 to 2025-03-01 and are therefore concurrent, occupying one month
+    and not two. These are two separately published calendars; the sources do not state that they are the same
+    cycle, and the drawn alignment is illustrative. Reference period of the collected variables is T&#8211;1,
+    except nos. 12, 13 and 14, which are T&#8211;2. (<b>b</b>) The thirteen-step production chain, source to target. Steps 3&#8211;11 are quoted from the
+    report&#8217;s own flow diagram (Gambar 3.1.1), including &#8220;reverse indicator values (or drop the indicator)
+    if a negative relation is found&#8221;. Account-derived data can enter at one place only, step 1, where it bears
+    on five registered rows &#8212; nos. 19&#8211;21 (percentage of coral reef, seagrass and mangrove in good
+    condition), no. 24 (rehabilitation) and no. 27, whose register wording is a <i>designation</i>, not an observed
+    extent: &#8220;total luas kawasan konservasi perairan <b>yang ditetapkan oleh</b> KKP, KLHK, dan Pemerintah
+    Daerah per provinsi&#8221; (total area of aquatic conservation areas <i>designated by</i> KKP, KLHK and provincial
+    governments). Together 7.64% of the composite, and about 2.3% for the three cover rows alone. Waste flows
+    (nos. 25, 26) are &#8776;3.5% and are reported separately, never folded into that headline. Nothing downstream
+    changes: standardisation, PCA weighting, the reversal rule and the final rescale are unaffected by the
+    provenance of the input. <b>What the entry point does not reach.</b> The 7.64% is the share these account types bear on, not the share an account would supply: about 4.06% of it sits at no.&nbsp;27, a designation already held by its custodians, and about 1.25% at no.&nbsp;24, an activity count the account form does not produce. The supply share is about 2.33%. <b>Account-side status.</b> Every account-side element in this figure &#8212; the entry point at step&nbsp;1, the (b) maturity of Indonesian account outputs, and the ecosystem coverage &#8212; has been verified against the MMAF 2022 primary reports in <code>00-background/</code>. An earlier version of this figure carried these as [EVIDENCE GAP] pending that re-check, and also printed a maturity inversion of roughly 2.5&#215; that the re-check refutes: the routes with a pilot-scale Indonesian compilation total 12.79% of the composite against 13.70% for the one route with no compilation at any maturity, a gap of roughly 1.1&#215; (Figure&nbsp;4). <b>Callouts.</b> <b>1</b>, SIRUSA records no pilot survey, no field staff, 0 supervisors and 0 enumerators, no
+    staff training, no non-response adjustment and no microdata release; collection mode is compilation of
+    administrative products, so every value in the chain is inherited from an upstream producer.
+    <b>2</b>, the imputation annex publishes a framework &#8212; two availability scenarios, feature pre-processing,
+    model spectrum with k-fold cross-validation, ensemble prediction, domain constraints &#8212; but names no
+    indicator, no province, no chosen model, no achieved RMSE, MAE or R&#178;, no value of <i>k</i>, and no code,
+    seed or repository. <b>3</b>, the rescale to a &#8220;1 to 100&#8221; range contradicts the same printed page,
+    which states the score &#8220;is a relative measure with no definite upper or lower bound and can be positive or
+    negative&#8221;; the document does not state which scale the published figures are on.
+    <b>C1</b>, Tabel 1 prints four pillars, with an Enabler pillar holding indicators 15&#8211;18, while Tabel 4/5
+    and Gambar 11 print three, placing tourism, technology and governance as Economy sub-pillars; both are in the
+    same handbook and neither is chosen here. <b>C2</b>, 2045 provincial targets of 243.87 (Jawa Timur), 233.21
+    (Nusa Tenggara Timur) and 222.31 (Jawa Tengah) sit against a national 2045 target of 100.00, on one table and
+    one scale. <b>Maturity.</b> The KKP and BPS publications are (a) published official statistics; a register row
+    states a required input and is <i>not</i> evidence that the input is published; every Indonesian ocean account
+    output is (b) experimental or pilot; no Indonesian social account exists above (c), methodology under
+    development, whilst the Gili Matra pilot does compile a governance account at (b). <b>Derived values.</b> 36.9% &#215; 50.0% = 18.45%, the Tier&nbsp;A 7.64%, the
+    ecosystem-condition &#8776;2.33%, the social 13.7% and the governance 5.15% are the
+    article&#8217;s own arithmetic over the published weights; whether
+    the percentages in Tabel 4&#8211;6 are raw PC1 loadings or normalised contributions is not stated in the source.
+    Box size, spacing and the drawn alignment of the two calendars are illustrative and carry no quantitative
+    meaning.
+  </figcaption>
+
+  <p class="src" id="srcnote">
+    <b>Sources.</b> Pillar weights, sub-pillar and variable shares, provincial and national targets, the
+    four-versus-three pillar conflict and the annual monitoring cycle: BAPPENAS, <i>Juknis Pedoman
+    IBEI</i> (2025) &#8212; Tabel 1, pp. 11&#8211;13 [pdf 21&#8211;23]; Tabel 2, p. 69 [pdf 79]; Gambar 1,
+    p. 68 [pdf 78]; Gambar 2, p. 71 [pdf 81]; Gambar 11, p. 93 [pdf 103]; Tabel 4 and Tabel 5,
+    p. 94 [pdf 104]; Tabel 6, pp. 95&#8211;96 [pdf 105&#8211;106]. Method flow boxes, aggregation
+    stages, the final rescale and the bounded-versus-unbounded conflict: <i>IBEI Report 2024</i>
+    (December 2025 revision), Gambar 3.1.1, p. 30 [pdf 42]; pp. 29&#8211;33 [pdf 41&#8211;45], with the
+    conflict on p. 33 [pdf 45]. Imputation framework and the specifics it omits: Report Lampiran 1,
+    pp. 64&#8211;66 [pdf 76&#8211;78]. Field operation, collection mode, reference periods and the
+    44-variable register: BPS SIRUSA, statistical activity 94936 and indicator pages 105709&#8211;105718
+    (web pages, no pagination); the concurrent February planning-and-design dates from the
+    <i>Rencana Jadwal Kegiatan</i> (<code>doc_4_sirusa-metadata_chunk_006</code>). The (d) tag on the annual
+    monitoring cycle: Juknis &#167;4.1.1 and Gambar 2, p. 71 [pdf 81] (<code>doc_1_juknis-cascading_chunk_112</code>).
+    <b>Account-side claims are not from the tier-1 corpus.</b> The corpus covers the Juknis, the IBEI Report 2024,
+    Rinaldi et al. 2025 and SIRUSA only, and holds no account-side material. Account maturity (b) and the
+    mangrove&#8211;seagrass&#8211;coral coverage were carried from a secondary finding and have since been read
+    against the MMAF 2022 primary reports directly, which is the source relied on here. The national
+    <b>2018 opening / 2021 closing extent series is CONTESTED</b> &#8212; not evidenced in the primary documents,
+    which record site-level figures instead &#8212; and is for that reason not drawn or relied on here
+    (Figure&nbsp;5). Where account outputs are described, <i>ecosystem services in
+    physical units</i> and <i>benefit-transferred monetary valuation</i> are distinct and are never covered by the
+    bare word &#8220;services&#8221;; only the latter is evidenced, at pilot scale. PODES is not named anywhere in
+    the tier-1 corpus and is therefore not shown as a source.
+  </p>
+</figure>
+</main>
