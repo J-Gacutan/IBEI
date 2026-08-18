@@ -151,7 +151,7 @@ rather than exact. Every account-side entry is maturity tag (b), demonstrated at
 What separates the account routes into and out of reach is content, not compilation maturity. The
 routes with a pilot-scale Indonesian compilation bear on 12.79% of the composite. The one route with
 no Indonesian compilation at any maturity, the classification-dependent social share, bears on 13.70%.
-That is a difference of roughly 1.1 times, and it is not the finding. The finding is that no compiled
+That is a difference of 1.07 times, and it is not the finding. The finding is that no compiled
 account produces the constituent data item the register asks for at any of these rows, and that the
 outputs the pilot does produce — monetary supply and use, zone areas, protection expenditure — carry no
 weight in the index at all (Figure 4). The arithmetic below follows the three-pillar locus declared at

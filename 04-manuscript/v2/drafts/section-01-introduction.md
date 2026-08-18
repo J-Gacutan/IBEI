@@ -70,7 +70,7 @@ the assumed indicator set changed, the last over a 36-indicator denominator the 
 (Section 4.2). Second, what separates the account routes into and out of reach is not compilation
 maturity but content. The routes Indonesia has compiled at pilot scale bear on 12.79% of the
 composite's published weight and the one route compiled nowhere bears on 13.70%, a difference of
-roughly 1.1 times; yet no compiled account produces the constituent data item the register asks for at
+1.07 times; yet no compiled account produces the constituent data item the register asks for at
 any of these rows (Section 4.3). Third, the share an account would itself supply is about 2.33%, and
 what the mature account types offer at those rows is a production process rather than a stock of
 substitutable values (Section 5).

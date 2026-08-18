@@ -2,37 +2,37 @@
 
 A recurring statutory obligation to score every province annually sits on top of a compilation
 activity that conducts no primary collection of its own. The obligation is assigned rather than
-volunteered. Perpres 12/2025 carries the IBEI as an official national development indicator, and joint
-circular SEB Mendagri/Bappenas No. 2/2024 distributes a 2045 target to each province for carriage in
-its long-term development plan (Juknis, Tabel 2, p. 69 [pdf 79]). That the compilation beneath it
-collects nothing directly is a design decision recorded in Indonesia's own statistical metadata system,
-and its consequences are legible as specific strains in the published output. This section establishes
-both from the IBEI's own documentation, and closes by declaring the pillar structure the rest of the
-article computes on, since the handbook prints two.
+volunteered. Perpres 12/2025 carries the IBEI as an official national development indicator, and
+joint circular SEB Mendagri/Bappenas No. 2/2024 distributes a 2045 target to each province for
+carriage in its long-term development plan (Juknis, Tabel 2, p. 69 [pdf 79]). That the compilation
+beneath it collects nothing directly is a design decision recorded in Indonesia's own statistical
+metadata system, and its consequences are legible as specific strains in the published output. This
+section establishes both from the IBEI's own documentation, and closes by declaring the pillar
+structure the rest of the article computes on, since the handbook prints two.
 
 ## 2.1 Compilation without collection
 
 SIRUSA registers the IBEI compilation as *Kompilasi Produk Administrasi* under *Statistik Sektoral*,
 implemented by BAPPENAS's Directorate of Marine Affairs and Fisheries, with an empty *Identitas
 Rekomendasi* (kegiatan 94936, retrieved 2026-08-13). The design is secondary compilation throughout.
-Collection mode is *Pengumpulan data sekunder*, the instrument is *Lainnya: Publikasi KKP dan BPS*, and
-the unit is the province. The register records no pilot survey, no non-response adjustment, no staff
-training, zero supervisors and zero enumerators. The index's supply is therefore fixed to whatever KKP
-and BPS have already published, at the resolution and vintage they published it.
+Collection mode is *Pengumpulan data sekunder*, the instrument is *Lainnya: Publikasi KKP dan BPS*,
+and the unit is the province. The register records no pilot survey, no non-response adjustment, no
+staff training, zero supervisors and zero enumerators. The index's supply is therefore fixed to
+whatever KKP and BPS have already published, at the resolution and vintage they published it.
 
 The collection capability the index draws on is real, and it sits with those two producers. That is
-the statutory division this article holds to: BAPPENAS plans, whilst MMAF and BPS produce statistics.
-What the register establishes is not an absence of capability in the system. It is the absence of any
-collection instrument inside the compilation itself.
+the statutory division this article holds to: BAPPENAS plans, whilst MMAF and BPS produce
+statistics. What the register establishes is not an absence of capability in the system. It is the
+absence of any collection instrument inside the compilation itself.
 
-The reporting window is narrow and is published from two directions. SIRUSA schedules collection from
-1 April to 1 May 2025 and dissemination from 1 August to 1 September 2025. The Juknis puts the first
-phase of its monitoring and evaluation cycle in October to December of year *n* (p. 71 [pdf 81]). Read
-together, these imply that an upstream figure not public by roughly April of year *n+1* cannot enter
-that cycle's index. Neither document reconciles them, and only the first phase was extracted into the
-corpus, so the implication is stated conditionally `[EVIDENCE GAP]`. Figure 1 draws the two calendars
-against the thirteen-step production chain they feed, and marks the single step at which account-derived
-data could enter.
+The reporting window is narrow and is published from two directions. SIRUSA schedules collection
+from 1 April to 1 May 2025 and dissemination from 1 August to 1 September 2025. The Juknis puts the
+first phase of its monitoring and evaluation cycle in October to December of year *n* (p. 71 [pdf
+81]). Read together, these imply that an upstream figure not public by roughly April of year *n+1*
+cannot enter that cycle's index. Neither document reconciles them, and only the first phase was
+extracted into the corpus, so the implication is stated conditionally `[EVIDENCE GAP]`. Figure 1
+draws the two calendars against the thirteen-step production chain they feed, and marks the single
+step at which account-derived data could enter.
 
 ## 2.2 What the published output records
 
@@ -60,11 +60,12 @@ administrative unit needs a spatially re-aggregable source rather than a republi
 Table 1 records four further symptoms without arguing them here. Each is uninterrogable from the
 published record.
 
-The denominator of the obligation is itself unstable inside the guidance that creates it. Indonesia has
-38 provinces. The Report's Annex 2 tabulates 37, Juknis Tabel 2 lists 38 rows plus a national row with
-Papua Pegunungan carrying a dash in all three columns, and the monitoring chapter asserts comparability
-over *37 provinsi* (p. 71 [pdf 81]). The number used in any sentence here is the number that sentence
-is about.
+The denominator of the obligation is itself unstable inside the guidance that creates it. Indonesia
+has 38 provinces. The Report's Annex 2 tabulates 37, Juknis Tabel 2 lists 38 rows plus a national
+row with Papua Pegunungan carrying a dash in all three columns, the monitoring chapter asserts
+comparability over *37 provinsi* (p. 71 [pdf 81]), and the sensitivity chapter thirty pages later
+recomputes the index *untuk 38 provinsi* across 59 scenarios (p. 101 [pdf 111]). Two of the four are
+in the same handbook. The number used in any sentence here is the number that sentence is about.
 
 ## 2.3 The pillar conflict, and the locus this article adopts
 
@@ -81,21 +82,21 @@ sits in the environment pillar under both structures, so Section 4.2's arithmeti
 about 5.15% are structure-dependent, and no four-pillar equivalent can be given from the published
 weights. Both are identified as structure-dependent at each use.
 
-A second contradiction bears on how any published value should be read. One printed page asserts both
-a rescaling into a 1 to 100 range and an unbounded principal component score that may be negative
-(Report p. 33 [pdf 45]). That is what makes a technology sub-pillar value of 483.43 a traceability
-failure rather than a large number.
+A second contradiction bears on how any published value should be read. One printed page asserts
+both a rescaling into a 1 to 100 range and an unbounded principal component score that may be
+negative (Report p. 33 [pdf 45]). That is what makes a technology sub-pillar value of 483.43 a
+traceability failure rather than a large number.
 
 The symptoms in Table 1 are properties of the compilation design rather than of the institutions
-operating it. Each is addressable upstream, in what the compilation is able to draw on, rather than in
-how BAPPENAS compiles from the supply it has.
+operating it. Each is addressable upstream, in what the compilation is able to draw on, rather than
+in how BAPPENAS compiles from the supply it has.
 
 ---
 
-**Table 1.** The compilation-difficulty register. Statements are quoted verbatim where italicised and
-rendered faithfully otherwise, with Indonesian decimal commas preserved inside quotation. The final
-column names the account property that bears on each symptom, which Section 3 specifies and Section 4
-maps.
+**Table 1.** The compilation-difficulty register. Statements are quoted verbatim where italicised
+and rendered faithfully otherwise, with Indonesian decimal commas preserved inside quotation. The
+final column names the account property that bears on each symptom, which Section 3 specifies and
+Section 4 maps.
 
 | Symptom | As printed | Locator | Bearing account property |
 |---|---|---|---|

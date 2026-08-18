@@ -132,13 +132,15 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
     marine tourism 7.20, trade transport and logistics 6.29, welfare 5.55, governance 5.15, capture
     fisheries and aquaculture 4.96, education 4.18, technology 1.34. Within marine resource quality,
     a hatched band marks the 7.64 per cent of the composite that ecosystem extent and condition
-    accounts could supply: the Tier A five, indicators 19, 20 and 21 condition at about 2.32,
+    accounts could supply: the Tier A five, indicators 19, 20 and 21 condition at about 2.33,
     indicator 24 rehabilitation at 1.25 and indicator 27 conservation area at 4.06. Ecosystem
     services in physical units are not part of that route and are not compiled in Indonesia; what
     exists is benefit-transferred monetary valuation at pilot scale. The two waste-flow variables,
     indicators 25 and 26, are drawn unshaded and reported separately at about 3.5 per cent; they
-    are never folded into the headline. Every account-side claim in this figure is marked pending a
-    primary re-check.</desc>
+    are never folded into the headline. Governance is dotted in the account colour rather than the
+    social colour, because it is the one extension route with a pilot-scale Indonesian compilation
+    behind it; the three social bands have none at any maturity. Account-side claims in this figure
+    have been verified against the MMAF 2022 primary reports.</desc>
     <defs>
       <pattern id="hatchAcct" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
         <rect width="7" height="7" fill="var(--c-acct-soft)"/>
@@ -147,6 +149,10 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
       <pattern id="dotSoc" width="6" height="6" patternUnits="userSpaceOnUse">
         <rect width="6" height="6" fill="var(--c-soc-soft)"/>
         <circle cx="3" cy="3" r="1.7" fill="var(--c-soc)"/>
+      </pattern>
+      <pattern id="dotGov" width="6" height="6" patternUnits="userSpaceOnUse">
+        <rect width="6" height="6" fill="var(--c-acct-soft)"/>
+        <circle cx="3" cy="3" r="1.7" fill="var(--c-acct)"/>
       </pattern>
     </defs>
 <text class="pnl" x="4" y="20">a</text>
@@ -182,7 +188,7 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
 <path class="lead" d="M248 454.3 H298 V450.3 H306"/>
 <rect x="152" y="478.32" width="96" height="6.55" fill="var(--c-out)"/>
 <path class="lead" d="M248 481.6 H298 V480.3 H306"/>
-<rect x="152" y="486.87" width="96" height="30.93" stroke="var(--c-soc)" stroke-width="1" fill="url(#dotSoc)"/>
+<rect x="152" y="486.87" width="96" height="30.93" stroke="var(--c-acct)" stroke-width="1" fill="url(#dotGov)"/>
 <path class="lead" d="M248 502.3 H298 V510.3 H306"/>
 <rect x="152" y="519.80" width="96" height="33.53" stroke="var(--c-soc)" stroke-width="1" fill="url(#dotSoc)"/>
 <path class="lead" d="M248 536.6 H298 V540.3 H306"/>
@@ -218,7 +224,7 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
 <text class="chip" x="333" y="481.3">E</text>
 <text class="sn" x="346" y="481.3">Technology</text>
 <text class="sv" x="333" y="494.3">1.34% of the composite &middot; 4.1% of pillar &middot; Low</text>
-<rect x="312" y="501.3" width="15" height="15" rx="2" fill="url(#dotSoc)" stroke="var(--c-soc)" stroke-width="1"/>
+<rect x="312" y="501.3" width="15" height="15" rx="2" fill="url(#dotGov)" stroke="var(--c-acct)" stroke-width="1"/>
 <text class="chip" x="333" y="511.3">F</text>
 <text class="sn" x="346" y="511.3">Governance</text>
 <text class="sv" x="333" y="524.3">5.15% of the composite &middot; 15.8% of pillar &middot; Medium</text>
@@ -242,29 +248,33 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
   <div class="legend" role="list">
     <span class="k" role="listitem"><svg class="sw" viewBox="0 0 15 15" aria-hidden="true"><defs><pattern id="lh" width="7" height="7" patternTransform="rotate(45)" patternUnits="userSpaceOnUse"><rect width="7" height="7" fill="var(--c-acct-soft)"/><line x1="0" y1="0" x2="0" y2="7" stroke="var(--c-acct)" stroke-width="3.2"/></pattern></defs><rect width="15" height="15" rx="2" fill="url(#lh)" stroke="var(--c-acct)"/></svg>
       Hatched &mdash; ecosystem <b>extent and condition</b> accounts could supply this. <b>7.64%</b>
-      of the composite: the Tier A five &mdash; condition (19, 20, 21) 2.32%, rehabilitation (24)
-      1.25%, conservation area (27) 4.06%. The three printed components sum to 7.63; the 7.64% headline is
-      computed before rounding (2.3247 + 1.2546 + 4.0590 = 7.6383), so the one-hundredth difference is a
-      display artefact, not a discrepancy. Method warrant: TG-6.1 <i>Coral Reef Ecosystem
+      of the composite: the Tier A five &mdash; condition (19, 20, 21) 2.33%, rehabilitation (24)
+      1.25%, conservation area (27) 4.06%, which sum to the 7.64% headline. Following the convention
+      stated at Methods 3.5, totals are the sum of their rounded components; the exact product of the
+      unrounded inputs gives 2.32% for the three condition rows and 7.6383% for the five, so the
+      one-hundredth difference is a rounding route, not a discrepancy. Method warrant: TG-6.1 <i>Coral Reef Ecosystem
       Accounting</i>, TG-6.2 <i>Coastal Wetland and Seagrass Accounting</i>, TG-6.3 <i>Seagrass
       Ecosystem Accounting</i>, each badge <b>Applied</b>, status Draft; conservation area (27) additionally
       TG-1.3 <i>OA and Marine Spatial Management (including MPAs)</i> and condition measurement TG-4.9
       <i>Biological Condition Measurement</i>, both <b>Applied</b>, Draft. Indonesian output maturity
       <b>(b)</b>, experimental / pilot compilation, verified against the MMAF 2022 primary reports.</span>
     <span class="k" role="listitem"><svg class="sw" viewBox="0 0 15 15" aria-hidden="true"><defs><pattern id="ld" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="var(--c-soc-soft)"/><circle cx="3" cy="3" r="1.7" fill="var(--c-soc)"/></pattern></defs><rect width="15" height="15" rx="2" fill="url(#ld)" stroke="var(--c-soc)"/></svg>
-      Dotted &mdash; social and governance accounts would be needed, over <b>18.85%</b> of the
-      composite: <b>13.70%</b> social, the classification-dependent share whose computation requires
-      a fisheries-sector domain cut, plus <b>5.15%</b> governance. The dotted
-      area is drawn over the whole social pillar (30.5%) and the governance sub-pillar, which is the
-      <i>wider production-bearing</i> reading, not the classification claim. The two halves differ in
-      maturity: no Indonesian social account exists above (c), whilst the Gili Matra pilot does
-      compile a governance account at (b) (Figure&nbsp;4). Method warrant: TG-3.5
-      <i>Social Accounts</i> and TG-3.7 <i>Governance Accounts</i>, each badge <b>Emerging</b>,
-      status Draft. Maturity <b>(c)</b> for the social share, with no compilation in Indonesia; the governance
-      share is <b>(b)</b>, on the primary re-check.</span>
+      Dotted in orange &mdash; social accounts would be needed, and none exists in Indonesia at any
+      maturity. The dotted area is drawn over the whole social pillar (30.5%), which is the
+      <i>wider production-bearing</i> reading; the classification claim is the narrower
+      <b>13.70%</b>, the share whose computation requires a fisheries-sector domain cut. Method
+      warrant: TG-3.5 <i>Social Accounts</i>, badge <b>Emerging</b>, status Draft. Maturity
+      <b>(c)</b>.</span>
+    <span class="k" role="listitem"><svg class="sw" viewBox="0 0 15 15" aria-hidden="true"><defs><pattern id="ldg" width="6" height="6" patternUnits="userSpaceOnUse"><rect width="6" height="6" fill="var(--c-acct-soft)"/><circle cx="3" cy="3" r="1.7" fill="var(--c-acct)"/></pattern></defs><rect width="15" height="15" rx="2" fill="url(#ldg)" stroke="var(--c-acct)"/></svg>
+      Dotted in blue &mdash; governance, <b>5.15%</b> of the composite. Drawn apart from the social
+      bands because it differs from them in maturity, not in kind: the Gili Matra pilot does compile
+      a governance account, so this is the one extension route with an Indonesian compilation behind
+      it (Figure&nbsp;4). What that account produces is not what the register's single governance row
+      asks for. Method warrant: TG-3.7 <i>Governance Accounts</i>, badge <b>Emerging</b>, status
+      Draft. Maturity <b>(b)</b>.</span>
     <span class="k" role="listitem"><svg class="sw" viewBox="0 0 15 15" aria-hidden="true"><rect width="15" height="15" rx="2" fill="var(--c-out)"/></svg>
       Solid &mdash; outside current account coverage. The unshaded remainder, <b>73.51%</b> of the
-      composite &mdash; that is 100 &minus; 7.64 (Tier A) &minus; 18.85 (social-classification 13.70 plus governance 5.15). It includes the two waste-flow variables (indicators 25 and 26, together
+      composite &mdash; that is 100 &minus; 7.64 (Tier A) &minus; 13.70 (social classification) &minus; 5.15 (governance). It includes the two waste-flow variables (indicators 25 and 26, together
       &asymp;3.5%), which are reported separately and are never folded into the 7.64% headline.</span>
   </div>
   <p class="note"><b>Account-side status.</b> The shading classes, the maturity tags and the
@@ -272,10 +282,11 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
   <code>00-background/</code>. An earlier version asserted them from a finding that reasoned from the
   non-retrievability of those reports, and printed a maturity inversion of <b>2.5&times;</b> which
   that re-check refutes; the corrected comparison is <b>12.79%</b> compiled at pilot scale against
-  <b>13.70%</b> not compiled at any maturity, roughly <b>1.1&times;</b> (Figure&nbsp;4). The IBEI-side
-  weights, shares and locators never depended on it. The 13.7% social figure is the
-  article's own arithmetic over the verbatim <i>Data Pembentuk Indikator</i>: welfare 5.55% +
-  education domain-cuts 1.91% + health insurance 6.23%. The rest of the 30.5% pillar is not
+  <b>13.70%</b> not compiled at any maturity, <b>1.07&times;</b> (Figure&nbsp;4). The IBEI-side
+  weights, shares and locators never depended on it. The 13.70% social figure is the
+  article's own arithmetic over the verbatim <i>Data Pembentuk Indikator</i>, in the four components
+  deposited at Supplementary Data S2: PKH transfer ratio 4.59% + fisher and fisherwomen counts 0.97%
+  + education domain cuts 1.91% + health insurance 6.23%. The rest of the 30.5% pillar is not
   sector-conditioned &mdash; per-capita fish consumption &asymp;14.21%, KKP education counts
   &asymp;2.28%, coastal poverty &asymp;0.33% &mdash; and the four components sum to 30.5%.</p>
 
@@ -295,9 +306,9 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
         <rect width="7" height="7" fill="var(--c-acct-soft)"/>
         <line x1="0" y1="0" x2="0" y2="7" stroke="var(--c-acct)" stroke-width="3.2"/>
       </pattern>
-      <pattern id="dotSocB" width="6" height="6" patternUnits="userSpaceOnUse">
-        <rect width="6" height="6" fill="var(--c-soc-soft)"/>
-        <circle cx="3" cy="3" r="1.7" fill="var(--c-soc)"/>
+      <pattern id="dotGovB" width="6" height="6" patternUnits="userSpaceOnUse">
+        <rect width="6" height="6" fill="var(--c-acct-soft)"/>
+        <circle cx="3" cy="3" r="1.7" fill="var(--c-acct)"/>
       </pattern>
     </defs>
 <text class="pnl" x="4" y="26">b</text>
@@ -358,7 +369,7 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
 <text class="vv" x="895.0" y="395.0">4.46% &middot; 24.2% within H &middot; Low</text>
 <text class="sec" x="24" y="417.0">F &middot; Governance, 5.15%</text>
 <text class="vn" x="445.0" y="444.0" text-anchor="end">Fishing ports with a fish auction place (TPI) (units)</text>
-<rect x="455" y="435.0" width="402.70" height="15.0" rx="2" fill="url(#dotSocB)" stroke="var(--c-soc)" stroke-width="1"/>
+<rect x="455" y="435.0" width="402.70" height="15.0" rx="2" fill="url(#dotGovB)" stroke="var(--c-acct)" stroke-width="1"/>
 <text class="vv" x="895.0" y="444.0">5.15% &middot; 100.0% within F &middot; Medium</text>
   </svg>
   </div>
@@ -374,7 +385,7 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
     <b>Four readings.</b> First, the two ecosystem-condition variables an ocean account is built to
     produce are the two smallest things in their sub-pillar: good-condition coral reef area at 0.68% of
     the composite and good-condition mangrove forest area at 0.06%, with seagrass the largest of the
-    three at 1.59% &mdash; 2.32% for all three together. Second, two counts of coastal-village
+    three at 1.59% &mdash; 2.33% for all three together. Second, two counts of coastal-village
     facilities outweigh all ecosystem condition by more than three to one: villages with a sanitation
     place (3.84%) plus villages with a waste-disposal place (3.45%) come to 7.29%, a ratio of 3.1 to 1,
     and both are village counts, not marine measurements. Third, the governance sub-pillar is one
@@ -393,7 +404,7 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
     the primary record contains is <b>benefit-transferred monetary valuation</b> of ecosystem
     functions at pilot scale (coral values transferred from Bohol and the Marianas). The two are
     never conflated, and neither is folded into the 7.64%. The hatched 7.64% is the Tier A five
-    (indicators 19, 20, 21 condition 2.32%; 24 rehabilitation 1.25%; 27 conservation area 4.06%);
+    (indicators 19, 20, 21 condition 2.33%; 24 rehabilitation 1.25%; 27 conservation area 4.06%);
     the two waste-flow variables (25, 26) are drawn unshaded and reported separately at
     &asymp;3.5%. Compilation method for the hatched class is covered by GOAP Technical Guidance
     TG-6.1 <i>Coral Reef Ecosystem Accounting</i> (badge <b>Applied</b>, status Draft, v7.0), TG-6.2
@@ -423,20 +434,19 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
     (SIRUSA <i>kegiatan</i> 94936, <i>Informasi Umum</i> and <i>Pengolahan dan Analisis</i>; web
     page, no pagination; chunks <code>doc_4_sirusa-metadata_chunk_001</code> and
     <code>_009</code>). Every juknis-weights chunk in the tier-1 corpus is tagged
-    <code>not_applicable</code> accordingly. <b>&#9670; Pending primary re-check</b> &mdash; every
-    Indonesian ocean-account output is <b>(b)</b> experimental or pilot compilation, covering
-    mangrove, seagrass and coral reef only; social and governance accounts do not exist in Indonesia
-    above <b>(c)</b> methodology under development. That whole account-side statement rests on
-    finding 02, which reasoned from the non-retrievability of the three MMAF 2022 reports now known
-    to be present in <code>00-background/</code>, and it is carried here as an
-    <b>[EVIDENCE GAP]</b> pending re-check against those primary documents (SOT standing rules
-    &sect;3.0). Two formulations inside it are marked <b>CONTESTED</b> as of 2026-08-14 and are
-    <i>not</i> asserted by this figure: <b>&ldquo;34 provinces dashboard-selectable&rdquo;</b> is a
-    platform observation rather than a documented compilation count, so the numeral is withheld and
-    only <b>one province (NTB)</b> is stated to carry a documented published compilation, itself
-    pending re-check; and the <b>national 2018 opening / 2021 closing extent series</b> is not
-    evidenced in the primary documents and is therefore not used as a coverage warrant here. Both
-    remain unadjudicated; neither is resolved in this figure.
+    <code>not_applicable</code> accordingly. <b>Account-side maturity.</b> Every Indonesian
+    ocean-account output is <b>(b)</b> experimental or pilot compilation, covering mangrove, seagrass
+    and coral reef only. Governance is <b>(b)</b> as well, on the Gili Matra pilot's own governance
+    account; no social account exists in Indonesia above <b>(c)</b> methodology under development.
+    That statement was formerly carried as an <b>[EVIDENCE GAP]</b> resting on a finding that
+    reasoned from the non-retrievability of the three MMAF 2022 reports; those reports are present in
+    <code>00-background/</code>, the re-check against them is complete, and the tags above are its
+    result. Two formulations remain withheld as unevidenced and are <i>not</i> asserted here:
+    <b>&ldquo;34 provinces dashboard-selectable&rdquo;</b> is a platform observation rather than a
+    documented compilation count, so the numeral is withheld and only <b>one province (NTB)</b> is
+    stated to carry a documented published compilation; and the <b>national 2018 opening / 2021
+    closing extent series</b> is not evidenced in the primary documents and is not used as a coverage
+    warrant.
     <p class="src"><b>Source.</b> BAPPENAS, <i>Petunjuk Teknis Pedoman Indikator Ekonomi Biru dalam
     RPJPN 2025&ndash;2045</i> (2025): Gambar 11, p. 93 [pdf 103]; Tabel 4, p. 94 [pdf 104]; Tabel 5,
     p. 94 [pdf 104]; Tabel 6, pp. 95&ndash;96 [pdf 105&ndash;106]; Tabel 7, pp. 101&ndash;104
@@ -448,8 +458,8 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
     frontmatter: <code>src/circulars/section-6/6-1-coral-reef.md</code>,
     <code>6-2-mangrove-wetland.md</code>, <code>6-3-seagrass.md</code>,
     <code>section-3/3-5-social-accounts.md</code>, <code>3-7-governance.md</code>. Account-side
-    maturity: SOT standing rules &sect;3.0, from finding 02 &mdash; <b>&#9670; pending primary
-    re-check</b>. Account-addressability shading and all products of published percentages are the
+    maturity: verified against the three MMAF 2022 reports in <code>00-background/</code>.
+    Account-addressability shading and all products of published percentages are the
     article's own.</p>
   </figcaption>
 
