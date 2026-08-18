@@ -11,6 +11,19 @@ the regime it fails under.
 effect sizes, sample-size justification, multiple-comparison correction and human/animal ethics
 are structurally inapplicable and are marked n/a throughout, not silently omitted.
 
+> **Staleness notice, added after the review was written.** This review was run against the draft
+> state of 2026-08-18 12:01 and written at 12:19. Commit `5c2a6b7` (13:19) then applied
+> citation-check findings that rewrote `section-02-problem.md`, `section-03-methods.md`,
+> `section-05-discussion.md` and `supp-S2-weight-workbook.md`, and regenerated the assembled output.
+> **All line numbers below refer to the pre-13:19 assembled copy** and no longer resolve against the
+> current tree. Two findings were re-verified as fixed by that commit and are closed: **C1** (the
+> technology weight is printed in Tabel 5 as 4,1% and was never a residual; the workbook now withdraws
+> the residual treatment) and **M3** (S2's social rows now carry full printed inputs, so 13.70% is
+> recomputable). Re-verified as still standing: **C2, C3, C4, C5, C6, C7, M2, M7**. The remaining
+> issues have not been re-checked against the rewritten drafts — run `/nature-review` in verify-fixes
+> mode against the ledger before acting on any line reference.
+
+
 ---
 
 ## Executive summary
