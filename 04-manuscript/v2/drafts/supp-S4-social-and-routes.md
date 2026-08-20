@@ -9,7 +9,7 @@ reading of the verbatim constituent data items and is stated in no source.
 | Component | Indicators | Share of composite | Requires an ocean-sector domain |
 |---|---|---|---|
 | Welfare, PKH transfer ratio | 32 | ~4.59% | Yes |
-| Welfare, fisher and fisherwomen counts | 33, 34 | ~0.97% | Yes, if the count is a survey-derived population rather than a KKP administrative register `[ASSUMPTION]` |
+| Welfare, fisher and fisherwomen counts | 33, 34 | ~0.97% | Yes, if the count is a survey-derived population rather than a KKP administrative register |
 | Education, domain-cut variables | 42, 43, 44 | ~1.91% | Yes |
 | Health insurance | 37 | ~6.23% | Yes |
 | Fish calorie and protein consumption | 35, 36 | ~14.21% | No: a consumption item |
@@ -60,7 +60,7 @@ Gambar 11. Under Tabel 1's four-pillar structure, indicators 15 to 18 leave the 
 The register measures governance by a single count of landing sites. The alternatives — an
 institutional inventory, an account of legal and policy instruments, a spatial classification of
 designated marine uses, and ocean expenditure classified consistently — are this study's own reading of
-what an ocean governance account would contain, stated in no source `[ASSUMPTION]`. The institutional
+what an ocean governance account would contain, stated in no source. The institutional
 inventory is the realistic provincial entry point, being the only one of the four that needs no new
 spatial or fiscal compilation.
 
@@ -71,4 +71,4 @@ Sub-pillar H is 50.0% of the environment pillar and contains only solar and hydr
 p. 96 [pdf 106]). Half the environment pillar therefore measures non-marine energy. An offshore energy
 variable is the route by which that sub-pillar could measure something marine, which makes it a
 recommendation about indicator design rather than about compilation. Its obstacle is installed
-Indonesian marine capacity, on which no figure was located `[EVIDENCE GAP]`.
+Indonesian marine capacity, on which no figure was located.

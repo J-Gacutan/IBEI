@@ -31,8 +31,10 @@ Indonesian Ocean Policy through a development framework (BAPPENAS, 2021) to a bl
 implementation (Wuwung et al., 2024). Quantitative work on Indonesian blue economy indicators remains
 thin. Rinaldi et al. (2025) construct their own sub-national index for Sumatera on a human development
 index template and regress it on regional product. That is the closest existing treatment, and it is
-not an analysis of the official index. The production system beneath the official index has not been
-examined.
+not an analysis of the official index. The nearest adjacent class of work is the statistical
+quality-assurance audit, which assesses a national production system against a general quality
+framework, whereas what is absent is an assessment of a specific composite against the data items its
+own register asks for. The production system beneath the official index has not been examined.
 
 The Indonesia Blue Economy Index (IBEI) is an official national development indicator under
 presidential regulation Perpres 12/2025. Provincial targets for 2045 are assigned by joint circular of
@@ -42,24 +44,20 @@ score it. Against that recurring obligation, the compilation activity is registe
 statistical activity system as sectoral statistics gathered by secondary collection from the
 publications of the Ministry of Marine Affairs and Fisheries (MMAF, Indonesian KKP) and of Statistics
 Indonesia (BPS) (SIRUSA kegiatan 94936). The index conducts no primary collection of its own. It
-inherits whatever those agencies publish, at whatever resolution they publish it. Section 2 documents
-the traceability defects that follow.
+inherits whatever those agencies publish, at whatever resolution they publish it, and the traceability
+defects that follow are documented below (Section 2).
 
 This study assesses Indonesia's ocean accounts as compilation infrastructure for an index the state is
 already obliged to produce, rather than as an alternative source of indicator values. The assessment
 is built on the IBEI's own published documentation, on the primary reports of the Indonesian account
 pilots, and on the international accounting standard, with every claim tagged for maturity. It
-contributes four things: a documented account of what makes provincial compilation hard (Section 2), a
-three-tier indicator mapping scored against the register's verbatim constituent data items rather than
-its indicator names (Section 4.2), a quantification of where in the index the account-relevant weight
-sits (Section 4.3), and a register of the conditions precedent for continued supply (Section 4.4). The
-findings previewed below arise from the second and third; the first and fourth are descriptive
-contributions rather than findings.
+contributes four things: an account of what makes provincial compilation hard (Section 2), a three-tier
+indicator mapping scored against the register's verbatim constituent data items rather than its
+indicator names (Section 4.2), a quantification of where in the index the account-relevant weight sits
+(Section 4.3), and a register of the conditions precedent for continued supply (Section 4.4).
 
-Two boundaries hold throughout. Account compilation has its own statutory and analytical purposes
-under MMAF's mandate, and supplying an index is one downstream use among several. Nothing here
-proposes replacing the IBEI or subordinating either framework to the other; the relationship examined
-is statistical infrastructure feeding a policy instrument. The object of study is bounded to the
-44-indicator edition of the index, and every Indonesian ocean account output discussed carries maturity
-tag (b), experimental or pilot compilation, with no statistical work-programme entry and no revision
-policy.
+Two boundaries hold throughout. Account compilation has its own statutory purposes under MMAF's
+mandate, and supplying an index is one downstream use among several, so nothing here proposes replacing
+the IBEI or subordinating either framework to the other. The object of study is bounded to the
+44-indicator edition of the index, and every Indonesian account output discussed carries maturity tag
+(b), experimental or pilot compilation.

@@ -69,7 +69,7 @@ adjudication protocol, and is an assessment rather than an independently verifia
 | 33 | 1 | *Total jumlah nelayan perikanan tangkap per provinsi* | none | — | C | Requires the fisher and fish-farmer population sex-disaggregated: item 3 is a *proporsi ... perempuan* of the population items 1 and 2 define. | p. 13 [pdf 23] |
 | 33 | 2 | *Total jumlah pembudidaya ikan per provinsi* | none | — | C | as row | p. 13 [pdf 23] |
 | 33 | 3 | *Proporsi nelayan dan pembudidaya ikan perempuan per provinsi* | none | — | C | as row | p. 13 [pdf 23] |
-| 34 | 1 | *Jumlah penduduk yang berprofesi sebagai nelayan per provinsi* | none | — | C | An occupational headcount. Domain-dependent if the count is survey-derived, not if it is a KKP administrative register; the register does not say which `[ASSUMPTION]`. | p. 13 [pdf 23] |
+| 34 | 1 | *Jumlah penduduk yang berprofesi sebagai nelayan per provinsi* | none | — | C | An occupational headcount. Domain-dependent if the count is survey-derived, not if it is a KKP administrative register; the register does not say which. | p. 13 [pdf 23] |
 | 34 | 2 | *Jumlah penduduk yang berprofesi sebagai pembudidaya ikan per provinsi* | none | — | C | as row | p. 13 [pdf 23] |
 | 35 | 1 | *Rata-rata konsumsi kalori dari ikan per kapita per hari di tingkat provinsi* | none | — | C | A per-capita consumption item over the whole provincial population. No sector domain is needed. | p. 13 [pdf 23] |
 | 36 | 1 | *Rata-rata konsumsi protein dari ikan per kapita per hari di tingkat provinsi* | none | — | C | A per-capita consumption item over the whole provincial population. No sector domain is needed. | p. 13 [pdf 23] |

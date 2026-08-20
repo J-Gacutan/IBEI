@@ -16,8 +16,7 @@ revised for continuity of the time series wherever updated data, methods or clas
 reassessment of area (para. 4.17). Grid-based spatial units are the mechanism by which an account
 aggregates to any administrative boundary, conditional on the grid existing and being national.
 
-No adopted national marine grid or minimum mapping unit was found in any obtained Indonesian document
-`[EVIDENCE GAP]`. Rahayu et al. (2024), the only peer-reviewed Indonesian account source, state that a
+No adopted national marine grid or minimum mapping unit was found in any obtained Indonesian document. Rahayu et al. (2024), the only peer-reviewed Indonesian account source, state that a
 standardised grid has yet to be established, and the pilot literature records different resolutions at
 different sites — the case the rule exists to prevent. Grid choice changes the extent tabulation
 itself: mangrove error of 44.06% under a 25 m hierarchy scheme against 1.59% under 25 m dominance. Until
@@ -27,13 +26,13 @@ methodological choice.
 ## S3.2 A codified clipping rule
 
 Provincial marine authority extends to 12 nautical miles under Law 23/2014, cited here at second hand
-and not read at source `[EVIDENCE GAP]`, so an account reaching further must be clipped before it can
+and not read at source, so an account reaching further must be clipped before it can
 yield a provincial number.
 
 The standard leaves the accounting area to the compiler (para. 2.12) and supplies no sub-national
 allocation rule for an asset spanning a boundary. The convention this study takes as necessary —
 allocation by physical extent within each side, with condition compiled per spatial unit rather than
-inherited whole — is a specification rather than a citation `[ASSUMPTION]`. Neither it nor the
+inherited whole — is a specification rather than a citation. Neither it nor the
 statutory line is codified in any account obtained.
 
 One consequence follows from the standard directly. Condition is not additive across areas, its
@@ -43,7 +42,7 @@ by averaging district values, and a supplier would need to publish the denominat
 percentage for a provincial value to be recoverable.
 
 Clean nesting of cell boundaries across administrative, fisheries-management and marine-spatial-planning
-frames is asserted rather than evidenced `[ASSUMPTION]`, and forms part of this condition rather than a
+frames is asserted rather than evidenced, and forms part of this condition rather than a
 property that may be assumed.
 
 ## S3.3 A repeated compilation inside the reporting window
@@ -51,12 +50,11 @@ property that may be assumed.
 SIRUSA specifies reference period T-1 for all five mapped variables (19, 20, 21, 24, 27). The single
 verified Indonesian compilation closes at 2021 and was published the following year, a lag T-1 can
 accommodate. What is absent is the second vintage. One compilation, however timely, cannot meet a T-1
-requirement in any subsequent cycle, and no repeat compilation of the pilot sites was found
-`[EVIDENCE GAP]`.
+requirement in any subsequent cycle, and no repeat compilation of the pilot sites was found.
 
 This condition is recurring rather than one-off. It is discharged by running the cycle again, not by a
-decision, and it survives the index's own inconsistent rendering of its reference periods
-`[ASSUMPTION]`. Sustaining a cycle is a resourcing question, and no compilation cost was located in the
+decision, and it is taken to survive the index's own inconsistent rendering of its reference
+periods. Sustaining a cycle is a resourcing question, and no compilation cost was located in the
 public record, so no condition in this register can be priced.
 
 ## S3.4 A revision policy
@@ -69,7 +67,7 @@ revised account for the same period (paras 4.17–4.18, p. 88).
 What is unwritten is the Indonesian instrument that would designate a baseline year and disclose where
 the latest extent data refer to an earlier period. The index's own principle of controlled adaptability
 presupposes that discipline on the supply side. No revision policy was found for any Indonesian ocean
-account output in the searched set `[EVIDENCE GAP]`.
+account output in the searched set.
 
 The consequence is specific. An account silently improved between vintages would move a province's
 index value with no ecosystem change behind it, and nothing in the published record would flag it. The
@@ -86,13 +84,13 @@ calculation (p. 68 [pdf 78]).
 
 Indonesian ocean account output is an MMAF product constituted under Kepmen KP 44/2023, and no BPS
 statistical work-programme entry appears in any document obtained, no dedicated search of the BPS
-statistical catalogue having been undertaken `[EVIDENCE GAP]`. That Kepmen set the team's expiry at
+statistical catalogue having been undertaken. That Kepmen set the team's expiry at
 31 December 2023, and no renewal instrument was located, so a supply arrangement would be settled by
 whichever body now holds the coordinating function.
 
 The condition is a documented supply arrangement between MMAF as producer, BPS as statistical authority
 and BAPPENAS as compiler. Its minimum content is stated here as this study's own specification rather
 than taken from any standard: scope, frequency, quality standards, confidentiality, format and dispute
-resolution `[ASSUMPTION]`. Written that way it is a short document rather than a programme. That
+resolution. Written that way it is a short document rather than a programme. That
 accreditation would be the route is inferred from the index's own registration rather than stated
-anywhere `[ASSUMPTION]`.
+anywhere.

@@ -6,8 +6,7 @@ Long form of Section 4.1. Every entry is maturity tag (b), experimental or pilot
 
 The footprint and the cell count do not reconcile. At 625 m² each, 48,211 MBSU cells give 3,013.19 ha
 against the 2,980.84 ha printed, a shortfall of 32.35 ha or 1.1%. That would be consistent with cells
-clipped at the park boundary, but no clipping rule is stated and the discrepancy is nowhere explained
-`[EVIDENCE GAP]`.
+clipped at the park boundary, but no clipping rule is stated and the discrepancy is nowhere explained.
 
 The Gili Matra pilot publishes a complete asset account (MMAF, 2022a, tab. 5, p. 52 [pdf 66]).
 
@@ -41,7 +40,7 @@ A BPS presentation reports the same pilot, ecosystems and years (Tasriah et al.,
 Both series trace to one layer: the Geospatial Information Agency's 2020 mapping validated by 2021
 field survey, which MMAF overlaid on the MBSU grid with 194 verification points (pp. 23, 30 [pdf 37,
 44]) and which BPS cites as BIG (2020), validated 2021. Neither document states its relationship to the
-other and no reconciliation is published `[EVIDENCE GAP]`.
+other and no reconciliation is published.
 
 The ratio moves both across ecosystems and across the accounting window, so the divergence cannot be
 explained as a single boundary clip, a units convention or a fixed classification threshold. The two
@@ -57,9 +56,15 @@ and mangrove by plot sampling (MMAF, 2022a, pp. 31–33 [pdf
 against the bands of Giyanto et al. (2017), and mangrove classified as good at a density of at least
 1,500 individuals per hectare under Ministry of Environment Decree 201/2004 (pp. 40, 47 [pdf 54, 61]).
 
+The measured values are as follows. Live coral cover is reported at 18.11% for 2016 and live hard coral
+cover at 16.99% for 2021, which the report does not state to be the same measure and which are
+therefore not read here as a series. Seagrass cover averages 32.28% with a station maximum of 82.01%
+(MMAF, 2022a, pp. 40, 45 [pdf 54, 59]). The 2021 coral figure is unreconciled within the source, the
+narrative reporting 16.99% whilst the report's own tab. 3 on the same page prints 18.36%.
+
 Two facts are recorded without adjudication. The pilot reports mean cover by zone rather than share of
-area by class, so producing indicators 19, 20 and 21 from it would require re-tabulating the underlying
-transect and grid data to a different class boundary `[ASSUMPTION]`. And 16.99% cover is reported, then
+area by class, so producing indicators 19, 20 and 21 from it would, on this study's reading, require re-tabulating
+the underlying transect and grid data to a different class boundary. And 16.99% cover is reported, then
 classified as moderate against a band running from 19% to 35%.
 
 ## S5.4 Benefit-transfer sources

@@ -1,19 +1,16 @@
 # 5. Discussion
 
-## 5.1 What compilation changes, and what it does not
+## 5.1 What compilation changes
 
 The question was whether an account compiled to SEEA specifications can carry the reporting load of a
-statutory index. The load is now quantified and it is small: five of 44 rows at 7.64% of
-published weight, of which about 2.33% is what an account would itself supply. On that measure an
-account cannot carry the load — and the measure is the wrong one. What an account offers at the rows
-it touches is a production process, not a stock of substitutable values — a narrower claim than an
-efficiency claim, and the evidence assembled here would not support the wider one.
-
-The register decomposes into 62 constituent data items across its 44 rows. Three of them —
-indicators 19, 20 and 21 — are cross-classifications of one extent-and-condition compilation, so the
-consolidation is three items into one production run, out of 62. The argument is not that the count
-is large. It is that those three are among the items the index presently has no way to show it
-measured rather than predicted.
+statutory index. The load is now quantified and it is small, and on that measure an account cannot
+carry it. The measure is also the wrong one. What an account offers at the rows it touches is a
+production process rather than a stock of substitutable values, which is a narrower claim than an
+efficiency claim, and the evidence assembled here would not support the wider one. Of the register's
+62 constituent data items, the three at indicators 19, 20 and 21 are cross-classifications of one
+extent-and-condition compilation, so the consolidation is three items into one production run. The
+argument is not that the count is large. It is that those three are among the items the index
+presently has no way to show it measured rather than predicted.
 
 A cover-class percentage compiled from a gridded extent surface and a classified cover layer carries
 its own spatial unit, its own opening and closing stocks, and a provenance chain back to the imagery
@@ -22,20 +19,17 @@ value taken from a secondary publication, or predicted where no publication exis
 those properties, and the published record does not distinguish the two (Section 2.2).
 
 That the distinction is worth publishing is established outside Indonesia. The Ocean Health Index, a
-composite of comparable construction in the same domain (Halpern et al., 2012), reports that 18.5%
-of its global score rests on gapfilled rather than observed data, ranging from 1% to 43% across its
-ten goals and exceeding 60% for ten regions that are predominantly small island territories. Its
-authors recommend that gapfilling be tracked from the outset and presented in the same framework as
-the scores themselves (Frazier et al., 2016). The IBEI publishes an imputation framework and no
-per-indicator record, so the comparison identifies a reporting reform rather than a data programme —
-and one the index could adopt without any account being compiled.
+composite of comparable construction in the same domain (Halpern et al., 2012), reports that 18.5% of
+its global score rests on gapfilled rather than observed data, and its authors recommend that
+gapfilling be tracked from the outset and presented in the same framework as the scores themselves
+(Frazier et al., 2016). The IBEI publishes an imputation framework and no per-indicator record, so the
+comparison identifies a reporting reform the index could adopt without any account being compiled.
 
-Everything downstream of the input is untouched. Account supply changes the value entering a slot,
-not the slot, its weight or the aggregation rule. The three-stage principal component procedure, the
-loading-factor weights, the pillar shares and every limitation the index publishes about itself
-stand exactly as they are.
+Everything downstream of the input is untouched. Account supply changes the value entering a slot, not
+the slot, its weight or the aggregation rule. The three-stage principal component procedure, the
+loading-factor weights, the pillar shares and the index's published limitations stand as they are.
 
-## 5.2 The counter-instance, and what survives it
+## 5.2 What survives the counter-instance
 
 The strongest evidence against this article's own claim is in its own account-side record. The one
 compiled Indonesian account has produced two closing stocks and two deltas for the same site, the
@@ -46,33 +40,33 @@ the report's table on the same page. Change is the quantity a balancing identity
 and provenance is what this article claims accounts buy.
 
 This is a disconfirming instance and is retained as one. It is not disposed of by observing that the two
-series are parallel releases of one mapping layer and that neither is an account of the other: that
-observation is true, and it is also unfalsifiable in the direction this article needs, since the only
+series are parallel releases of one mapping layer and that neither is an account of the other. That
+observation is true, and it is also unfalsifiable in the direction this article needs, because the only
 compiled Indonesian instance would be reclassified out of the evidence base at the point where it tests
 the claim. The narrower property claimed
 here is not that compilation prevents divergence, which nothing in the standard promises, but that a
-balancing identity gives divergence somewhere to appear — opening stock, additions, reductions and
+balancing identity gives divergence somewhere to appear. Opening stock, additions, reductions and
 closing stock are four entries that must reconcile, and a second compilation must restate rather than
 replace. Gili Matra cannot confirm that property, because neither document was compiled under such an
 identity. It cannot refute it either, for the same reason. What it does establish is the cost of the
 absence: a 6.26 ha disagreement about coral change was published twice and reconciled nowhere. The
 provenance property is therefore asserted from account form and is untested on the Indonesian record,
-and it will remain untested until a compilation is revised under such a rule `[ASSUMPTION]`.
+and it will remain untested until a compilation is revised under such a rule.
 
 A second objection bears on the same argument, and holds outright on two of the four properties. A
-standing unit and classification definition is an act of codification — a published definition of the
-mapping unit, the ecosystem classes and the landward and seaward limits — and nothing about compiling
-an account is needed to write one down. Documented vintage and provenance is likewise a metadata
+standing unit and classification definition is an act of codification, being a published definition of
+the mapping unit, the ecosystem classes and the seaward limits, and nothing about compiling an account
+is needed to write one down. Documented vintage and provenance is likewise a metadata
 requirement any well-run register discharges. The spatial property is intermediate: a register can
 mandate a grid and a minimum mapping unit but cannot produce the re-aggregable cell-level tabulation
-the mandate presupposes. What does not reduce to codification is the residual — the balancing identity,
-and the revision rule that alters the opening and closing entries themselves — both properties of
+the mandate presupposes. What does not reduce to codification is the residual: the balancing identity,
+and the revision rule that alters the opening and closing entries themselves, both properties of
 double-entry over a stock. The residual is thin, and saying so is more useful than defending a wider
 claim. A reader who concludes that Indonesia should codify definitions before compiling anything has
-read the evidence correctly, and the ordering follows from Section 4.4's own result: an indicator
+read the evidence correctly, and the ordering follows from Section 4.4's own result. An indicator
 inserted ahead of coverage would be imputed from socio-economic proxies in every province lacking an
-account, so insertion should be phased behind compilation. That is a sequencing recommendation, not a
-change to the index's method.
+account, so insertion should be phased behind compilation, which is a sequencing recommendation rather
+than a change to the index's method.
 
 ## 5.3 What account supply does not fix
 
@@ -81,31 +75,31 @@ them. Four are conceded in the Report's own methods statement (Section 3.1.1, p.
 assumption of linear and monotonic relationships, sensitivity to outliers, weights set on 2024 data
 that *mungkin saja menjadi tidak relevan untuk tahun-tahun mendatang*, and a single weight structure
 applied across a heterogeneous archipelago. Every one is a property of the estimator, whilst an
-account changes the input. The first is worth dwelling on. The threshold relationship BAPPENAS
-describes — the benefit of fishing intensity holding below a threshold whilst damage rises
-exponentially above it — is exactly what an ecosystem account measures well, and better inputs
-cannot reach a relationship the estimator represents linearly by design.
+account changes the input. The first is worth dwelling on. The threshold relationship BAPPENAS itself
+describes, in which the benefit of fishing intensity holds below a threshold whilst damage rises
+above it, is what an ecosystem account measures well, and better inputs cannot reach a relationship the
+estimator represents linearly by design.
 
 Aggregation discards what the account was built to show. The constituent data items for indicators
 19, 20 and 21 each end *per provinsi*, so an account compiled on a fine spatial grid loses its
 within-province distribution at the moment it becomes an indicator. The account can tell a
-provincial planner which reef complex is driving a change; the index can report only that a
-percentage moved. That is a consequence of publishing the indicator without the grid `[ASSUMPTION]`,
-so the remedy is an architecture in which both are released. The provincial boundary is
-administrative and not ecological, and the standard leaves the accounting area to the compiler
-(para. 2.12), so a reef complex straddling that line is divided by legal artefact. Accounts make the
-division explicit and auditable; they do not make it ecologically meaningful.
+provincial planner which reef complex is driving a change, whilst the index can report only that a
+percentage moved. That is best read as a consequence of publishing the indicator without the grid, so
+the remedy is an architecture in which both are released. The provincial boundary is administrative and
+not ecological, and the standard leaves the accounting area to the compiler (para. 2.12), so a reef
+complex straddling that line is divided by legal artefact, a division accounts make explicit and
+auditable rather than ecologically meaningful.
 
 Net extent change cannot simply be inserted. The index states its own weighting rule: an indicator
 with greater variability and strong correlation to others in its domain *akan secara alami
 mendapatkan bobot yang lebih tinggi* (p. 29 [pdf 41]). A signed annual difference of a large, slowly
 changing stock is low-variance by construction and can change sign between cycles, so it would attract
 a small and unstable weight, and might meet the printed rule *Reversi nilai indikator (atau drop
-indikator) jika ditemukan relasi negatif* (p. 30 [pdf 42]) — whether a sign-changing series triggers it
-is not specified and is read here as an inference. The mechanism is general: under principal
-components, weighting corrects for overlapping information rather than measuring importance (Nardo et
-al., 2008, §6.1). Net extent change belongs beside the composite as a companion series, not inside it
-as a forty-fifth indicator.
+indikator) jika ditemukan relasi negatif* (p. 30 [pdf 42]), though whether a sign-changing series
+triggers it is not specified and is read here as an inference. Under principal components, weighting
+corrects for overlapping information rather than measuring importance (Nardo et al., 2008, §6.1). Net
+extent change therefore belongs beside the composite as a companion series rather than inside it as a
+forty-fifth indicator.
 
 Half the environment pillar measures something no ocean account should be built to measure. The
 renewable-energy sub-pillar carries 50.0% of the pillar and contains no marine variable, being solar
@@ -113,19 +107,27 @@ and hydropower throughout (S4.3). No existing account can supply what it asks fo
 to do so would be an instrument error. The coverage claim stops at that boundary, and stopping is
 what makes it credible.
 
-## 5.4 Loose coupling, and three readings that would lead elsewhere
+## 5.4 Loose coupling, and four readings
+
+One objection has to be met before any recommendation is made, because it vitiates the headline
+quantities on which a coverage argument would rest. The shares reported above are nominal published
+weight and not effective importance, and the test that would settle the difference cannot be run
+whilst the provincial variable matrix is unpublished (Section 5.5). What follows is therefore a
+recommendation about production and not about coverage, and it does not rest on the shares.
 
 Where substitution is not warranted, and on the published maturity evidence it is not, the
-arrangement that delivers the gain is loose coupling. It has three requirements: shared indicator
+arrangement that delivers the gain is loose coupling. It has three requirements: (1) shared indicator
 definitions at the cover-class thresholds the Juknis already prints, with the unit and denominator
-rules the register leaves open settled with its custodian; a shared spatial unit that aggregates to
-the province; and parallel publication of the account alongside the index. It is defined as much by
-what it does not require — no institutional transfer, no change to the index's data pipeline, and no
+rules the register leaves open settled with its custodian, (2) a shared spatial unit that aggregates to
+the province, and (3) parallel publication of the account alongside the index. It is defined as much by
+what it does not require: no institutional transfer, no change to the index's data pipeline, and no
 dependency of a statutory index on an experimental compilation. Parallel publication is a combined
 presentation (paras 14.56–14.57) and is the nearer term of the two, whilst sub-national compilation
 follows from the accounting area being definable at a subnational administrative boundary (para.
-2.12) and has been demonstrated at that scale elsewhere (Gacutan et al., 2022). Loose coupling has
-the property that a compilation cycle missing the window fails without the index failing with it.
+2.12) and has been demonstrated at that scale elsewhere (Gacutan et al., 2022). Loose coupling would have
+the property that a compilation cycle missing the window fails without the index failing with it, a
+property that follows from the arrangement's form and has not been observed, no coupling of this kind
+having been instantiated in Indonesia or, in any document obtained, elsewhere.
 
 The institutional division holds at the point of recommendation, where it is most at risk. BAPPENAS is
 *pengampu* of the calculation whilst the constituent data are provincial (Juknis, p. 68 [pdf 78]), so
@@ -136,27 +138,23 @@ settled by whichever body now holds the coordinating function, the team constitu
 Four readings of the same record would lead elsewhere. The first is the position this article's whole
 premise contests: that secondary compilation is adequate for a policy composite provided the
 uncertainty it introduces is quantified and published. It is the cheaper answer and on three of this
-article's four properties a good one, and Frazier et al. (2016) show the Ocean Health Index doing it,
-publishing gapfilled shares goal by goal. What it cannot supply is the quantity to be uncertain about:
-the register asks for a share of provincial area within a cover band, which no Indonesian source
-publishes at any uncertainty (Section 4.2), and an uncertainty statement over an imputed value
-describes the imputation rather than the reef. The position is right about most of the index and silent
-about the rows at issue here — and adopting it would cost nothing to try, since the per-indicator
-imputation record it needs is the reform recommended at Section 5.1 and depends on no account being
-compiled. Second, Rinaldi et al. (2025) construct an alternative index on a
-human development index template, treating the problem as one of index design
-rather than of the production system beneath it; on that reading the effort recommended here is
-misdirected. Third, Wuwung et al. (2024) locate the constraint on Indonesian ocean policy in
+article's four properties a good one, and Frazier et al. (2016) show the Ocean Health Index doing it.
+What it cannot supply is the quantity to be uncertain about. The register asks for a share of
+provincial area within a cover band, which no Indonesian source publishes at any uncertainty (Section
+4.2), and an uncertainty statement over an imputed value describes the imputation rather than the reef.
+The position is right about most of the index and silent about the rows at issue here, and adopting it
+would cost nothing to try, needing only the reform recommended at Section 5.1. Second, Rinaldi et al. (2025) construct an alternative index on a human development index template,
+treating the problem as one of index design rather than of the production system beneath it, on which
+reading the effort recommended here is misdirected. Third, Wuwung et al. (2024) locate the constraint on Indonesian ocean policy in
 institutional fragmentation across mandates. That concession is accepted here and it reorders Section
 4.4: an inter-agency supply arrangement is the hardest of the conditions precedent, not the cheapest,
 and the three acts of codification should be read as the tractable ones precisely because each sits
 inside a single mandate. Fourth, Ravallion (2012) defines a mashup index as a
-composite for which theory and practice provide little guidance on design, leaving the producer free
-to set an unusually large number of moving parts, and doubts the value added of such indices
-relative to monitoring the components separately. The answer this record supports is statutory
-rather than methodological: the IBEI is scored for every province annually under Perpres 12/2025, so
-the dashboard alternative is not in BAPPENAS's gift, and what supplies the composite is a live
-question whether or not an aggregate is the instrument a statistician would have chosen. No source in
+composite for which theory and practice provide little guidance on design, and doubts the value added
+of such indices relative to monitoring the components separately. The answer this record supports is
+statutory rather than methodological. The IBEI is scored for every province annually under Perpres
+12/2025, so the dashboard alternative is not in BAPPENAS's gift, and what supplies the composite is a
+live question whether or not an aggregate is the instrument a statistician would have chosen. No source in
 the set searched argues that accounts cannot serve as statistical infrastructure for a composite index,
 which is a statement about a bilingual search over a named document set rather than about the
 literature (Section 3.3).
@@ -173,7 +171,7 @@ provincial socio-economic variables with weights taken from first-component load
 configuration in which that divergence was found. Becker et al. (2017) supply the test that would
 settle it, a correlation-ratio measure of each variable's importance with confidence intervals. It
 cannot be run here, because it requires the provincial variable matrix beneath the index, which is
-unpublished `[EVIDENCE GAP]`. What does not survive should be named as plainly as what does.
+unpublished. What does not survive should be named as plainly as what does.
 What does not survive is the reading of 7.64%, 2.33%, 12.79% and 13.70% as measures of consequence:
 they are shares of nominal published weight, and nominal weight is not importance under this estimator.
 They remain exact statements of what the handbook prints and of what an account bears on, which is the
@@ -181,9 +179,9 @@ use made of them here. What survives is the production-process case, which never
 shares.
 
 Six further limitations bear on specific figures. Whether Tabel 4 to Tabel 6's percentages are raw
-loadings or normalised contributions is not stated anywhere, and the reading adopted here — that
-they are normalised, because all fifteen printed groups sum to 100.0 within rounding — is an
-inference from the tables rather than a statement in the source (Section 3.5). Were it wrong, the
+loadings or normalised contributions is not stated anywhere. The reading adopted here, that they are
+normalised because all fifteen printed groups sum to 100.0 within rounding, is an inference from the
+tables rather than a statement in the source (Section 3.5). Were it wrong, the
 derived shares would lose their denominator rather than move. The printed aggregation formulae are
 illegible in the PDF text layer at Juknis pp. 64–65 and Report pp. 31–32, so what is reconstructed
 is the notation, at medium-high confidence, rather than the method. The per-indicator imputation
