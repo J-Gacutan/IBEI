@@ -1,0 +1,480 @@
+{
+ "report": "nature-review-2026-08-20.md",
+ "venue": "Marine Policy",
+ "manuscript": "output/manuscript-v2.md",
+ "commit": "f07bcb7",
+ "counts": {
+  "critical": 2,
+  "major": 18,
+  "minor": 15
+ },
+ "retracted": 5,
+ "issues": [
+  {
+   "id": "C1",
+   "severity": "critical",
+   "sections": [
+    "methods",
+    "availability"
+   ],
+   "source_refs": [
+    "drafts/section-03-methods.md:137",
+    "drafts/back-matter.md:994"
+   ],
+   "summary": "Methods names Python 3 with scripts deposited; Code availability releases only a Node.js extraction script and states no other software was used, so the scoring and weight arithmetic is not re-runnable.",
+   "fix_step": 1,
+   "status": "open"
+  },
+  {
+   "id": "C2",
+   "severity": "critical",
+   "sections": [
+    "methods",
+    "results"
+   ],
+   "source_refs": [
+    "drafts/section-04-results.md:153",
+    "drafts/back-matter.md:945"
+   ],
+   "summary": "The ocean-account route taxonomy generating the 12.79% and 13.70% headline shares is never defined, enumerated or closed in Methods.",
+   "fix_step": 2,
+   "status": "open"
+  },
+  {
+   "id": "M1",
+   "severity": "major",
+   "sections": [
+    "methods",
+    "results",
+    "availability"
+   ],
+   "source_refs": [
+    "drafts/back-matter.md:24",
+    "drafts/section-04-results.md:224"
+   ],
+   "summary": "Legends call the shares indicative rather than exact whilst Methods 3.5 and Section 5.5 call the weights printed and the statements exact; the distinction between printed inputs and rounded products is nowhere stated.",
+   "fix_step": 3,
+   "status": "open"
+  },
+  {
+   "id": "M2",
+   "severity": "major",
+   "sections": [
+    "methods",
+    "availability"
+   ],
+   "source_refs": [
+    "drafts/back-matter.md:987"
+   ],
+   "summary": "The MMAF 2022 reports and BPS decks carrying Figure 5, every maturity tag and every pilot-scale claim are cited but not redeposited and are unobtainable to a reader.",
+   "fix_step": 3,
+   "status": "open"
+  },
+  {
+   "id": "M3",
+   "severity": "major",
+   "sections": [
+    "introduction"
+   ],
+   "source_refs": [
+    "drafts/section-01-introduction.md:34"
+   ],
+   "summary": "The statistical quality-assurance audit is named as the adjacent class of work with no work in that class cited anywhere, so the novelty claim still does not survive the reference list.",
+   "fix_step": 6,
+   "status": "open"
+  },
+  {
+   "id": "M4",
+   "severity": "major",
+   "sections": [
+    "results",
+    "discussion"
+   ],
+   "source_refs": [
+    "drafts/section-05-discussion.md:38"
+   ],
+   "summary": "REGRESSION: the 16.99%/18.36% same-page source conflict now appears in the main text first in the Discussion, having been demoted out of Section 4.2 on 2026-08-20.",
+   "fix_step": 5,
+   "status": "open"
+  },
+  {
+   "id": "M5",
+   "severity": "major",
+   "sections": [
+    "results"
+   ],
+   "source_refs": [
+    "drafts/section-04-results.md:73"
+   ],
+   "summary": "Earlier assessments are refuted without being named, though the correction is a headline contribution and the authors' own superseded mapping is such an assessment.",
+   "fix_step": 4,
+   "status": "open"
+  },
+  {
+   "id": "M6",
+   "severity": "major",
+   "sections": [
+    "results"
+   ],
+   "source_refs": [
+    "drafts/section-04-results.md:171"
+   ],
+   "summary": "The claim that a province raises its score by producing more asserts a loading sign that Section 5.5 records as unrecoverable from the published record.",
+   "fix_step": 4,
+   "status": "open"
+  },
+  {
+   "id": "M7",
+   "severity": "major",
+   "sections": [
+    "results"
+   ],
+   "source_refs": [
+    "drafts/section-04-results.md:46"
+   ],
+   "summary": "The 12.00 ha, 18.26 ha and 6.26 ha coral-loss figures carry no folio at the point of claim and no mark of whether they are printed or this study's subtraction.",
+   "fix_step": 4,
+   "status": "open"
+  },
+  {
+   "id": "M8",
+   "severity": "major",
+   "sections": [
+    "results"
+   ],
+   "source_refs": [
+    "drafts/section-04-results.md:190"
+   ],
+   "summary": "'The register would be refuted by...' uses 'register' for the conditions-precedent finding, whilst the term denotes the 44-indicator register throughout 4.2 and 4.3.",
+   "fix_step": 4,
+   "status": "open"
+  },
+  {
+   "id": "M9",
+   "severity": "major",
+   "sections": [
+    "discussion"
+   ],
+   "source_refs": [
+    "drafts/section-05-discussion.md:6"
+   ],
+   "summary": "Section 5.1 opens 'the load is now quantified and it is small' with no forward pointer to the Section 5.5 retraction of exactly that reading.",
+   "fix_step": 7,
+   "status": "open"
+  },
+  {
+   "id": "M10",
+   "severity": "major",
+   "sections": [
+    "discussion"
+   ],
+   "source_refs": [
+    "drafts/section-05-discussion.md:95"
+   ],
+   "summary": "The low-variance and unstable-weight inference asserts estimator behaviour from aggregation formulae Section 5.5 records as illegible and reconstructed in notation only.",
+   "fix_step": 7,
+   "status": "open"
+  },
+  {
+   "id": "M11",
+   "severity": "major",
+   "sections": [
+    "conclusion"
+   ],
+   "source_refs": [
+    "drafts/section-06-conclusion.md:40"
+   ],
+   "summary": "'A quantity BAPPENAS holds and has not released' asserts an agency's private holdings, where Limitations claims only absence from the public record, and no agency was engaged.",
+   "fix_step": 7,
+   "status": "open"
+  },
+  {
+   "id": "M12",
+   "severity": "major",
+   "sections": [
+    "abstract"
+   ],
+   "source_refs": [
+    "drafts/section-00-abstract.md:16"
+   ],
+   "summary": "The nominal-versus-effective caveat still sits immediately before the widening close and blunts the build from result to significance.",
+   "fix_step": 8,
+   "status": "open"
+  },
+  {
+   "id": "M13",
+   "severity": "major",
+   "sections": [
+    "abstract"
+   ],
+   "source_refs": [
+    "drafts/section-00-abstract.md:18"
+   ],
+   "summary": "The closing sentence restates the study's internal contribution rather than widening to the class of statutory composites built from published sectoral statistics.",
+   "fix_step": 8,
+   "status": "open"
+  },
+  {
+   "id": "M14",
+   "severity": "major",
+   "sections": [
+    "introduction"
+   ],
+   "source_refs": [
+    "drafts/section-02-problem.md:104"
+   ],
+   "summary": "REGRESSION: Section 2's close no longer states what Section 2 established, pivoting straight to Section 4's corrected percentage after the 2026-08-20 cut.",
+   "fix_step": 5,
+   "status": "open"
+  },
+  {
+   "id": "M15",
+   "severity": "major",
+   "sections": [
+    "methods"
+   ],
+   "source_refs": [
+    "drafts/section-03-methods.md:118"
+   ],
+   "summary": "REGRESSION: after the renormalisation arithmetic was demoted to S2, Section 3.5 asserts its normalised-contributions warrant with the fifteen groups unnamed and the tolerance unquantified.",
+   "fix_step": 5,
+   "status": "open"
+  },
+  {
+   "id": "M16",
+   "severity": "major",
+   "sections": [
+    "methods"
+   ],
+   "source_refs": [
+    "drafts/section-03-methods.md:131"
+   ],
+   "summary": "REGRESSION: with the 47 inline flags stripped, the three evidential distinctions have no locatable marker, and the contested-denominator distinction has dropped out of the three.",
+   "fix_step": 5,
+   "status": "open"
+  },
+  {
+   "id": "M17",
+   "severity": "major",
+   "sections": [
+    "methods"
+   ],
+   "source_refs": [
+    "drafts/section-03-methods.md:60"
+   ],
+   "summary": "The corpus stopping rule is terminal on a single unproductive page, and neither the slice definition nor the per-slice page ranges appear in the article.",
+   "fix_step": 9,
+   "status": "open"
+  },
+  {
+   "id": "M18",
+   "severity": "major",
+   "sections": [
+    "availability"
+   ],
+   "source_refs": [
+    "drafts/back-matter.md:963"
+   ],
+   "summary": "Data availability names no archive, persistent identifier, licence or version. Author-blocked: requires a repository account and a licensing decision. Tracked as ibei-ku6.",
+   "fix_step": 3,
+   "status": "open"
+  },
+  {
+   "id": "m1",
+   "severity": "minor",
+   "sections": [
+    "introduction"
+   ],
+   "source_refs": [
+    "drafts/section-01-introduction.md:9"
+   ],
+   "summary": "En-dash in prose, 'coupled human-ocean system', against the binding house-style prohibition.",
+   "fix_step": 10,
+   "status": "open"
+  },
+  {
+   "id": "m2",
+   "severity": "minor",
+   "sections": [
+    "availability",
+    "figures"
+   ],
+   "source_refs": [
+    "drafts/back-matter.md"
+   ],
+   "summary": "Nine em-dashes or en-dashes remain in the back matter, which carries the figure legends and availability statements; Sections 1-6 were swept and it was not.",
+   "fix_step": 10,
+   "status": "open"
+  },
+  {
+   "id": "m3",
+   "severity": "minor",
+   "sections": [
+    "results"
+   ],
+   "source_refs": [
+    "drafts/section-04-results.md:182"
+   ],
+   "summary": "REGRESSION: supplementary pointers demoted on 2026-08-20 are inconsistent in granularity, S4.1 against Supplementary S4 and Supplementary S5 where the series sits at S5.4.",
+   "fix_step": 5,
+   "status": "open"
+  },
+  {
+   "id": "m4",
+   "severity": "minor",
+   "sections": [
+    "discussion"
+   ],
+   "source_refs": [
+    "drafts/section-05-discussion.md:91"
+   ],
+   "summary": "Anthropomorphised account: 'The account can tell a provincial planner which reef complex is driving a change'.",
+   "fix_step": 10,
+   "status": "open"
+  },
+  {
+   "id": "m5",
+   "severity": "minor",
+   "sections": [
+    "discussion"
+   ],
+   "source_refs": [
+    "drafts/section-05-discussion.md:176"
+   ],
+   "summary": "No paragraph break in 5.5 before 'What does not survive is the reading of 7.64%', so the retraction runs into the preceding argument.",
+   "fix_step": 10,
+   "status": "open"
+  },
+  {
+   "id": "m6",
+   "severity": "minor",
+   "sections": [
+    "results"
+   ],
+   "source_refs": [
+    "drafts/section-04-results.md:40"
+   ],
+   "summary": "Self-appraisal inside Results, 'this article's strongest internal counter-instance', which also pre-empts Section 5.2.",
+   "fix_step": 10,
+   "status": "open"
+  },
+  {
+   "id": "m7",
+   "severity": "minor",
+   "sections": [
+    "results"
+   ],
+   "source_refs": [
+    "drafts/section-04-results.md:167"
+   ],
+   "summary": "Evaluative framing inside Results, 'One item in the register is cheap', withdrawn by a conditional in the next clause.",
+   "fix_step": 10,
+   "status": "open"
+  },
+  {
+   "id": "m8",
+   "severity": "minor",
+   "sections": [
+    "results"
+   ],
+   "source_refs": [
+    "drafts/section-04-results.md:107"
+   ],
+   "summary": "'and is in the tier for a different reason' precedes the first Results use of the label Tier A.",
+   "fix_step": 10,
+   "status": "open"
+  },
+  {
+   "id": "m9",
+   "severity": "minor",
+   "sections": [
+    "introduction",
+    "keywords"
+   ],
+   "source_refs": [
+    "drafts/section-01-introduction.md:38"
+   ],
+   "summary": "Three naming variants for the standard across the manuscript: the spelled-out SEEA Ecosystem Accounting framework, SEEA Ecosystem Accounting in keywords, and SEEA-EA.",
+   "fix_step": 10,
+   "status": "open"
+  },
+  {
+   "id": "m10",
+   "severity": "minor",
+   "sections": [
+    "references"
+   ],
+   "source_refs": [
+    "drafts/references.md:1155"
+   ],
+   "summary": "Eight entries are cited only by short form, so the in-text key does not match the entry's sort key. All resolve; none is an orphan; a copy-editing matter.",
+   "fix_step": 10,
+   "status": "open"
+  },
+  {
+   "id": "m11",
+   "severity": "minor",
+   "sections": [
+    "conclusion"
+   ],
+   "source_refs": [
+    "drafts/section-06-conclusion.md:32"
+   ],
+   "summary": "The antecedent of 'Both assume continued external technical assistance' is separated from the two follow-on studies by a long intervening sentence.",
+   "fix_step": 10,
+   "status": "open"
+  },
+  {
+   "id": "m12",
+   "severity": "minor",
+   "sections": [
+    "discussion"
+   ],
+   "source_refs": [
+    "drafts/section-05-discussion.md:127"
+   ],
+   "summary": "The sub-national feasibility claim rests on a single self-citation, Gacutan et al. 2022, which the text does not note as the authors' own.",
+   "fix_step": 10,
+   "status": "open"
+  },
+  {
+   "id": "m13",
+   "severity": "minor",
+   "sections": [
+    "abstract"
+   ],
+   "source_refs": [
+    "drafts/section-00-abstract.md:6"
+   ],
+   "summary": "'On its own registration' is opaque on first reading for a non-specialist, though it is doing real work.",
+   "fix_step": 10,
+   "status": "open"
+  },
+  {
+   "id": "m14",
+   "severity": "minor",
+   "sections": [
+    "discussion"
+   ],
+   "source_refs": [
+    "drafts/section-05-discussion.md"
+   ],
+   "summary": "Class of literature not engaged: SEEA-EA compilation feeding official indicator reporting outside Indonesia. Reviewer exemplars are unverified, verify before use.",
+   "fix_step": 10,
+   "status": "open"
+  },
+  {
+   "id": "m15",
+   "severity": "minor",
+   "sections": [
+    "methods"
+   ],
+   "source_refs": [
+    "drafts/section-03-methods.md:109"
+   ],
+   "summary": "'Moves three totals by 0.01' does not name which three, so the stated dual-route reproducibility cannot be checked from the main text.",
+   "fix_step": 10,
+   "status": "open"
+  }
+ ]
+}
